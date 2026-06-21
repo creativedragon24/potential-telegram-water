@@ -73,18 +73,30 @@ def main():
         pa = parser.parse_announcement(text, url=url, lang="en")
         
         # 4. Check if it matches user's subscription
-        if district in pa.districts:
-            matched = True
-            # If user specified a street, check if it matches
-            if street:
-                matched = parser.matches_subscription(pa, district, street)
-            
-            if matched:
-                print(f"✅ Found new matching alert for {district}!")
-                msg = parser.build_notification(pa, district, street if street else parser.ALL_STREETS_MARKER, "en")
-                send_telegram_message(bot_token, chat_id, msg)
-                time.sleep(2) # Telegram rate limit safety
-                new_count += 1
+        is_all_districts = (district == "all")
+        matched = False
+        target_district = ""
+
+        if is_all_districts:
+            # If user wants ALL districts, match as long as the alert has at least one district
+            if pa.districts:
+                matched = True
+                target_district = list(pa.districts.keys())[0] # Pick the first one for the title
+        else:
+            # Specific district matching
+            if district in pa.districts:
+                target_district = district
+                matched = True
+                # If user specified a street, check if it matches
+                if street:
+                    matched = parser.matches_subscription(pa, district, street)
+        
+        if matched:
+            print(f"✅ Found new matching alert for {target_district}!")
+            msg = parser.build_notification(pa, target_district, street if street else parser.ALL_STREETS_MARKER, "en")
+            send_telegram_message(bot_token, chat_id, msg)
+            time.sleep(2) # Telegram rate limit safety
+            new_count += 1
         
         # Mark as seen so we don't send it again
         seen[url] = True
