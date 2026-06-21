@@ -44,13 +44,12 @@ def fetch_live_alerts(alert_type="emergency"):
     
     try:
         options = uc.ChromeOptions()
-        options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--window-size=1920,1080")
         
         log.info(f"Launching undetected Chrome for {url}")
-        driver = uc.Chrome(options=options, version_main=None)
+        driver = uc.Chrome(options=options, headless=True, version_main=None)
         driver.set_page_load_timeout(30)
         driver.get(url)
         
