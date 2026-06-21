@@ -2,10 +2,12 @@ import time
 import re
 import logging
 from bs4 import BeautifulSoup
-import undetected_chromedriver as uc
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium_stealth import stealth
 import config
 
 log = logging.getLogger("scraper")
@@ -43,13 +45,29 @@ def fetch_live_alerts(alert_type="emergency"):
     driver = None
     
     try:
-        options = uc.ChromeOptions()
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--window-size=1920,1080")
+        options.add_argument("--disable-blink-features=AutomationControlled")
         
-        log.info(f"Launching undetected Chrome for {url}")
-        driver = uc.Chrome(options=options, headless=True, version_main=None)
+        # Exclude automation flags
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option("useAutomationExtension", False)
+        
+        driver = webdriver.Chrome(options=options)
+        
+        # Apply Selenium Stealth
+        stealth(driver,
+            languages=["en-US", "en"],
+            vendor="Google Inc.",
+            platform="Win32",
+            webgl_vendor="Intel Inc.",
+            renderer="Intel Iris OpenGL Engine",
+            fix_hairline=True,
+        )
+
         driver.set_page_load_timeout(30)
         driver.get(url)
         
