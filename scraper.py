@@ -3,11 +3,9 @@ import re
 import logging
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium_stealth import stealth
 import config
 
 log = logging.getLogger("scraper")
@@ -46,27 +44,20 @@ def fetch_live_alerts(alert_type="emergency"):
     
     try:
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless=new")
+        # REMOVED headless mode! We are using xvfb to fake a real monitor instead.
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--window-size=1920,1080")
         options.add_argument("--disable-blink-features=AutomationControlled")
-        
-        # Exclude automation flags
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
         
         driver = webdriver.Chrome(options=options)
         
-        # Apply Selenium Stealth
-        stealth(driver,
-            languages=["en-US", "en"],
-            vendor="Google Inc.",
-            platform="Win32",
-            webgl_vendor="Intel Inc.",
-            renderer="Intel Iris OpenGL Engine",
-            fix_hairline=True,
-        )
+        # Spoof the webdriver property
+        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        })
 
         driver.set_page_load_timeout(30)
         driver.get(url)
