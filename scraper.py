@@ -44,15 +44,18 @@ def fetch_live_alerts(alert_type="emergency"):
     try:
         log.info(f"Fetching live HTML via ScraperAPI (Rendering JS)...")
         
-        # ScraperAPI endpoint
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        
         payload = {
             'api_key': api_key,
             'url': GWP_URL,
-            'render': 'true', # THIS IS THE MAGIC WORD! It tells ScraperAPI to run the JavaScript!
-            'country_code': 'ge' # Use a Georgian IP address
+            'render': 'true',
+            'country_code': 'ge'
         }
         
-        response = requests.get('https://api.scraperapi.com/', params=payload, timeout=90)
+        response = requests.get('https://api.scraperapi.com/', headers=headers, params=payload, timeout=90)
         
         if response.status_code == 200:
             log.info("Successfully fetched HTML! Parsing...")
@@ -73,7 +76,6 @@ def fetch_live_alerts(alert_type="emergency"):
                             'url': GWP_URL
                         })
             
-            # Remove duplicates
             unique_results = []
             seen_texts = set()
             for res in results:
