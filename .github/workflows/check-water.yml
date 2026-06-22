@@ -21,28 +21,24 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Chrome and Virtual Display (Xvfb)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable xvfb
-
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Water Bot Script with Virtual Display
+      - name: Run Bot
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           DISTRICT: ${{ secrets.DISTRICT }}
           STREET: ${{ secrets.STREET }}
-        run: xvfb-run python check_water.py
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: python check_water.py
 
-      - name: Save updated seen.json back to GitHub
+      - name: Save memory
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add seen.json
-          git commit -m "Update seen announcements" || echo "No changes to commit"
+          git commit -m "Update seen announcements" || echo "No changes"
           git push
