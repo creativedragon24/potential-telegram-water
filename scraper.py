@@ -51,7 +51,7 @@ def fetch_live_alerts(alert_type="emergency"):
             'render': 'false' # We just want the raw HTML, no JS needed
         }
         
-        response = requests.get('https://api.scraperapi.com/', params=payload, timeout=30)
+        response = requests.get('https://api.scraperapi.com/', params=payload, timeout=90)
         
         if response.status_code == 200:
             log.info("Successfully fetched HTML! Parsing...")
