@@ -1,18 +1,13 @@
-import time
 import re
 import logging
+import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import config
 
 log = logging.getLogger("scraper")
 logging.basicConfig(level=logging.INFO)
 
-GWP_EMERGENCY = "https://www.gwp.ge/ka/news/nonscheduled-works"
-GWP_PLANNED = "https://www.gwp.ge/ka/news/scheduled-works"
+# The OLD website - pure HTML, no JavaScript required!
+GWP_URL = "https://www.georgianwater.com/en/gadaudebeli"
 
 DISTRICT_FORMS = {
     "Vake": ["ვაკე", "ვაკის", "ვაკეში", "ვაკის რაიონში"],
@@ -38,92 +33,51 @@ def _detect_districts(text):
     return found
 
 def fetch_live_alerts(alert_type="emergency"):
-    url = GWP_EMERGENCY if alert_type == "emergency" else GWP_PLANNED
     results = []
-    driver = None
-    
     try:
-        options = webdriver.ChromeOptions()
-        # REMOVED headless mode! We are using xvfb to fake a real monitor instead.
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--window-size=1920,1080")
-        options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        options.add_experimental_option("useAutomationExtension", False)
+        log.info(f"Fetching live HTML from {GWP_URL}")
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+        response = requests.get(GWP_URL, headers=headers, timeout=20)
         
-        driver = webdriver.Chrome(options=options)
-        
-        # Spoof the webdriver property
-        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-            "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-        })
-
-        driver.set_page_load_timeout(30)
-        driver.get(url)
-        
-        time.sleep(8)  # Wait for Angular to render
-        
-        # Expand text
-        driver.execute_script("""
-            var all = document.querySelectorAll('*');
-            for (var i = 0; i < all.length; i++) {
-                var el = all[i];
-                el.style.maxHeight = 'none';
-                el.style.overflow = 'visible';
-                el.style.textOverflow = 'clip';
-                el.style.webkitLineClamp = 'unset';
-            }
-        """)
-        time.sleep(1)
-
-        card_texts = driver.execute_script("""
-            var selectors = ['.region-card', '.news-card', '.card', 'article', '.item'];
-            var texts = [];
+        if response.status_code == 200:
+            log.info("Successfully connected! Parsing HTML...")
+            soup = BeautifulSoup(response.text, 'html.parser')
             
-            for (var s = 0; s < selectors.length; s++) {
-                var cards = document.querySelectorAll(selectors[s]);
-                if (cards.length > 0) {
-                    cards.forEach(function(card) {
-                        var text = (card.innerText || card.textContent || '').trim();
-                        if (text.length > 30 && text.includes('წყალმომარაგება')) {
-                            texts.push(text);
-                        }
-                    });
-                    if (texts.length > 0) return texts;
-                }
-            }
+            # Find all tables or divs that contain the alerts
+            # The old site uses tables for layout
+            cards = soup.find_all(['table', 'div', 'p', 'span'])
             
-            var allDivs = document.querySelectorAll('div, p, span');
-            allDivs.forEach(function(el) {
-                var text = (el.innerText || '').trim();
-                var childNodes = el.querySelectorAll('*');
-                if (text.length > 50 && text.length < 2000 && childNodes.length === 0) {
-                    if (text.includes('შეუწყდება') || text.includes('შეეზღუდება')) {
-                        if (texts.indexOf(text) === -1) texts.push(text);
-                    }
-                }
-            });
+            for card in cards:
+                text = card.get_text(separator=" ", strip=True)
+                # Check if the text block is an actual water cut alert
+                if text and len(text) > 50 and ("შეუწყდება" in text or "შეეზღუდება" in text):
+                    # Clean up extra whitespace
+                    text = re.sub(r'\s+', ' ', text).strip()
+                    
+                    districts = _detect_districts(text)
+                    if districts:
+                        results.append({
+                            'text': text,
+                            'districts': districts,
+                            'url': GWP_URL
+                        })
             
-            return texts;
-        """)
-
-        if card_texts:
-            log.info(f"Found {len(card_texts)} {alert_type} alerts")
-            for text in card_texts:
-                districts = _detect_districts(text)
-                results.append({
-                    'text': text,
-                    'districts': districts,
-                    'url': url
-                })
+            # Remove duplicates
+            unique_results = []
+            seen_texts = set()
+            for res in results:
+                if res['text'] not in seen_texts:
+                    seen_texts.add(res['text'])
+                    unique_results.append(res)
+                    
+            log.info(f"Found {len(unique_results)} alerts using requests!")
+            return unique_results
         else:
-            log.warning(f"No {alert_type} alerts found")
-                
-    except Exception as e:
-        log.error(f"Error fetching {alert_type}: {str(e)[:100]}")
-    finally:
-        if driver:
-            driver.quit()
+            log.error(f"Failed to fetch. HTTP Status: {response.status_code}")
             
-    return results
+    except Exception as e:
+        log.error(f"Error fetching alerts: {str(e)[:100]}")
+        
+    return []
