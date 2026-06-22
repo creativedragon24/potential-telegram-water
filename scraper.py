@@ -1,3 +1,4 @@
+import os
 import re
 import logging
 import requests
@@ -6,7 +7,7 @@ from bs4 import BeautifulSoup
 log = logging.getLogger("scraper")
 logging.basicConfig(level=logging.INFO)
 
-# The OLD website - pure HTML, no JavaScript required!
+# We will fetch the pure HTML version of the site
 GWP_URL = "https://www.georgianwater.com/en/gadaudebeli"
 
 DISTRICT_FORMS = {
@@ -34,19 +35,29 @@ def _detect_districts(text):
 
 def fetch_live_alerts(alert_type="emergency"):
     results = []
+    api_key = os.getenv("SCRAPER_API_KEY")
+    
+    if not api_key:
+        log.error("SCRAPER_API_KEY missing from environment variables!")
+        return []
+
     try:
-        log.info(f"Fetching live HTML from {GWP_URL}")
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        log.info(f"Fetching live HTML via ScraperAPI...")
+        
+        # ScraperAPI endpoint
+        payload = {
+            'api_key': api_key,
+            'url': GWP_URL,
+            'render': 'false' # We just want the raw HTML, no JS needed
         }
-        response = requests.get(GWP_URL, headers=headers, timeout=20)
+        
+        response = requests.get('https://api.scraperapi.com/', params=payload, timeout=30)
         
         if response.status_code == 200:
-            log.info("Successfully connected! Parsing HTML...")
+            log.info("Successfully fetched HTML! Parsing...")
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # Find all tables or divs that contain the alerts
-            # The old site uses tables for layout
             cards = soup.find_all(['table', 'div', 'p', 'span'])
             
             for card in cards:
@@ -72,10 +83,10 @@ def fetch_live_alerts(alert_type="emergency"):
                     seen_texts.add(res['text'])
                     unique_results.append(res)
                     
-            log.info(f"Found {len(unique_results)} alerts using requests!")
+            log.info(f"Found {len(unique_results)} alerts using ScraperAPI!")
             return unique_results
         else:
-            log.error(f"Failed to fetch. HTTP Status: {response.status_code}")
+            log.error(f"ScraperAPI failed. HTTP Status: {response.status_code}")
             
     except Exception as e:
         log.error(f"Error fetching alerts: {str(e)[:100]}")
