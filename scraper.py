@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 log = logging.getLogger("scraper")
 logging.basicConfig(level=logging.INFO)
 
-# We will fetch the pure HTML version of the site
-GWP_URL = "https://www.georgianwater.com/en/gadaudebeli"
+# We are now targeting the NEW GWP website
+GWP_URL = "https://www.gwp.ge/ka/news/nonscheduled-works"
 
 DISTRICT_FORMS = {
     "Vake": ["ვაკე", "ვაკის", "ვაკეში", "ვაკის რაიონში"],
@@ -42,13 +42,14 @@ def fetch_live_alerts(alert_type="emergency"):
         return []
 
     try:
-        log.info(f"Fetching live HTML via ScraperAPI...")
+        log.info(f"Fetching live HTML via ScraperAPI (Rendering JS)...")
         
         # ScraperAPI endpoint
         payload = {
             'api_key': api_key,
             'url': GWP_URL,
-            'render': 'false' # We just want the raw HTML, no JS needed
+            'render': 'true', # THIS IS THE MAGIC WORD! It tells ScraperAPI to run the JavaScript!
+            'country_code': 'ge' # Use a Georgian IP address
         }
         
         response = requests.get('https://api.scraperapi.com/', params=payload, timeout=90)
@@ -57,14 +58,11 @@ def fetch_live_alerts(alert_type="emergency"):
             log.info("Successfully fetched HTML! Parsing...")
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Find all tables or divs that contain the alerts
             cards = soup.find_all(['table', 'div', 'p', 'span'])
             
             for card in cards:
                 text = card.get_text(separator=" ", strip=True)
-                # Check if the text block is an actual water cut alert
                 if text and len(text) > 50 and ("შეუწყდება" in text or "შეეზღუდება" in text):
-                    # Clean up extra whitespace
                     text = re.sub(r'\s+', ' ', text).strip()
                     
                     districts = _detect_districts(text)
