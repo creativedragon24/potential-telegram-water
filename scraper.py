@@ -52,7 +52,6 @@ def fetch_live_alerts(alert_type="emergency"):
             'api_key': api_key,
             'url': GWP_URL,
             'render': 'true',
-            'country_code': 'ge'
         }
         
         response = requests.get('https://api.scraperapi.com/', headers=headers, params=payload, timeout=90)
