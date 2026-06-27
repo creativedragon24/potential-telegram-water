@@ -2,6 +2,7 @@ import os
 import re
 import logging
 import requests
+import time
 from bs4 import BeautifulSoup
 
 log = logging.getLogger("scraper")
@@ -39,7 +40,6 @@ def _extract_time(text):
     return ""
 
 def _deduplicate_alerts(raw_texts):
-    """Ultra-aggressive deduplication."""
     cleaned = []
     for t in raw_texts:
         clean = t.replace("სრულად", "").replace("...", "").strip()
@@ -84,50 +84,56 @@ def fetch_live_alerts(alert_type="emergency"):
         log.error("SCRAPER_API_KEY missing from environment variables!")
         return []
 
-    try:
-        log.info(f"Fetching live HTML via ScraperAPI (Rendering JS)...")
-        
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        }
-        
-        payload = {
-            'api_key': api_key,
-            'url': GWP_URL,
-            'render': 'true'
-        }
-        
-        response = requests.get('https://api.scraperapi.com/', headers=headers, params=payload, timeout=90)
-        
-        if response.status_code == 200:
-            log.info("Successfully fetched HTML! Parsing...")
-            soup = BeautifulSoup(response.text, 'html.parser')
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    payload = {
+        'api_key': api_key,
+        'url': GWP_URL,
+        'render': 'true'
+    }
+
+    # 🚀 AUTOMATIC RETRY LOGIC
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            log.info(f"Fetching live HTML via ScraperAPI (Attempt {attempt + 1}/{max_retries})...")
+            response = requests.get('https://api.scraperapi.com/', headers=headers, params=payload, timeout=90)
             
-            cards = soup.find_all(['table', 'div', 'p', 'span'])
-            raw_texts = []
+            if response.status_code == 200:
+                log.info("Successfully fetched HTML! Parsing...")
+                soup = BeautifulSoup(response.text, 'html.parser')
+                cards = soup.find_all(['table', 'div', 'p', 'span'])
+                raw_texts = []
+                
+                for card in cards:
+                    text = card.get_text(separator=" ", strip=True)
+                    if text and len(text) > 50 and ("შეუწყდება" in text or "შეეზღუდება" in text):
+                        text = re.sub(r'\s+', ' ', text).strip()
+                        raw_texts.append(text)
+                
+                unique_texts = _deduplicate_alerts(raw_texts)
+                
+                log.info(f"Found {len(unique_texts)} unique alerts!")
+                for text in unique_texts:
+                    districts = _detect_districts(text)
+                    results.append({
+                        'text': text,
+                        'districts': districts,
+                        'url': GWP_URL
+                    })
+                return results
+                
+            elif response.status_code in [500, 502, 503, 429]:
+                log.warning(f"ScraperAPI returned {response.status_code}. Retrying in 5 seconds...")
+                time.sleep(5)
+            else:
+                log.error(f"ScraperAPI failed. HTTP Status: {response.status_code}")
+                break # Don't retry on 400/403 errors
+                
+        except Exception as e:
+            log.warning(f"Network error on attempt {attempt + 1}: {str(e)[:50]}. Retrying in 5 seconds...")
+            time.sleep(5)
             
-            for card in cards:
-                text = card.get_text(separator=" ", strip=True)
-                if text and len(text) > 50 and ("შეუწყდება" in text or "შეეზღუდება" in text):
-                    text = re.sub(r'\s+', ' ', text).strip()
-                    raw_texts.append(text)
-            
-            # ULTRA-AGGRESSIVE DEDUPLICATION!
-            unique_texts = _deduplicate_alerts(raw_texts)
-            
-            log.info(f"Found {len(unique_texts)} unique alerts!")
-            for text in unique_texts:
-                districts = _detect_districts(text)
-                results.append({
-                    'text': text,
-                    'districts': districts,
-                    'url': GWP_URL
-                })
-            return results
-        else:
-            log.error(f"ScraperAPI failed. HTTP Status: {response.status_code}")
-            
-    except Exception as e:
-        log.error(f"Error fetching alerts: {str(e)[:100]}")
-        
+    log.error("Failed to fetch alerts after multiple retries.")
     return []
