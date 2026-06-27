@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 log = logging.getLogger("scraper")
 logging.basicConfig(level=logging.INFO)
 
-# We are now targeting the NEW GWP website
 GWP_URL = "https://www.gwp.ge/ka/news/nonscheduled-works"
 
 DISTRICT_FORMS = {
@@ -33,6 +32,50 @@ def _detect_districts(text):
                 break
     return found
 
+def _extract_time(text):
+    match = re.search(r'(\d{1,2}[:.]\d{2})\s*[-–]\s*(\d{1,2}[:.]\d{2})', text)
+    if match:
+        return f"{match.group(1)}-{match.group(2)}"
+    return ""
+
+def _deduplicate_alerts(raw_texts):
+    """Ultra-aggressive deduplication."""
+    cleaned = []
+    for t in raw_texts:
+        clean = t.replace("სრულად", "").replace("...", "").strip()
+        clean = re.sub(r'\s+', ' ', clean).strip()
+        if clean and len(clean) > 50:
+            cleaned.append(clean)
+
+    groups = {}
+    for i, text in enumerate(cleaned):
+        time_sig = _extract_time(text)
+        districts = _detect_districts(text)
+        district_sig = ",".join(sorted(districts)) if districts else "unknown"
+        signature = f"{time_sig}|{district_sig}"
+
+        if signature not in groups:
+            groups[signature] = (i, text, len(text))
+        else:
+            if len(text) > groups[signature][2]:
+                groups[signature] = (i, text, len(text))
+
+    unique_items = sorted(groups.values(), key=lambda x: x[0])
+    unique_texts = [item[1] for item in unique_items]
+
+    final = []
+    for t1 in unique_texts:
+        is_partial = False
+        for t2 in unique_texts:
+            if t1 != t2 and t1 in t2 and len(t1) < len(t2) - 20:
+                is_partial = True
+                break
+        if not is_partial and t1 not in final:
+            final.append(t1)
+
+    log.info(f"Deduplication: {len(cleaned)} raw -> {len(final)} unique")
+    return final
+
 def fetch_live_alerts(alert_type="emergency"):
     results = []
     api_key = os.getenv("SCRAPER_API_KEY")
@@ -51,7 +94,7 @@ def fetch_live_alerts(alert_type="emergency"):
         payload = {
             'api_key': api_key,
             'url': GWP_URL,
-            'render': 'true',
+            'render': 'true'
         }
         
         response = requests.get('https://api.scraperapi.com/', headers=headers, params=payload, timeout=90)
@@ -61,29 +104,26 @@ def fetch_live_alerts(alert_type="emergency"):
             soup = BeautifulSoup(response.text, 'html.parser')
             
             cards = soup.find_all(['table', 'div', 'p', 'span'])
+            raw_texts = []
             
             for card in cards:
                 text = card.get_text(separator=" ", strip=True)
                 if text and len(text) > 50 and ("შეუწყდება" in text or "შეეზღუდება" in text):
                     text = re.sub(r'\s+', ' ', text).strip()
-                    
-                    districts = _detect_districts(text)
-                    if districts:
-                        results.append({
-                            'text': text,
-                            'districts': districts,
-                            'url': GWP_URL
-                        })
+                    raw_texts.append(text)
             
-            unique_results = []
-            seen_texts = set()
-            for res in results:
-                if res['text'] not in seen_texts:
-                    seen_texts.add(res['text'])
-                    unique_results.append(res)
-                    
-            log.info(f"Found {len(unique_results)} alerts using ScraperAPI!")
-            return unique_results
+            # ULTRA-AGGRESSIVE DEDUPLICATION!
+            unique_texts = _deduplicate_alerts(raw_texts)
+            
+            log.info(f"Found {len(unique_texts)} unique alerts!")
+            for text in unique_texts:
+                districts = _detect_districts(text)
+                results.append({
+                    'text': text,
+                    'districts': districts,
+                    'url': GWP_URL
+                })
+            return results
         else:
             log.error(f"ScraperAPI failed. HTTP Status: {response.status_code}")
             
