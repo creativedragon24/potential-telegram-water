@@ -1,44 +1,53 @@
-name: Check Water Cuts
+name: GWP Water Cut Checker
 
 on:
   schedule:
+    # Runs every 15 minutes
     - cron: "*/15 * * * *"
-  workflow_dispatch:
+  workflow_dispatch:  # allows manual trigger from GitHub UI
 
 permissions:
   contents: write
 
 jobs:
-  run-bot:
+  check-water:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests beautifulsoup4 lxml
 
-      - name: Run Bot
+      - name: Run water check
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
-          DISTRICT: ${{ secrets.DISTRICT }}
-          STREET: ${{ secrets.STREET }}
-          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+          BOT_TOKEN:  ${{ secrets.BOT_TOKEN }}
+          CHAT_ID:    ${{ secrets.CHAT_ID }}
+          DISTRICT:   ${{ secrets.DISTRICT }}
+          STREET:     ${{ secrets.STREET }}
         run: python check_water.py
 
-      - name: Save memory
+      - name: Save seen.json to repo
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add seen.json
-          git commit -m "Update seen announcements" || echo "No changes"
+          git diff --staged --quiet || git commit -m "chore: update seen.json [skip ci]"
           git push
