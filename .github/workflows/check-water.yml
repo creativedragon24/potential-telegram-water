@@ -2,9 +2,8 @@ name: GWP Water Cut Checker
 
 on:
   schedule:
-    # Runs every 15 minutes
     - cron: "*/15 * * * *"
-  workflow_dispatch:  # allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,33 +17,24 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.11
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Cache pip packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
 
       - name: Run water check
         env:
-          BOT_TOKEN:  ${{ secrets.BOT_TOKEN }}
-          CHAT_ID:    ${{ secrets.CHAT_ID }}
-          DISTRICT:   ${{ secrets.DISTRICT }}
-          STREET:     ${{ secrets.STREET }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID:   ${{ secrets.CHAT_ID }}
+          DISTRICT:  ${{ secrets.DISTRICT }}
+          STREET:    ${{ secrets.STREET }}
         run: python check_water.py
 
-      - name: Save seen.json to repo
+      - name: Save seen.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
