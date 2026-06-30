@@ -1,9 +1,10 @@
 """
 GWP Water Cut Telegram Bot
-Uses official GWP JSON API — no scraping, no JS, no proxy needed.
+Uses GWP JSON API via ScraperAPI proxy (1 credit per call).
 """
 from __future__ import annotations
-import os, json, logging, re, requests as http
+import os, json, logging, re, urllib.parse
+import requests as http
 from datetime import datetime
 
 logging.basicConfig(
@@ -12,18 +13,17 @@ logging.basicConfig(
 )
 log = logging.getLogger("water_bot")
 
-# ── Config from secrets ───────────────────────
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHAT_ID   = os.environ["CHAT_ID"]
-DISTRICT  = os.environ.get("DISTRICT", "").strip()
-STREET    = os.environ.get("STREET",   "").strip()
+# ── Config from GitHub Secrets ───────────────
+BOT_TOKEN       = os.environ["BOT_TOKEN"]
+CHAT_ID         = os.environ["CHAT_ID"]
+DISTRICT        = os.environ.get("DISTRICT", "").strip()
+STREET          = os.environ.get("STREET",   "").strip()
+SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "").strip()
 
 SEEN_FILE = "seen.json"
 
-# ── GWP API endpoints ─────────────────────────
-API_BASE       = "https://www.gwp.ge/api/Disconnect"
-API_DISCONNECT = f"{API_BASE}/ByCity?cityId=1"
-API_DISTRICTS  = f"{API_BASE}/DistrictsByCity?id=1"
+# ── GWP API ───────────────────────────────────
+API_DISCONNECT = "https://www.gwp.ge/api/Disconnect/ByCity?cityId=1"
 
 HEADERS = {
     "User-Agent": (
@@ -36,7 +36,7 @@ HEADERS = {
     "Referer":         "https://www.gwp.ge/",
 }
 
-# ── Georgian → English district map ───────────
+# ── District mapping ──────────────────────────
 DISTRICT_KA_EN = {
     "გლდანი":     "Gldani",
     "დიდუბე":     "Didube",
@@ -51,13 +51,10 @@ DISTRICT_KA_EN = {
     "სამგორი":    "Samgori",
     "დიღომი":     "Dighomi",
 }
-
-# Reverse map for matching English input
 DISTRICT_EN_KA = {v.lower(): k for k, v in DISTRICT_KA_EN.items()}
 
 # ── Translation dictionary ────────────────────
 KA_EN = {
-    # phrases (longest first)
     "მოქალაქის კუთვნილ წყალსადენის ქსელზე დაზიანების აღდგენითი სამუშაოების ჩატარების მიზნით":
         "to repair damage on citizen-owned water pipeline",
     "წყალმომარაგების აღდგენის დროს შეგატყობინებთ მოგვიანებით":
@@ -66,58 +63,30 @@ KA_EN = {
         "due to water supply network damage",
     "წყალსადენის ქსელზე დაზიანების გამო":
         "due to water pipeline damage",
-    "წყალმომარაგება შეუწყდა":  "water supply was cut off",
-    "წყალმომარაგება შეუწყდება": "water supply will be cut off",
+    "წყალმომარაგება შეუწყდა":     "water supply was cut off",
+    "წყალმომარაგება შეუწყდება":   "water supply will be cut off",
     "წყალმომარაგება შეუწყდათ ავარიულად": "water supply was emergency-cut at",
-    "სატუმბო სადგურს შეუწყდა ელ.ენერგიის მიწოდება":
-        "pumping station lost electricity",
-    "საათამდე": "until",
-    "დან":      "from",
-    "მდე":      "to",
-    "ჩათვლით":  "inclusive",
-    "კენტები":  "odd numbers",
-    "ლუწები":   "even numbers",
-    "ქუჩას":    "St.",
-    "ქუჩა":     "St.",
-    "ქუჩის":    "St.",
-    "ქუჩები":   "Streets",
-    "ქუჩებს":   "Streets",
-    "გამზ.":    "Ave.",
-    "გამზ":     "Ave.",
-    "გამზირი":  "Ave.",
-    "გამზირის": "Ave.",
-    "შესახვევი":"Lane",
-    "შესახვევს":"Lane",
-    "შესახვევებს":"Lanes",
-    "შესახვევებით":"with lanes",
-    "ჩიხი":     "Dead End",
-    "ჩიხს":     "Dead End",
-    "მიკრო":    "microdistrict",
-    "მიკროს":   "microdistrict",
-    "მ/რ":      "microdistrict",
-    "კვარტალი": "block",
-    "კვ.":      "block",
-    "კვ":       "block",
-    "სოფ.":     "village",
-    "სოფელ":    "village",
-    "მასივი":   "settlement",
-    "მასივის":  "settlement",
-    "დასახლება":"settlement",
-    "დასახლებას":"settlement",
-    "უბანი":    "area",
-    "უბანს":    "area",
-    "ეკლესიის": "church",
-    "სატუმბო":  "pumping",
-    "სადგურს":  "station",
-    "ელ.ენერგიის": "electricity",
-    "მიწოდება": "supply",
-    "ავარიულად":"emergency",
-    "და":       "and",
-    "თან":      "at",
+    "სატუმბო სადგურს შეუწყდა ელ.ენერგიის მიწოდება": "pumping station lost electricity",
+    "საათამდე": "until", "დან": "from", "მდე": "to",
+    "ჩათვლით": "inclusive", "კენტები": "odd numbers", "ლუწები": "even numbers",
+    "ქუჩას": "St.", "ქუჩა": "St.", "ქუჩის": "St.",
+    "ქუჩები": "Streets", "ქუჩებს": "Streets",
+    "გამზ.": "Ave.", "გამზ": "Ave.", "გამზირი": "Ave.", "გამზირის": "Ave.",
+    "შესახვევი": "Lane", "შესახვევს": "Lane",
+    "შესახვევებს": "Lanes", "შესახვევებით": "with lanes",
+    "ჩიხი": "Dead End", "ჩიხს": "Dead End",
+    "მიკრო": "microdistrict", "მიკროს": "microdistrict", "მ/რ": "microdistrict",
+    "კვარტალი": "block", "კვ.": "block", "კვ": "block",
+    "სოფ.": "village", "სოფელ": "village",
+    "მასივი": "settlement", "მასივის": "settlement",
+    "დასახლება": "settlement", "დასახლებას": "settlement",
+    "უბანი": "area", "უბანს": "area",
+    "ეკლესიის": "church", "სატუმბო": "pumping", "სადგურს": "station",
+    "ელ.ენერგიის": "electricity", "მიწოდება": "supply",
+    "ავარიულად": "emergency", "და": "and", "თან": "at",
 }
 KA_EN_SORTED = sorted(KA_EN.items(), key=lambda x: len(x[0]), reverse=True)
 
-# Letter-by-letter transliteration for unknown Georgian words
 KA_LATIN = {
     "ა":"a","ბ":"b","გ":"g","დ":"d","ე":"e","ვ":"v","ზ":"z",
     "თ":"t","ი":"i","კ":"k","ლ":"l","მ":"m","ნ":"n","ო":"o",
@@ -149,7 +118,6 @@ def save_seen(seen: set):
 # ── Translation ───────────────────────────────
 
 def _strip_genitive(word: str) -> str:
-    """Strip Georgian case endings before transliteration."""
     w = word.rstrip(",.;:!)")
     if w.endswith("ის") and len(w) > 4: return w[:-2]
     if w.endswith("ში") and len(w) > 4: return w[:-2]
@@ -163,27 +131,17 @@ def _transliterate(text: str) -> str:
 
 
 def translate(text: str) -> str:
-    """Translate Georgian text to readable English."""
-    if not text:
-        return ""
-
-    # Phrase replacements
+    if not text: return ""
     result = text
     for ka, en in KA_EN_SORTED:
         result = result.replace(ka, en)
-
-    # Transliterate remaining Georgian words
-    words = result.split()
     out = []
-    for word in words:
+    for word in result.split():
         if any("\u10d0" <= ch <= "\u10fa" for ch in word):
-            base = _strip_genitive(word)
-            out.append(_transliterate(base))
+            out.append(_transliterate(_strip_genitive(word)))
         else:
             out.append(word)
     result = " ".join(out)
-
-    # Fix doubles
     result = re.sub(r"\b(St\.|Ave\.|and|at|from|to)\s+\1\b", r"\1", result)
     return re.sub(r"\s{2,}", " ", result).strip()
 
@@ -202,27 +160,20 @@ _UNTIL_ONLY_RE = re.compile(
 
 
 def extract_time_date(text: str) -> tuple[str, str]:
-    """Return (time_range, date_range) from the email_text."""
     m = _DATETIME_RE.search(text)
     if m:
         d1, t1, d2, t2 = m.groups()
         time_range = f"{t1} – {t2}"
-        if d1 == d2:
-            date_range = d1
-        else:
-            date_range = f"{d1} → {d2}"
+        date_range = d1 if d1 == d2 else f"{d1} → {d2}"
         return time_range, date_range
-
     m = _UNTIL_ONLY_RE.search(text)
     if m:
         d, t = m.groups()
         return f"until {t}", d
-
     return "See message", datetime.now().strftime("%-m/%-d/%Y")
 
 
 def extract_streets(text: str) -> str:
-    """Pull only the affected streets section (after the colon)."""
     if "შეუწყდება:" in text:
         part = text.split("შეუწყდება:", 1)[1]
     elif "შეუწყდა:" in text:
@@ -234,20 +185,77 @@ def extract_streets(text: str) -> str:
     return translate(part.strip())
 
 
-# ── API fetch ─────────────────────────────────
+# ── Fetch alerts — MULTIPLE METHODS ──────────
 
 def fetch_alerts() -> list:
-    """Fetch water cut alerts from GWP JSON API."""
+    """Try ScraperAPI first, fallback to free proxies, then direct."""
+
+    # ── Method 1: ScraperAPI (1 credit per call) ──
+    if SCRAPER_API_KEY:
+        try:
+            log.info("Trying ScraperAPI (1 credit)...")
+            r = http.get(
+                "http://api.scraperapi.com",
+                params={
+                    "api_key": SCRAPER_API_KEY,
+                    "url":     API_DISCONNECT,
+                    "render":  "false",
+                },
+                timeout=60,
+            )
+            if r.status_code == 200:
+                data = r.json()
+                log.info("ScraperAPI SUCCESS — %d alerts", len(data))
+                return data
+            log.warning("ScraperAPI HTTP %s: %s", r.status_code, r.text[:200])
+        except Exception as e:
+            log.warning("ScraperAPI error: %s", e)
+    else:
+        log.warning("SCRAPER_API_KEY secret is missing!")
+
+    # ── Method 2: AllOrigins (free unlimited) ──
     try:
-        log.info("Fetching from GWP API...")
+        log.info("Trying AllOrigins proxy...")
+        encoded = urllib.parse.quote(API_DISCONNECT, safe="")
+        r = http.get(
+            f"https://api.allorigins.win/raw?url={encoded}",
+            timeout=45,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("AllOrigins SUCCESS — %d alerts", len(data))
+            return data
+    except Exception as e:
+        log.warning("AllOrigins error: %s", e)
+
+    # ── Method 3: corsproxy.io (free unlimited) ──
+    try:
+        log.info("Trying corsproxy.io...")
+        encoded = urllib.parse.quote(API_DISCONNECT, safe="")
+        r = http.get(
+            f"https://corsproxy.io/?{encoded}",
+            timeout=45,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("corsproxy.io SUCCESS — %d alerts", len(data))
+            return data
+    except Exception as e:
+        log.warning("corsproxy.io error: %s", e)
+
+    # ── Method 4: Direct (fails on GitHub Actions) ──
+    try:
+        log.info("Trying direct request...")
         r = http.get(API_DISCONNECT, headers=HEADERS, timeout=30)
         r.raise_for_status()
         data = r.json()
-        log.info("Got %d alerts from API", len(data))
+        log.info("Direct SUCCESS — %d alerts", len(data))
         return data
     except Exception as e:
-        log.error("API fetch failed: %s", e)
-        return []
+        log.warning("Direct error: %s", e)
+
+    log.error("ALL methods failed — no data this cycle")
+    return []
 
 
 # ── Message builder ───────────────────────────
@@ -255,20 +263,14 @@ def fetch_alerts() -> list:
 def build_message(item: dict) -> str:
     district_ka = item.get("district", "").strip()
     district_en = DISTRICT_KA_EN.get(district_ka, district_ka)
-
-    address_ka = item.get("address", "").strip()
-    address_en = translate(address_ka)
-
-    email_text = item.get("emailText", "") or ""
+    address_en  = translate(item.get("address", "").strip())
+    email_text  = item.get("emailText", "") or ""
     time_str, date_str = extract_time_date(email_text)
-    streets        = extract_streets(email_text)
+    streets     = extract_streets(email_text)
+    code        = item.get("code", "")
+    wtype       = item.get("type", "")
+    status_en   = "🚨 Emergency" if "არაგეგმ" in wtype else "📋 Planned"
 
-    code   = item.get("code", "")
-    status = item.get("status", "")
-    wtype  = item.get("type",   "")
-    status_en = "🚨 Emergency" if "არაგეგმ" in wtype else "📋 Planned"
-
-    # Trim streets if too long
     if len(streets) > 600:
         streets = streets[:600].rsplit(" ", 1)[0] + "..."
 
@@ -289,45 +291,39 @@ def build_message(item: dict) -> str:
     )
 
 
-# ── Telegram ──────────────────────────────────
+# ── Telegram sender ───────────────────────────
 
 def send_telegram(chat_id: str, message: str) -> bool:
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     try:
         r = http.post(url, json={
-            "chat_id":              chat_id,
-            "text":                 message,
-            "parse_mode":           "HTML",
+            "chat_id":                 chat_id,
+            "text":                    message,
+            "parse_mode":              "HTML",
             "disable_web_page_preview": True,
         }, timeout=15)
         if r.status_code == 200:
-            log.info("Sent OK")
+            log.info("Telegram OK → %s", chat_id)
             return True
         log.warning("Telegram %s: %s", r.status_code, r.text[:200])
         return False
     except Exception as e:
-        log.warning("Send failed: %s", e)
+        log.warning("Telegram error: %s", e)
         return False
 
 
-# ── Matching ──────────────────────────────────
+# ── Filter matching ───────────────────────────
 
 def matches_filter(item: dict) -> bool:
-    """Check if alert matches the configured DISTRICT and STREET."""
     if not DISTRICT:
         return True
-
     district_ka = item.get("district", "").strip()
     district_en = DISTRICT_KA_EN.get(district_ka, district_ka)
-
-    # Match both English and Georgian district names
-    d_input = DISTRICT.lower()
-    if (d_input != district_en.lower() and
-        d_input != district_ka.lower() and
-        DISTRICT_EN_KA.get(d_input, "") != district_ka):
+    d_in = DISTRICT.lower()
+    if (d_in != district_en.lower() and
+        d_in != district_ka.lower() and
+        DISTRICT_EN_KA.get(d_in, "") != district_ka):
         return False
-
-    # Street match (optional) — search in both address and email text
     if STREET:
         searchable = (
             item.get("address", "") + " " +
@@ -337,7 +333,6 @@ def matches_filter(item: dict) -> bool:
         ).lower()
         if STREET.lower() not in searchable:
             return False
-
     return True
 
 
@@ -346,6 +341,7 @@ def matches_filter(item: dict) -> bool:
 def main():
     log.info("=== GWP Water Bot Started ===")
     log.info("Filter → District:'%s'  Street:'%s'", DISTRICT, STREET)
+    log.info("ScraperAPI key present: %s", "YES" if SCRAPER_API_KEY else "NO")
 
     seen    = load_seen()
     alerts  = fetch_alerts()
@@ -356,18 +352,14 @@ def main():
 
     for item in alerts:
         code = item.get("code", "")
-        if not code:
-            continue
-
-        if code in seen:
-            continue
+        if not code: continue
+        if code in seen: continue
 
         district = item.get("district", "")
         log.info("New alert: %s (%s)", code, district)
 
         if matches_filter(item):
-            msg = build_message(item)
-            if send_telegram(CHAT_ID, msg):
+            if send_telegram(CHAT_ID, build_message(item)):
                 sent += 1
         else:
             log.info("  → skipped (filter does not match)")
