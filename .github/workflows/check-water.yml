@@ -25,20 +25,17 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 lxml
 
-      - name: Run water check
+      - name: Debug HTML structure
         env:
           BOT_TOKEN:       ${{ secrets.BOT_TOKEN }}
           CHAT_ID:         ${{ secrets.CHAT_ID }}
-          DISTRICT:        ${{ secrets.DISTRICT }}
-          STREET:          ${{ secrets.STREET }}
           SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
-          SCRAPEDO_TOKEN:  ${{ secrets.SCRAPEDO_TOKEN }}
-        run: python check_water.py
+        run: python debug_html.py
 
-      - name: Save seen.json
+      - name: Save files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen.json
-          git diff --staged --quiet || git commit -m "chore: update seen.json [skip ci]"
-          git push
+          git add -f gwp_debug.html || true
+          git diff --staged --quiet || git commit -m "debug: save gwp html [skip ci]"
+          git push || true
