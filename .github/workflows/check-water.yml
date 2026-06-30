@@ -2,7 +2,8 @@ name: GWP Water Cut Checker
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Once per hour from 7am to 11pm Tbilisi time
+    - cron: "0 3-19 * * *"
   workflow_dispatch:
 
 permissions:
