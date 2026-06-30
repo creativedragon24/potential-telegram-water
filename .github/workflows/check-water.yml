@@ -2,8 +2,8 @@ name: GWP Water Cut Checker
 
 on:
   schedule:
-    # Once per hour from 7am to 11pm Tbilisi time
-    - cron: "0 3-19 * * *"
+    # Every 10 minutes — fast and free now (no ScraperAPI needed)
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 jobs:
   check-water:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repo
@@ -24,16 +24,14 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
+        run: pip install requests
 
       - name: Run water check
         env:
-          BOT_TOKEN:       ${{ secrets.BOT_TOKEN }}
-          CHAT_ID:         ${{ secrets.CHAT_ID }}
-          DISTRICT:        ${{ secrets.DISTRICT }}
-          STREET:          ${{ secrets.STREET }}
-          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
-          SCRAPEDO_TOKEN:  ${{ secrets.SCRAPEDO_TOKEN }}
+          BOT_TOKEN:  ${{ secrets.BOT_TOKEN }}
+          CHAT_ID:    ${{ secrets.CHAT_ID }}
+          DISTRICT:   ${{ secrets.DISTRICT }}
+          STREET:     ${{ secrets.STREET }}
         run: python check_water.py
 
       - name: Save seen.json
