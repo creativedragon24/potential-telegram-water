@@ -2,8 +2,7 @@ name: GWP Water Cut Checker
 
 on:
   schedule:
-    # Every 10 minutes — fast and free now (no ScraperAPI needed)
-    - cron: "*/10 * * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,10 +27,11 @@ jobs:
 
       - name: Run water check
         env:
-          BOT_TOKEN:  ${{ secrets.BOT_TOKEN }}
-          CHAT_ID:    ${{ secrets.CHAT_ID }}
-          DISTRICT:   ${{ secrets.DISTRICT }}
-          STREET:     ${{ secrets.STREET }}
+          BOT_TOKEN:        ${{ secrets.BOT_TOKEN }}
+          CHAT_ID:          ${{ secrets.CHAT_ID }}
+          DISTRICT:         ${{ secrets.DISTRICT }}
+          STREET:           ${{ secrets.STREET }}
+          SCRAPER_API_KEY:  ${{ secrets.SCRAPER_API_KEY }}
         run: python check_water.py
 
       - name: Save seen.json
