@@ -1,60 +1,70 @@
 """
-Run this ONCE to dump the GWP HTML so we can find the real CSS selectors.
+Run ONCE to find real CSS selectors.
 python debug_html.py
 """
 import os, requests, re
 from bs4 import BeautifulSoup
 
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHAT_ID   = os.environ["CHAT_ID"]
+BOT_TOKEN       = os.environ["BOT_TOKEN"]
+CHAT_ID         = os.environ["CHAT_ID"]
 SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "").strip()
 
 GWP_EN = "https://www.gwp.ge/en/news/nonscheduled-works"
 
+
 def fetch_html(url):
     if SCRAPER_API_KEY:
-        print("Using ScraperAPI...")
+        print("Using ScraperAPI with JS render=true ...")
         r = requests.get(
             "http://api.scraperapi.com",
-            params={"api_key": SCRAPER_API_KEY, "url": url, "render": "false"},
-            timeout=60,
+            params={
+                "api_key":      SCRAPER_API_KEY,
+                "url":          url,
+                "render":       "true",
+                "country_code": "us",
+            },
+            timeout=120,
         )
         if r.status_code == 200:
+            print(f"Got {len(r.text)} bytes")
             return r.text
-    print("Using direct...")
+        print(f"ScraperAPI error: {r.status_code} {r.text[:200]}")
+    print("Using direct request...")
     r = requests.get(url, timeout=30)
     return r.text
 
 
 def send_telegram(message):
-    requests.post(
-        f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
-        json={"chat_id": CHAT_ID, "text": message},
-        timeout=15,
-    )
+    try:
+        requests.post(
+            f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+            json={"chat_id": CHAT_ID, "text": message[:4000]},
+            timeout=15,
+        )
+        print("Telegram message sent")
+    except Exception as e:
+        print(f"Telegram failed: {e}")
 
 
 def analyze(html):
-    soup = BeautifulSoup(html, "lxml")
-
-    # Save full HTML to file for inspection
     with open("gwp_debug.html", "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"Full HTML saved to gwp_debug.html ({len(html)} bytes)")
+    print(f"Saved gwp_debug.html ({len(html)} bytes)")
 
-    # ── Find ALL unique class names in the page ──
+    soup = BeautifulSoup(html, "lxml")
+
+    # All unique classes
     all_classes = set()
     for tag in soup.find_all(True):
         for cls in tag.get("class", []):
             all_classes.add(cls)
 
-    # Filter classes that look like content (not utility)
     interesting = [
         c for c in sorted(all_classes)
-        if any(word in c.lower() for word in [
+        if any(w in c.lower() for w in [
             "news","card","item","article","alert","content",
             "post","entry","block","list","row","result",
-            "announce","water","gadau","nonsch","cut"
+            "announce","water","gadau","nonsch","cut","region"
         ])
     ]
 
@@ -62,9 +72,9 @@ def analyze(html):
     for c in interesting:
         print(f"  .{c}")
 
-    # ── Find elements containing water keywords ──
-    water_kw_ka = ["შეუწყდება", "შეეზღუდება", "წყალმომარაგება"]
-    water_kw_en = ["water supply", "will be cut", "interruption"]
+    # Elements with water keywords
+    water_kw_ka = ["შეუწყდება","შეეზღუდება","წყალმომარაგება"]
+    water_kw_en = ["water supply","will be cut","interruption"]
 
     print("\n=== ELEMENTS WITH WATER KEYWORDS ===")
     found_elements = []
@@ -74,81 +84,80 @@ def analyze(html):
             any(k in text for k in water_kw_ka) or
             any(k in text.lower() for k in water_kw_en)
         )
-        if not has_water:
-            continue
-        # Only look at reasonably sized elements
-        if len(text) < 50 or len(text) > 5000:
+        if not has_water or len(text) < 50 or len(text) > 5000:
             continue
 
         tag_name  = tag.name
         classes   = " ".join(tag.get("class", []))
         tag_id    = tag.get("id", "")
         parent    = tag.parent
+        p_name    = parent.name if parent else ""
         p_classes = " ".join(parent.get("class", [])) if parent else ""
 
-        info = {
+        found_elements.append({
             "tag":      tag_name,
             "class":    classes,
             "id":       tag_id,
-            "parent":   f"{parent.name}.{p_classes}" if parent else "",
+            "parent":   f"{p_name}.{p_classes}",
             "text_len": len(text),
-            "preview":  text[:120],
-        }
-        found_elements.append(info)
+            "preview":  text[:150],
+        })
 
-    # Deduplicate by class
-    seen_classes = set()
-    unique_elements = []
+    # Deduplicate
+    seen_cls = set()
+    unique   = []
     for el in found_elements:
         key = el["class"] or el["tag"]
-        if key not in seen_classes:
-            seen_classes.add(key)
-            unique_elements.append(el)
+        if key not in seen_cls:
+            seen_cls.add(key)
+            unique.append(el)
 
-    for el in unique_elements[:20]:
+    for el in unique[:20]:
         print(f"\n  TAG:    <{el['tag']}>")
         print(f"  CLASS:  {el['class'] or '(none)'}")
-        print(f"  ID:     {el['id'] or '(none)'}")
+        print(f"  ID:     {el['id']   or '(none)'}")
         print(f"  PARENT: {el['parent']}")
         print(f"  LEN:    {el['text_len']} chars")
         print(f"  TEXT:   {el['preview']}")
 
-    # ── Send summary to Telegram ──
-    msg = "🔍 GWP HTML Debug\n\n"
-    msg += f"Total HTML size: {len(html)} bytes\n\n"
+    # Build Telegram message
+    msg  = f"🔍 GWP HTML Debug\n"
+    msg += f"HTML size: {len(html):,} bytes\n\n"
 
     if interesting:
         msg += "📌 Interesting CSS classes:\n"
-        msg += "\n".join(f"  .{c}" for c in interesting[:15])
+        msg += "\n".join(f"  .{c}" for c in interesting[:20])
         msg += "\n\n"
 
-    if unique_elements:
+    if unique:
         msg += "💧 Elements with water keywords:\n"
-        for el in unique_elements[:5]:
+        for el in unique[:6]:
             msg += (
                 f"\n<{el['tag']}> class='{el['class']}'\n"
                 f"  parent: {el['parent']}\n"
-                f"  preview: {el['preview'][:80]}\n"
+                f"  len: {el['text_len']}\n"
+                f"  preview: {el['preview'][:100]}\n"
             )
     else:
-        msg += "❌ NO elements with water keywords found!\n"
-        msg += "The page might need JavaScript to render.\n"
+        msg += (
+            "❌ NO water elements found even with render=true\n\n"
+            "This means GWP needs extra wait time after JS loads.\n"
+            "Next step: use render=true with wait_for_selector.\n"
+        )
 
     send_telegram(msg)
-    print("\n=== Telegram message sent ===")
-    return unique_elements
+    return unique
 
 
 def main():
-    print(f"Fetching {GWP_EN}...")
+    print(f"Fetching: {GWP_EN}")
     html = fetch_html(GWP_EN)
-    print(f"Got {len(html)} bytes")
+    print(f"Total: {len(html)} bytes")
     elements = analyze(html)
-
     if not elements:
-        print("\n⚠️  NO WATER ELEMENTS FOUND")
-        print("This means the page requires JavaScript rendering.")
-        print("We need ScraperAPI with render=true")
+        print("\n⚠️  No water elements found — need JS wait time")
+    else:
+        print(f"\n✅ Found {len(elements)} unique elements with water keywords")
 
 
 if __name__ == "__main__":
