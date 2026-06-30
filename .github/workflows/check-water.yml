@@ -23,15 +23,16 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml
 
       - name: Run water check
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID:   ${{ secrets.CHAT_ID }}
-          DISTRICT:  ${{ secrets.DISTRICT }}
-          STREET:    ${{ secrets.STREET }}
+          BOT_TOKEN:       ${{ secrets.BOT_TOKEN }}
+          CHAT_ID:         ${{ secrets.CHAT_ID }}
+          DISTRICT:        ${{ secrets.DISTRICT }}
+          STREET:          ${{ secrets.STREET }}
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+          SCRAPEDO_TOKEN:  ${{ secrets.SCRAPEDO_TOKEN }}
         run: python check_water.py
 
       - name: Save seen.json
