@@ -63,18 +63,91 @@ def load_subscribers() -> dict:
 # ── Fetch ──
 
 def fetch_alerts() -> list:
+    """Try multiple methods. Falls back if one fails."""
     if not SCRAPER_API_KEY:
         log.error("SCRAPER_API_KEY missing!")
         return []
+
+    # Method 1: ScraperAPI standard
     try:
-        log.info("Fetching via ScraperAPI...")
+        log.info("Trying ScraperAPI (standard)...")
         r = http.get(
             "http://api.scraperapi.com",
-            params={"api_key": SCRAPER_API_KEY,
-                    "url":     API_DISCONNECT,
-                    "render":  "false"},
+            params={
+                "api_key": SCRAPER_API_KEY,
+                "url":     API_DISCONNECT,
+                "render":  "false",
+            },
             timeout=60,
         )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("Got %d alerts (standard)", len(data))
+            return data
+        log.warning("Standard HTTP %s: %s", r.status_code, r.text[:200])
+    except Exception as e:
+        log.warning("Standard failed: %s", e)
+
+    # Method 2: ScraperAPI with premium=true
+    try:
+        log.info("Trying ScraperAPI (premium)...")
+        r = http.get(
+            "http://api.scraperapi.com",
+            params={
+                "api_key":  SCRAPER_API_KEY,
+                "url":      API_DISCONNECT,
+                "render":   "false",
+                "premium":  "true",
+            },
+            timeout=60,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("Got %d alerts (premium)", len(data))
+            return data
+        log.warning("Premium HTTP %s: %s", r.status_code, r.text[:200])
+    except Exception as e:
+        log.warning("Premium failed: %s", e)
+
+    # Method 3: ScraperAPI with country_code (retry)
+    try:
+        log.info("Trying ScraperAPI (country US)...")
+        r = http.get(
+            "http://api.scraperapi.com",
+            params={
+                "api_key":      SCRAPER_API_KEY,
+                "url":          API_DISCONNECT,
+                "render":       "false",
+                "country_code": "us",
+            },
+            timeout=60,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("Got %d alerts (country us)", len(data))
+            return data
+        log.warning("Country HTTP %s: %s", r.status_code, r.text[:200])
+    except Exception as e:
+        log.warning("Country failed: %s", e)
+
+    # Method 4: AllOrigins free proxy
+    try:
+        log.info("Trying AllOrigins proxy...")
+        import urllib.parse
+        encoded = urllib.parse.quote(API_DISCONNECT, safe="")
+        r = http.get(
+            f"https://api.allorigins.win/raw?url={encoded}",
+            timeout=45,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("Got %d alerts (allorigins)", len(data))
+            return data
+    except Exception as e:
+        log.warning("AllOrigins failed: %s", e)
+
+    log.error("ALL fetch methods failed")
+    return []
         if r.status_code == 200:
             data = r.json()
             log.info("Got %d alerts from API", len(data))
