@@ -1,9 +1,9 @@
 """
-GWP Water Cut Notifier — GitHub Actions version.
-Fetches GWP API, reads subscribers.json, sends alerts to ALL matching users.
+GWP Water Notifier — GitHub Actions version.
+Fetches GWP API, reads subscribers.json, sends alerts to matching users.
 """
 from __future__ import annotations
-import os, json, logging, re, urllib.parse
+import os, json, logging, re
 import requests as http
 from datetime import datetime
 
@@ -11,23 +11,16 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 )
-log = logging.getLogger("water_bot")
+log = logging.getLogger("water_notifier")
 
 BOT_TOKEN       = os.environ["BOT_TOKEN"]
-ADMIN_CHAT_ID   = os.environ.get("CHAT_ID", "").strip()  # your personal chat
+ADMIN_CHAT_ID   = os.environ.get("CHAT_ID", "").strip()
 SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "").strip()
 
 SEEN_FILE        = "seen.json"
 SUBSCRIBERS_FILE = "subscribers.json"
 
 API_DISCONNECT = "https://www.gwp.ge/api/Disconnect/ByCity?cityId=1"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Accept":     "application/json",
-    "Referer":    "https://www.gwp.ge/",
-}
 
 DISTRICT_KA_EN = {
     "გლდანი": "Gldani", "დიდუბე": "Didube", "ვაკე": "Vake",
@@ -70,22 +63,25 @@ def load_subscribers() -> dict:
 # ── Fetch ──
 
 def fetch_alerts() -> list:
-    if SCRAPER_API_KEY:
-        try:
-            log.info("Fetching via ScraperAPI...")
-            r = http.get(
-                "http://api.scraperapi.com",
-                params={"api_key": SCRAPER_API_KEY,
-                        "url":     API_DISCONNECT,
-                        "render":  "false"},
-                timeout=60,
-            )
-            if r.status_code == 200:
-                data = r.json()
-                log.info("Got %d alerts", len(data))
-                return data
-        except Exception as e:
-            log.warning("ScraperAPI failed: %s", e)
+    if not SCRAPER_API_KEY:
+        log.error("SCRAPER_API_KEY missing!")
+        return []
+    try:
+        log.info("Fetching via ScraperAPI...")
+        r = http.get(
+            "http://api.scraperapi.com",
+            params={"api_key": SCRAPER_API_KEY,
+                    "url":     API_DISCONNECT,
+                    "render":  "false"},
+            timeout=60,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("Got %d alerts from API", len(data))
+            return data
+        log.warning("ScraperAPI HTTP %s: %s", r.status_code, r.text[:200])
+    except Exception as e:
+        log.warning("Fetch failed: %s", e)
     return []
 
 
@@ -95,9 +91,9 @@ def build_message(item: dict) -> str:
     district_ka = item.get("district", "")
     district_en = DISTRICT_KA_EN.get(district_ka, district_ka)
     address     = item.get("address", "")
-    email_text  = item.get("emailText", "")
+    email_text  = item.get("emailText", "") or ""
     code        = item.get("code", "")
-    wtype       = item.get("type", "")
+    wtype       = item.get("type", "") or ""
     status      = "🚨 Emergency" if "არაგეგმ" in wtype else "📋 Planned"
 
     if len(email_text) > 500:
@@ -113,7 +109,7 @@ def build_message(item: dict) -> str:
     )
 
 
-# ── Telegram ──
+# ── Telegram sender ──
 
 def send(chat_id: str, message: str) -> bool:
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
@@ -139,20 +135,25 @@ def send(chat_id: str, message: str) -> bool:
 # ── Matching ──
 
 def alert_matches_user(item: dict, user: dict) -> bool:
+    """Check if this alert matches user's subscriptions."""
     districts = user.get("districts", [])
     streets   = user.get("streets", [])
+
+    # Must have at least one district subscribed
     if not districts:
         return False
 
+    # Check district match
     district_ka = item.get("district", "")
     district_en = DISTRICT_KA_EN.get(district_ka, district_ka)
     if district_en not in districts:
         return False
 
+    # If streets specified, must match at least one
     if streets:
         searchable = (item.get("address", "") + " " +
                       item.get("emailText", "")).lower()
-        if not any(s in searchable for s in streets):
+        if not any(s.lower() in searchable for s in streets):
             return False
 
     return True
@@ -169,32 +170,43 @@ def main():
     log.info("Loaded %d subscribers, %d alerts, %d seen IDs",
              len(subs), len(alerts), len(seen))
 
+    if not alerts:
+        log.warning("No alerts fetched — skipping")
+        return
+
     new_ids = set()
     total_sent = 0
+    admin_sent = 0
 
     for item in alerts:
         code = item.get("code", "")
-        if not code or code in seen:
+        if not code:
+            continue
+
+        if code in seen:
             continue
 
         new_ids.add(code)
         msg = build_message(item)
+        log.info("New alert: %s (%s)", code, item.get("district", ""))
 
-        # Send to admin (you) always for monitoring
+        # Send to admin always (you)
         if ADMIN_CHAT_ID:
-            send(ADMIN_CHAT_ID, msg)
+            if send(ADMIN_CHAT_ID, msg):
+                admin_sent += 1
 
-        # Send to matching subscribers
+        # Send to subscribers who match
         for uid, user in subs.items():
             if not user.get("active", True):
                 continue
             if alert_matches_user(item, user):
                 if send(uid, msg):
                     total_sent += 1
+                    log.info("  → sent to subscriber %s", uid)
 
     save_seen(seen | new_ids)
-    log.info("=== Done: %d new alerts, %d msgs sent ===",
-             len(new_ids), total_sent)
+    log.info("=== Done: %d new, %d to admin, %d to subscribers ===",
+             len(new_ids), admin_sent, total_sent)
 
 
 if __name__ == "__main__":
