@@ -10,7 +10,9 @@
     "districts": [
       "Vake"
     ],
-    "streets": [],
+    "streets": [
+      "tskneti"
+    ],
     "active": true
   }
 }
