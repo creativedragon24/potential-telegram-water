@@ -1,9 +1,9 @@
 """
 GWP Water Notifier — GitHub Actions version.
-Fetches GWP API, reads subscribers.json, sends alerts to matching users.
+Multiple fallback methods for API access.
 """
 from __future__ import annotations
-import os, json, logging, re
+import os, json, logging, urllib.parse
 import requests as http
 from datetime import datetime
 
@@ -30,8 +30,6 @@ DISTRICT_KA_EN = {
     "სამგორი": "Samgori", "დიღომი": "Dighomi",
 }
 
-
-# ── File helpers ──
 
 def load_seen() -> set:
     if os.path.exists(SEEN_FILE):
@@ -60,17 +58,15 @@ def load_subscribers() -> dict:
     return {}
 
 
-# ── Fetch ──
-
 def fetch_alerts() -> list:
-    """Try multiple methods. Falls back if one fails."""
+    """Try multiple methods to fetch GWP alerts."""
     if not SCRAPER_API_KEY:
         log.error("SCRAPER_API_KEY missing!")
         return []
 
-    # Method 1: ScraperAPI standard
+    # Method 1: Standard
     try:
-        log.info("Trying ScraperAPI (standard)...")
+        log.info("Trying standard...")
         r = http.get(
             "http://api.scraperapi.com",
             params={
@@ -82,58 +78,36 @@ def fetch_alerts() -> list:
         )
         if r.status_code == 200:
             data = r.json()
-            log.info("Got %d alerts (standard)", len(data))
+            log.info("Standard OK (%d alerts)", len(data))
             return data
-        log.warning("Standard HTTP %s: %s", r.status_code, r.text[:200])
+        log.warning("Standard HTTP %s", r.status_code)
     except Exception as e:
         log.warning("Standard failed: %s", e)
 
-    # Method 2: ScraperAPI with premium=true
+    # Method 2: Premium
     try:
-        log.info("Trying ScraperAPI (premium)...")
+        log.info("Trying premium...")
         r = http.get(
             "http://api.scraperapi.com",
             params={
-                "api_key":  SCRAPER_API_KEY,
-                "url":      API_DISCONNECT,
-                "render":   "false",
-                "premium":  "true",
+                "api_key": SCRAPER_API_KEY,
+                "url":     API_DISCONNECT,
+                "render":  "false",
+                "premium": "true",
             },
             timeout=60,
         )
         if r.status_code == 200:
             data = r.json()
-            log.info("Got %d alerts (premium)", len(data))
+            log.info("Premium OK (%d alerts)", len(data))
             return data
-        log.warning("Premium HTTP %s: %s", r.status_code, r.text[:200])
+        log.warning("Premium HTTP %s", r.status_code)
     except Exception as e:
         log.warning("Premium failed: %s", e)
 
-    # Method 3: ScraperAPI with country_code (retry)
+    # Method 3: AllOrigins (free)
     try:
-        log.info("Trying ScraperAPI (country US)...")
-        r = http.get(
-            "http://api.scraperapi.com",
-            params={
-                "api_key":      SCRAPER_API_KEY,
-                "url":          API_DISCONNECT,
-                "render":       "false",
-                "country_code": "us",
-            },
-            timeout=60,
-        )
-        if r.status_code == 200:
-            data = r.json()
-            log.info("Got %d alerts (country us)", len(data))
-            return data
-        log.warning("Country HTTP %s: %s", r.status_code, r.text[:200])
-    except Exception as e:
-        log.warning("Country failed: %s", e)
-
-    # Method 4: AllOrigins free proxy
-    try:
-        log.info("Trying AllOrigins proxy...")
-        import urllib.parse
+        log.info("Trying allorigins...")
         encoded = urllib.parse.quote(API_DISCONNECT, safe="")
         r = http.get(
             f"https://api.allorigins.win/raw?url={encoded}",
@@ -141,24 +115,14 @@ def fetch_alerts() -> list:
         )
         if r.status_code == 200:
             data = r.json()
-            log.info("Got %d alerts (allorigins)", len(data))
+            log.info("AllOrigins OK (%d alerts)", len(data))
             return data
     except Exception as e:
         log.warning("AllOrigins failed: %s", e)
 
-    log.error("ALL fetch methods failed")
-    return []
-        if r.status_code == 200:
-            data = r.json()
-            log.info("Got %d alerts from API", len(data))
-            return data
-        log.warning("ScraperAPI HTTP %s: %s", r.status_code, r.text[:200])
-    except Exception as e:
-        log.warning("Fetch failed: %s", e)
+    log.error("ALL methods failed")
     return []
 
-
-# ── Message ──
 
 def build_message(item: dict) -> str:
     district_ka = item.get("district", "")
@@ -182,8 +146,6 @@ def build_message(item: dict) -> str:
     )
 
 
-# ── Telegram sender ──
-
 def send(chat_id: str, message: str) -> bool:
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     try:
@@ -196,7 +158,7 @@ def send(chat_id: str, message: str) -> bool:
         if r.status_code == 200:
             return True
         if r.status_code == 403:
-            log.info("User %s blocked the bot", chat_id)
+            log.info("User %s blocked bot", chat_id)
         else:
             log.warning("TG %s for %s: %s", r.status_code, chat_id, r.text[:200])
         return False
@@ -205,24 +167,18 @@ def send(chat_id: str, message: str) -> bool:
         return False
 
 
-# ── Matching ──
-
 def alert_matches_user(item: dict, user: dict) -> bool:
-    """Check if this alert matches user's subscriptions."""
     districts = user.get("districts", [])
     streets   = user.get("streets", [])
 
-    # Must have at least one district subscribed
     if not districts:
         return False
 
-    # Check district match
     district_ka = item.get("district", "")
     district_en = DISTRICT_KA_EN.get(district_ka, district_ka)
     if district_en not in districts:
         return False
 
-    # If streets specified, must match at least one
     if streets:
         searchable = (item.get("address", "") + " " +
                       item.get("emailText", "")).lower()
@@ -231,8 +187,6 @@ def alert_matches_user(item: dict, user: dict) -> bool:
 
     return True
 
-
-# ── Main ──
 
 def main():
     log.info("=== Water Notifier Started ===")
@@ -255,7 +209,6 @@ def main():
         code = item.get("code", "")
         if not code:
             continue
-
         if code in seen:
             continue
 
@@ -263,12 +216,10 @@ def main():
         msg = build_message(item)
         log.info("New alert: %s (%s)", code, item.get("district", ""))
 
-        # Send to admin always (you)
         if ADMIN_CHAT_ID:
             if send(ADMIN_CHAT_ID, msg):
                 admin_sent += 1
 
-        # Send to subscribers who match
         for uid, user in subs.items():
             if not user.get("active", True):
                 continue
@@ -278,7 +229,7 @@ def main():
                     log.info("  → sent to subscriber %s", uid)
 
     save_seen(seen | new_ids)
-    log.info("=== Done: %d new, %d to admin, %d to subscribers ===",
+    log.info("=== Done: %d new, %d to admin, %d to subs ===",
              len(new_ids), admin_sent, total_sent)
 
 
