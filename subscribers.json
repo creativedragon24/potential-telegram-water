@@ -9,7 +9,9 @@
     "active": true
   },
   "8907568352": {
-    "districts": [],
+    "districts": [
+      "Vake"
+    ],
     "streets": [],
     "active": true,
     "lang": "en"
