@@ -12,7 +12,9 @@
     "districts": [
       "Vake"
     ],
-    "streets": [],
+    "streets": [
+      "Kavsadze"
+    ],
     "active": true,
     "lang": "en"
   }
