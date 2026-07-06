@@ -12,7 +12,9 @@
     "districts": [
       "Chugureti"
     ],
-    "streets": [],
+    "streets": [
+      "Senaki"
+    ],
     "active": true,
     "lang": "en"
   }
