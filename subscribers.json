@@ -10,7 +10,9 @@
     "lang": "en"
   },
   "2102696562": {
-    "districts": [],
+    "districts": [
+      "Mtatsminda"
+    ],
     "streets": [],
     "active": true,
     "lang": "ka"
