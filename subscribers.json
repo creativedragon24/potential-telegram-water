@@ -13,7 +13,9 @@
     "districts": [
       "Mtatsminda"
     ],
-    "streets": [],
+    "streets": [
+      "რევაზ ჩხეიძე"
+    ],
     "active": true,
     "lang": "en"
   }
