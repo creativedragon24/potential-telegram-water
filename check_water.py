@@ -1,11 +1,13 @@
 """
 GWP Water Notifier — GitHub Actions version.
-- Multiple fallback methods for API access
-- Saves current_alerts.json for bot to read (0 credits per new user)
-- Bilingual notification support
+- Multiple fallback fetch methods
+- Saves current_alerts.json (0 credits per new user)
+- Saves streets_db.json (learning system)
+- Bilingual notifications with clear labels
 """
 from __future__ import annotations
 import os
+import re
 import json
 import logging
 import urllib.parse
@@ -25,6 +27,7 @@ SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "").strip()
 SEEN_FILE            = "seen.json"
 SUBSCRIBERS_FILE     = "subscribers.json"
 CURRENT_ALERTS_FILE  = "current_alerts.json"
+STREETS_DB_FILE      = "streets_db.json"
 
 API_DISCONNECT = "https://www.gwp.ge/api/Disconnect/ByCity?cityId=1"
 
@@ -40,9 +43,7 @@ DISTRICT_KA_EN = {
 DISTRICT_EN_KA = {v: k for k, v in DISTRICT_KA_EN.items()}
 
 
-# ─────────────────────────────────────────────
-# File helpers
-# ─────────────────────────────────────────────
+# ── File helpers ──
 
 def load_seen() -> set:
     if os.path.exists(SEEN_FILE):
@@ -74,7 +75,7 @@ def load_subscribers() -> dict:
 
 
 def save_current_alerts(alerts: list):
-    """Save current alerts for the bot to read (no API calls needed)."""
+    """Save current alerts for the bot to read."""
     try:
         enriched = []
         for item in alerts:
@@ -103,26 +104,85 @@ def save_current_alerts(alerts: list):
         log.warning("Save current alerts failed: %s", e)
 
 
-# ─────────────────────────────────────────────
-# Fetch with fallbacks
-# ─────────────────────────────────────────────
+def save_streets_from_alerts(alerts: list):
+    """Extract and save all streets to streets_db.json (grows over time)."""
+    db = {}
+    if os.path.exists(STREETS_DB_FILE):
+        try:
+            with open(STREETS_DB_FILE, "r", encoding="utf-8") as f:
+                db = json.load(f)
+        except Exception:
+            pass
+
+    def normalize(text):
+        return re.sub(r'[^\w\s]', ' ', text.lower()).strip()
+
+    new_count = 0
+    for item in alerts:
+        d_ka = item.get("district", "")
+        d_en = DISTRICT_KA_EN.get(d_ka, d_ka)
+        email = item.get("emailText", "") or ""
+        address = item.get("address", "")
+
+        for source in [address, email]:
+            parts = re.split(r'[,;\n]', source)
+            for part in parts:
+                part = part.strip()
+                part = re.sub(r'^\s*(ისანი|ვაკე|საბურთალო|გლდანი|დიდუბე|მთაწმინდა|კრწანისი|ჩუღურეთი|ნაძალადევი|სამგორი|დიღომი|წყნეთი),?\s*', '', part)
+                part = re.sub(r'\s+', ' ', part).strip()
+
+                if len(part) < 3 or len(part) > 100:
+                    continue
+
+                if any(w in part.lower() for w in [
+                    'due to', 'გამო', 'დაზიან', 'network', 'ქსელ',
+                    'water', 'წყალ', 'from', 'დან', 'until', 'მდე',
+                    'restoration', 'აღდგენ', '2026', '2025', '2027',
+                ]):
+                    continue
+
+                is_street = (
+                    'ქუჩ' in part or 'street' in part.lower() or
+                    'გამზ' in part or 'ave' in part.lower() or
+                    'შესახვ' in part or 'ჩიხი' in part or 'ჩიხს' in part or
+                    re.search(r'[ა-ჰ]{4,}', part) or
+                    re.search(r'[a-zA-Z]{4,}', part)
+                )
+
+                if not is_street:
+                    continue
+
+                key = normalize(part)
+                if key not in db:
+                    db[key] = {
+                        "name": part,
+                        "district": d_en,
+                        "seen_count": 1,
+                    }
+                    new_count += 1
+                else:
+                    db[key]["seen_count"] = db[key].get("seen_count", 0) + 1
+
+    try:
+        with open(STREETS_DB_FILE, "w", encoding="utf-8") as f:
+            json.dump(db, f, ensure_ascii=False, indent=2)
+        log.info("Streets DB: %d total, %d new", len(db), new_count)
+    except Exception as e:
+        log.warning("Save streets DB failed: %s", e)
+
+
+# ── Fetch with fallbacks ──
 
 def fetch_alerts() -> list:
-    """Try multiple methods to fetch GWP alerts."""
     if not SCRAPER_API_KEY:
         log.error("SCRAPER_API_KEY missing!")
         return []
 
-    # Method 1: Standard (1 credit)
     try:
         log.info("Trying standard...")
         r = http.get(
             "http://api.scraperapi.com",
-            params={
-                "api_key": SCRAPER_API_KEY,
-                "url":     API_DISCONNECT,
-                "render":  "false",
-            },
+            params={"api_key": SCRAPER_API_KEY, "url": API_DISCONNECT, "render": "false"},
             timeout=60,
         )
         if r.status_code == 200:
@@ -133,39 +193,27 @@ def fetch_alerts() -> list:
     except Exception as e:
         log.warning("Standard failed: %s", e)
 
-    # Method 2: Premium (10 credits)
     try:
         log.info("Trying premium...")
         r = http.get(
             "http://api.scraperapi.com",
-            params={
-                "api_key": SCRAPER_API_KEY,
-                "url":     API_DISCONNECT,
-                "render":  "false",
-                "premium": "true",
-            },
+            params={"api_key": SCRAPER_API_KEY, "url": API_DISCONNECT,
+                    "render": "false", "premium": "true"},
             timeout=60,
         )
         if r.status_code == 200:
             data = r.json()
             log.info("Premium OK (%d alerts)", len(data))
             return data
-        log.warning("Premium HTTP %s", r.status_code)
     except Exception as e:
         log.warning("Premium failed: %s", e)
 
-    # Method 3: AllOrigins (free unlimited)
     try:
         log.info("Trying allorigins...")
         encoded = urllib.parse.quote(API_DISCONNECT, safe="")
-        r = http.get(
-            f"https://api.allorigins.win/raw?url={encoded}",
-            timeout=45,
-        )
+        r = http.get(f"https://api.allorigins.win/raw?url={encoded}", timeout=45)
         if r.status_code == 200:
-            data = r.json()
-            log.info("AllOrigins OK (%d alerts)", len(data))
-            return data
+            return r.json()
     except Exception as e:
         log.warning("AllOrigins failed: %s", e)
 
@@ -173,12 +221,9 @@ def fetch_alerts() -> list:
     return []
 
 
-# ─────────────────────────────────────────────
-# Message builder — bilingual + full text
-# ─────────────────────────────────────────────
+# ── Message builder (bilingual + full text + Georgian note) ──
 
 def build_message(item: dict, lang: str = "en") -> str:
-    """Build alert message in user's language with FULL text (no truncation)."""
     district_ka = item.get("district", "")
     district_en = DISTRICT_KA_EN.get(district_ka, district_ka)
     address     = item.get("address", "")
@@ -195,17 +240,18 @@ def build_message(item: dict, lang: str = "en") -> str:
         a_label  = "🏠 <b>მისამართი:</b>"
         det_lbl  = "📝 <b>დეტალები:</b>"
         aff_lbl  = "🏘️ <b>დაზარალებული ქუჩები:</b>"
+        note     = ""
         district_display = district_ka
     else:
         title    = "🚰 <b>WATER SUPPLY INTERRUPTION</b>"
         status   = "🚨 Emergency" if is_emergency else "📋 Planned"
         d_label  = "📍 <b>District:</b>"
         a_label  = "🏠 <b>Address:</b>"
-        det_lbl  = "📝 <b>Details:</b>"
+        det_lbl  = "📝 <b>Details (original from GWP):</b>"
         aff_lbl  = "🏘️ <b>Affected streets:</b>"
+        note     = "\nℹ️ <i>Content is from GWP in Georgian.</i>\n"
         district_display = district_en
 
-    # Extract affected streets
     affected = ""
     for marker in ["შეუწყდება:", "შეუწყდა:", "შეეზღუდება:"]:
         if marker in email_text:
@@ -219,19 +265,20 @@ def build_message(item: dict, lang: str = "en") -> str:
     if affected:
         msg += f"{aff_lbl}\n{affected}\n\n"
 
-    msg += f"{det_lbl}\n{email_text}\n\n"
-    msg += f"🆔 <code>{code}</code>"
+    msg += f"{det_lbl}\n{email_text}\n"
 
-    # Telegram message limit is 4096 chars
+    if note:
+        msg += note
+
+    msg += f"\n🆔 <code>{code}</code>"
+
     if len(msg) > 4000:
         msg = msg[:3900] + "\n\n... (truncated)"
 
     return msg
 
 
-# ─────────────────────────────────────────────
-# Telegram sender
-# ─────────────────────────────────────────────
+# ── Telegram sender ──
 
 def send(chat_id: str, message: str) -> bool:
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
@@ -254,25 +301,20 @@ def send(chat_id: str, message: str) -> bool:
         return False
 
 
-# ─────────────────────────────────────────────
-# Matching — district + street filter
-# ─────────────────────────────────────────────
+# ── Matching ──
 
 def alert_matches_user(item: dict, user: dict) -> bool:
-    """Check if this alert matches user's subscriptions."""
     districts = user.get("districts", [])
     streets   = user.get("streets", [])
 
     if not districts:
         return False
 
-    # District match
     district_ka = item.get("district", "")
     district_en = DISTRICT_KA_EN.get(district_ka, district_ka)
     if district_en not in districts:
         return False
 
-    # Street match (if streets specified)
     if streets:
         searchable = (item.get("address", "") + " " +
                       item.get("emailText", "")).lower()
@@ -282,9 +324,7 @@ def alert_matches_user(item: dict, user: dict) -> bool:
     return True
 
 
-# ─────────────────────────────────────────────
-# Main
-# ─────────────────────────────────────────────
+# ── Main ──
 
 def main():
     log.info("=== Water Notifier Started ===")
@@ -299,8 +339,11 @@ def main():
         log.warning("No alerts fetched — skipping")
         return
 
-    # Save current alerts for bot to read (0 credits per new user!)
+    # Save current alerts for bot
     save_current_alerts(alerts)
+
+    # Save streets to learning DB
+    save_streets_from_alerts(alerts)
 
     new_ids = set()
     total_sent = 0
@@ -308,21 +351,19 @@ def main():
 
     for item in alerts:
         code = item.get("code", "")
-        if not code:
-            continue
-        if code in seen:
+        if not code or code in seen:
             continue
 
         new_ids.add(code)
         log.info("New alert: %s (%s)", code, item.get("district", ""))
 
-        # Send to admin in English (or set your preference)
+        # Admin gets English
         if ADMIN_CHAT_ID:
             admin_msg = build_message(item, lang="en")
             if send(ADMIN_CHAT_ID, admin_msg):
                 admin_sent += 1
 
-        # Send to matching subscribers in THEIR language
+        # Subscribers get in THEIR language
         for uid, user in subs.items():
             if not user.get("active", True):
                 continue
