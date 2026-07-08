@@ -336,10 +336,23 @@ def main():
              len(subs), len(alerts), len(seen))
 
     if not alerts:
-        log.warning("No alerts fetched — skipping")
-        return
+    log.warning("No alerts fetched — saving empty state")
+    # Still save empty file so bot knows there's nothing
+    try:
+        payload = {
+            "updated_at": datetime.utcnow().isoformat() + "Z",
+            "count": 0,
+            "alerts": [],
+        }
+        with open(CURRENT_ALERTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        log.info("Saved empty alerts state")
+    except Exception as e:
+        log.warning("Save empty failed: %s", e)
+    return
 
-    # Save current alerts for bot
+# Save current alerts for bot
+save_current_alerts(alerts)
     save_current_alerts(alerts)
 
     # Save streets to learning DB
