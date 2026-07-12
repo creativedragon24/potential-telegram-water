@@ -37,11 +37,9 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Add files if they exist (won't fail if missing)
           [ -f seen.json ] && git add seen.json || echo "No seen.json"
           [ -f current_alerts.json ] && git add current_alerts.json || echo "No current_alerts.json"
           [ -f streets_db.json ] && git add streets_db.json || echo "No streets_db.json"
           
-          # Only commit if there are changes
           git diff --staged --quiet || git commit -m "chore: update data [skip ci]"
           git push
