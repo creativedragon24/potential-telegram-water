@@ -1,6 +1,6 @@
 """
 GWP Water Notifier - GitHub Actions version.
-Uses Cloudflare Worker (primary) + multiple fallbacks.
+Cloudflare Worker (primary) + multiple fallbacks.
 """
 from __future__ import annotations
 import os
@@ -188,10 +188,7 @@ def save_streets_from_alerts(alerts: list):
         log.warning("Save streets DB failed: %s", e)
 
 
-# ── Fetch methods (in priority order) ──
-
 def try_cloudflare_worker():
-    """Cloudflare Worker - best method, uses residential-like IPs."""
     if not CLOUDFLARE_WORKER:
         return None
     try:
@@ -244,7 +241,6 @@ def try_scraperapi_premium():
             data = r.json()
             log.info("ScraperAPI premium OK (%d alerts)", len(data))
             return data
-        log.warning("ScraperAPI premium HTTP %s", r.status_code)
     except Exception as e:
         log.warning("ScraperAPI premium error: %s", e)
     return None
@@ -258,7 +254,6 @@ def try_direct():
             data = r.json()
             log.info("Direct OK (%d alerts)", len(data))
             return data
-        log.warning("Direct HTTP %s", r.status_code)
     except Exception as e:
         log.warning("Direct error: %s", e)
     return None
@@ -294,80 +289,31 @@ def try_corsproxy():
     return None
 
 
-def try_thingproxy():
-    try:
-        log.info("Trying thingproxy...")
-        r = http.get(
-            "https://thingproxy.freeboard.io/fetch/" + API_DISCONNECT,
-            headers=HEADERS,
-            timeout=30,
-        )
-        if r.status_code == 200:
-            data = r.json()
-            log.info("thingproxy OK (%d alerts)", len(data))
-            return data
-    except Exception as e:
-        log.warning("thingproxy error: %s", e)
-    return None
-
-
-def try_codetabs():
-    try:
-        log.info("Trying codetabs...")
-        r = http.get(
-            "https://api.codetabs.com/v1/proxy?quest=" + API_DISCONNECT,
-            timeout=30,
-        )
-        if r.status_code == 200:
-            data = r.json()
-            log.info("codetabs OK (%d alerts)", len(data))
-            return data
-    except Exception as e:
-        log.warning("codetabs error: %s", e)
-    return None
-
-
 def fetch_alerts() -> list:
     """Try Cloudflare Worker first, then all fallbacks."""
 
-    # PRIMARY: Cloudflare Worker (best - residential-like)
     data = try_cloudflare_worker()
     if data is not None:
         return data
 
-    # Fallback 1: ScraperAPI standard (with retry)
     for attempt in range(2):
         data = try_scraperapi_standard()
         if data is not None:
             return data
 
-    # Fallback 2: ScraperAPI premium
     data = try_scraperapi_premium()
     if data is not None:
         return data
 
-    # Fallback 3: Direct
     data = try_direct()
     if data is not None:
         return data
 
-    # Fallback 4: AllOrigins
     data = try_allorigins()
     if data is not None:
         return data
 
-    # Fallback 5: corsproxy
     data = try_corsproxy()
-    if data is not None:
-        return data
-
-    # Fallback 6: thingproxy
-    data = try_thingproxy()
-    if data is not None:
-        return data
-
-    # Fallback 7: codetabs
-    data = try_codetabs()
     if data is not None:
         return data
 
