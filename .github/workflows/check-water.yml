@@ -30,6 +30,7 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+          CLOUDFLARE_WORKER: ${{ secrets.CLOUDFLARE_WORKER }}
         run: python check_water.py
 
       - name: Save data files
@@ -40,7 +41,7 @@ jobs:
           if [ -f current_alerts.json ]; then git add current_alerts.json; fi
           if [ -f streets_db.json ]; then git add streets_db.json; fi
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
             git commit -m "chore: update data [skip ci]"
             git push
