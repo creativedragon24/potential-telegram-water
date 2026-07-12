@@ -1,9 +1,9 @@
 """
-GWP Water Notifier — GitHub Actions version.
+GWP Water Notifier - GitHub Actions version.
 - Multiple fallback fetch methods
-- Saves current_alerts.json (0 credits per new user)
+- Saves current_alerts.json for bot (0 credits per new user)
 - Saves streets_db.json (learning system)
-- Bilingual notifications with clear labels
+- Bilingual notifications
 """
 from __future__ import annotations
 import os
@@ -43,8 +43,6 @@ DISTRICT_KA_EN = {
 DISTRICT_EN_KA = {v: k for k, v in DISTRICT_KA_EN.items()}
 
 
-# ── File helpers ──
-
 def load_seen() -> set:
     if os.path.exists(SEEN_FILE):
         try:
@@ -75,7 +73,6 @@ def load_subscribers() -> dict:
 
 
 def save_current_alerts(alerts: list):
-    """Save current alerts for the bot to read."""
     try:
         enriched = []
         for item in alerts:
@@ -104,8 +101,23 @@ def save_current_alerts(alerts: list):
         log.warning("Save current alerts failed: %s", e)
 
 
+def save_empty_alerts_state():
+    """Save empty state when no alerts fetched, so file always exists."""
+    try:
+        payload = {
+            "updated_at": datetime.utcnow().isoformat() + "Z",
+            "count": 0,
+            "alerts": [],
+        }
+        with open(CURRENT_ALERTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        log.info("Saved empty alerts state")
+    except Exception as e:
+        log.warning("Save empty failed: %s", e)
+
+
 def save_streets_from_alerts(alerts: list):
-    """Extract and save all streets to streets_db.json (grows over time)."""
+    """Extract and save all streets to streets_db.json (learning system)."""
     db = {}
     if os.path.exists(STREETS_DB_FILE):
         try:
@@ -171,8 +183,6 @@ def save_streets_from_alerts(alerts: list):
         log.warning("Save streets DB failed: %s", e)
 
 
-# ── Fetch with fallbacks ──
-
 def fetch_alerts() -> list:
     if not SCRAPER_API_KEY:
         log.error("SCRAPER_API_KEY missing!")
@@ -220,8 +230,6 @@ def fetch_alerts() -> list:
     log.error("ALL methods failed")
     return []
 
-
-# ── Message builder (bilingual + full text + Georgian note) ──
 
 def build_message(item: dict, lang: str = "en") -> str:
     district_ka = item.get("district", "")
@@ -278,8 +286,6 @@ def build_message(item: dict, lang: str = "en") -> str:
     return msg
 
 
-# ── Telegram sender ──
-
 def send(chat_id: str, message: str) -> bool:
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     try:
@@ -300,8 +306,6 @@ def send(chat_id: str, message: str) -> bool:
         log.warning("Send error: %s", e)
         return False
 
-
-# ── Matching ──
 
 def alert_matches_user(item: dict, user: dict) -> bool:
     districts = user.get("districts", [])
@@ -324,8 +328,6 @@ def alert_matches_user(item: dict, user: dict) -> bool:
     return True
 
 
-# ── Main ──
-
 def main():
     log.info("=== Water Notifier Started ===")
     seen   = load_seen()
@@ -336,26 +338,11 @@ def main():
              len(subs), len(alerts), len(seen))
 
     if not alerts:
-    log.warning("No alerts fetched — saving empty state")
-    # Still save empty file so bot knows there's nothing
-    try:
-        payload = {
-            "updated_at": datetime.utcnow().isoformat() + "Z",
-            "count": 0,
-            "alerts": [],
-        }
-        with open(CURRENT_ALERTS_FILE, "w", encoding="utf-8") as f:
-            json.dump(payload, f, ensure_ascii=False, indent=2)
-        log.info("Saved empty alerts state")
-    except Exception as e:
-        log.warning("Save empty failed: %s", e)
-    return
+        log.warning("No alerts fetched - saving empty state")
+        save_empty_alerts_state()
+        return
 
-# Save current alerts for bot
-save_current_alerts(alerts)
     save_current_alerts(alerts)
-
-    # Save streets to learning DB
     save_streets_from_alerts(alerts)
 
     new_ids = set()
@@ -370,13 +357,11 @@ save_current_alerts(alerts)
         new_ids.add(code)
         log.info("New alert: %s (%s)", code, item.get("district", ""))
 
-        # Admin gets English
         if ADMIN_CHAT_ID:
             admin_msg = build_message(item, lang="en")
             if send(ADMIN_CHAT_ID, admin_msg):
                 admin_sent += 1
 
-        # Subscribers get in THEIR language
         for uid, user in subs.items():
             if not user.get("active", True):
                 continue
@@ -385,7 +370,7 @@ save_current_alerts(alerts)
                 user_msg  = build_message(item, lang=user_lang)
                 if send(uid, user_msg):
                     total_sent += 1
-                    log.info("  → sent to %s (lang=%s)", uid, user_lang)
+                    log.info("  -> sent to %s (lang=%s)", uid, user_lang)
 
     save_seen(seen | new_ids)
     log.info("=== Done: %d new, %d to admin, %d to subs ===",
