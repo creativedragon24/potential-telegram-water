@@ -1,6 +1,6 @@
 """
 GWP Water Notifier - GitHub Actions version.
-Multiple fallback fetch methods.
+Uses Cloudflare Worker (primary) + multiple fallbacks.
 """
 from __future__ import annotations
 import os
@@ -17,9 +17,10 @@ logging.basicConfig(
 )
 log = logging.getLogger("water_notifier")
 
-BOT_TOKEN       = os.environ["BOT_TOKEN"]
-ADMIN_CHAT_ID   = os.environ.get("CHAT_ID", "").strip()
-SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "").strip()
+BOT_TOKEN            = os.environ["BOT_TOKEN"]
+ADMIN_CHAT_ID        = os.environ.get("CHAT_ID", "").strip()
+SCRAPER_API_KEY      = os.environ.get("SCRAPER_API_KEY", "").strip()
+CLOUDFLARE_WORKER    = os.environ.get("CLOUDFLARE_WORKER", "").strip()
 
 SEEN_FILE            = "seen.json"
 SUBSCRIBERS_FILE     = "subscribers.json"
@@ -187,6 +188,28 @@ def save_streets_from_alerts(alerts: list):
         log.warning("Save streets DB failed: %s", e)
 
 
+# ── Fetch methods (in priority order) ──
+
+def try_cloudflare_worker():
+    """Cloudflare Worker - best method, uses residential-like IPs."""
+    if not CLOUDFLARE_WORKER:
+        return None
+    try:
+        log.info("Trying Cloudflare Worker...")
+        r = http.get(CLOUDFLARE_WORKER, timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            if isinstance(data, list):
+                log.info("Cloudflare Worker OK (%d alerts)", len(data))
+                return data
+            log.warning("Cloudflare returned non-list: %s", str(data)[:100])
+        else:
+            log.warning("Cloudflare HTTP %s", r.status_code)
+    except Exception as e:
+        log.warning("Cloudflare error: %s", e)
+    return None
+
+
 def try_scraperapi_standard():
     if not SCRAPER_API_KEY:
         return None
@@ -229,7 +252,7 @@ def try_scraperapi_premium():
 
 def try_direct():
     try:
-        log.info("Trying direct request...")
+        log.info("Trying direct...")
         r = http.get(API_DISCONNECT, headers=HEADERS, timeout=30)
         if r.status_code == 200:
             data = r.json()
@@ -247,9 +270,11 @@ def try_allorigins():
         encoded = urllib.parse.quote(API_DISCONNECT, safe="")
         r = http.get("https://api.allorigins.win/raw?url=" + encoded, timeout=45)
         if r.status_code == 200:
-            data = r.json()
-            log.info("AllOrigins OK (%d alerts)", len(data))
-            return data
+            text = r.text.strip()
+            if text.startswith("[") or text.startswith("{"):
+                data = json.loads(text)
+                log.info("AllOrigins OK (%d alerts)", len(data))
+                return data
     except Exception as e:
         log.warning("AllOrigins error: %s", e)
     return None
@@ -269,26 +294,80 @@ def try_corsproxy():
     return None
 
 
+def try_thingproxy():
+    try:
+        log.info("Trying thingproxy...")
+        r = http.get(
+            "https://thingproxy.freeboard.io/fetch/" + API_DISCONNECT,
+            headers=HEADERS,
+            timeout=30,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("thingproxy OK (%d alerts)", len(data))
+            return data
+    except Exception as e:
+        log.warning("thingproxy error: %s", e)
+    return None
+
+
+def try_codetabs():
+    try:
+        log.info("Trying codetabs...")
+        r = http.get(
+            "https://api.codetabs.com/v1/proxy?quest=" + API_DISCONNECT,
+            timeout=30,
+        )
+        if r.status_code == 200:
+            data = r.json()
+            log.info("codetabs OK (%d alerts)", len(data))
+            return data
+    except Exception as e:
+        log.warning("codetabs error: %s", e)
+    return None
+
+
 def fetch_alerts() -> list:
-    """Try multiple methods with retries."""
+    """Try Cloudflare Worker first, then all fallbacks."""
+
+    # PRIMARY: Cloudflare Worker (best - residential-like)
+    data = try_cloudflare_worker()
+    if data is not None:
+        return data
+
+    # Fallback 1: ScraperAPI standard (with retry)
     for attempt in range(2):
         data = try_scraperapi_standard()
         if data is not None:
             return data
 
+    # Fallback 2: ScraperAPI premium
     data = try_scraperapi_premium()
     if data is not None:
         return data
 
+    # Fallback 3: Direct
     data = try_direct()
     if data is not None:
         return data
 
+    # Fallback 4: AllOrigins
     data = try_allorigins()
     if data is not None:
         return data
 
+    # Fallback 5: corsproxy
     data = try_corsproxy()
+    if data is not None:
+        return data
+
+    # Fallback 6: thingproxy
+    data = try_thingproxy()
+    if data is not None:
+        return data
+
+    # Fallback 7: codetabs
+    data = try_codetabs()
     if data is not None:
         return data
 
@@ -394,6 +473,7 @@ def alert_matches_user(item: dict, user: dict) -> bool:
 
 def main():
     log.info("=== Water Notifier Started ===")
+    log.info("Cloudflare Worker: %s", "SET" if CLOUDFLARE_WORKER else "NOT SET")
     seen = load_seen()
     subs = load_subscribers()
     alerts = fetch_alerts()
