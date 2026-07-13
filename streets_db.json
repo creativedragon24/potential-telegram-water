@@ -102,42 +102,42 @@
   "რეხის i": {
     "name": "რეხის I",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "iii ქუჩები": {
     "name": "III ქუჩები",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "მახათას აღმართის ქუჩა": {
     "name": "მახათას აღმართის ქუჩა",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ელისო ჭიპაშვილი": {
     "name": "ელისო ჭიპაშვილი",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "მარინე უთმელიძე": {
     "name": "მარინე უთმელიძე",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "თამარ მამუმაშვილი": {
     "name": "თამარ მამუმაშვილი",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "გია ქარსელაძე": {
     "name": "გია ქარსელაძე",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "მანანა ლოლაძე": {
     "name": "მანანა ლოლაძე",
     "district": "Chugureti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "სოფ  დიდი ლილო": {
     "name": "სოფ. დიდი ლილო",
@@ -162,57 +162,57 @@
   "მუხრანის ქ  n70 თან": {
     "name": "მუხრანის ქ. N70-თან",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "რატევანის ქუჩას და შესახვევებს": {
     "name": "რატევანის ქუჩას და შესახვევებს",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ნაგომარის": {
     "name": "ნაგომარის",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "შენგელაიას": {
     "name": "შენგელაიას",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ჟინვალის": {
     "name": "ჟინვალის",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ბოგვის": {
     "name": "ბოგვის",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ჭოპორტის ქ თავის შესახვევით": {
     "name": "ჭოპორტის ქ თავის შესახვევით",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ტიბაანისა და გარეჯელის ქუჩებს": {
     "name": "ტიბაანისა და გარეჯელის ქუჩებს",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ლიახვის ქ  n10 54  ლუწებს": {
     "name": "ლიახვის ქ. N10-54 (ლუწებს)",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "27 55 კენტებს   ჩარგლის n25": {
     "name": "27-55(კენტებს). ჩარგლის N25",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "მამუკა ბენიაშვილის ქ": {
     "name": "მამუკა ბენიაშვილის ქ",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დაბა შინდისი": {
     "name": "დაბა შინდისი",
@@ -242,7 +242,7 @@
   "სოფ  დიდი ლილო პირველი სატუმბოს სადგურითან": {
     "name": "სოფ. დიდი ლილო პირველი სატუმბოს სადგურითან",
     "district": "Samgori",
-    "seen_count": 7
+    "seen_count": 8
   },
   "დიდი ლილო სრულად": {
     "name": "დიდი ლილო სრულად",
@@ -462,12 +462,12 @@
   "ჭალადიდის ქ  n14 თან": {
     "name": "ჭალადიდის ქ. N14-თან",
     "district": "Chugureti",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ჭალადიდის და სენაკის ქუჩა სრულად": {
     "name": "ჭალადიდის და სენაკის ქუჩა სრულად",
     "district": "Chugureti",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ბენდელიანის ქუჩას და ცირკის შენობას": {
     "name": "ბენდელიანის ქუჩას და ცირკის შენობას",
@@ -507,6 +507,11 @@
   "მახათას აღმართის ქ  n68 თან": {
     "name": "მახათას აღმართის ქ. N68-თან",
     "district": "Chugureti",
+    "seen_count": 2
+  },
+  "ია კარგარეთელის ქ  n3ა თან": {
+    "name": "ია კარგარეთელის ქ. N3ა-თან",
+    "district": "Didube",
     "seen_count": 1
   }
 }
