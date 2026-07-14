@@ -612,7 +612,7 @@
   "ხანძთის ქ  2 შეს  n 23 თან": {
     "name": "ხანძთის ქ. 2 შეს. N 23-თან",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დ აღმაშენებლის ქ  n 2 ა  სთან": {
     "name": "დ.აღმაშენებლის ქ. N 2 ა -სთან",
@@ -627,17 +627,17 @@
   "ჯავახეთის ქ  n 1 თან": {
     "name": "ჯავახეთის ქ. N 1-თან",
     "district": "Samgori",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მე 8 და მე 9 კვარტლებს": {
     "name": "მე-8 და მე-9 კვარტლებს",
     "district": "Samgori",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ჯავახეთის n1": {
     "name": "ჯავახეთის N1",
     "district": "Samgori",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ბახტრიონის ქ  n 12 ში": {
     "name": "ბახტრიონის ქ. N 12-ში",
@@ -647,56 +647,81 @@
   "ჩარგლის ქ  n 67დ სთან": {
     "name": "ჩარგლის ქ. N 67დ-სთან",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "თიანეთის ქუჩა  ჩარგლის გას": {
     "name": "თიანეთის ქუჩა. ჩარგლის გას.",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ტარიელის ქ  n 6 თან": {
     "name": "ტარიელის ქ. N 6-თან",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ხუდადოვის ქ  n 173 თან": {
     "name": "ხუდადოვის ქ. N 173-თან",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მუხიანი 2 სატუმბოში": {
     "name": "მუხიანი 2 სატუმბოში",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბარბარე ბაირამაშვილის და გობრონიძის n 46 ქუჩებს": {
     "name": "ბარბარე ბაირამაშვილის და გობრონიძის N 46 ქუჩებს.",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შალვა დადიანის ქ  n 9 ში": {
     "name": "შალვა დადიანის ქ. N 9-ში",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ალექსანდრე პუშკინის n1 n15  კენტები": {
     "name": "ალექსანდრე პუშკინის N1-N15 (კენტები)",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "აკაკი წერეთელის გამზ n 60 ში": {
     "name": "აკაკი წერეთელის გამზ N 60-ში",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "n60  ძველი ნომერაციით წერეთლის გამზ n7": {
     "name": "N60 (ძველი ნომერაციით წერეთლის გამზ N7)",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "n70 გოგოლაურის 1 შეს": {
     "name": "N70 გოგოლაურის 1 შეს",
     "district": "Didube",
+    "seen_count": 2
+  },
+  "ლობჟანიძის ქუჩაზე": {
+    "name": "ლობჟანიძის ქუჩაზე",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ქეთევან წამებულის გამზ  n67": {
+    "name": "ქეთევან წამებულის გამზ. N67",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "წამებულის i ჩიხი": {
+    "name": "წამებულის I ჩიხი",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ნავთლუღის n24 ნომრებს ყველას": {
+    "name": "ნავთლუღის N24 ნომრებს ყველას",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "სოფ  დიდი ლილო პირველ სატუმბო სადგურითან": {
+    "name": "სოფ. დიდი ლილო პირველ სატუმბო სადგურითან",
+    "district": "Samgori",
     "seen_count": 1
   }
 }
