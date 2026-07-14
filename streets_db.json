@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -242,7 +242,7 @@
   "სოფ  დიდი ლილო პირველი სატუმბოს სადგურითან": {
     "name": "სოფ. დიდი ლილო პირველი სატუმბოს სადგურითან",
     "district": "Samgori",
-    "seen_count": 13
+    "seen_count": 14
   },
   "დიდი ლილო სრულად": {
     "name": "დიდი ლილო სრულად",
@@ -257,12 +257,12 @@
   "რაჭის": {
     "name": "რაჭის",
     "district": "Nadzaladevi",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ენისელის": {
     "name": "ენისელის",
     "district": "Nadzaladevi",
-    "seen_count": 6
+    "seen_count": 7
   },
   "მამუკა კობალაძის": {
     "name": "მამუკა კობალაძის",
@@ -282,7 +282,7 @@
   "ვასილ თამარაშვილის": {
     "name": "ვასილ თამარაშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ეკლესიის": {
     "name": "ეკლესიის",
@@ -522,106 +522,141 @@
   "ლევან ქართლელიშვილის ქ  n 26 თან": {
     "name": "ლევან ქართლელიშვილის ქ. N 26-თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ზაქარაია": {
     "name": "ზაქარაია",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცქიტიშვილი": {
     "name": "ცქიტიშვილი",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "კაჭრეთი": {
     "name": "კაჭრეთი",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნოსტე": {
     "name": "ნოსტე",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ქებურიას ქუჩებს": {
     "name": "ქებურიას ქუჩებს",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ურიდიას   იგივე ჩოდრიშვილის": {
     "name": "ურიდიას- (იგივე ჩოდრიშვილის)",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გულრიფშის": {
     "name": "გულრიფშის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სუმბათაშვილ  იუჟინის": {
     "name": "სუმბათაშვილ- იუჟინის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ლევან ქართლელიშვილის": {
     "name": "ლევან ქართლელიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დომენტი ჟღენტის": {
     "name": "დომენტი ჟღენტის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "კობალაძის კალიუჟინის": {
     "name": "კობალაძის(კალიუჟინის)",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სართანიას": {
     "name": "სართანიას",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ლევან ცქიტიშვილის": {
     "name": "ლევან ცქიტიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მიტინგის": {
     "name": "მიტინგის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ახტალის": {
     "name": "ახტალის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ბახმაროს": {
     "name": "ბახმაროს",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ზედაუბნის ქუჩებს": {
     "name": "ზედაუბნის ქუჩებს.",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ხანძთის ქ  2 შეს  n 23 თან": {
     "name": "ხანძთის ქ. 2 შეს. N 23-თან",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დ აღმაშენებლის ქ  n 2 ა  სთან": {
     "name": "დ.აღმაშენებლის ქ. N 2 ა -სთან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სოფ  ახალდაბა სატუმბო სადგურში": {
     "name": "სოფ. ახალდაბა სატუმბო სადგურში",
     "district": "Tsqneti",
+    "seen_count": 2
+  },
+  "ჯავახეთის ქ  n 1 თან": {
+    "name": "ჯავახეთის ქ. N 1-თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "მე 8 და მე 9 კვარტლებს": {
+    "name": "მე-8 და მე-9 კვარტლებს",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ჯავახეთის n1": {
+    "name": "ჯავახეთის N1",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ბახტრიონის ქ  n 12 ში": {
+    "name": "ბახტრიონის ქ. N 12-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჩარგლის ქ  n 67დ სთან": {
+    "name": "ჩარგლის ქ. N 67დ-სთან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "თიანეთის ქუჩა  ჩარგლის გას": {
+    "name": "თიანეთის ქუჩა. ჩარგლის გას.",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ტარიელის ქ  n 6 თან": {
+    "name": "ტარიელის ქ. N 6-თან",
+    "district": "Mtatsminda",
     "seen_count": 1
   }
 }
