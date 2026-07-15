@@ -922,32 +922,32 @@
   "საბატონოს ქ  მე 3 ჩიხი n 2": {
     "name": "საბატონოს ქ. მე-3 ჩიხი N 2",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ახალი ხეივნის": {
     "name": "ახალი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დიდი ხეივნის": {
     "name": "დიდი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "უსახელაურის": {
     "name": "უსახელაურის",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ბადაგის": {
     "name": "ბადაგის",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ცოლიკაურის და საბატონის ქუჩებს": {
     "name": "ცოლიკაურის და საბატონის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გორის ქ  n31 თან": {
     "name": "გორის ქ. N31 თან",
@@ -967,27 +967,27 @@
   "დავით გურამიშვილის გამზ  n12ა თან": {
     "name": "დავით გურამიშვილის გამზ. N12ა თან",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "არალეთის 9": {
     "name": "არალეთის 9",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 7
+    "seen_count": 10
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
     "district": "Gldani",
-    "seen_count": 7
+    "seen_count": 10
   },
   "ხანძთის მე 2 შეს": {
     "name": "ხანძთის მე-2 შეს",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ბერთუბნის ქ  n4 თან": {
     "name": "ბერთუბნის ქ. N4 თან",
@@ -997,12 +997,12 @@
   "სერგო მესხის ქ  n 1 თან": {
     "name": "სერგო მესხის ქ. N 1 თან",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 7
   },
   "შხეფის ქუჩებს": {
     "name": "შხეფის ქუჩებს",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "სულხან ცინცაძის ქ  n59 ში": {
     "name": "სულხან ცინცაძის ქ. N59 ში",
@@ -1017,66 +1017,106 @@
   "მუხიანის დას  მე  4ა მკ რ": {
     "name": "მუხიანის დას. მე- 4ა მკ-რ",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 4
   },
   "კორპუსებს": {
     "name": "კორპუსებს",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ოშკის": {
     "name": "ოშკის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვარდისუბნის მე 5 შესახვევს": {
     "name": "ვარდისუბნის მე-5 შესახვევს",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სხარტალის": {
     "name": "სხარტალის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "საირმე": {
     "name": "საირმე",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ზნაკვის": {
     "name": "ზნაკვის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნეკრესის": {
     "name": "ნეკრესის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ჩხარის": {
     "name": "ჩხარის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სამთავრო": {
     "name": "სამთავრო",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "რაჭისუბანი": {
     "name": "რაჭისუბანი",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ბუგეული": {
     "name": "ბუგეული",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ღების ქუჩებს": {
     "name": "ღების ქუჩებს",
     "district": "Gldani",
+    "seen_count": 2
+  },
+  "დელისის ქ  n20 თან": {
+    "name": "დელისის ქ. N20 თან",
+    "district": "Vake",
+    "seen_count": 2
+  },
+  "ზაქარიაძის": {
+    "name": "ზაქარიაძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ჯებაშვილის ქუჩას და შესახვევს": {
+    "name": "ჯებაშვილის ქუჩას და შესახვევს",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "დელისის 1 ლ გასასვლელს": {
+    "name": "დელისის 1-ლ გასასვლელს.",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "გიგო გაბაშვილის მე 2 შესახვევს": {
+    "name": "გიგო გაბაშვილის მე-2 შესახვევს",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ვაჟა ფშაველას i კვარტლის 23": {
+    "name": "ვაჟა-ფშაველას I კვარტლის 23",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "26 ნომრებს": {
+    "name": "26 ნომრებს",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ნუცუბიძის n 50 და 52": {
+    "name": "ნუცუბიძის N 50 და 52",
+    "district": "Vake",
     "seen_count": 1
   }
 }
