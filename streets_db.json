@@ -922,32 +922,32 @@
   "საბატონოს ქ  მე 3 ჩიხი n 2": {
     "name": "საბატონოს ქ. მე-3 ჩიხი N 2",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ახალი ხეივნის": {
     "name": "ახალი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "დიდი ხეივნის": {
     "name": "დიდი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "უსახელაურის": {
     "name": "უსახელაურის",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ბადაგის": {
     "name": "ბადაგის",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ცოლიკაურის და საბატონის ქუჩებს": {
     "name": "ცოლიკაურის და საბატონის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გორის ქ  n31 თან": {
     "name": "გორის ქ. N31 თან",
@@ -967,27 +967,27 @@
   "დავით გურამიშვილის გამზ  n12ა თან": {
     "name": "დავით გურამიშვილის გამზ. N12ა თან",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "არალეთის 9": {
     "name": "არალეთის 9",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 4
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 4
   },
   "ხანძთის მე 2 შეს": {
     "name": "ხანძთის მე-2 შეს",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბერთუბნის ქ  n4 თან": {
     "name": "ბერთუბნის ქ. N4 თან",
@@ -997,21 +997,21 @@
   "სერგო მესხის ქ  n 1 თან": {
     "name": "სერგო მესხის ქ. N 1 თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 3
   },
   "შხეფის ქუჩებს": {
     "name": "შხეფის ქუჩებს",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სულხან ცინცაძის ქ  n59 ში": {
     "name": "სულხან ცინცაძის ქ. N59 ში",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ღრმაღელეს ქ  n64 თან": {
     "name": "ღრმაღელეს ქ. N64 თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   }
 }
