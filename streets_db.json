@@ -837,12 +837,12 @@
   "შოთა ნიშნიანიძის ქ  n29 თან": {
     "name": "შოთა ნიშნიანიძის ქ. N29 თან",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მხოლოდ კენტებს": {
     "name": "მხოლოდ კენტებს",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "დავით თორაძის ქ  ჩიხი": {
     "name": "დავით თორაძის ქ. ჩიხი",
@@ -922,32 +922,32 @@
   "საბატონოს ქ  მე 3 ჩიხი n 2": {
     "name": "საბატონოს ქ. მე-3 ჩიხი N 2",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ახალი ხეივნის": {
     "name": "ახალი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დიდი ხეივნის": {
     "name": "დიდი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "უსახელაურის": {
     "name": "უსახელაურის",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ბადაგის": {
     "name": "ბადაგის",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ცოლიკაურის და საბატონის ქუჩებს": {
     "name": "ცოლიკაურის და საბატონის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "გორის ქ  n31 თან": {
     "name": "გორის ქ. N31 თან",
@@ -967,27 +967,27 @@
   "დავით გურამიშვილის გამზ  n12ა თან": {
     "name": "დავით გურამიშვილის გამზ. N12ა თან",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "არალეთის 9": {
     "name": "არალეთის 9",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 7
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 7
   },
   "ხანძთის მე 2 შეს": {
     "name": "ხანძთის მე-2 შეს",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ბერთუბნის ქ  n4 თან": {
     "name": "ბერთუბნის ქ. N4 თან",
@@ -997,21 +997,86 @@
   "სერგო მესხის ქ  n 1 თან": {
     "name": "სერგო მესხის ქ. N 1 თან",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 5
   },
   "შხეფის ქუჩებს": {
     "name": "შხეფის ქუჩებს",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სულხან ცინცაძის ქ  n59 ში": {
     "name": "სულხან ცინცაძის ქ. N59 ში",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ღრმაღელეს ქ  n64 თან": {
     "name": "ღრმაღელეს ქ. N64 თან",
     "district": "Nadzaladevi",
+    "seen_count": 3
+  },
+  "მუხიანის დას  მე  4ა მკ რ": {
+    "name": "მუხიანის დას. მე- 4ა მკ-რ",
+    "district": "Gldani",
     "seen_count": 2
+  },
+  "კორპუსებს": {
+    "name": "კორპუსებს",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ოშკის": {
+    "name": "ოშკის",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ვარდისუბნის მე 5 შესახვევს": {
+    "name": "ვარდისუბნის მე-5 შესახვევს",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "სხარტალის": {
+    "name": "სხარტალის",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "საირმე": {
+    "name": "საირმე",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ზნაკვის": {
+    "name": "ზნაკვის",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ნეკრესის": {
+    "name": "ნეკრესის",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ჩხარის": {
+    "name": "ჩხარის",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "სამთავრო": {
+    "name": "სამთავრო",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "რაჭისუბანი": {
+    "name": "რაჭისუბანი",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ბუგეული": {
+    "name": "ბუგეული",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ღების ქუჩებს": {
+    "name": "ღების ქუჩებს",
+    "district": "Gldani",
+    "seen_count": 1
   }
 }
