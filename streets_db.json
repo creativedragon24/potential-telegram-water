@@ -307,7 +307,7 @@
   "ავქსენტი მეგრელიძის ქ  n11 ში": {
     "name": "ავქსენტი მეგრელიძის ქ. N11-ში",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ღრმაღელეს ქ  n39 თან": {
     "name": "ღრმაღელეს ქ. N39-თან",
@@ -833,5 +833,135 @@
     "name": "N27-N55(კენტებს).",
     "district": "Nadzaladevi",
     "seen_count": 3
+  },
+  "შოთა ნიშნიანიძის ქ  n29 თან": {
+    "name": "შოთა ნიშნიანიძის ქ. N29 თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "მხოლოდ კენტებს": {
+    "name": "მხოლოდ კენტებს",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "დავით თორაძის ქ  ჩიხი": {
+    "name": "დავით თორაძის ქ. ჩიხი",
+    "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "ზანდუკელის": {
+    "name": "ზანდუკელის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "თორაძის ქუჩებს შესახვევებით და ჭოველიძის n 2": {
+    "name": "თორაძის ქუჩებს შესახვევებით და ჭოველიძის N 2",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "4 ნომრებს": {
+    "name": "4 ნომრებს.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "64 80 ლუწებს": {
+    "name": "64-80(ლუწებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბუდაპეშტის n13 29 კენტებს  14 44 ლუწებს": {
+    "name": "ბუდაპეშტის N13-29(კენტებს) 14-44(ლუწებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ლვოვის n 81 97  კენტებს": {
+    "name": "ლვოვის N 81-97 (კენტებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ვაზისუბნის  ისაკაძის  n 79 139 კენტებს 78 138 ლუწებს": {
+    "name": "ვაზისუბნის (ისაკაძის) N 79-139(კენტებს)78-138(ლუწებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბუდაპეშტის 1 ლი შესახვევი  მეგრელაძის ქუჩას": {
+    "name": "ბუდაპეშტის 1-ლი შესახვევი. მეგრელაძის ქუჩას",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "დელისის ყველა ქუჩას  ჯებაშვილის": {
+    "name": "დელისის ყველა ქუჩას (ჯებაშვილის)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ზალდასტანიშვილების": {
+    "name": "ზალდასტანიშვილების",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ვ ჩიქოვანის": {
+    "name": "ვ.ჩიქოვანის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ნუცუბიძის ქ n 1  47 კენტებს": {
+    "name": "ნუცუბიძის ქ N 1 -47(კენტებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "n 2 32  ლუწებს  და ნადარეიშვილის ქუჩას": {
+    "name": "N 2-32 (ლუწებს) და ნადარეიშვილის ქუჩას",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "აქვსენტი მეგრელიძე და ვახტანგ ჩიქოვანის ქუჩას": {
+    "name": "აქვსენტი მეგრელიძე და ვახტანგ ჩიქოვანის ქუჩას",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "საბატონოს ქ  მე 3 ჩიხი n 2": {
+    "name": "საბატონოს ქ. მე-3 ჩიხი N 2",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ახალი ხეივნის": {
+    "name": "ახალი ხეივნის",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "დიდი ხეივნის": {
+    "name": "დიდი ხეივნის",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "უსახელაურის": {
+    "name": "უსახელაურის",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ბადაგის": {
+    "name": "ბადაგის",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ცოლიკაურის და საბატონის ქუჩებს": {
+    "name": "ცოლიკაურის და საბატონის ქუჩებს",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "გორის ქ  n31 თან": {
+    "name": "გორის ქ. N31 თან",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "დიდი დიღომი": {
+    "name": "დიდი დიღომი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ნინო ორბელიანი აბაშიძის ქ  n9 ში": {
+    "name": "ნინო ორბელიანი-აბაშიძის ქ. N9 ში",
+    "district": "Saburtalo",
+    "seen_count": 1
   }
 }
