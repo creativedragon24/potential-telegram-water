@@ -102,42 +102,42 @@
   "რეხის i": {
     "name": "რეხის I",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "iii ქუჩები": {
     "name": "III ქუჩები",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "მახათას აღმართის ქუჩა": {
     "name": "მახათას აღმართის ქუჩა",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ელისო ჭიპაშვილი": {
     "name": "ელისო ჭიპაშვილი",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "მარინე უთმელიძე": {
     "name": "მარინე უთმელიძე",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "თამარ მამუმაშვილი": {
     "name": "თამარ მამუმაშვილი",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "გია ქარსელაძე": {
     "name": "გია ქარსელაძე",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "მანანა ლოლაძე": {
     "name": "მანანა ლოლაძე",
     "district": "Chugureti",
-    "seen_count": 17
+    "seen_count": 18
   },
   "სოფ  დიდი ლილო": {
     "name": "სოფ. დიდი ლილო",
@@ -1122,12 +1122,12 @@
   "ხეხილ სანერგე მეურნეობა": {
     "name": "ხეხილ-სანერგე მეურნეობა",
     "district": "Chugureti",
-    "seen_count": 10
+    "seen_count": 12
   },
   "ანასტასია თუმანიშვილის ქ  n66 თან": {
     "name": "ანასტასია თუმანიშვილის ქ. N66 თან",
     "district": "Chugureti",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ბერი გაბრიელ სალოსის გამზ  n 99 თან": {
     "name": "ბერი გაბრიელ სალოსის გამზ. N 99 თან",
@@ -1153,5 +1153,20 @@
     "name": "ფარნავაზ მეფის გამზირი N5 თან",
     "district": "Saburtalo",
     "seen_count": 3
+  },
+  "ალგეთის ქ n 2 თან": {
+    "name": "ალგეთის ქ.N 2-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ვაჟა ფშაველას 4კვ  კორპ  n18 ში": {
+    "name": "ვაჟა ფშაველას 4კვ. კორპ. N18-ში",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ირაკლი აბაშიძის ქ  n 34 თან": {
+    "name": "ირაკლი აბაშიძის ქ. N 34-თან",
+    "district": "Vake",
+    "seen_count": 1
   }
 }
