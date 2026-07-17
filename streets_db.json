@@ -1382,7 +1382,7 @@
   "ფარნავაზ მეფის გამზირი": {
     "name": "ფარნავაზ მეფის გამზირი",
     "district": "Saburtalo",
-    "seen_count": 16
+    "seen_count": 18
   },
   "ექვთიმე ხელაძე": {
     "name": "ექვთიმე ხელაძე",
@@ -1522,96 +1522,146 @@
   "ინტერნატის ქ  n5 თან": {
     "name": "ინტერნატის ქ. N5 თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ლამის ქ  n7 თან": {
     "name": "ლამის ქ. N7 თან",
     "district": "Chugureti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ბელა მირიანაშვილის ქუჩას": {
     "name": "ბელა მირიანაშვილის ქუჩას",
     "district": "Chugureti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "არაგვისპირს შესახვევებით": {
     "name": "არაგვისპირს შესახვევებით",
     "district": "Chugureti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დიღომბარს": {
     "name": "დიღომბარს",
     "district": "Chugureti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცოტნე დადიანის n87 2 ში": {
     "name": "ცოტნე დადიანის N87/2-ში",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მარტყოფის ქ  n7 ში": {
     "name": "მარტყოფის ქ. N7 ში",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დმანისის": {
     "name": "დმანისის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მარტყოფის ქუჩა ჩიხებით შესახვევებით": {
     "name": "მარტყოფის ქუჩა ჩიხებით შესახვევებით",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მთავარანგელოზის": {
     "name": "მთავარანგელოზის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მახათას ქუჩის შესახვევებით": {
     "name": "მახათას ქუჩის შესახვევებით",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნასაკირალის": {
     "name": "ნასაკირალის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "იერვატორის": {
     "name": "იერვატორის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სევანის": {
     "name": "სევანის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ალადაშვილის": {
     "name": "ალადაშვილის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ფაბრიციუსის ქუჩის შესახვევებით": {
     "name": "ფაბრიციუსის ქუჩის შესახვევებით",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ერისთავის": {
     "name": "ერისთავის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ჩუბინიძეს და გურჯაანის ქ": {
     "name": "ჩუბინიძეს და გურჯაანის ქ",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "თუმანიანის ქ  n7 ში": {
     "name": "თუმანიანის ქ. N7 ში",
     "district": "Krtsanisi",
+    "seen_count": 2
+  },
+  "კასპის ქ  n3ა თან": {
+    "name": "კასპის ქ. N3ა-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ლეხ კაჩინსკის 10 8 6 1": {
+    "name": "ლეხ კაჩინსკის 10 8 6 1",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ქეთევან დედოფლის გამზირი n82": {
+    "name": "ქეთევან დედოფლის გამზირი N82",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "კასპის ქუჩის 3ვ": {
+    "name": "კასპის ქუჩის 3ვ",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ახალდაბა": {
+    "name": "ახალდაბა",
+    "district": "Tsqneti",
+    "seen_count": 2
+  },
+  "დუმბაძის n26 თან": {
+    "name": "დუმბაძის N26-თან",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "წავკისი": {
+    "name": "წავკისი",
+    "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "ს  თაყაიშვილის n9 თან": {
+    "name": "ს. თაყაიშვილის N9-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ტიციან ტაბიძე": {
+    "name": "ტიციან ტაბიძე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "თაყაიშვილი": {
+    "name": "თაყაიშვილი",
+    "district": "Mtatsminda",
     "seen_count": 1
   }
 }
