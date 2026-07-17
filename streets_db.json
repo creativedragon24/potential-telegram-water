@@ -1382,7 +1382,7 @@
   "ფარნავაზ მეფის გამზირი": {
     "name": "ფარნავაზ მეფის გამზირი",
     "district": "Saburtalo",
-    "seen_count": 14
+    "seen_count": 16
   },
   "ექვთიმე ხელაძე": {
     "name": "ექვთიმე ხელაძე",
@@ -1518,5 +1518,100 @@
     "name": "რაჭის და შორაპანის ქუჩებს",
     "district": "Gldani",
     "seen_count": 3
+  },
+  "ინტერნატის ქ  n5 თან": {
+    "name": "ინტერნატის ქ. N5 თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ლამის ქ  n7 თან": {
+    "name": "ლამის ქ. N7 თან",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ბელა მირიანაშვილის ქუჩას": {
+    "name": "ბელა მირიანაშვილის ქუჩას",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "არაგვისპირს შესახვევებით": {
+    "name": "არაგვისპირს შესახვევებით",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "დიღომბარს": {
+    "name": "დიღომბარს",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ცოტნე დადიანის n87 2 ში": {
+    "name": "ცოტნე დადიანის N87/2-ში",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "მარტყოფის ქ  n7 ში": {
+    "name": "მარტყოფის ქ. N7 ში",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "დმანისის": {
+    "name": "დმანისის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მარტყოფის ქუჩა ჩიხებით შესახვევებით": {
+    "name": "მარტყოფის ქუჩა ჩიხებით შესახვევებით",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მთავარანგელოზის": {
+    "name": "მთავარანგელოზის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მახათას ქუჩის შესახვევებით": {
+    "name": "მახათას ქუჩის შესახვევებით",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ნასაკირალის": {
+    "name": "ნასაკირალის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "იერვატორის": {
+    "name": "იერვატორის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "სევანის": {
+    "name": "სევანის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ალადაშვილის": {
+    "name": "ალადაშვილის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ფაბრიციუსის ქუჩის შესახვევებით": {
+    "name": "ფაბრიციუსის ქუჩის შესახვევებით",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ერისთავის": {
+    "name": "ერისთავის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ჩუბინიძეს და გურჯაანის ქ": {
+    "name": "ჩუბინიძეს და გურჯაანის ქ",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "თუმანიანის ქ  n7 ში": {
+    "name": "თუმანიანის ქ. N7 ში",
+    "district": "Krtsanisi",
+    "seen_count": 1
   }
 }
