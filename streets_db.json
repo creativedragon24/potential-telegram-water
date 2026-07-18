@@ -1302,7 +1302,7 @@
   "სამღერეთის": {
     "name": "სამღერეთის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ზაქარაიას": {
     "name": "ზაქარაიას",
@@ -1337,7 +1337,7 @@
   "ფილიას": {
     "name": "ფილიას",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "მაღარო": {
     "name": "მაღარო",
@@ -1962,12 +1962,12 @@
   "ზურაბ ჟვანიას ქ  n9 თან": {
     "name": "ზურაბ ჟვანიას ქ. N9 თან",
     "district": "Mtatsminda",
-    "seen_count": 11
+    "seen_count": 12
   },
   "ტარას შევჩენკოს 10": {
     "name": "ტარას შევჩენკოს 10",
     "district": "Mtatsminda",
-    "seen_count": 11
+    "seen_count": 12
   },
   "ქავთარაძის 1 შესახვევი": {
     "name": "ქავთარაძის 1 შესახვევი",
@@ -2132,35 +2132,60 @@
   "კამანის ქ  n 2 ში": {
     "name": "კამანის ქ. N 2-ში",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გაზაფხულის": {
     "name": "გაზაფხულის",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ილია აბულაძის": {
     "name": "ილია აბულაძის",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნადარეიშვილის": {
     "name": "ნადარეიშვილის",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დელისის მე 3 ქუჩას": {
     "name": "(დელისის მე-3 ქუჩას)",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მარო თარხნიშვილის და ლისის ქუჩებს": {
     "name": "მარო თარხნიშვილის და ლისის ქუჩებს.",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დავით აღმაშენებელის გამზირი n 78 ში": {
     "name": "დავით აღმაშენებელის გამზირი N 78-ში",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "სამღერეთის ქ  n 76 თან": {
+    "name": "სამღერეთის ქ. N 76-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "წერონისის n183 189  კენტები": {
+    "name": "წერონისის N183-189 (კენტები)",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "n204 226 ლუწები  და ინტერნატის ქუჩებს": {
+    "name": "N204-226(ლუწები) და ინტერნატის ქუჩებს.",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ჩარგლის ქ  n 50 თან": {
+    "name": "ჩარგლის ქ. N 50-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "დავით აღმაშენებელის გამზირი n 63ა ში": {
+    "name": "დავით აღმაშენებელის გამზირი N 63ა-ში",
     "district": "Chugureti",
     "seen_count": 1
   }
