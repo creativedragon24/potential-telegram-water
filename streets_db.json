@@ -1302,7 +1302,7 @@
   "სამღერეთის": {
     "name": "სამღერეთის",
     "district": "Nadzaladevi",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ზაქარაიას": {
     "name": "ზაქარაიას",
@@ -1337,7 +1337,7 @@
   "ფილიას": {
     "name": "ფილიას",
     "district": "Nadzaladevi",
-    "seen_count": 9
+    "seen_count": 10
   },
   "მაღარო": {
     "name": "მაღარო",
@@ -1962,12 +1962,12 @@
   "ზურაბ ჟვანიას ქ  n9 თან": {
     "name": "ზურაბ ჟვანიას ქ. N9 თან",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ტარას შევჩენკოს 10": {
     "name": "ტარას შევჩენკოს 10",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ქავთარაძის 1 შესახვევი": {
     "name": "ქავთარაძის 1 შესახვევი",
@@ -2167,26 +2167,76 @@
   "სამღერეთის ქ  n 76 თან": {
     "name": "სამღერეთის ქ. N 76-თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "წერონისის n183 189  კენტები": {
     "name": "წერონისის N183-189 (კენტები)",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "n204 226 ლუწები  და ინტერნატის ქუჩებს": {
     "name": "N204-226(ლუწები) და ინტერნატის ქუჩებს.",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ჩარგლის ქ  n 50 თან": {
     "name": "ჩარგლის ქ. N 50-თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დავით აღმაშენებელის გამზირი n 63ა ში": {
     "name": "დავით აღმაშენებელის გამზირი N 63ა-ში",
     "district": "Chugureti",
+    "seen_count": 2
+  },
+  "ლავრენტი მანაგაძის ქ  n 5 თან": {
+    "name": "ლავრენტი მანაგაძის ქ. N 5-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ძმები ყურაშვილების": {
+    "name": "ძმები ყურაშვილების",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "თელავის n50 n66  ლუწები  n51": {
+    "name": "თელავის N50-N66 (ლუწები) N51",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ხევსურეთის ქ  n 26 ში": {
+    "name": "ხევსურეთის ქ. N 26-ში",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ჯანელიძის": {
+    "name": "ჯანელიძის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "საჭილაოს": {
+    "name": "საჭილაოს",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "წიკლაურის": {
+    "name": "წიკლაურის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "გომბორის": {
+    "name": "გომბორის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ხევსურეთის": {
+    "name": "ხევსურეთის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "სვანეთის ქუჩებს და სააკაძის n15 n61  კენტები": {
+    "name": "სვანეთის ქუჩებს და სააკაძის N15-N61 (კენტები)",
+    "district": "Nadzaladevi",
     "seen_count": 1
   }
 }
