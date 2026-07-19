@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 54
+    "seen_count": 56
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -2372,12 +2372,12 @@
   "ელიზბარ მინდელის ქ": {
     "name": "ელიზბარ მინდელის ქ.",
     "district": "Vake",
-    "seen_count": 12
+    "seen_count": 14
   },
   "ვაჟა ფშაველას მე 5 კვარტლის 1 ლ": {
     "name": "ვაჟა ფშაველას მე-5 კვარტლის 1-ლ",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "მე 3 კორპუსები": {
     "name": "მე-3 კორპუსები",
@@ -2387,32 +2387,32 @@
   "ზურაბ ანჯაფარიძის მე 2 შესახვევი n 3": {
     "name": "ზურაბ ანჯაფარიძის მე-2 შესახვევი N 3",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ზურაბ ანჯაფარიძის 1 ლი შესახვევი 6": {
     "name": "ზურაბ ანჯაფარიძის 1-ლი შესახვევი 6",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "n 8 ის 1 ლი ბლოკი": {
     "name": "N 8-ის 1-ლი ბლოკი",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "n 8 ის მე 3 ბლოკი": {
     "name": "N 8-ის მე-3 ბლოკი",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ანა პოლიტკოვსკაიას 3 38": {
     "name": "ანა პოლიტკოვსკაიას 3/38",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "შენი სახლი ჯიქიაზე 3 38": {
     "name": "შენი სახლი ჯიქიაზე 3/38",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ჩარგლის ქ": {
     "name": "ჩარგლის ქ.",
@@ -2452,16 +2452,21 @@
   "რაჭის ქ": {
     "name": "რაჭის ქ.",
     "district": "Gldani",
-    "seen_count": 10
+    "seen_count": 12
   },
   "ბათუმის ქ  n 8 თან": {
     "name": "ბათუმის ქ. N 8-თან",
     "district": "Didube",
-    "seen_count": 3
+    "seen_count": 4
   },
   "თევდორე მღვდლის   25": {
     "name": "თევდორე მღვდლის - 25",
     "district": "Didube",
-    "seen_count": 3
+    "seen_count": 4
+  },
+  "მე 3 4 და 5 კორპუსები": {
+    "name": "მე-3 4 და 5 კორპუსები",
+    "district": "Vake",
+    "seen_count": 1
   }
 }
