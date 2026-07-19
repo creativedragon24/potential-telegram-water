@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 28
+    "seen_count": 30
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -1437,7 +1437,7 @@
   "დავარის": {
     "name": "დავარის",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ვეფხისტყაოსანის": {
     "name": "ვეფხისტყაოსანის",
@@ -2273,5 +2273,35 @@
     "name": "ოსეთის ქ. N 33-თან",
     "district": "Saburtalo",
     "seen_count": 3
+  },
+  "ასმათის ქ  n 23 თან": {
+    "name": "ასმათის ქ. N 23-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ასმათის და ვეფხისტყაოსნის ქუჩებს": {
+    "name": "ასმათის და ვეფხისტყაოსნის ქუჩებს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ავჭალა 1": {
+    "name": "ავჭალა 1",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "სამხედრო დას": {
+    "name": "სამხედრო დას.",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "მარკ ბრონშტეინის ქ  n 54 თან": {
+    "name": "მარკ ბრონშტეინის ქ. N 54-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "თინა იოსებიძის ქ  n51ა ში": {
+    "name": "თინა იოსებიძის ქ. N51ა-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
   }
 }
