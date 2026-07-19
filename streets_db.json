@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 30
+    "seen_count": 32
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -1437,7 +1437,7 @@
   "დავარის": {
     "name": "დავარის",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ვეფხისტყაოსანის": {
     "name": "ვეფხისტყაოსანის",
@@ -2277,31 +2277,91 @@
   "ასმათის ქ  n 23 თან": {
     "name": "ასმათის ქ. N 23-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ასმათის და ვეფხისტყაოსნის ქუჩებს": {
     "name": "ასმათის და ვეფხისტყაოსნის ქუჩებს",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ავჭალა 1": {
     "name": "ავჭალა 1",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 4
   },
   "სამხედრო დას": {
     "name": "სამხედრო დას.",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 4
   },
   "მარკ ბრონშტეინის ქ  n 54 თან": {
     "name": "მარკ ბრონშტეინის ქ. N 54-თან",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "თინა იოსებიძის ქ  n51ა ში": {
     "name": "თინა იოსებიძის ქ. N51ა-ში",
     "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "წავკისი მირზა გელოვანის n 7 თან": {
+    "name": "წავკისი მირზა გელოვანის N 7-თან",
+    "district": "Mtatsminda",
     "seen_count": 1
+  },
+  "ნოდარ დუმბაძე": {
+    "name": "ნოდარ დუმბაძე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გიორგი სააკაძე": {
+    "name": "გიორგი სააკაძე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ტაბახმელაში   კოტე აფხაზი": {
+    "name": "ტაბახმელაში - კოტე აფხაზი",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ტაბახმელის ქუჩა": {
+    "name": "ტაბახმელის ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "მარო მაყაშვილი": {
+    "name": "მარო მაყაშვილი",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გიორგი კინიტაძის ქუჩა": {
+    "name": "გიორგი კინიტაძის ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "არჯევან ანანიაშვილი": {
+    "name": "არჯევან ანანიაშვილი",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გენო ქარუმიძე": {
+    "name": "გენო ქარუმიძე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ქუჩა": {
+    "name": "ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "შალვა ნუცუბიძის პლ": {
+    "name": "შალვა ნუცუბიძის პლ.",
+    "district": "Vake",
+    "seen_count": 2
+  },
+  "ოდესის ქ": {
+    "name": "ოდესის ქ",
+    "district": "Saburtalo",
+    "seen_count": 2
   }
 }
