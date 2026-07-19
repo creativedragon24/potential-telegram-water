@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 48
+    "seen_count": 50
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -2417,7 +2417,7 @@
   "ჩარგლის ქ": {
     "name": "ჩარგლის ქ.",
     "district": "Nadzaladevi",
-    "seen_count": 10
+    "seen_count": 12
   },
   "ევგენი აფხაზავას ქ": {
     "name": "ევგენი აფხაზავას ქ.",
@@ -2452,6 +2452,16 @@
   "რაჭის ქ": {
     "name": "რაჭის ქ.",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 6
+  },
+  "ბათუმის ქ  n 8 თან": {
+    "name": "ბათუმის ქ. N 8-თან",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "თევდორე მღვდლის   25": {
+    "name": "თევდორე მღვდლის - 25",
+    "district": "Didube",
+    "seen_count": 1
   }
 }
