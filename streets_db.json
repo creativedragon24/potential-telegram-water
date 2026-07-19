@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 38
+    "seen_count": 40
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -957,7 +957,7 @@
   "დიდი დიღომი": {
     "name": "დიდი დიღომი",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ნინო ორბელიანი აბაშიძის ქ  n9 ში": {
     "name": "ნინო ორბელიანი-აბაშიძის ქ. N9 ში",
@@ -1437,7 +1437,7 @@
   "დავარის": {
     "name": "დავარის",
     "district": "Saburtalo",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ვეფხისტყაოსანის": {
     "name": "ვეფხისტყაოსანის",
@@ -2277,32 +2277,32 @@
   "ასმათის ქ  n 23 თან": {
     "name": "ასმათის ქ. N 23-თან",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ასმათის და ვეფხისტყაოსნის ქუჩებს": {
     "name": "ასმათის და ვეფხისტყაოსნის ქუჩებს",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ავჭალა 1": {
     "name": "ავჭალა 1",
     "district": "Gldani",
-    "seen_count": 10
+    "seen_count": 12
   },
   "სამხედრო დას": {
     "name": "სამხედრო დას.",
     "district": "Gldani",
-    "seen_count": 10
+    "seen_count": 12
   },
   "მარკ ბრონშტეინის ქ  n 54 თან": {
     "name": "მარკ ბრონშტეინის ქ. N 54-თან",
     "district": "Gldani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "თინა იოსებიძის ქ  n51ა ში": {
     "name": "თინა იოსებიძის ქ. N51ა-ში",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "წავკისი მირზა გელოვანის n 7 თან": {
     "name": "წავკისი მირზა გელოვანის N 7-თან",
@@ -2367,62 +2367,62 @@
   "ქსნის ქ  n 22 თან": {
     "name": "ქსნის ქ. N 22-თან",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ელიზბარ მინდელის ქ": {
     "name": "ელიზბარ მინდელის ქ.",
     "district": "Vake",
-    "seen_count": 4
+    "seen_count": 6
   },
   "ვაჟა ფშაველას მე 5 კვარტლის 1 ლ": {
     "name": "ვაჟა ფშაველას მე-5 კვარტლის 1-ლ",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მე 3 კორპუსები": {
     "name": "მე-3 კორპუსები",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ზურაბ ანჯაფარიძის მე 2 შესახვევი n 3": {
     "name": "ზურაბ ანჯაფარიძის მე-2 შესახვევი N 3",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ზურაბ ანჯაფარიძის 1 ლი შესახვევი 6": {
     "name": "ზურაბ ანჯაფარიძის 1-ლი შესახვევი 6",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "n 8 ის 1 ლი ბლოკი": {
     "name": "N 8-ის 1-ლი ბლოკი",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "n 8 ის მე 3 ბლოკი": {
     "name": "N 8-ის მე-3 ბლოკი",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ანა პოლიტკოვსკაიას 3 38": {
     "name": "ანა პოლიტკოვსკაიას 3/38",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შენი სახლი ჯიქიაზე 3 38": {
     "name": "შენი სახლი ჯიქიაზე 3/38",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჩარგლის ქ": {
     "name": "ჩარგლის ქ.",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 6
   },
   "ევგენი აფხაზავას ქ": {
     "name": "ევგენი აფხაზავას ქ.",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 4
   },
   "ექვთიმე ხელაძის ქ  n 6": {
     "name": "ექვთიმე ხელაძის ქ. N 6",
@@ -2431,6 +2431,16 @@
   },
   "სამაჩაბლოს და კათალიკოს": {
     "name": "სამაჩაბლოს და კათალიკოს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "გიორგი სააკაძის ქ  n55 თან": {
+    "name": "გიორგი სააკაძის ქ. N55-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ექვთიმე ხელაძის ქ  n 6 თან": {
+    "name": "ექვთიმე ხელაძის ქ. N 6-თან",
     "district": "Saburtalo",
     "seen_count": 1
   }
