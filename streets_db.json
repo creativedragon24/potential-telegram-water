@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 56
+    "seen_count": 58
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -1027,17 +1027,17 @@
   "ოშკის": {
     "name": "ოშკის",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ვარდისუბნის მე 5 შესახვევს": {
     "name": "ვარდისუბნის მე-5 შესახვევს",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "სხარტალის": {
     "name": "სხარტალის",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "საირმე": {
     "name": "საირმე",
@@ -1047,7 +1047,7 @@
   "ზნაკვის": {
     "name": "ზნაკვის",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ნეკრესის": {
     "name": "ნეკრესის",
@@ -1257,7 +1257,7 @@
   "ბუგეულის": {
     "name": "ბუგეულის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "წერონისის": {
     "name": "წერონისის",
@@ -2467,6 +2467,31 @@
   "მე 3 4 და 5 კორპუსები": {
     "name": "მე-3 4 და 5 კორპუსები",
     "district": "Vake",
+    "seen_count": 1
+  },
+  "ვარდისუბნის ქ": {
+    "name": "ვარდისუბნის ქ.",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "განთიადის ქუჩას შესახვევბით": {
+    "name": "განთიადის ქუჩას შესახვევბით",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ხანძთის ქ  შესახვევბით": {
+    "name": "ხანძთის ქ. შესახვევბით",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "გორგულის": {
+    "name": "გორგულის",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ნეკრესის და ჩხარის ქუჩებს": {
+    "name": "ნეკრესის და ჩხარის ქუჩებს.",
+    "district": "Gldani",
     "seen_count": 1
   }
 }
