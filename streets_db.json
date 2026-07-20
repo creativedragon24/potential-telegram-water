@@ -27,7 +27,7 @@
   "დაბა წავკისი": {
     "name": "დაბა წავკისი",
     "district": "Mtatsminda",
-    "seen_count": 24
+    "seen_count": 26
   },
   "სამადლოს ქ n 1 თან": {
     "name": "სამადლოს ქ.N 1-თან",
@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 52
+    "seen_count": 58
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -597,7 +597,7 @@
   "ახტალის": {
     "name": "ახტალის",
     "district": "Nadzaladevi",
-    "seen_count": 14
+    "seen_count": 15
   },
   "ბახმაროს": {
     "name": "ბახმაროს",
@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 60
+    "seen_count": 62
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -1232,12 +1232,12 @@
   "გეგუთის": {
     "name": "გეგუთის",
     "district": "Nadzaladevi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სვირის": {
     "name": "სვირის",
     "district": "Nadzaladevi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მირზაანიის": {
     "name": "მირზაანიის",
@@ -1257,7 +1257,7 @@
   "ბუგეულის": {
     "name": "ბუგეულის",
     "district": "Nadzaladevi",
-    "seen_count": 13
+    "seen_count": 14
   },
   "წერონისის": {
     "name": "წერონისის",
@@ -1282,7 +1282,7 @@
   "გომარეთის": {
     "name": "გომარეთის",
     "district": "Nadzaladevi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ლოტკინის მთის": {
     "name": "ლოტკინის მთის",
@@ -2497,266 +2497,276 @@
   "ვლადიმერ ლუბოვსკის ქ  n9 თან": {
     "name": "ვლადიმერ ლუბოვსკის ქ. N9-თან",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ბენდელიანის გორას": {
     "name": "ბენდელიანის გორას",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "და ჭიჭიკო ბენდელიანის n40 104  ლუწებს  n41 45  კენტებს": {
     "name": "და ჭიჭიკო ბენდელიანის N40-104 (ლუწებს) N41-45 (კენტებს)",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "იმერეთის მე 2 და მე 4 შესახვევებს": {
     "name": "იმერეთის მე-2 და მე-4 შესახვევებს",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "მირზაანის": {
     "name": "მირზაანის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ზეკარის": {
     "name": "ზეკარის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ასურეთის": {
     "name": "ასურეთის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "კიშინოვის": {
     "name": "კიშინოვის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დარკვეთის": {
     "name": "დარკვეთის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "კურსების": {
     "name": "კურსების",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ლუბოვსკის": {
     "name": "ლუბოვსკის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "სანავაროს": {
     "name": "სანავაროს",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ლისაშვილის და სანერგეს ქუჩებს": {
     "name": "ლისაშვილის და სანერგეს ქუჩებს.",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ალექსანდრე ჭავჭავაძის ქ  1 შეს  n თან": {
     "name": "ალექსანდრე ჭავჭავაძის ქ. 1 შეს. N-თან",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გოგებაშვილი და თეიმურაზ პირველი": {
     "name": "გოგებაშვილი და თეიმურაზ პირველი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "აღმაშენებლის 5": {
     "name": "აღმაშენებლის 5",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "7 შესახვევი": {
     "name": "7 შესახვევი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ბუაჩიძის ქ  n2 ში": {
     "name": "ბუაჩიძის ქ. N2-ში",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "4 გუდამაყრის 2": {
     "name": "4 გუდამაყრის 2",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გიორგი ბრწყინვალეს 1 შეს  n28 თან": {
     "name": "გიორგი ბრწყინვალეს 1 შეს. N28-თან",
     "district": "Saburtalo",
-    "seen_count": 6
+    "seen_count": 8
   },
   "თამარ მეფის": {
     "name": "თამარ მეფის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "სარაჯიშვილის": {
     "name": "სარაჯიშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვახტანგ სონღულაშვილის": {
     "name": "ვახტანგ სონღულაშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ფარსმან სონღულაშვილის": {
     "name": "ფარსმან სონღულაშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "იროდიონ სონღულაშვილის": {
     "name": "იროდიონ სონღულაშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ცაგარელის": {
     "name": "ცაგარელის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "აღმაშენებლის": {
     "name": "აღმაშენებლის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "თაყაიშვილის": {
     "name": "თაყაიშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ხანძთელის": {
     "name": "ხანძთელის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ჭიაურელის და კვირაცხოველის ქუჩებს": {
     "name": "ჭიაურელის და კვირაცხოველის ქუჩებს",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გიორგი ბრწყინვალეს": {
     "name": "გიორგი ბრწყინვალეს",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გიორგი ჭანტურია და დავით სარაჯიშვილის და გოგიშვილის": {
     "name": "გიორგი ჭანტურია და დავით სარაჯიშვილის და გოგიშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვახტანგ გორგასლის ქუჩა": {
     "name": "ვახტანგ გორგასლის ქუჩა",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "თოფჩიშვილის 26 და თოფჩიშვილის მე 6 ჩიხი": {
     "name": "თოფჩიშვილის 26 და თოფჩიშვილის მე-6 ჩიხი",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ტ  ტაბიძის n39 ში": {
     "name": "ტ. ტაბიძის N39-ში",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ტიციან ტაბიძის 23 111 კენტები   49 ს გარდა": {
     "name": "ტიციან ტაბიძის 23-111(კენტები) (49-ს გარდა)",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "20 124 ლუწები": {
     "name": "20-124(ლუწები)",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "აბაშელის ქუჩის n 1": {
     "name": "აბაშელის ქუჩის N 1",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "აბაშიძის ქ 66": {
     "name": "აბაშიძის ქ.66",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "დარიალის  ლია ელიავას  ქ": {
     "name": "დარიალის (ლია ელიავას) ქ",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "რაზმაძის ქ 22  68 ლუწები": {
     "name": "რაზმაძის ქ.22- 68(ლუწები)",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "27 57 კენტები  ქუჩებს": {
     "name": "27-57(კენტები) ქუჩებს",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მარატ ნოზაძის ქ  n54 თან": {
     "name": "მარატ ნოზაძის ქ. N54-თან",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კერესელიძეს ქუჩებს": {
     "name": "კერესელიძეს ქუჩებს",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კოჯორი": {
     "name": "კოჯორი",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 4
   },
   "თევზაძის n5 თან": {
     "name": "თევზაძის N5-თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სოფ  წინუბანი": {
     "name": "სოფ. წინუბანი",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 4
   },
   "რაჭის ქ  n41 თან": {
     "name": "რაჭის ქ. N41-თან",
     "district": "Samgori",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გრიგოლ ხანძთელის ქ  n4 თან": {
     "name": "გრიგოლ ხანძთელის ქ. N4-თან",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გრიგოლ ხანძთელის 1 ჩიხს": {
     "name": "გრიგოლ ხანძთელის 1 ჩიხს",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გრიგოლ ფერაძის ქ  1 შეს  n21 თან": {
     "name": "გრიგოლ ფერაძის ქ. 1 შეს. N21-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცხენისწყლის ქ  n3 თან": {
     "name": "ცხენისწყლის ქ. N3-თან",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცხენისწყლის ქუჩას": {
     "name": "ცხენისწყლის ქუჩას",
     "district": "Gldani",
+    "seen_count": 2
+  },
+  "ავთანდილის ქ  1 შეს  n1 თან": {
+    "name": "ავთანდილის ქ. 1 შეს. N1-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ანდრონიკაშვილის და ვახუშტი ბატონიშვილის ქუჩებს": {
+    "name": "ანდრონიკაშვილის და ვახუშტი ბატონიშვილის ქუჩებს",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
