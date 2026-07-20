@@ -597,7 +597,7 @@
   "ახტალის": {
     "name": "ახტალის",
     "district": "Nadzaladevi",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ბახმაროს": {
     "name": "ბახმაროს",
@@ -1232,12 +1232,12 @@
   "გეგუთის": {
     "name": "გეგუთის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "სვირის": {
     "name": "სვირის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "მირზაანიის": {
     "name": "მირზაანიის",
@@ -1257,7 +1257,7 @@
   "ბუგეულის": {
     "name": "ბუგეულის",
     "district": "Nadzaladevi",
-    "seen_count": 9
+    "seen_count": 10
   },
   "წერონისის": {
     "name": "წერონისის",
@@ -1282,7 +1282,7 @@
   "გომარეთის": {
     "name": "გომარეთის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ლოტკინის მთის": {
     "name": "ლოტკინის მთის",
@@ -2492,6 +2492,71 @@
   "ნეკრესის და ჩხარის ქუჩებს": {
     "name": "ნეკრესის და ჩხარის ქუჩებს.",
     "district": "Gldani",
+    "seen_count": 1
+  },
+  "ვლადიმერ ლუბოვსკის ქ  n9 თან": {
+    "name": "ვლადიმერ ლუბოვსკის ქ. N9-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ბენდელიანის გორას": {
+    "name": "ბენდელიანის გორას",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "და ჭიჭიკო ბენდელიანის n40 104  ლუწებს  n41 45  კენტებს": {
+    "name": "და ჭიჭიკო ბენდელიანის N40-104 (ლუწებს) N41-45 (კენტებს)",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "იმერეთის მე 2 და მე 4 შესახვევებს": {
+    "name": "იმერეთის მე-2 და მე-4 შესახვევებს",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "მირზაანის": {
+    "name": "მირზაანის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ზეკარის": {
+    "name": "ზეკარის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ასურეთის": {
+    "name": "ასურეთის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "კიშინოვის": {
+    "name": "კიშინოვის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "დარკვეთის": {
+    "name": "დარკვეთის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "კურსების": {
+    "name": "კურსების",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ლუბოვსკის": {
+    "name": "ლუბოვსკის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "სანავაროს": {
+    "name": "სანავაროს",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ლისაშვილის და სანერგეს ქუჩებს": {
+    "name": "ლისაშვილის და სანერგეს ქუჩებს.",
+    "district": "Nadzaladevi",
     "seen_count": 1
   }
 }
