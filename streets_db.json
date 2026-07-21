@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 76
+    "seen_count": 78
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -2502,7 +2502,7 @@
   "ბენდელიანის გორას": {
     "name": "ბენდელიანის გორას",
     "district": "Nadzaladevi",
-    "seen_count": 10
+    "seen_count": 11
   },
   "და ჭიჭიკო ბენდელიანის n40 104  ლუწებს  n41 45  კენტებს": {
     "name": "და ჭიჭიკო ბენდელიანის N40-104 (ლუწებს) N41-45 (კენტებს)",
@@ -2782,121 +2782,216 @@
   "ავჭალა 2": {
     "name": "ავჭალა 2",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 6
   },
   "გუდიაშვილის ჩიხი 1": {
     "name": "გუდიაშვილის ჩიხი 1",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 6
   },
   "ბარათაშვილის ქ n 9 თან": {
     "name": "ბარათაშვილის ქ.N 9-თან",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "რუსთაველის n90 n104 აბაშიძის": {
     "name": "რუსთაველის N90-N104 აბაშიძის",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მწვანე": {
     "name": "მწვანე",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გაგრის": {
     "name": "გაგრის",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სოხუმის": {
     "name": "სოხუმის",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სვერის ქ n 3 თან": {
     "name": "სვერის ქ.N 3-თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "იმერეთის": {
     "name": "იმერეთის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ჯავის": {
     "name": "ჯავის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "კოკინაკის": {
     "name": "კოკინაკის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ზედაზენის": {
     "name": "ზედაზენის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დიდი ჯიხაიშის": {
     "name": "დიდი ჯიხაიშის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "რიონჰესის": {
     "name": "რიონჰესის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მოლოკოვის": {
     "name": "მოლოკოვის",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ილურიძე": {
     "name": "ილურიძე",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "პეტრე გრუზინსკი": {
     "name": "პეტრე გრუზინსკი",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ეკა ბეჟანიშვილის ქუჩებს თავის შესახვევებით": {
     "name": "ეკა ბეჟანიშვილის ქუჩებს თავის შესახვევებით",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ფეიქართა ქ n 30 თან": {
     "name": "ფეიქართა ქ.N 30-თან",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვაჟა ფშაველას 7 კვ  n5ა  ში": {
     "name": "ვაჟა ფშაველას 7 კვ. N5ა -ში",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვლადიმერ ლობჯანიძის n8 თან": {
     "name": "ვლადიმერ ლობჯანიძის N8 თან",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვლადიმერ ლობჟანიძის 1 შეს  ექიმის გასასვლელი": {
     "name": "ვლადიმერ ლობჟანიძის 1 შეს. ექიმის გასასვლელი",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "უშანგი  შმაგი  სოფრომაძის ქუჩებს": {
     "name": "უშანგი (შმაგი) სოფრომაძის ქუჩებს.",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ხელოვაბნთა ქუჩა n41 თან": {
     "name": "ხელოვაბნთა ქუჩა N41-თან",
     "district": "Isani",
+    "seen_count": 2
+  },
+  "პეკინის გამზ  n 33ა ში": {
+    "name": "პეკინის გამზ. N 33ა-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "რომანოზ ხომლელის ქ n დ თან": {
+    "name": "რომანოზ ხომლელის ქ N დ-თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "2 შეს  ჯავახეთის 2 შეს  რომანოზ ხომლელის  დ": {
+    "name": "2 შეს. ჯავახეთის 2 შეს. რომანოზ ხომლელის \"დ\"",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ჟ  კორპუსებს  ჯავახეთის n33 n75  კენტები": {
+    "name": "\"ჟ\" კორპუსებს. ჯავახეთის N33-N75 (კენტები)",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "იაკობ რაინეგსის ქ n 73 თან": {
+    "name": "იაკობ რაინეგსის ქ.N 73-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "მონპერის": {
+    "name": "მონპერის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "მაქს ტილკეს": {
+    "name": "მაქს ტილკეს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "შმერლინგი": {
+    "name": "შმერლინგი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კრისტიან სტივენი": {
+    "name": "კრისტიან სტივენი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბარონ დებაი": {
+    "name": "ბარონ დებაი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჰუგო ჰუბერტი": {
+    "name": "ჰუგო ჰუბერტი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "შერმადინი": {
+    "name": "შერმადინი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბერტაფონ ზუტნერი": {
+    "name": "ბერტაფონ ზუტნერი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჰენრი პრინერსკის": {
+    "name": "ჰენრი პრინერსკის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კლაპროთის": {
+    "name": "კლაპროთის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "არქანჯერო ლამბერტი": {
+    "name": "არქანჯერო ლამბერტი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ხატაეთი": {
+    "name": "ხატაეთი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ტიმოთი ბელოის": {
+    "name": "ტიმოთი ბელოის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "მარკო პოლოს და კრისტოფორე კასტელის ქუჩებს": {
+    "name": "მარკო პოლოს და კრისტოფორე კასტელის ქუჩებს.",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
