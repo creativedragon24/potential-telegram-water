@@ -2778,5 +2778,40 @@
     "name": "მტაწმინდის ქ. 17-27 12-16",
     "district": "Mtatsminda",
     "seen_count": 1
+  },
+  "ავჭალა 2": {
+    "name": "ავჭალა 2",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "გუდიაშვილის ჩიხი 1": {
+    "name": "გუდიაშვილის ჩიხი 1",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "ბარათაშვილის ქ n 9 თან": {
+    "name": "ბარათაშვილის ქ.N 9-თან",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "რუსთაველის n90 n104 აბაშიძის": {
+    "name": "რუსთაველის N90-N104 აბაშიძის",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "მწვანე": {
+    "name": "მწვანე",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "გაგრის": {
+    "name": "გაგრის",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "სოხუმის": {
+    "name": "სოხუმის",
+    "district": "Tsqneti",
+    "seen_count": 1
   }
 }
