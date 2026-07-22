@@ -27,7 +27,7 @@
   "დაბა წავკისი": {
     "name": "დაბა წავკისი",
     "district": "Mtatsminda",
-    "seen_count": 32
+    "seen_count": 33
   },
   "სამადლოს ქ n 1 თან": {
     "name": "სამადლოს ქ.N 1-თან",
@@ -2792,27 +2792,27 @@
   "ბარათაშვილის ქ n 9 თან": {
     "name": "ბარათაშვილის ქ.N 9-თან",
     "district": "Tsqneti",
-    "seen_count": 12
+    "seen_count": 13
   },
   "რუსთაველის n90 n104 აბაშიძის": {
     "name": "რუსთაველის N90-N104 აბაშიძის",
     "district": "Tsqneti",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მწვანე": {
     "name": "მწვანე",
     "district": "Tsqneti",
-    "seen_count": 12
+    "seen_count": 13
   },
   "გაგრის": {
     "name": "გაგრის",
     "district": "Tsqneti",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სოხუმის": {
     "name": "სოხუმის",
     "district": "Tsqneti",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სვერის ქ n 3 თან": {
     "name": "სვერის ქ.N 3-თან",
@@ -3253,5 +3253,185 @@
     "name": "ტატიშვილის N8",
     "district": "Mtatsminda",
     "seen_count": 5
+  },
+  "დარიალის შეს  n4 თან": {
+    "name": "დარიალის შეს. N4-თან",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ტიციან ტაბიძის n 23 111 კენტები   49 ს გარდა": {
+    "name": "ტიციან ტაბიძის N 23-111(კენტები) (49-ს გარდა)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "20 124  ლუწები": {
+    "name": "20-124 (ლუწები)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "აბაშელის n 1": {
+    "name": "აბაშელის N 1",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "აბაშიძის n 66": {
+    "name": "აბაშიძის N 66",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "68 დარიალის  ლია ელიავას": {
+    "name": "68 დარიალის (ლია ელიავას)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "რაზმაძის n 22  68  ლუწები": {
+    "name": "რაზმაძის N 22- 68 (ლუწები)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n 27 57  კენტები  და არაყიშვილის n 10 26  ლუწები": {
+    "name": "N 27-57 (კენტები) და არაყიშვილის N 10-26 (ლუწები)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n 13 27  კენტები  ქუჩებს": {
+    "name": "N 13-27 (კენტები) ქუჩებს.",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "კუკური გოგიშვილი n 17 თან": {
+    "name": "კუკური გოგიშვილი N 17-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბობ უოლშის": {
+    "name": "ბობ უოლშის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ვ ნოზაძის": {
+    "name": "ვ.ნოზაძის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კ გოგიშვილის": {
+    "name": "კ.გოგიშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ი ენუქიძის ფერაძე ქუჩებს": {
+    "name": "ი.ენუქიძის ფერაძე ქუჩებს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "გრინ დაიმონდს  აღმაშენებბლის ხეივნის მე 12 კილომეტრს და 159 ნომერს": {
+    "name": "„გრინ დაიმონდს“ აღმაშენებბლის ხეივნის მე-12 კილომეტრს და 159 ნომერს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ნოე რამიშვილის ქ": {
+    "name": "ნოე რამიშვილის ქ.",
+    "district": "Isani",
+    "seen_count": 2
+  },
+  "ნ  რამიშვილის ქუჩებს": {
+    "name": "ნ. რამიშვილის ქუჩებს",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "კახეთის გზატკეცილის 34": {
+    "name": "კახეთის გზატკეცილის 34",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "n1 23 კენტებს  შალვა აზმაიფარაშვილის ქუჩას": {
+    "name": "N1-23 კენტებს. შალვა აზმაიფარაშვილის ქუჩას.",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "წავკისის ველი": {
+    "name": "წავკისის ველი",
+    "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "დავით ჯოხაძის n 25 თან": {
+    "name": "დავით ჯოხაძის N 25-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ასათიანის n56   ში": {
+    "name": "ასათიანის N56 - ში",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "წავკისის ქუჩას": {
+    "name": "წავკისის ქუჩას",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "შინდისის ქუჩას": {
+    "name": "შინდისის ქუჩას",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "კოჯრის გას  მარო მაყაშვილის აღმართს": {
+    "name": "კოჯრის გას. მარო მაყაშვილის აღმართს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ავთანდილის": {
+    "name": "ავთანდილის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "შხეფის": {
+    "name": "შხეფის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ს  მესხის": {
+    "name": "ს. მესხის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ბოლო აღმართის": {
+    "name": "ბოლო აღმართის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ამაღლების n 39 47 კენტებს": {
+    "name": "ამაღლების N 39-47(კენტებს)",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ამაღლების n12": {
+    "name": "ამაღლების N12",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ამაღლების გასავალს": {
+    "name": "ამაღლების გასავალს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ამაღლების ხეივანს": {
+    "name": "ამაღლების ხეივანს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ამაღლების მე 3 ჩიხს": {
+    "name": "ამაღლების მე-3 ჩიხს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ასათიანის n 35  43  კენტებს  და n 56 66  ლუწებს": {
+    "name": "ასათიანის N 35- 43 (კენტებს) და N 56-66 (ლუწებს)",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ასათიანის მე 2 შესახვევს": {
+    "name": "ასათიანის მე-2 შესახვევს",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
