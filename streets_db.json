@@ -3367,72 +3367,72 @@
   "წავკისის ქუჩას": {
     "name": "წავკისის ქუჩას",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შინდისის ქუჩას": {
     "name": "შინდისის ქუჩას",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კოჯრის გას  მარო მაყაშვილის აღმართს": {
     "name": "კოჯრის გას. მარო მაყაშვილის აღმართს",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ავთანდილის": {
     "name": "ავთანდილის",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შხეფის": {
     "name": "შხეფის",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ს  მესხის": {
     "name": "ს. მესხის",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბოლო აღმართის": {
     "name": "ბოლო აღმართის",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ამაღლების n 39 47 კენტებს": {
     "name": "ამაღლების N 39-47(კენტებს)",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ამაღლების n12": {
     "name": "ამაღლების N12",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ამაღლების გასავალს": {
     "name": "ამაღლების გასავალს",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ამაღლების ხეივანს": {
     "name": "ამაღლების ხეივანს",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ამაღლების მე 3 ჩიხს": {
     "name": "ამაღლების მე-3 ჩიხს",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ასათიანის n 35  43  კენტებს  და n 56 66  ლუწებს": {
     "name": "ასათიანის N 35- 43 (კენტებს) და N 56-66 (ლუწებს)",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ასათიანის მე 2 შესახვევს": {
     "name": "ასათიანის მე-2 შესახვევს",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ირაკლი აბაშიძის n22ა თან": {
     "name": "ირაკლი აბაშიძის N22ა-თან",
@@ -4038,5 +4038,30 @@
     "name": "ჭავჭავაძის ქუჩებს",
     "district": "Gldani",
     "seen_count": 2
+  },
+  "დავით გურამიშვილის გამზ  n 28 თან": {
+    "name": "დავით გურამიშვილის გამზ. N 28-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ხევისუბნის ქუჩას": {
+    "name": "ხევისუბნის ქუჩას",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ლვოვის ქ  n 22 ში": {
+    "name": "ლვოვის ქ. N 22-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჭყონდიდელის ქ  n 36 თან": {
+    "name": "ჭყონდიდელის ქ. N 36-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "სეიდაბადის სატუმბო სადგურში": {
+    "name": "სეიდაბადის სატუმბო სადგურში",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
