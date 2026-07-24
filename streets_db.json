@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 94
+    "seen_count": 96
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -2602,7 +2602,7 @@
   "სარაჯიშვილის": {
     "name": "სარაჯიშვილის",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ვახტანგ სონღულაშვილის": {
     "name": "ვახტანგ სონღულაშვილის",
@@ -2627,7 +2627,7 @@
   "აღმაშენებლის": {
     "name": "აღმაშენებლის",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "თაყაიშვილის": {
     "name": "თაყაიშვილის",
@@ -2637,7 +2637,7 @@
   "ხანძთელის": {
     "name": "ხანძთელის",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ჭიაურელის და კვირაცხოველის ქუჩებს": {
     "name": "ჭიაურელის და კვირაცხოველის ქუჩებს",
@@ -3962,7 +3962,7 @@
   "პატარა კახი": {
     "name": "პატარა კახი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "სულხან საბა ორბელიანი": {
     "name": "სულხან საბა ორბელიანი",
@@ -4012,7 +4012,7 @@
   "ვახტანგ გორგასალი": {
     "name": "ვახტანგ გორგასალი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვახტანგ მე 6": {
     "name": "ვახტანგ მე-6",
@@ -4032,7 +4032,7 @@
   "ყაზბეგის": {
     "name": "ყაზბეგის",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჭავჭავაძის ქუჩებს": {
     "name": "ჭავჭავაძის ქუჩებს",
@@ -5862,7 +5862,7 @@
   "თინა იოსებიძის ქ  n72ა ში": {
     "name": "თინა იოსებიძის ქ. N72ა-ში",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ალექსანდრე თვალჭრელიძის ქ  1 შეს  n 4 თან": {
     "name": "ალექსანდრე თვალჭრელიძის ქ. 1 შეს. N 4-თან",
@@ -5876,6 +5876,91 @@
   },
   "მ  კოსტავას 46 ში": {
     "name": "მ. კოსტავას 46-ში",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ფიროსმანის ქ  n13 თან": {
+    "name": "ფიროსმანის ქ. N13-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ანდრონიკაშვილის": {
+    "name": "ანდრონიკაშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ათონელის": {
+    "name": "ათონელის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "წერეთლის": {
+    "name": "წერეთლის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "13 ასურელის": {
+    "name": "13 ასურელის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "დიდგორის": {
+    "name": "დიდგორის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჯავახიშვილის": {
+    "name": "ჯავახიშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "იოაკიმ და ანას": {
+    "name": "იოაკიმ და ანას",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბარათაშვილის": {
+    "name": "ბარათაშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჩოლოყაშვილის": {
+    "name": "ჩოლოყაშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ფიროსმანის და ჭიაურელის ქუჩებს": {
+    "name": "ფიროსმანის და ჭიაურელის ქუჩებს.",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "მუხიანი 2 ის": {
+    "name": "მუხიანი 2-ის",
+    "district": "Gldani",
+    "seen_count": 3
+  },
+  "რეზერვუართან": {
+    "name": "რეზერვუართან",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "მუხიანის აგარაკები": {
+    "name": "მუხიანის აგარაკები.",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ტაბახმელის რეზერვუართან": {
+    "name": "ტაბახმელის რეზერვუართან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "თამარ მეფის ქუჩა": {
+    "name": "თამარ მეფის ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გუმბათების წყარო": {
+    "name": "გუმბათების წყარო",
     "district": "Mtatsminda",
     "seen_count": 1
   }
