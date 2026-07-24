@@ -5812,51 +5812,66 @@
   "მუხიანის 2": {
     "name": "მუხიანის 2",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მუხიანის 2 სატუმბო სადგურს შეუწყდა ელ ენერგიის მიწოდება": {
     "name": "მუხიანის 2 სატუმბო სადგურს შეუწყდა ელ.ენერგიის მიწოდება",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ალექსანდრე თვალჭრელიძის ქ  1 შეს n4 თან": {
     "name": "ალექსანდრე თვალჭრელიძის ქ. 1 შეს N4-თან",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მე   3   შესახვევებს": {
     "name": "მე - 3 - შესახვევებს",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 3
   },
   "იყალთოს 24 თან": {
     "name": "იყალთოს 24-თან",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "დიდი ლილოს": {
     "name": "დიდი ლილოს",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 3
   },
   "თევდორე მღვდლის ქ  n48 ში": {
     "name": "თევდორე მღვდლის ქ. N48-ში",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "48ა წერეთლის n55": {
     "name": "48ა წერეთლის N55",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "55 ის კორპუსებს": {
     "name": "55 ის კორპუსებს",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სიმონ კანდელაკის ქ  n8 თან": {
     "name": "სიმონ კანდელაკის ქ. N8-თან",
     "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "თინა იოსებიძის ქ  n72ა ში": {
+    "name": "თინა იოსებიძის ქ. N72ა-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ალექსანდრე თვალჭრელიძის ქ  1 შეს  n 4 თან": {
+    "name": "ალექსანდრე თვალჭრელიძის ქ. 1 შეს. N 4-თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "პატარა ლილოს": {
+    "name": "პატარა ლილოს",
+    "district": "Samgori",
     "seen_count": 1
   }
 }
