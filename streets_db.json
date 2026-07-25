@@ -3832,7 +3832,7 @@
   "ჭილაიას": {
     "name": "ჭილაიას",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "მახალდიანის": {
     "name": "მახალდიანის",
@@ -6047,27 +6047,27 @@
   "ინტენსიფიკაციის ქ  n14 თან": {
     "name": "ინტენსიფიკაციის ქ. N14-თან",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ხომლის": {
     "name": "ხომლის",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "უჩა ჯაფარიძის": {
     "name": "უჩა ჯაფარიძის",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ლეო კვაჭაძის": {
     "name": "ლეო კვაჭაძის",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ონკოლოგიური კლინიკას": {
     "name": "ონკოლოგიური კლინიკას.",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნატახტრის": {
     "name": "ნატახტრის",
@@ -6238,5 +6238,40 @@
     "name": "მ.ასათიანის N9",
     "district": "Vake",
     "seen_count": 1
+  },
+  "თამარ მეფის n4  თან": {
+    "name": "თამარ მეფის N4 -თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გორგასლის": {
+    "name": "გორგასლის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ტაბიძის": {
+    "name": "ტაბიძის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "კვირაცხოვლის": {
+    "name": "კვირაცხოვლის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ლაშა გიორგის": {
+    "name": "ლაშა გიორგის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გივი ამილახვარის ქ  n9ა  თან": {
+    "name": "გივი ამილახვარის ქ. N9ა -თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "წმინდა ბარბარეს უბანი": {
+    "name": "წმინდა ბარბარეს უბანი",
+    "district": "Samgori",
+    "seen_count": 2
   }
 }
