@@ -1507,7 +1507,7 @@
   "დაისის": {
     "name": "დაისის",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "არტანუჯის": {
     "name": "არტანუჯის",
@@ -2727,7 +2727,7 @@
   "სოფ  წინუბანი": {
     "name": "სოფ. წინუბანი",
     "district": "Samgori",
-    "seen_count": 17
+    "seen_count": 19
   },
   "რაჭის ქ  n41 თან": {
     "name": "რაჭის ქ. N41-თან",
@@ -3647,7 +3647,7 @@
   "ქართლის": {
     "name": "ქართლის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ვაზიანის": {
     "name": "ვაზიანის",
@@ -3677,7 +3677,7 @@
   "ბეჟანიშვილის": {
     "name": "ბეჟანიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ჭყონდიდელის": {
     "name": "ჭყონდიდელის",
@@ -3797,7 +3797,7 @@
   "ქართველიშვილის": {
     "name": "ქართველიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ასკურავას": {
     "name": "ასკურავას",
@@ -3832,7 +3832,7 @@
   "ჭილაიას": {
     "name": "ჭილაიას",
     "district": "Nadzaladevi",
-    "seen_count": 6
+    "seen_count": 7
   },
   "მახალდიანის": {
     "name": "მახალდიანის",
@@ -3852,7 +3852,7 @@
   "კნოლევის": {
     "name": "კნოლევის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "სვანეთის": {
     "name": "სვანეთის",
@@ -6047,27 +6047,27 @@
   "ინტენსიფიკაციის ქ  n14 თან": {
     "name": "ინტენსიფიკაციის ქ. N14-თან",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ხომლის": {
     "name": "ხომლის",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "უჩა ჯაფარიძის": {
     "name": "უჩა ჯაფარიძის",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ლეო კვაჭაძის": {
     "name": "ლეო კვაჭაძის",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ონკოლოგიური კლინიკას": {
     "name": "ონკოლოგიური კლინიკას.",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ნატახტრის": {
     "name": "ნატახტრის",
@@ -6242,36 +6242,106 @@
   "თამარ მეფის n4  თან": {
     "name": "თამარ მეფის N4 -თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გორგასლის": {
     "name": "გორგასლის",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ტაბიძის": {
     "name": "ტაბიძის",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "კვირაცხოვლის": {
     "name": "კვირაცხოვლის",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ლაშა გიორგის": {
     "name": "ლაშა გიორგის",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გივი ამილახვარის ქ  n9ა  თან": {
     "name": "გივი ამილახვარის ქ. N9ა -თან",
     "district": "Samgori",
-    "seen_count": 1
+    "seen_count": 2
   },
   "წმინდა ბარბარეს უბანი": {
     "name": "წმინდა ბარბარეს უბანი",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 4
+  },
+  "გია ყანჩელის n29 თან": {
+    "name": "გია ყანჩელის N29-თან",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ნიკოლოზ გოგოლის n1": {
+    "name": "ნიკოლოზ გოგოლის N1",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "გოგი დოლიძის n43": {
+    "name": "გოგი დოლიძის N43",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ფიროსმანის n40": {
+    "name": "ფიროსმანის N40",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "დაისის ქ  2 შეს  n18 თან": {
+    "name": "დაისის ქ. 2 შეს. N18-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "კონსტანტინე ილურიძის ქ  2 შეს": {
+    "name": "კონსტანტინე ილურიძის ქ. 2 შეს",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "გვაზაურის მე 2 შეს": {
+    "name": "გვაზაურის მე-2 შეს",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "თმოგვის": {
+    "name": "თმოგვის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ღრმაღელის ქუჩას": {
+    "name": "ღრმაღელის ქუჩას",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ქსოვრელის": {
+    "name": "ქსოვრელის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ღოღობერიძის": {
+    "name": "ღოღობერიძის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ტოროშელიძისა და ქუჩებს": {
+    "name": "ტოროშელიძისა და ქუჩებს",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "შესახვევებს და ჩიხებს": {
+    "name": "შესახვევებს და ჩიხებს",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ბეჩოს ქ  n 3 თან": {
+    "name": "ბეჩოს ქ. N 3-თან",
+    "district": "Samgori",
+    "seen_count": 1
   }
 }
