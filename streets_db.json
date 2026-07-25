@@ -897,7 +897,7 @@
   "ზალდასტანიშვილების": {
     "name": "ზალდასტანიშვილების",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვ ჩიქოვანის": {
     "name": "ვ.ჩიქოვანის",
@@ -1982,12 +1982,12 @@
   "მაღალაშვილის": {
     "name": "მაღალაშვილის",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გეგეჭკორის": {
     "name": "გეგეჭკორის",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ყაზბეგის ქუჩა n30 46 ლუწებს": {
     "name": "ყაზბეგის ქუჩა N30-46(ლუწებს)",
@@ -2137,7 +2137,7 @@
   "გაზაფხულის": {
     "name": "გაზაფხულის",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ილია აბულაძის": {
     "name": "ილია აბულაძის",
@@ -2147,7 +2147,7 @@
   "ნადარეიშვილის": {
     "name": "ნადარეიშვილის",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "დელისის მე 3 ქუჩას": {
     "name": "(დელისის მე-3 ქუჩას)",
@@ -3662,7 +3662,7 @@
   "ქუთათელაძის": {
     "name": "ქუთათელაძის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "მელქისედეკ 1 ის": {
     "name": "მელქისედეკ 1-ის",
@@ -3832,7 +3832,7 @@
   "ჭილაიას": {
     "name": "ჭილაიას",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "მახალდიანის": {
     "name": "მახალდიანის",
@@ -5747,7 +5747,7 @@
   "სხირტლაძის": {
     "name": "სხირტლაძის",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "სხვიტარიძის": {
     "name": "სხვიტარიძის",
@@ -5787,17 +5787,17 @@
   "დაბა კიკეთს": {
     "name": "დაბა კიკეთს",
     "district": "Mtatsminda",
-    "seen_count": 4
+    "seen_count": 5
   },
   "სოფელ ბეთანიას": {
     "name": "სოფელ ბეთანიას",
     "district": "Mtatsminda",
-    "seen_count": 4
+    "seen_count": 5
   },
   "კვესეთს": {
     "name": "კვესეთს",
     "district": "Mtatsminda",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ლუბლიანას ქ  n18 თან": {
     "name": "ლუბლიანას ქ. N18-თან",
@@ -5922,7 +5922,7 @@
   "ბარათაშვილის": {
     "name": "ბარათაშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ჩოლოყაშვილის": {
     "name": "ჩოლოყაშვილის",
@@ -6042,6 +6042,201 @@
   "მუხიანის 4ა მკ": {
     "name": "მუხიანის 4ა-მკ",
     "district": "Gldani",
+    "seen_count": 1
+  },
+  "ინტენსიფიკაციის ქ  n14 თან": {
+    "name": "ინტენსიფიკაციის ქ. N14-თან",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ხომლის": {
+    "name": "ხომლის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "უჩა ჯაფარიძის": {
+    "name": "უჩა ჯაფარიძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ლეო კვაჭაძის": {
+    "name": "ლეო კვაჭაძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ონკოლოგიური კლინიკას": {
+    "name": "ონკოლოგიური კლინიკას.",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ნატახტრის": {
+    "name": "ნატახტრის",
+    "district": "Vake",
+    "seen_count": 2
+  },
+  "ii კვარტლებს": {
+    "name": "II კვარტლებს",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ვაჟა ფშაველას n43 71  კენტებს": {
+    "name": "ვაჟა-ფშაველას N43-71 (კენტებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n52 70  ლუწებს": {
+    "name": "N52-70 (ლუწებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ნუცუბიძის ქ  n1 131  კენტებს": {
+    "name": "ნუცუბიძის ქ. N1-131 (კენტებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n2 82  ლუწებს": {
+    "name": "N2-82 (ლუწებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ყაზბეგის გამზ  n30 46  ლუწებს": {
+    "name": "ყაზბეგის გამზ. N30-46 (ლუწებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ჩახავას": {
+    "name": "ჩახავას",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ოთარ ლორთქიფანიძის": {
+    "name": "ოთარ ლორთქიფანიძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ჩხეიძის": {
+    "name": "ჩხეიძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "თავაძის": {
+    "name": "თავაძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "მიქელაძის": {
+    "name": "მიქელაძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ირაკლი გამრეკელის": {
+    "name": "ირაკლი გამრეკელის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "გურიელის": {
+    "name": "გურიელის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "დელისის i": {
+    "name": "დელისის I",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "iii და დელისის ქუჩებს": {
+    "name": "III და დელისის ქუჩებს",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "იოველ ჯებაშვილის ქუჩას და 1 გასასვლელს": {
+    "name": "იოველ ჯებაშვილის ქუჩას და 1 გასასვლელს",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "აფხაიძის": {
+    "name": "აფხაიძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "მეგრელიძის": {
+    "name": "მეგრელიძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "თავხელიძის": {
+    "name": "თავხელიძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ქავთარაძის n1 27  კენტებს": {
+    "name": "ქავთარაძის N1-27 (კენტებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n2 24  ლუწებს  ქუჩებს  ზურაბ მუზაშვილის": {
+    "name": "N2-24 (ლუწებს) ქუჩებს. ზურაბ მუზაშვილის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "მარო თარხნიშვილის  საბურთალოს რაიონში   ზაქარიაძის": {
+    "name": "მარო თარხნიშვილის. საბურთალოს რაიონში - ზაქარიაძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ბუაჩიძის": {
+    "name": "ბუაჩიძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "მირზა გელოვანის": {
+    "name": "მირზა გელოვანის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ვახტანგ ჩიქოვანის": {
+    "name": "ვახტანგ ჩიქოვანის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ბუდაპეშტის n28 46  ლუწებს": {
+    "name": "ბუდაპეშტის N28-46 (ლუწებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n13 19  კენტებს": {
+    "name": "N13-19 (კენტებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ალასანიას": {
+    "name": "ალასანიას",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ლვოვის n83 97  კენტებს": {
+    "name": "ლვოვის N83-97 (კენტებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n92 98  ლუწებს": {
+    "name": "N92-98 (ლუწებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ონიაშვილის n61 89  კენტებს": {
+    "name": "ონიაშვილის N61-89 (კენტებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n64 80  ლუწებს": {
+    "name": "N64-80 (ლუწებს)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "მ ასათიანის n9": {
+    "name": "მ.ასათიანის N9",
+    "district": "Vake",
     "seen_count": 1
   }
 }
