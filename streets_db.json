@@ -6397,7 +6397,7 @@
   "თამარ მეფის n4 თან": {
     "name": "თამარ მეფის N4-თან",
     "district": "Mtatsminda",
-    "seen_count": 6
+    "seen_count": 7
   },
   "მარიჯანი": {
     "name": "მარიჯანი",
@@ -6627,21 +6627,26 @@
   "ბეთანია თამარ მეფის n14 თან": {
     "name": "ბეთანია თამარ მეფის N14 თან",
     "district": "Tsqneti",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ჰაინრიხ კლაპროთის n94 თან": {
     "name": "ჰაინრიხ კლაპროთის N94-თან",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბესარიონ ჭიჭინაძის შეს n 1 თან": {
     "name": "ბესარიონ ჭიჭინაძის შეს.N 1-თან",
     "district": "Samgori",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გივი სვანიძის ქ  n 10 თან": {
     "name": "გივი სვანიძის ქ. N 10-თან",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
+  },
+  "ვარკეთილი 3": {
+    "name": "ვარკეთილი 3",
+    "district": "Samgori",
+    "seen_count": 2
   }
 }
