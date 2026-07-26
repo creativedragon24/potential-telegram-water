@@ -6637,16 +6637,21 @@
   "ბესარიონ ჭიჭინაძის შეს n 1 თან": {
     "name": "ბესარიონ ჭიჭინაძის შეს.N 1-თან",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გივი სვანიძის ქ  n 10 თან": {
     "name": "გივი სვანიძის ქ. N 10-თან",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ვარკეთილი 3": {
     "name": "ვარკეთილი 3",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 6
+  },
+  "მე 3 მიკროს 301": {
+    "name": "მე-3 მიკროს 301",
+    "district": "Samgori",
+    "seen_count": 1
   }
 }
