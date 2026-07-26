@@ -6637,21 +6637,26 @@
   "ბესარიონ ჭიჭინაძის შეს n 1 თან": {
     "name": "ბესარიონ ჭიჭინაძის შეს.N 1-თან",
     "district": "Samgori",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გივი სვანიძის ქ  n 10 თან": {
     "name": "გივი სვანიძის ქ. N 10-თან",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვარკეთილი 3": {
     "name": "ვარკეთილი 3",
     "district": "Samgori",
-    "seen_count": 6
+    "seen_count": 10
   },
   "მე 3 მიკროს 301": {
     "name": "მე-3 მიკროს 301",
     "district": "Samgori",
+    "seen_count": 2
+  },
+  "თინა იოსებიძის ქ  n 50 თან": {
+    "name": "თინა იოსებიძის ქ. N 50-თან",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
