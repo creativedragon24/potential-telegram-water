@@ -4672,7 +4672,7 @@
   "სოფ  გამარჯვება": {
     "name": "სოფ. გამარჯვება",
     "district": "Samgori",
-    "seen_count": 31
+    "seen_count": 33
   },
   "ნასაგური": {
     "name": "ნასაგური",
@@ -6667,47 +6667,47 @@
   "მეფრინველეობის ფაბრიკასთან": {
     "name": "მეფრინველეობის ფაბრიკასთან",
     "district": "Samgori",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სოფ  გამარჯვებას": {
     "name": "სოფ. გამარჯვებას",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "სოფ  ჭალას": {
     "name": "სოფ. ჭალას",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "სოფ  გაჩიანის": {
     "name": "სოფ. გაჩიანის",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "სოფ  ახტაკლიას": {
     "name": "სოფ. ახტაკლიას",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "სოფ  კარატაკლიას": {
     "name": "სოფ. კარატაკლიას",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "სოფ  ფოლადაანთკარს": {
     "name": "სოფ. ფოლადაანთკარს",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "360  ე კილომეტრს": {
     "name": "360 -ე კილომეტრს",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "გვაზავას და ცაცა ამირეჯიბის ქუჩებს": {
     "name": "გვაზავას და ცაცა ამირეჯიბის ქუჩებს.",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ავლაბრის ქ  n 27 თან": {
     "name": "ავლაბრის ქ. N 27-თან",
@@ -7097,16 +7097,76 @@
   "ვაჟა ფშაველას 5კვ  n4 თან": {
     "name": "ვაჟა-ფშაველას 5კვ. N4 თან",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გაგარინის ქ  n14 16 თან": {
     "name": "გაგარინის ქ. N14/16 თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გაბრიელ ისაკაძის 12": {
     "name": "გაბრიელ ისაკაძის 12",
     "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "პეტრე ქავთარაძის ქ  n19 თან": {
+    "name": "პეტრე ქავთარაძის ქ. N19 თან",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "n2 n20  ლუწები": {
+    "name": "N2-N20 (ლუწები)",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ოთარ ჩხეიძის n14  ს": {
+    "name": "ოთარ ჩხეიძის N14 -ს",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ბაგების": {
+    "name": "ბაგების",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "მიხეილ ქორქიას": {
+    "name": "მიხეილ ქორქიას",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "გაზდელიანის": {
+    "name": "გაზდელიანის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "მაჩაბლის": {
+    "name": "მაჩაბლის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ნუშის ბაღების": {
+    "name": "ნუშის ბაღების",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "ბათიაშვილის": {
+    "name": "ბათიაშვილის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "იმედაძის": {
+    "name": "იმედაძის",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "კაკლების ქუჩას თავისი შესახვევებით": {
+    "name": "კაკლების ქუჩას თავისი შესახვევებით",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "თბილისის": {
+    "name": "თბილისის",
+    "district": "Vake",
     "seen_count": 1
   }
 }
