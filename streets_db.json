@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 22
+    "seen_count": 24
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -6977,7 +6977,7 @@
   "ტარიელ ფუტკარაძის ქ  n8 თან": {
     "name": "ტარიელ ფუტკარაძის ქ. N8 თან",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ვაჟა ფშაველას გამზ  2 კვ  n28 ში": {
     "name": "ვაჟა-ფშაველას გამზ. 2 კვ. N28 ში",
@@ -7478,5 +7478,40 @@
     "name": "იოსებ გრიშაშვილის N1-N11 (კენტები) N2-N22 (ლუწები).",
     "district": "Krtsanisi",
     "seen_count": 2
+  },
+  "წყნეთში": {
+    "name": "წყნეთში",
+    "district": "Tsqneti",
+    "seen_count": 2
+  },
+  "გორგასლის ქ n1 თან": {
+    "name": "გორგასლის ქ.N1-თან",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "viii მ რ n7 თან": {
+    "name": "VIII მ/რ N7-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ეკა ბეჟანიშვილის ქ  n14 თან": {
+    "name": "ეკა ბეჟანიშვილის ქ. N14-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ბეჟანიშვილის 14": {
+    "name": "ბეჟანიშვილის 14",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "გუთნის ქ  n28 ში": {
+    "name": "გუთნის ქ. N28-ში",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ნიორაძის და ქურხულის ქუჩებს": {
+    "name": "ნიორაძის და ქურხულის ქუჩებს",
+    "district": "Isani",
+    "seen_count": 1
   }
 }
