@@ -8652,12 +8652,12 @@
   "ცისკარიშვილის ქ   ბ  კორპუსთან": {
     "name": "ცისკარიშვილის ქ. \"ბ\" კორპუსთან",
     "district": "Samgori",
-    "seen_count": 4
+    "seen_count": 5
   },
   "კონსტანტინე ილურიძის ქ  3 შეს  n 8 ში": {
     "name": "კონსტანტინე ილურიძის ქ. 3 შეს. N 8 ში",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შატბერაშვილის მე 2 შეს n 19 ში": {
     "name": "შატბერაშვილის მე-2 შეს N 19 ში",
@@ -8687,36 +8687,51 @@
   "ს ქ  n 7 თან სატუმბო სადგურში": {
     "name": "ს ქ. N 7-თან სატუმბო სადგურში",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "n8 56  ლუწებს  კაციტაძის ქუჩებს": {
     "name": "N8-56 (ლუწებს) კაციტაძის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ს 1 ლი ჩიხს": {
     "name": "ს 1-ლი ჩიხს",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "1 ლი და მე 2 გასავალს": {
     "name": "1-ლი და მე-2 გასავალს",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გორგასლის გასავალს": {
     "name": "გორგასლის გასავალს",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გიორგი გურამიშვილის შესახვევი": {
     "name": "გიორგი გურამიშვილის შესახვევი",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გორგასლის n65": {
     "name": "გორგასლის N65",
     "district": "Krtsanisi",
+    "seen_count": 2
+  },
+  "ლამის ქ  n5გ თან": {
+    "name": "ლამის ქ. N5გ თან",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "არაგვისპირელის შესახვევი და ემილ ვერჰანისი ქუჩა": {
+    "name": "არაგვისპირელის შესახვევი და ემილ ვერჰანისი ქუჩა",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "დავით აღმაშენებელის გამზირი n 144ა ში": {
+    "name": "დავით აღმაშენებელის გამზირი N 144ა ში",
+    "district": "Didube",
     "seen_count": 1
   }
 }
