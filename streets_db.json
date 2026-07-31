@@ -1532,17 +1532,17 @@
   "ბელა მირიანაშვილის ქუჩას": {
     "name": "ბელა მირიანაშვილის ქუჩას",
     "district": "Chugureti",
-    "seen_count": 5
+    "seen_count": 6
   },
   "არაგვისპირს შესახვევებით": {
     "name": "არაგვისპირს შესახვევებით",
     "district": "Chugureti",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დიღომბარს": {
     "name": "დიღომბარს",
     "district": "Chugureti",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ცოტნე დადიანის n87 2 ში": {
     "name": "ცოტნე დადიანის N87/2-ში",
@@ -8092,27 +8092,27 @@
   "რუსთაველის გამზ  n 3 თან": {
     "name": "რუსთაველის გამზ. N 3-თან",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ნატო ვაჩნაძე": {
     "name": "ნატო ვაჩნაძე",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ფურცელაძე": {
     "name": "ფურცელაძე",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "გრიგოლ აბაშიძე": {
     "name": "გრიგოლ აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "პუშკინის n2 n10  ლუწები  თაბუკაშვილის n12": {
     "name": "პუშკინის N2-N10 (ლუწები) თაბუკაშვილის N12",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ვარკეთილის მას  3": {
     "name": "ვარკეთილის მას. 3",
@@ -8157,7 +8157,7 @@
   "ზაზა ბენდელიანის ქ  n 2 თან": {
     "name": "ზაზა ბენდელიანის ქ. N 2-თან",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 9
   },
   "გერგეთის ქ  შეს  n 12 თან": {
     "name": "გერგეთის ქ. შეს. N 12-თან",
@@ -8197,6 +8197,101 @@
   "ვაზიანის დასახლებას და ლილოს ბაზრობას": {
     "name": "ვაზიანის დასახლებას და ლილოს ბაზრობას.",
     "district": "Samgori",
-    "seen_count": 5
+    "seen_count": 6
+  },
+  "ლამის ქ  n 5გ სთან": {
+    "name": "ლამის ქ. N 5გ-სთან",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ნიაბის ქ  n 45 თან": {
+    "name": "ნიაბის ქ. N 45-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "შილდის": {
+    "name": "შილდის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ბეღლეთის": {
+    "name": "ბეღლეთის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "კაიშაურის": {
+    "name": "კაიშაურის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ჟონეთის": {
+    "name": "ჟონეთის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "კიკეთის": {
+    "name": "კიკეთის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ნიაბის": {
+    "name": "ნიაბის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ცისკრის": {
+    "name": "ცისკრის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ბზიფის": {
+    "name": "ბზიფის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "სომხეთის": {
+    "name": "სომხეთის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მრევლიშვილს ფშავის": {
+    "name": "მრევლიშვილს ფშავის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "კვესეთის": {
+    "name": "კვესეთის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ნაქერალას": {
+    "name": "ნაქერალას",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "სათემო": {
+    "name": "სათემო",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "აბულის": {
+    "name": "აბულის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "კვალეთის": {
+    "name": "კვალეთის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "განთიადის ახალუბნის და შაქრიანის გიორგი გედევანიშვილის ქუჩებს": {
+    "name": "განთიადის ახალუბნის და შაქრიანის გიორგი გედევანიშვილის ქუჩებს.",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "რუსთაველის გამზ  n 37 თან": {
+    "name": "რუსთაველის გამზ. N 37-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
