@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 28
+    "seen_count": 32
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -8742,51 +8742,76 @@
   "თამარ მეფის ქ  n36 თან": {
     "name": "თამარ მეფის ქ. N36-თან",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "შავნაბადის ქუჩა": {
     "name": "შავნაბადის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გიორგი ორბელიანის ქუჩა": {
     "name": "გიორგი ორბელიანის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "მაჩაბლის ქუჩა": {
     "name": "მაჩაბლის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გიორგი ბწყინვალის ქუჩა": {
     "name": "გიორგი ბწყინვალის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ვახტანგ თედიაშვილის ქ  n1 თან": {
     "name": "ვახტანგ თედიაშვილის ქ. N1-თან",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გიორგი შატბერაშვილის ქ  2 შეს  n19 ში": {
     "name": "გიორგი შატბერაშვილის ქ. 2 შეს. N19-ში",
     "district": "Vake",
-    "seen_count": 4
+    "seen_count": 5
   },
   "მცხეთის ქ  1 ჩიხი": {
     "name": "მცხეთის ქ. 1 ჩიხი",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "იყალთოს ქ  n20 თან": {
     "name": "იყალთოს ქ. N20-თან",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "დავით გურამიშვილის გამზ  n31 თან": {
     "name": "დავით გურამიშვილის გამზ. N31-თან",
     "district": "Nadzaladevi",
+    "seen_count": 3
+  },
+  "რუსთაველის გამზ  n11 თან": {
+    "name": "რუსთაველის გამზ. N11-თან",
+    "district": "Mtatsminda",
     "seen_count": 2
+  },
+  "რ ლაღიძის ქ": {
+    "name": "რ.ლაღიძის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "ვ  აბაშიძის ქ": {
+    "name": "ვ. აბაშიძის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "შ  მესხიას": {
+    "name": "შ. მესხიას",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "რ  თაბუკაშვილის 27": {
+    "name": "რ. თაბუკაშვილის 27",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
