@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 8
+    "seen_count": 12
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -8732,11 +8732,41 @@
   "დავით აღმაშენებელის გამზირი n 144ა ში": {
     "name": "დავით აღმაშენებელის გამზირი N 144ა ში",
     "district": "Didube",
-    "seen_count": 4
+    "seen_count": 5
   },
   "თინა იოსებიძის ქ  n 72 ში": {
     "name": "თინა იოსებიძის ქ. N 72 ში",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
+  },
+  "თამარ მეფის ქ  n36 თან": {
+    "name": "თამარ მეფის ქ. N36-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "შავნაბადის ქუჩა": {
+    "name": "შავნაბადის ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გიორგი ორბელიანის ქუჩა": {
+    "name": "გიორგი ორბელიანის ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "მაჩაბლის ქუჩა": {
+    "name": "მაჩაბლის ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გიორგი ბწყინვალის ქუჩა": {
+    "name": "გიორგი ბწყინვალის ქუჩა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ვახტანგ თედიაშვილის ქ  n1 თან": {
+    "name": "ვახტანგ თედიაშვილის ქ. N1-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
