@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 100
+    "seen_count": 102
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 36
+    "seen_count": 40
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -3367,72 +3367,72 @@
   "წავკისის ქუჩას": {
     "name": "წავკისის ქუჩას",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "შინდისის ქუჩას": {
     "name": "შინდისის ქუჩას",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "კოჯრის გას  მარო მაყაშვილის აღმართს": {
     "name": "კოჯრის გას. მარო მაყაშვილის აღმართს",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ავთანდილის": {
     "name": "ავთანდილის",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "შხეფის": {
     "name": "შხეფის",
     "district": "Mtatsminda",
-    "seen_count": 20
+    "seen_count": 21
   },
   "ს  მესხის": {
     "name": "ს. მესხის",
     "district": "Mtatsminda",
-    "seen_count": 20
+    "seen_count": 21
   },
   "ბოლო აღმართის": {
     "name": "ბოლო აღმართის",
     "district": "Mtatsminda",
-    "seen_count": 20
+    "seen_count": 21
   },
   "ამაღლების n 39 47 კენტებს": {
     "name": "ამაღლების N 39-47(კენტებს)",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ამაღლების n12": {
     "name": "ამაღლების N12",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ამაღლების გასავალს": {
     "name": "ამაღლების გასავალს",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ამაღლების ხეივანს": {
     "name": "ამაღლების ხეივანს",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ამაღლების მე 3 ჩიხს": {
     "name": "ამაღლების მე-3 ჩიხს",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ასათიანის n 35  43  კენტებს  და n 56 66  ლუწებს": {
     "name": "ასათიანის N 35- 43 (კენტებს) და N 56-66 (ლუწებს)",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ასათიანის მე 2 შესახვევს": {
     "name": "ასათიანის მე-2 შესახვევს",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ირაკლი აბაშიძის n22ა თან": {
     "name": "ირაკლი აბაშიძის N22ა-თან",
@@ -7247,7 +7247,7 @@
   "შერმადინის": {
     "name": "შერმადინის",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ხატაეთის": {
     "name": "ხატაეთის",
@@ -8742,81 +8742,96 @@
   "თამარ მეფის ქ  n36 თან": {
     "name": "თამარ მეფის ქ. N36-თან",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "შავნაბადის ქუჩა": {
     "name": "შავნაბადის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "გიორგი ორბელიანის ქუჩა": {
     "name": "გიორგი ორბელიანის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "მაჩაბლის ქუჩა": {
     "name": "მაჩაბლის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "გიორგი ბწყინვალის ქუჩა": {
     "name": "გიორგი ბწყინვალის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ვახტანგ თედიაშვილის ქ  n1 თან": {
     "name": "ვახტანგ თედიაშვილის ქ. N1-თან",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "გიორგი შატბერაშვილის ქ  2 შეს  n19 ში": {
     "name": "გიორგი შატბერაშვილის ქ. 2 შეს. N19-ში",
     "district": "Vake",
-    "seen_count": 6
+    "seen_count": 7
   },
   "მცხეთის ქ  1 ჩიხი": {
     "name": "მცხეთის ქ. 1 ჩიხი",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "იყალთოს ქ  n20 თან": {
     "name": "იყალთოს ქ. N20-თან",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დავით გურამიშვილის გამზ  n31 თან": {
     "name": "დავით გურამიშვილის გამზ. N31-თან",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "რუსთაველის გამზ  n11 თან": {
     "name": "რუსთაველის გამზ. N11-თან",
     "district": "Mtatsminda",
-    "seen_count": 4
+    "seen_count": 6
   },
   "რ ლაღიძის ქ": {
     "name": "რ.ლაღიძის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 4
+    "seen_count": 6
   },
   "ვ  აბაშიძის ქ": {
     "name": "ვ. აბაშიძის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 4
+    "seen_count": 6
   },
   "შ  მესხიას": {
     "name": "შ. მესხიას",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "რ  თაბუკაშვილის 27": {
     "name": "რ. თაბუკაშვილის 27",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გერგეთის ქ  შეს  n3 თან": {
     "name": "გერგეთის ქ. შეს. N3-თან",
     "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "ხატაეთის ქ n37 თან": {
+    "name": "ხატაეთის ქ N37-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "თინათინი": {
+    "name": "თინათინი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ხატაეთის და ნესტან დარეჯანის ქუჩებს": {
+    "name": "ხატაეთის და ნესტან დარეჯანის ქუჩებს.",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
