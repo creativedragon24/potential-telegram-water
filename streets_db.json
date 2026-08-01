@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 16
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -8742,31 +8742,36 @@
   "თამარ მეფის ქ  n36 თან": {
     "name": "თამარ მეფის ქ. N36-თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "შავნაბადის ქუჩა": {
     "name": "შავნაბადის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გიორგი ორბელიანის ქუჩა": {
     "name": "გიორგი ორბელიანის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მაჩაბლის ქუჩა": {
     "name": "მაჩაბლის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გიორგი ბწყინვალის ქუჩა": {
     "name": "გიორგი ბწყინვალის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვახტანგ თედიაშვილის ქ  n1 თან": {
     "name": "ვახტანგ თედიაშვილის ქ. N1-თან",
     "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "გიორგი შატბერაშვილის ქ  2 შეს  n19 ში": {
+    "name": "გიორგი შატბერაშვილის ქ. 2 შეს. N19-ში",
+    "district": "Vake",
     "seen_count": 1
   }
 }
