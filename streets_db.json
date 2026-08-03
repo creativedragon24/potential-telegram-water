@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 40
+    "seen_count": 42
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -1532,17 +1532,17 @@
   "ბელა მირიანაშვილის ქუჩას": {
     "name": "ბელა მირიანაშვილის ქუჩას",
     "district": "Chugureti",
-    "seen_count": 18
+    "seen_count": 19
   },
   "არაგვისპირს შესახვევებით": {
     "name": "არაგვისპირს შესახვევებით",
     "district": "Chugureti",
-    "seen_count": 18
+    "seen_count": 19
   },
   "დიღომბარს": {
     "name": "დიღომბარს",
     "district": "Chugureti",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ცოტნე დადიანის n87 2 ში": {
     "name": "ცოტნე დადიანის N87/2-ში",
@@ -4022,7 +4022,7 @@
   "სოფ  გიორგიწმინდა": {
     "name": "სოფ. გიორგიწმინდა",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 6
   },
   "სანდრო კანდელაკის ქ  n61 თან": {
     "name": "სანდრო კანდელაკის ქ. N61-თან",
@@ -8852,7 +8852,7 @@
   "ლამის ქ  n5 თან": {
     "name": "ლამის ქ. N5-თან",
     "district": "Chugureti",
-    "seen_count": 12
+    "seen_count": 13
   },
   "იოსებ გრიშაშვილის ქ  n26 თან": {
     "name": "იოსებ გრიშაშვილის ქ. N26-თან",
@@ -9152,7 +9152,7 @@
   "ქარელის ქ  n 14 თან": {
     "name": "ქარელის ქ. N 14-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დიღმის მასივი": {
     "name": "დიღმის მასივი",
@@ -9172,36 +9172,61 @@
   "სოფ  დიღომი": {
     "name": "სოფ. დიღომი",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 4
   },
   "ლევან ფირცხელიანის ქ  n 9 თან": {
     "name": "ლევან ფირცხელიანის ქ. N 9-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ლევან ფირცხელიანის": {
     "name": "ლევან ფირცხელიანის",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "დავით აღმაშენებელის ხეივანივანი n158": {
     "name": "დავით აღმაშენებელის ხეივანივანი N158",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცენტრალურ საარჩევნო კომისიას და დაცვის პოლიციის დეპარტამენტს": {
     "name": "ცენტრალურ საარჩევნო კომისიას და დაცვის პოლიციის დეპარტამენტს",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "პროფილაქტიკა   სენა აუტო": {
     "name": "პროფილაქტიკა- \"სენა აუტო\"",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "იყალთოს ქ  n33 თან": {
     "name": "იყალთოს ქ. N33-თან",
     "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "იმერეთის ქ  n 6 თან": {
+    "name": "იმერეთის ქ. N 6-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "გიორგი ცაბაძის ქ  n 3გ სთან": {
+    "name": "გიორგი ცაბაძის ქ. N 3გ-სთან",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ზაქარია მხარგრძელის ქ  n5 თან": {
+    "name": "ზაქარია მხარგრძელის ქ. N5-თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "მერაბ კოსტავას ქ  n 5 თან": {
+    "name": "მერაბ კოსტავას ქ. N 5-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "თიანეთის ქ  n 119ბ ში": {
+    "name": "თიანეთის ქ. N 119ბ-ში",
+    "district": "Nadzaladevi",
     "seen_count": 1
   }
 }
