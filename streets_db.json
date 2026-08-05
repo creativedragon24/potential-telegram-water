@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 56
+    "seen_count": 58
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -3982,7 +3982,7 @@
   "მირიან მეფე": {
     "name": "მირიან მეფე",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ექვთიმე თაყაიშვილი": {
     "name": "ექვთიმე თაყაიშვილი",
@@ -4007,7 +4007,7 @@
   "მარი ჯანის": {
     "name": "მარი ჯანის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვახტანგ გორგასალი": {
     "name": "ვახტანგ გორგასალი",
@@ -4937,7 +4937,7 @@
   "ჯაფარიძის": {
     "name": "ჯაფარიძის",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ნ ჟვანიას": {
     "name": "ნ.ჟვანიას",
@@ -6247,12 +6247,12 @@
   "გორგასლის": {
     "name": "გორგასლის",
     "district": "Mtatsminda",
-    "seen_count": 6
+    "seen_count": 8
   },
   "ტაბიძის": {
     "name": "ტაბიძის",
     "district": "Mtatsminda",
-    "seen_count": 6
+    "seen_count": 7
   },
   "კვირაცხოვლის": {
     "name": "კვირაცხოვლის",
@@ -6412,7 +6412,7 @@
   "პატარა კახის": {
     "name": "პატარა კახის",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "9 ძმა ხერხეულიძის": {
     "name": "9 ძმა ხერხეულიძის",
@@ -9642,6 +9642,86 @@
   "ივლეთის ჩიხს და გაბრიელ სალოსის 1 ლ და მე 2 ჩიხს  შოთა ნადირაშვილის ქუჩას": {
     "name": "ივლეთის ჩიხს და გაბრიელ სალოსის 1-ლ და მე-2 ჩიხს. შოთა ნადირაშვილის ქუჩას",
     "district": "Isani",
+    "seen_count": 1
+  },
+  "ვარლამ ჩერქეზიშვილის ქ  n32 თან": {
+    "name": "ვარლამ ჩერქეზიშვილის ქ. N32 თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "გიორგი ნადარეიშვილის": {
+    "name": "გიორგი ნადარეიშვილის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ციხისძირის i": {
+    "name": "ციხისძირის I",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "iii გასავალს": {
+    "name": "III გასავალს",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ს ქუჩებს": {
+    "name": "ს ქუჩებს.",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "დიდგორის ქ  n23 თან": {
+    "name": "დიდგორის ქ. N23 თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "წავკისი  თბილისი კოჯრის გზატ  შესახვევებით": {
+    "name": "წავკისი: თბილისი-კოჯრის გზატ. შესახვევებით",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "სულხან საბა": {
+    "name": "სულხან საბა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "სამადლოს": {
+    "name": "სამადლოს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ვახტანგ 6": {
+    "name": "ვახტანგ 6",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "შინდისი  ფარნაოზ მეფე": {
+    "name": "შინდისი: ფარნაოზ მეფე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ჭონქაძე თავის შესახვევებით": {
+    "name": "ჭონქაძე თავის შესახვევებით",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "წუწუნავა": {
+    "name": "წუწუნავა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ამაღლების თაყაიშვილის ქუჩებს": {
+    "name": "ამაღლების თაყაიშვილის ქუჩებს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "დები იშხნელების ქ  n2 ში": {
+    "name": "დები იშხნელების ქ. N2 ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კალანდაძის და იოსებიძის ქუჩას": {
+    "name": "კალანდაძის და იოსებიძის ქუჩას",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
