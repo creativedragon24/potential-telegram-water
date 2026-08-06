@@ -337,7 +337,7 @@
   "ოქროყანა": {
     "name": "ოქროყანა",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 16
   },
   "აკაკი ხორავას ქ  n19 თან": {
     "name": "აკაკი ხორავას ქ. N19-თან",
@@ -1387,22 +1387,22 @@
   "ექვთიმე ხელაძე": {
     "name": "ექვთიმე ხელაძე",
     "district": "Saburtalo",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ასი ათასი მოწამის": {
     "name": "ასი ათასი მოწამის",
     "district": "Saburtalo",
-    "seen_count": 22
+    "seen_count": 23
   },
   "მუხათგვერდის": {
     "name": "მუხათგვერდის",
     "district": "Saburtalo",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ჩოხელის": {
     "name": "ჩოხელის",
     "district": "Saburtalo",
-    "seen_count": 18
+    "seen_count": 19
   },
   "სამაჩაბლოს და კათალიკოს აბრაამის ქუჩებს": {
     "name": "სამაჩაბლოს და კათალიკოს აბრაამის ქუჩებს",
@@ -1412,7 +1412,7 @@
   "ჰიუნდაის ცენტრს და ძველი დუქანს": {
     "name": "ჰიუნდაის ცენტრს და ძველი დუქანს.",
     "district": "Saburtalo",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ვარდისუბნის ქ n 31 თან": {
     "name": "ვარდისუბნის ქ.N 31-თან",
@@ -1832,7 +1832,7 @@
   "რაიონში": {
     "name": "რაიონში",
     "district": "Samgori",
-    "seen_count": 47
+    "seen_count": 48
   },
   "ფანასკენტელ ციციშვილის": {
     "name": "ფანასკენტელ-ციციშვილის",
@@ -2432,7 +2432,7 @@
   "სამაჩაბლოს და კათალიკოს": {
     "name": "სამაჩაბლოს და კათალიკოს",
     "district": "Saburtalo",
-    "seen_count": 10
+    "seen_count": 11
   },
   "გიორგი სააკაძის ქ  n55 თან": {
     "name": "გიორგი სააკაძის ქ. N55-თან",
@@ -9892,36 +9892,46 @@
   "ვახტანგ გორგასალის ქ  n1 თან": {
     "name": "ვახტანგ გორგასალის ქ. N1-თან",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ფერდოუსის ქ": {
     "name": "ფერდოუსის ქ.",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ძმები სიმენსების ქ": {
     "name": "ძმები სიმენსების ქ.",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ფაბრიკის შეს": {
     "name": "ფაბრიკის შეს.",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "იბრაჰიმ ისპაჰანლის ქ": {
     "name": "იბრაჰიმ ისპაჰანლის ქ.",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მეფუტკრეობის დას  n48 თან": {
     "name": "მეფუტკრეობის დას. N48-თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მეფუტკრეობის დას": {
     "name": "მეფუტკრეობის დას.",
     "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "სოფ  გიორგი წმინდას სატუმბო სადგურში": {
+    "name": "სოფ. გიორგი წმინდას სატუმბო სადგურში",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "იყალთოს n29 თან": {
+    "name": "იყალთოს N29-თან",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
