@@ -852,7 +852,7 @@
   "ზანდუკელის": {
     "name": "ზანდუკელის",
     "district": "Mtatsminda",
-    "seen_count": 22
+    "seen_count": 23
   },
   "თორაძის ქუჩებს შესახვევებით და ჭოველიძის n 2": {
     "name": "თორაძის ქუჩებს შესახვევებით და ჭოველიძის N 2",
@@ -1602,7 +1602,7 @@
   "ერისთავის": {
     "name": "ერისთავის",
     "district": "Isani",
-    "seen_count": 36
+    "seen_count": 37
   },
   "ჩუბინიძეს და გურჯაანის ქ": {
     "name": "ჩუბინიძეს და გურჯაანის ქ",
@@ -1857,7 +1857,7 @@
   "მაისურაძის": {
     "name": "მაისურაძის",
     "district": "Samgori",
-    "seen_count": 14
+    "seen_count": 15
   },
   "აბაშვილის ქუჩებს": {
     "name": "აბაშვილის ქუჩებს",
@@ -2077,7 +2077,7 @@
   "რუსთაველის": {
     "name": "რუსთაველის",
     "district": "Krtsanisi",
-    "seen_count": 31
+    "seen_count": 32
   },
   "გუმისმთის": {
     "name": "გუმისმთის",
@@ -2087,7 +2087,7 @@
   "გოგებაშვილის": {
     "name": "გოგებაშვილის",
     "district": "Krtsanisi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "ქუთაისის": {
     "name": "ქუთაისის",
@@ -2107,12 +2107,12 @@
   "რიწის": {
     "name": "რიწის",
     "district": "Krtsanisi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "ოჩამჩირის": {
     "name": "ოჩამჩირის",
     "district": "Krtsanisi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "ანჩაბიძის": {
     "name": "ანჩაბიძის",
@@ -2622,7 +2622,7 @@
   "ცაგარელის": {
     "name": "ცაგარელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აღმაშენებლის": {
     "name": "აღმაშენებლის",
@@ -2632,7 +2632,7 @@
   "თაყაიშვილის": {
     "name": "თაყაიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ხანძთელის": {
     "name": "ხანძთელის",
@@ -3387,17 +3387,17 @@
   "შხეფის": {
     "name": "შხეფის",
     "district": "Mtatsminda",
-    "seen_count": 47
+    "seen_count": 48
   },
   "ს  მესხის": {
     "name": "ს. მესხის",
     "district": "Mtatsminda",
-    "seen_count": 47
+    "seen_count": 48
   },
   "ბოლო აღმართის": {
     "name": "ბოლო აღმართის",
     "district": "Mtatsminda",
-    "seen_count": 47
+    "seen_count": 48
   },
   "ამაღლების n 39 47 კენტებს": {
     "name": "ამაღლების N 39-47(კენტებს)",
@@ -3662,7 +3662,7 @@
   "ქუთათელაძის": {
     "name": "ქუთათელაძის",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "მელქისედეკ 1 ის": {
     "name": "მელქისედეკ 1-ის",
@@ -3722,7 +3722,7 @@
   "ჭიჭინაძის": {
     "name": "ჭიჭინაძის",
     "district": "Nadzaladevi",
-    "seen_count": 44
+    "seen_count": 45
   },
   "კოხრეიძის": {
     "name": "კოხრეიძის",
@@ -3827,7 +3827,7 @@
   "მიქატაძის": {
     "name": "მიქატაძის",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ჭილაიას": {
     "name": "ჭილაიას",
@@ -3872,7 +3872,7 @@
   "ცინცაძის": {
     "name": "ცინცაძის",
     "district": "Nadzaladevi",
-    "seen_count": 33
+    "seen_count": 34
   },
   "ქსოვრელი": {
     "name": "ქსოვრელი",
@@ -4267,7 +4267,7 @@
   "ოდიშელიძის": {
     "name": "ოდიშელიძის",
     "district": "Samgori",
-    "seen_count": 33
+    "seen_count": 34
   },
   "ფრისის": {
     "name": "ფრისის",
@@ -4512,7 +4512,7 @@
   "აბულაძის": {
     "name": "აბულაძის",
     "district": "Samgori",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ფანასკერტელ ციციშვილის": {
     "name": "ფანასკერტელ-ციციშვილის",
@@ -4747,597 +4747,597 @@
   "ბახტრიონის": {
     "name": "ბახტრიონის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ძმები კაკაბაძეების": {
     "name": "ძმები კაკაბაძეების",
     "district": "Saburtalo",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ზალდასტანაშვილის": {
     "name": "ზალდასტანაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ზ  ბოცვაძის": {
     "name": "ზ. ბოცვაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ე  გაბაშვილის": {
     "name": "ე. გაბაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვ  სარაჯიშვილის": {
     "name": "ვ. სარაჯიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "8 მარტის": {
     "name": "8 მარტის",
     "district": "Saburtalo",
-    "seen_count": 34
+    "seen_count": 35
   },
   "ქიაჩელის": {
     "name": "ქიაჩელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჭოველიძის": {
     "name": "ჭოველიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მაყაშვილის": {
     "name": "მაყაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მაყაშვილის აღმართს": {
     "name": "მაყაშვილის აღმართს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კერესელიძის": {
     "name": "კერესელიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იაკობ ნიკოლაძის": {
     "name": "იაკობ ნიკოლაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "შიო მღვიმელის": {
     "name": "შიო მღვიმელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "როდენის": {
     "name": "როდენის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვარაზის ხევის": {
     "name": "ვარაზის ხევის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კოტე მახარაძის": {
     "name": "კოტე მახარაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვერიკო ანჯაფარიძის": {
     "name": "ვერიკო ანჯაფარიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "სოფიკო ჭიაურელის": {
     "name": "სოფიკო ჭიაურელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მიხეილ თუმანიშვილის": {
     "name": "მიხეილ თუმანიშვილის",
     "district": "Saburtalo",
-    "seen_count": 23
+    "seen_count": 24
   },
   "შარაშიძის": {
     "name": "შარაშიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მელიქიშვილის": {
     "name": "მელიქიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ქუჩიშვილის": {
     "name": "ქუჩიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ნიკო ნიკოლაძის": {
     "name": "ნიკო ნიკოლაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ღამბაშიძის": {
     "name": "ღამბაშიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კოსტავას 1 შესახვევს": {
     "name": "კოსტავას 1 შესახვევს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კოსტავას 2 შესახვევს": {
     "name": "კოსტავას 2 შესახვევს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მედეა  მზია  ჯუღელის": {
     "name": "მედეა (მზია) ჯუღელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "სატივეს": {
     "name": "სატივეს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ხორავას": {
     "name": "ხორავას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "შანიძეს": {
     "name": "შანიძეს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბაქრაძის": {
     "name": "ბაქრაძის",
     "district": "Saburtalo",
-    "seen_count": 28
+    "seen_count": 29
   },
   "გაბუნიას": {
     "name": "გაბუნიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "უმიკაშვილის": {
     "name": "უმიკაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლარსის  რეზო ჩხეიძე": {
     "name": "ლარსის (რეზო ჩხეიძე)",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გალის": {
     "name": "გალის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "თერგის": {
     "name": "თერგის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "რჩეულიშვილის": {
     "name": "რჩეულიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჯაფარიძის": {
     "name": "ჯაფარიძის",
     "district": "Saburtalo",
-    "seen_count": 27
+    "seen_count": 28
   },
   "ნ ჟვანიას": {
     "name": "ნ.ჟვანიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბელინსკის": {
     "name": "ბელინსკის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბაშალეიშვილის": {
     "name": "ბაშალეიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გ  ახვლედიანის": {
     "name": "გ. ახვლედიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ეკალაძის": {
     "name": "ეკალაძის",
     "district": "Saburtalo",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ვაშლოვანის": {
     "name": "ვაშლოვანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მიმინოშვილის": {
     "name": "მიმინოშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კობახიძის": {
     "name": "კობახიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მ  ჯავახიშვილის": {
     "name": "მ. ჯავახიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მესხიას": {
     "name": "მესხიას",
     "district": "Saburtalo",
-    "seen_count": 37
+    "seen_count": 38
   },
   "გრიბოედოვის": {
     "name": "გრიბოედოვის",
     "district": "Saburtalo",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ზუბალაშვილის": {
     "name": "ზუბალაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გუდიაშვილის": {
     "name": "გუდიაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ფურცელაძის": {
     "name": "ფურცელაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჯორჯაძის": {
     "name": "ჯორჯაძის",
     "district": "Saburtalo",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ვაჩნაძის": {
     "name": "ვაჩნაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ალ  ჭავჭავაძის": {
     "name": "ალ. ჭავჭავაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მ  ლაღიძის": {
     "name": "მ. ლაღიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აბაკელიას": {
     "name": "აბაკელიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ცხემის": {
     "name": "ცხემის",
     "district": "Saburtalo",
-    "seen_count": 34
+    "seen_count": 35
   },
   "ტარიელის": {
     "name": "ტარიელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბორბალოს": {
     "name": "ბორბალოს",
     "district": "Saburtalo",
-    "seen_count": 34
+    "seen_count": 35
   },
   "კ  მესხის": {
     "name": "კ. მესხის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მთაწმინდის": {
     "name": "მთაწმინდის",
     "district": "Saburtalo",
-    "seen_count": 34
+    "seen_count": 35
   },
   "ყიფიანის": {
     "name": "ყიფიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "არსენას": {
     "name": "არსენას",
     "district": "Saburtalo",
-    "seen_count": 34
+    "seen_count": 35
   },
   "ზ ქიქოძეს": {
     "name": "ზ.ქიქოძეს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვეძინის": {
     "name": "ვეძინის",
     "district": "Saburtalo",
-    "seen_count": 34
+    "seen_count": 35
   },
   "გიგაურის": {
     "name": "გიგაურის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლიხის": {
     "name": "ლიხის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბესიკის": {
     "name": "ბესიკის",
     "district": "Saburtalo",
-    "seen_count": 58
+    "seen_count": 59
   },
   "შევჩენკოს": {
     "name": "შევჩენკოს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ინგოროყვას": {
     "name": "ინგოროყვას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ზიჩის": {
     "name": "ზიჩის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კოტეტიშვილის": {
     "name": "კოტეტიშვილის",
     "district": "Saburtalo",
-    "seen_count": 34
+    "seen_count": 35
   },
   "ზ  ჟვანიას": {
     "name": "ზ. ჟვანიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლესია უკრაინკას": {
     "name": "ლესია უკრაინკას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვ  აბაშიძის": {
     "name": "ვ. აბაშიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ნიაღვრის": {
     "name": "ნიაღვრის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გერგეთის": {
     "name": "გერგეთის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჭონქაძის": {
     "name": "ჭონქაძის",
     "district": "Saburtalo",
-    "seen_count": 24
+    "seen_count": 25
   },
   "სავანელის": {
     "name": "სავანელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვ  ბერიძის": {
     "name": "ვ. ბერიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ამაღლების": {
     "name": "ამაღლების",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ზ დუმბაძის": {
     "name": "ზ.დუმბაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლეონიძის": {
     "name": "ლეონიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იაშვილის": {
     "name": "იაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლერმონტოვის": {
     "name": "ლერმონტოვის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "სულხან საბას": {
     "name": "სულხან-საბას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გერონტი ქიქოძის": {
     "name": "გერონტი ქიქოძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მაჩაბელის": {
     "name": "მაჩაბელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გ ტაბიძის": {
     "name": "გ.ტაბიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "შ  დადიანის": {
     "name": "შ. დადიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ერისთავის ხოშტარიას": {
     "name": "ერისთავის-ხოშტარიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გუდაურის": {
     "name": "გუდაურის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "თარხნიშვილის": {
     "name": "თარხნიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჯანაშიას": {
     "name": "ჯანაშიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ტატიშვილის": {
     "name": "ტატიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მილორავას": {
     "name": "მილორავას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჩირგაძეს": {
     "name": "ჩირგაძეს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გურგულიას": {
     "name": "გურგულიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ა  მაჭავარიანის": {
     "name": "ა. მაჭავარიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "წავკისის": {
     "name": "წავკისის",
     "district": "Saburtalo",
-    "seen_count": 26
+    "seen_count": 27
   },
   "ოქროყანის": {
     "name": "ოქროყანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "შინდისის": {
     "name": "შინდისის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "პეტრიაშვილის": {
     "name": "პეტრიაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჩიტაძის": {
     "name": "ჩიტაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "9 აპრილის": {
     "name": "9 აპრილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჩაიკოვსკის": {
     "name": "ჩაიკოვსკის",
     "district": "Saburtalo",
-    "seen_count": 22
+    "seen_count": 23
   },
   "თაბუკაშვილის n 30 48  ლუწებს": {
     "name": "თაბუკაშვილის N 30-48 (ლუწებს)",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "n25 53  კენტებს": {
     "name": "N25-53 (კენტებს)",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კოჯრის": {
     "name": "კოჯრის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ა  ქუთათელაძის": {
     "name": "ა. ქუთათელაძის",
     "district": "Saburtalo",
-    "seen_count": 32
+    "seen_count": 33
   },
   "სანაპიროს": {
     "name": "სანაპიროს",
     "district": "Saburtalo",
-    "seen_count": 29
+    "seen_count": 30
   },
   "ს ჟღენტის": {
     "name": "ს.ჟღენტის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვ მოსიძის": {
     "name": "ვ.მოსიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კ  უკლებას": {
     "name": "კ. უკლებას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლ  ბოცვაძის": {
     "name": "ლ. ბოცვაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გუნიას": {
     "name": "გუნიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ოქროყანას  ს ს ქვედა პლატოს": {
     "name": "ოქროყანას. ს/ს ქვედა პლატოს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ს ს სეიდაბადს  კრწანისის რაიონში  გიორგი გურამიშვილი": {
     "name": "ს/ს სეიდაბადს. კრწანისის რაიონში: გიორგი გურამიშვილი",
@@ -5347,187 +5347,187 @@
   "პუშკინის": {
     "name": "პუშკინის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აბესაძის": {
     "name": "აბესაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ახოსპიელის": {
     "name": "ახოსპიელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კუფტინის": {
     "name": "კუფტინის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვ  ივერიელის": {
     "name": "ვ. ივერიელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "საიათნივას": {
     "name": "საიათნივას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ა  კათალიკოსის": {
     "name": "ა. კათალიკოსის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გრ  ხანძთელის": {
     "name": "გრ. ხანძთელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აბოვიანის": {
     "name": "აბოვიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იერუსალიმის": {
     "name": "იერუსალიმის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "პურის ჩიხი": {
     "name": "პურის ჩიხი",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ონის შესახვევი": {
     "name": "ონის შესახვევი",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბააზოვის": {
     "name": "ბააზოვის",
     "district": "Saburtalo",
-    "seen_count": 29
+    "seen_count": 30
   },
   "ლადო ასათიანის": {
     "name": "ლადო ასათიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბეთლემის": {
     "name": "ბეთლემის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "სალამის": {
     "name": "სალამის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აჯიაშვილის": {
     "name": "აჯიაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "საადის": {
     "name": "საადის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გომის": {
     "name": "გომის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჯვარედინის შესახვევი": {
     "name": "ჯვარედინის შესახვევი",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჯიბლაძის": {
     "name": "ჯიბლაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "თუმანიანი": {
     "name": "თუმანიანი",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ასკანის": {
     "name": "ასკანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ორპირის": {
     "name": "ორპირის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "სამღებროს": {
     "name": "სამღებროს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ირგვლივის": {
     "name": "ირგვლივის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გორგასლის ქუჩებს": {
     "name": "გორგასლის ქუჩებს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ღვინის აღმართის": {
     "name": "ღვინის აღმართის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კოტე აფხაზის n1 25  კენტებს": {
     "name": "კოტე აფხაზის N1-25 (კენტებს)",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "n2 22 ლუწებს": {
     "name": "N2-22(ლუწებს)",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ორთაჭალის ქ  n i": {
     "name": "ორთაჭალის ქ. N I",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "v ჩიხები": {
     "name": "V ჩიხები",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აბო თბილელის": {
     "name": "აბო თბილელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აბანოს": {
     "name": "აბანოს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "დაბახანის": {
     "name": "დაბახანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბოტანიკურის": {
     "name": "ბოტანიკურის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "დავით გულუას აღმართს": {
     "name": "დავით გულუას აღმართს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გრიშაშვილის n11 და ახუნდოვის ქუჩებს  საბურთალოს რაიონში  ზაურ ბოლქვაძის": {
     "name": "გრიშაშვილის N11 და ახუნდოვის ქუჩებს. საბურთალოს რაიონში: ზაურ ბოლქვაძის",
@@ -5537,252 +5537,252 @@
   "დოლიძის": {
     "name": "დოლიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბალანჩივაძის": {
     "name": "ბალანჩივაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იოსელიანის": {
     "name": "იოსელიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ახალშენის": {
     "name": "ახალშენის",
     "district": "Saburtalo",
-    "seen_count": 29
+    "seen_count": 30
   },
   "ტეხურის": {
     "name": "ტეხურის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჩაილურის  ქაფიანიძე": {
     "name": "ჩაილურის (ქაფიანიძე)",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჭიათურის": {
     "name": "ჭიათურის",
     "district": "Saburtalo",
-    "seen_count": 29
+    "seen_count": 30
   },
   "ენგურის": {
     "name": "ენგურის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ქარელის": {
     "name": "ქარელის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იყალთოს": {
     "name": "იყალთოს",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იყალთოს მთის": {
     "name": "იყალთოს მთის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბაკურიანის": {
     "name": "ბაკურიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბაკურციხის": {
     "name": "ბაკურციხის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ტუსკიას": {
     "name": "ტუსკიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლიხაურის": {
     "name": "ლიხაურის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჩიქოვანის": {
     "name": "ჩიქოვანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კოსტავას  გარდა n36 60  ლუწები": {
     "name": "კოსტავას (გარდა N36-60 (ლუწები))",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ალექსიძის": {
     "name": "ალექსიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ალმასიანის": {
     "name": "ალმასიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ასლანიდის": {
     "name": "ასლანიდის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბოჭორიშვილის": {
     "name": "ბოჭორიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აკურის": {
     "name": "აკურის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მიროტაძის": {
     "name": "მიროტაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ნატახტარის": {
     "name": "ნატახტარის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "მგალობლიშვილის": {
     "name": "მგალობლიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჩერქეზიშვილის": {
     "name": "ჩერქეზიშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ტაშკენტის": {
     "name": "ტაშკენტის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იმედაშვილის": {
     "name": "იმედაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ისაკაძის": {
     "name": "ისაკაძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გაგარინის": {
     "name": "გაგარინის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "შარტავას": {
     "name": "შარტავას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იოსებიძის": {
     "name": "იოსებიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კალანდაძის": {
     "name": "კალანდაძის",
     "district": "Saburtalo",
-    "seen_count": 38
+    "seen_count": 39
   },
   "ქანთარიას": {
     "name": "ქანთარიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "დარასელიას": {
     "name": "დარასელიას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "არშბას": {
     "name": "არშბას",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "კანდელაკის": {
     "name": "კანდელაკის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ფანჯიკიძის  ყოფ  ბუდაპეშტის": {
     "name": "ფანჯიკიძის (ყოფ. ბუდაპეშტის)",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ონიაშვილის": {
     "name": "ონიაშვილის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლვოვის": {
     "name": "ლვოვის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ოდესის": {
     "name": "ოდესის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გელოვანის": {
     "name": "გელოვანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "სხირტლაძის": {
     "name": "სხირტლაძის",
     "district": "Saburtalo",
-    "seen_count": 20
+    "seen_count": 21
   },
   "სხვიტარიძის": {
     "name": "სხვიტარიძის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ცხინვალის": {
     "name": "ცხინვალის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "აბაშიძის": {
     "name": "აბაშიძის",
     "district": "Saburtalo",
-    "seen_count": 31
+    "seen_count": 33
   },
   "ზემო ვეძისის": {
     "name": "ზემო ვეძისის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ლომონოსოვის": {
     "name": "ლომონოსოვის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ჭაბუკიანის": {
     "name": "ჭაბუკიანის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ტანძიის": {
     "name": "ტანძიის",
     "district": "Saburtalo",
-    "seen_count": 19
+    "seen_count": 20
   },
   "დაბა კიკეთს": {
     "name": "დაბა კიკეთს",
@@ -6127,7 +6127,7 @@
   "მიქელაძის": {
     "name": "მიქელაძის",
     "district": "Vake",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ირაკლი გამრეკელის": {
     "name": "ირაკლი გამრეკელის",
@@ -6252,7 +6252,7 @@
   "ტაბიძის": {
     "name": "ტაბიძის",
     "district": "Mtatsminda",
-    "seen_count": 26
+    "seen_count": 27
   },
   "კვირაცხოვლის": {
     "name": "კვირაცხოვლის",
@@ -6507,7 +6507,7 @@
   "ამირეჯიბის": {
     "name": "ამირეჯიბის",
     "district": "Isani",
-    "seen_count": 21
+    "seen_count": 22
   },
   "ანდღულაძის": {
     "name": "ანდღულაძის",
@@ -8322,12 +8322,12 @@
   "ცხვედაძის": {
     "name": "ცხვედაძის",
     "district": "Vake",
-    "seen_count": 17
+    "seen_count": 18
   },
   "აბაშელის": {
     "name": "აბაშელის",
     "district": "Vake",
-    "seen_count": 17
+    "seen_count": 18
   },
   "დარიალის  ლია ელიავას": {
     "name": "დარიალის (ლია ელიავას)",
@@ -8677,7 +8677,7 @@
   "შროშის": {
     "name": "შროშის",
     "district": "Vake",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ი ქუთათელაძისა და ჯანაშვილის ქუჩას": {
     "name": "ი.ქუთათელაძისა და ჯანაშვილის ქუჩას.",
@@ -8917,7 +8917,7 @@
   "საირმის": {
     "name": "საირმის",
     "district": "Gldani",
-    "seen_count": 23
+    "seen_count": 24
   },
   "გურიის": {
     "name": "გურიის",
@@ -9612,7 +9612,7 @@
   "ბარნოვის": {
     "name": "ბარნოვის",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "სატყეოს": {
     "name": "სატყეოს",
@@ -10027,7 +10027,7 @@
   "დავით გამრეკელის n15 თან": {
     "name": "დავით გამრეკელის N15 თან",
     "district": "Saburtalo",
-    "seen_count": 27
+    "seen_count": 28
   },
   "გუთნის ქ  n3 თან": {
     "name": "გუთნის ქ. N3-თან",
@@ -10087,7 +10087,7 @@
   "იყალთოს ქ  n 29 თან": {
     "name": "იყალთოს ქ. N 29-თან",
     "district": "Saburtalo",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ნიკო მუსხელიშვილის ქ": {
     "name": "ნიკო მუსხელიშვილის ქ.",
@@ -10247,486 +10247,486 @@
   "ძმები კაკაბაძეების ქ  n11ა თან": {
     "name": "ძმები კაკაბაძეების ქ. N11ა-თან",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 16
   },
   "პოლიკარპე კაკაბაძის": {
     "name": "პოლიკარპე კაკაბაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ს ს სეიდაბადს": {
     "name": "ს/ს სეიდაბადს.",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ს რაიონში  გიორგი გურამიშვილი": {
     "name": "ს რაიონში: გიორგი გურამიშვილი",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "გრიშაშვილის n11 და ახუნდოვის ქუჩებს": {
     "name": "გრიშაშვილის N11 და ახუნდოვის ქუჩებს.",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ს რაიონში  ზაურ ბოლქვაძის": {
     "name": "ს რაიონში: ზაურ ბოლქვაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მიცკევიჩის": {
     "name": "მიცკევიჩის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "საირმის გორას": {
     "name": "საირმის გორას",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "გამრეკელის": {
     "name": "გამრეკელის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ბაგრატიონის": {
     "name": "ბაგრატიონის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ვაჟა ფშაველას n1 41 კენტებს": {
     "name": "ვაჟა-ფშაველას N1-41(კენტებს)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "n2 58 ლუწებს": {
     "name": "N2-58(ლუწებს)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ყაზბეგის გამზ  n1 41 კენტებს": {
     "name": "ყაზბეგის გამზ. N1-41(კენტებს)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "n 2 24 ლუწებს": {
     "name": "N 2-24(ლუწებს)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ბურძგლას": {
     "name": "ბურძგლას",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "პეკინის": {
     "name": "პეკინის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "კარტოზიას": {
     "name": "კარტოზიას",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ფანასკერტელი ციციშვილის": {
     "name": "ფანასკერტელი-ციციშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "შევარდენიძის": {
     "name": "შევარდენიძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "თამარაშვილის": {
     "name": "თამარაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ქუთათელის": {
     "name": "ქუთათელის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მ  დავითაშვილის": {
     "name": "მ. დავითაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ვ  წულაძის": {
     "name": "ვ. წულაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სახოკიას": {
     "name": "სახოკიას",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ო  ლორთქიფანიძის   n32 ის გარდა": {
     "name": "ო. ლორთქიფანიძის ( N32-ის გარდა)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "აფაქიძის და ხვიჩიას ქუჩებს  კვერნაძე": {
     "name": "აფაქიძის და ხვიჩიას ქუჩებს. კვერნაძე",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ბერბუკი": {
     "name": "ბერბუკი",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ზ  ბენდელიანი": {
     "name": "ზ. ბენდელიანი",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ნასიძე": {
     "name": "ნასიძე",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ა სულაკაურის": {
     "name": "ა.სულაკაურის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "შანხაის დასახლებაში კალისტრატე ქუთათელაძის": {
     "name": "შანხაის დასახლებაში კალისტრატე ქუთათელაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მარიამ  მარიკა  ბარათაშვილის ჩიხს და ოთარ ჩხეიძე ქუჩებს": {
     "name": "მარიამ (მარიკა) ბარათაშვილის ჩიხს და ოთარ ჩხეიძე ქუჩებს",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ვაკის რაიონში  ყაზბეგის გამზ  n26 30 ლუწებს": {
     "name": "ვაკის რაიონში: ყაზბეგის გამზ. N26-30(ლუწებს)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "n43 55 კენტებს": {
     "name": "N43-55(კენტებს)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ჯანაშვილის": {
     "name": "ჯანაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სვანიძის": {
     "name": "სვანიძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მცხეთის": {
     "name": "მცხეთის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ქობულეთის": {
     "name": "ქობულეთის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "შატბერაშვილის": {
     "name": "შატბერაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "შატბერაშვილის ხევი": {
     "name": "შატბერაშვილის ხევი",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ზემო ვაკის": {
     "name": "ზემო ვაკის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მარაბდის": {
     "name": "მარაბდის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "კეკელიძის": {
     "name": "კეკელიძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "რაზმაძის": {
     "name": "რაზმაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ფალიაშვილის": {
     "name": "ფალიაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "რ  მიშველაძის": {
     "name": "რ. მიშველაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ნაფარეულის": {
     "name": "ნაფარეულის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ბაზალეთის": {
     "name": "ბაზალეთის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ჭავჭავაძის გამზირს  გარდა n43": {
     "name": "ჭავჭავაძის გამზირს (გარდა N43",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ჟვანიას": {
     "name": "ჟვანიას",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მარუხის გმირების": {
     "name": "მარუხის გმირების",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ბურკიაშვილის": {
     "name": "ბურკიაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "არაყიშვილის": {
     "name": "არაყიშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "რამიშვილის": {
     "name": "რამიშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "საჯაიას": {
     "name": "საჯაიას",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მოსაშვილის": {
     "name": "მოსაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ბერძენიშვილის": {
     "name": "ბერძენიშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "მუხაძის": {
     "name": "მუხაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ლ ელიავას": {
     "name": "ლ.ელიავას",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "კავსაძის": {
     "name": "კავსაძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "თაქთაქიშვილის": {
     "name": "თაქთაქიშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "დარიალის": {
     "name": "დარიალის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "რადიანის": {
     "name": "რადიანის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "არეშიძის": {
     "name": "არეშიძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ატენის": {
     "name": "ატენის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ყიფშიძის": {
     "name": "ყიფშიძის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ვ გაბაშვილის": {
     "name": "ვ.გაბაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ავალიშვილის": {
     "name": "ავალიშვილის",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "n1 21 კენტებს": {
     "name": "N1-21(კენტებს)",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "უშანგი ჩხეიძის ქუჩებს": {
     "name": "უშანგი ჩხეიძის ქუჩებს.",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ანა პოლიტკოვსკაიას ქ  n 33 თან": {
     "name": "ანა პოლიტკოვსკაიას ქ. N 33-თან",
     "district": "Vake",
-    "seen_count": 11
+    "seen_count": 12
   },
   "რაფიელ დვალის ქ  n 320 თან": {
     "name": "რაფიელ დვალის ქ. N 320-თან",
     "district": "Samgori",
-    "seen_count": 11
+    "seen_count": 12
   },
   "რაფაელ დვალის": {
     "name": "რაფაელ დვალის",
     "district": "Samgori",
-    "seen_count": 11
+    "seen_count": 12
   },
   "სესილი თაყაიშვილის ქუჩა": {
     "name": "სესილი თაყაიშვილის ქუჩა",
     "district": "Samgori",
-    "seen_count": 11
+    "seen_count": 12
   },
   "ნიკოლოზ ლანდიას": {
     "name": "ნიკოლოზ ლანდიას",
     "district": "Samgori",
-    "seen_count": 11
+    "seen_count": 12
   },
   "სადგერის ქ": {
     "name": "სადგერის ქ.",
     "district": "Samgori",
-    "seen_count": 5
+    "seen_count": 6
   },
   "მიხეილ ხერგიანის ქ  n14 თან": {
     "name": "მიხეილ ხერგიანის ქ. N14-თან",
     "district": "Gldani",
-    "seen_count": 8
+    "seen_count": 11
   },
   "5 მკ რ ის 12და 20 ის ჩათვლით ყველას": {
     "name": "5 მკ-რ-ის 12და 20 ის ჩათვლით ყველას",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "12 ნომრებს": {
     "name": "12 ნომრებს.",
     "district": "Gldani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "თიანეთის გზატკეცილი": {
     "name": "თიანეთის გზატკეცილი",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვახტანგ ნინუას ქ  n3 თან": {
     "name": "ვახტანგ ნინუას ქ. N3-თან",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სანაძის ქ": {
     "name": "სანაძის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გია ჭანტურიას ქ": {
     "name": "გია ჭანტურიას ქ.",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კეკელიძის 21": {
     "name": "კეკელიძის 21.",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სოფ  ბერთუბანი": {
     "name": "სოფ. ბერთუბანი",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გიორგი წმინდა": {
     "name": "გიორგი წმინდა",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ტიხონოვის": {
     "name": "ტიხონოვის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ხერგიანის": {
     "name": "ხერგიანის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "წინამძღვრიშვილის": {
     "name": "წინამძღვრიშვილის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მარჯანიშვილის": {
     "name": "მარჯანიშვილის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გულისაშვილის": {
     "name": "გულისაშვილის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მებაღიშვილის ქუჩებს": {
     "name": "მებაღიშვილის ქუჩებს",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ს საპატიმროს": {
     "name": "ს საპატიმროს",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ჰაიდერბერგცემენტს": {
     "name": "ჰაიდერბერგცემენტს",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ზურაბ ეფაძის": {
     "name": "ზურაბ ეფაძის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცაგერის": {
     "name": "ცაგერის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნიკო კეცხოველის": {
     "name": "ნიკო კეცხოველის",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   }
 }
