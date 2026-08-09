@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 62
+    "seen_count": 64
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -8097,22 +8097,22 @@
   "ნატო ვაჩნაძე": {
     "name": "ნატო ვაჩნაძე",
     "district": "Mtatsminda",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ფურცელაძე": {
     "name": "ფურცელაძე",
     "district": "Mtatsminda",
-    "seen_count": 37
+    "seen_count": 38
   },
   "გრიგოლ აბაშიძე": {
     "name": "გრიგოლ აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 19
+    "seen_count": 20
   },
   "პუშკინის n2 n10  ლუწები  თაბუკაშვილის n12": {
     "name": "პუშკინის N2-N10 (ლუწები) თაბუკაშვილის N12",
     "district": "Mtatsminda",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ვარკეთილის მას  3": {
     "name": "ვარკეთილის მას. 3",
@@ -9422,7 +9422,7 @@
   "ორხევი": {
     "name": "ორხევი",
     "district": "Samgori",
-    "seen_count": 9
+    "seen_count": 11
   },
   "თენგიზ ჩანტლაძის ქ  1 ჩიხი": {
     "name": "თენგიზ ჩანტლაძის ქ. 1 ჩიხი",
@@ -9997,7 +9997,7 @@
   "რუსთაველის გამზ  n3 თან": {
     "name": "რუსთაველის გამზ. N3-თან",
     "district": "Mtatsminda",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ვანის n69 თან": {
     "name": "ვანის N69 თან",
@@ -10027,7 +10027,7 @@
   "დავით გამრეკელის n15 თან": {
     "name": "დავით გამრეკელის N15 თან",
     "district": "Saburtalo",
-    "seen_count": 56
+    "seen_count": 57
   },
   "გუთნის ქ  n3 თან": {
     "name": "გუთნის ქ. N3-თან",
@@ -10087,7 +10087,7 @@
   "იყალთოს ქ  n 29 თან": {
     "name": "იყალთოს ქ. N 29-თან",
     "district": "Saburtalo",
-    "seen_count": 51
+    "seen_count": 52
   },
   "ნიკო მუსხელიშვილის ქ": {
     "name": "ნიკო მუსხელიშვილის ქ.",
@@ -10807,6 +10807,6 @@
   "გიორგი მუხაძის ქ  n20 თან": {
     "name": "გიორგი მუხაძის ქ. N20-თან",
     "district": "Samgori",
-    "seen_count": 4
+    "seen_count": 5
   }
 }
