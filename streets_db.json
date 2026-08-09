@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 58
+    "seen_count": 60
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -4002,7 +4002,7 @@
   "სამადლო": {
     "name": "სამადლო",
     "district": "Mtatsminda",
-    "seen_count": 13
+    "seen_count": 14
   },
   "მარი ჯანის": {
     "name": "მარი ჯანის",
@@ -7612,7 +7612,7 @@
   "დაბა კიკეთი": {
     "name": "დაბა კიკეთი",
     "district": "Mtatsminda",
-    "seen_count": 28
+    "seen_count": 30
   },
   "დიდგორის ქ  1 შეს  n6 თან": {
     "name": "დიდგორის ქ. 1 შეს. N6-თან",
@@ -8097,22 +8097,22 @@
   "ნატო ვაჩნაძე": {
     "name": "ნატო ვაჩნაძე",
     "district": "Mtatsminda",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ფურცელაძე": {
     "name": "ფურცელაძე",
     "district": "Mtatsminda",
-    "seen_count": 35
+    "seen_count": 36
   },
   "გრიგოლ აბაშიძე": {
     "name": "გრიგოლ აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 17
+    "seen_count": 18
   },
   "პუშკინის n2 n10  ლუწები  თაბუკაშვილის n12": {
     "name": "პუშკინის N2-N10 (ლუწები) თაბუკაშვილის N12",
     "district": "Mtatsminda",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ვარკეთილის მას  3": {
     "name": "ვარკეთილის მას. 3",
@@ -9422,7 +9422,7 @@
   "ორხევი": {
     "name": "ორხევი",
     "district": "Samgori",
-    "seen_count": 5
+    "seen_count": 7
   },
   "თენგიზ ჩანტლაძის ქ  1 ჩიხი": {
     "name": "თენგიზ ჩანტლაძის ქ. 1 ჩიხი",
@@ -9997,7 +9997,7 @@
   "რუსთაველის გამზ  n3 თან": {
     "name": "რუსთაველის გამზ. N3-თან",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ვანის n69 თან": {
     "name": "ვანის N69 თან",
@@ -10027,7 +10027,7 @@
   "დავით გამრეკელის n15 თან": {
     "name": "დავით გამრეკელის N15 თან",
     "district": "Saburtalo",
-    "seen_count": 54
+    "seen_count": 55
   },
   "გუთნის ქ  n3 თან": {
     "name": "გუთნის ქ. N3-თან",
@@ -10087,7 +10087,7 @@
   "იყალთოს ქ  n 29 თან": {
     "name": "იყალთოს ქ. N 29-თან",
     "district": "Saburtalo",
-    "seen_count": 49
+    "seen_count": 50
   },
   "ნიკო მუსხელიშვილის ქ": {
     "name": "ნიკო მუსხელიშვილის ქ.",
@@ -10752,61 +10752,61 @@
   "წინანდლის n9 ში": {
     "name": "წინანდლის N9-ში",
     "district": "Isani",
-    "seen_count": 17
+    "seen_count": 19
   },
   "წინანდის": {
     "name": "წინანდის",
     "district": "Isani",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ძმები ყურაშვილების ქუჩებს": {
     "name": "ძმები ყურაშვილების ქუჩებს.",
     "district": "Isani",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ხახანაშვილი": {
     "name": "ხახანაშვილი",
     "district": "Isani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "წინანდლის n 9": {
     "name": "წინანდლის N 9",
     "district": "Isani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "თელავი   49": {
     "name": "თელავი - 49",
     "district": "Isani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "წურწუმია n41 n55  კენტები": {
     "name": "წურწუმია N41-N55 (კენტები)",
     "district": "Isani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "n18 n28  ლუწები": {
     "name": "N18-N28 (ლუწები).",
     "district": "Isani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ვლადიმერ ავალიანის ქ  ზე": {
     "name": "ვლადიმერ ავალიანის ქ.-ზე",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დიმიტრი უზნაძის ქ  49 თან": {
     "name": "დიმიტრი უზნაძის ქ. 49-თან",
     "district": "Chugureti",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დოდო აბაშიძის და ჭოროხის ქუჩებს": {
     "name": "დოდო აბაშიძის და ჭოროხის ქუჩებს.",
     "district": "Chugureti",
-    "seen_count": 4
+    "seen_count": 5
   },
   "გიორგი მუხაძის ქ  n20 თან": {
     "name": "გიორგი მუხაძის ქ. N20-თან",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 3
   }
 }
