@@ -2782,7 +2782,7 @@
   "ავჭალა 2": {
     "name": "ავჭალა 2",
     "district": "Gldani",
-    "seen_count": 45
+    "seen_count": 47
   },
   "გუდიაშვილის ჩიხი 1": {
     "name": "გუდიაშვილის ჩიხი 1",
@@ -3722,7 +3722,7 @@
   "ჭიჭინაძის": {
     "name": "ჭიჭინაძის",
     "district": "Nadzaladevi",
-    "seen_count": 65
+    "seen_count": 66
   },
   "კოხრეიძის": {
     "name": "კოხრეიძის",
@@ -5092,7 +5092,7 @@
   "ბესიკის": {
     "name": "ბესიკის",
     "district": "Saburtalo",
-    "seen_count": 81
+    "seen_count": 82
   },
   "შევჩენკოს": {
     "name": "შევჩენკოს",
@@ -5137,7 +5137,7 @@
   "გერგეთის": {
     "name": "გერგეთის",
     "district": "Saburtalo",
-    "seen_count": 42
+    "seen_count": 43
   },
   "ჭონქაძის": {
     "name": "ჭონქაძის",
@@ -5177,17 +5177,17 @@
   "ლერმონტოვის": {
     "name": "ლერმონტოვის",
     "district": "Saburtalo",
-    "seen_count": 42
+    "seen_count": 43
   },
   "სულხან საბას": {
     "name": "სულხან-საბას",
     "district": "Saburtalo",
-    "seen_count": 42
+    "seen_count": 43
   },
   "გერონტი ქიქოძის": {
     "name": "გერონტი ქიქოძის",
     "district": "Saburtalo",
-    "seen_count": 42
+    "seen_count": 43
   },
   "მაჩაბელის": {
     "name": "მაჩაბელის",
@@ -5282,7 +5282,7 @@
   "ჩაიკოვსკის": {
     "name": "ჩაიკოვსკის",
     "district": "Saburtalo",
-    "seen_count": 53
+    "seen_count": 54
   },
   "თაბუკაშვილის n 30 48  ლუწებს": {
     "name": "თაბუკაშვილის N 30-48 (ლუწებს)",
@@ -8107,7 +8107,7 @@
   "გრიგოლ აბაშიძე": {
     "name": "გრიგოლ აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 27
+    "seen_count": 28
   },
   "პუშკინის n2 n10  ლუწები  თაბუკაშვილის n12": {
     "name": "პუშკინის N2-N10 (ლუწები) თაბუკაშვილის N12",
@@ -8167,32 +8167,32 @@
   "ჩიტაძეს": {
     "name": "ჩიტაძეს",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 15
   },
   "დუმბაძეს": {
     "name": "დუმბაძეს",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 15
   },
   "9 აპირილის ქუჩებს": {
     "name": "9 აპირილის ქუჩებს",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 15
   },
   "ჭონქაძის ქ n10": {
     "name": "ჭონქაძის ქ.N10",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 15
   },
   "ინგოროყვას ქ  7": {
     "name": "ინგოროყვას ქ. 7",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 15
   },
   "9 ნომრებს და რუსთაველის გამზ n 6": {
     "name": "9 ნომრებს და რუსთაველის გამზ.N 6",
     "district": "Mtatsminda",
-    "seen_count": 14
+    "seen_count": 15
   },
   "ვაზიანის დასახლებას და ლილოს ბაზრობას": {
     "name": "ვაზიანის დასახლებას და ლილოს ბაზრობას.",
@@ -8437,7 +8437,7 @@
   "ვაჩნაძე": {
     "name": "ვაჩნაძე",
     "district": "Mtatsminda",
-    "seen_count": 24
+    "seen_count": 25
   },
   "გრ აბაშიძე": {
     "name": "გრ.აბაშიძე",
@@ -9407,12 +9407,12 @@
   "ჯორჯაძე": {
     "name": "ჯორჯაძე",
     "district": "Mtatsminda",
-    "seen_count": 8
+    "seen_count": 9
   },
   "გუდიაშვილი": {
     "name": "გუდიაშვილი",
     "district": "Mtatsminda",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ფირდოუსის ქუჩაზე ხარფუხის სატუმბო სადგურში": {
     "name": "ფირდოუსის ქუჩაზე ხარფუხის სატუმბო სადგურში",
@@ -10862,12 +10862,12 @@
   "ტარიელ ფუტკარაძის ქ  n6 თან": {
     "name": "ტარიელ ფუტკარაძის ქ. N6-თან",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გერგეთის ქ  შეს n 12 თან": {
     "name": "გერგეთის ქ. შეს N 12-თან",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ბესარიონ ჟღენტის ქ  ჩიხი": {
     "name": "ბესარიონ ჟღენტის ქ. ჩიხი",
@@ -10887,176 +10887,186 @@
   "თხინვალას": {
     "name": "თხინვალას",
     "district": "Vake",
-    "seen_count": 4
+    "seen_count": 5
   },
   "სოფ  თხინვალას": {
     "name": "სოფ. თხინვალას",
     "district": "Vake",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დოდო აბაშიძის ქ": {
     "name": "დოდო აბაშიძის ქ.",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 8
   },
   "დოდო აბაშიძის ქუჩას": {
     "name": "დოდო აბაშიძის ქუჩას",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "კონსტანტინე კაპანელის ქ  შესn 1": {
     "name": "კონსტანტინე კაპანელის ქ. შესN 1",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "36 კორპუსებს": {
     "name": "36 კორპუსებს",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ლევან ასათიანის ქუჩებს": {
     "name": "ლევან ასათიანის ქუჩებს",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გერგეთის ქ  შეს n 12თან": {
     "name": "გერგეთის ქ. შეს N 12თან",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვახუშტი კოტეტიშვილის": {
     "name": "ვახუშტი კოტეტიშვილის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "პავლე ინგოროყვას": {
     "name": "პავლე ინგოროყვას",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "არსენას n1 13  კენტები": {
     "name": "არსენას N1-13 (კენტები)",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "n2 16  ლუწები  ვუკოლ ბერიძის": {
     "name": "N2-16 (ლუწები) ვუკოლ ბერიძის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "პაოლო იაშვილის": {
     "name": "პაოლო იაშვილის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გიორგი ლეონიძის": {
     "name": "გიორგი ლეონიძის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მიხაი ზიჩის": {
     "name": "მიხაი ზიჩის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ივანე მაჩაბელის": {
     "name": "ივანე მაჩაბელის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გალაკტიონ ტაბიძის": {
     "name": "გალაკტიონ ტაბიძის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ლადო ასათიანის n28 54  ლუწები  n21 35  კენტები": {
     "name": "ლადო ასათიანის N28-54 (ლუწები) N21-35 (კენტები).",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ყიფიანი": {
     "name": "ყიფიანი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "კოტე მესხი ჭონქაძე": {
     "name": "კოტე მესხი ჭონქაძე",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გიგა ლორთქიფანიძე": {
     "name": "გიგა ლორთქიფანიძე",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვეძინი": {
     "name": "ვეძინი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ლიხი": {
     "name": "ლიხი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "სავანელი": {
     "name": "სავანელი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "კოტე მესხის": {
     "name": "კოტე მესხის",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გიორგი გიგაურის ქუჩა": {
     "name": "გიორგი გიგაურის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "კოტე მესხის 1 და 2 აღმართი": {
     "name": "კოტე მესხის 1 და 2 აღმართი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ბესიკის ქ  n 25": {
     "name": "ბესიკის ქ. N 25",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "დედოფლისწყაროს ქ  1 ლი შეს  n 6 თან": {
     "name": "დედოფლისწყაროს ქ. 1-ლი შეს. N 6-თან",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მიცკევიჩის ქ": {
     "name": "მიცკევიჩის ქ.",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 5
   },
   "18 ნომრების გარდა": {
     "name": "18 ნომრების გარდა",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მიცკევიჩის შესახვევი": {
     "name": "მიცკევიჩის შესახვევი",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "რუსთაველის გამზ": {
     "name": "რუსთაველის გამზ.",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 4
   },
   "თაბუკაშვილის n12": {
     "name": "თაბუკაშვილის N12",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვასო აბაშიძე": {
     "name": "ვასო აბაშიძე",
     "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "ტაშკენტის 10": {
+    "name": "ტაშკენტის 10",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ყაზბეგის 10": {
+    "name": "ყაზბეგის 10",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
