@@ -2782,7 +2782,7 @@
   "ავჭალა 2": {
     "name": "ავჭალა 2",
     "district": "Gldani",
-    "seen_count": 49
+    "seen_count": 51
   },
   "გუდიაშვილის ჩიხი 1": {
     "name": "გუდიაშვილის ჩიხი 1",
@@ -3722,7 +3722,7 @@
   "ჭიჭინაძის": {
     "name": "ჭიჭინაძის",
     "district": "Nadzaladevi",
-    "seen_count": 67
+    "seen_count": 68
   },
   "კოხრეიძის": {
     "name": "კოხრეიძის",
@@ -5282,7 +5282,7 @@
   "ჩაიკოვსკის": {
     "name": "ჩაიკოვსკის",
     "district": "Saburtalo",
-    "seen_count": 55
+    "seen_count": 56
   },
   "თაბუკაშვილის n 30 48  ლუწებს": {
     "name": "თაბუკაშვილის N 30-48 (ლუწებს)",
@@ -8107,7 +8107,7 @@
   "გრიგოლ აბაშიძე": {
     "name": "გრიგოლ აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 29
+    "seen_count": 30
   },
   "პუშკინის n2 n10  ლუწები  თაბუკაშვილის n12": {
     "name": "პუშკინის N2-N10 (ლუწები) თაბუკაშვილის N12",
@@ -8167,32 +8167,32 @@
   "ჩიტაძეს": {
     "name": "ჩიტაძეს",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "დუმბაძეს": {
     "name": "დუმბაძეს",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "9 აპირილის ქუჩებს": {
     "name": "9 აპირილის ქუჩებს",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ჭონქაძის ქ n10": {
     "name": "ჭონქაძის ქ.N10",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ინგოროყვას ქ  7": {
     "name": "ინგოროყვას ქ. 7",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "9 ნომრებს და რუსთაველის გამზ n 6": {
     "name": "9 ნომრებს და რუსთაველის გამზ.N 6",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ვაზიანის დასახლებას და ლილოს ბაზრობას": {
     "name": "ვაზიანის დასახლებას და ლილოს ბაზრობას.",
@@ -8437,7 +8437,7 @@
   "ვაჩნაძე": {
     "name": "ვაჩნაძე",
     "district": "Mtatsminda",
-    "seen_count": 26
+    "seen_count": 27
   },
   "გრ აბაშიძე": {
     "name": "გრ.აბაშიძე",
@@ -9407,12 +9407,12 @@
   "ჯორჯაძე": {
     "name": "ჯორჯაძე",
     "district": "Mtatsminda",
-    "seen_count": 10
+    "seen_count": 11
   },
   "გუდიაშვილი": {
     "name": "გუდიაშვილი",
     "district": "Mtatsminda",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ფირდოუსის ქუჩაზე ხარფუხის სატუმბო სადგურში": {
     "name": "ფირდოუსის ქუჩაზე ხარფუხის სატუმბო სადგურში",
@@ -10862,12 +10862,12 @@
   "ტარიელ ფუტკარაძის ქ  n6 თან": {
     "name": "ტარიელ ფუტკარაძის ქ. N6-თან",
     "district": "Nadzaladevi",
-    "seen_count": 7
+    "seen_count": 8
   },
   "გერგეთის ქ  შეს n 12 თან": {
     "name": "გერგეთის ქ. შეს N 12-თან",
     "district": "Mtatsminda",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ბესარიონ ჟღენტის ქ  ჩიხი": {
     "name": "ბესარიონ ჟღენტის ქ. ჩიხი",
@@ -10887,37 +10887,37 @@
   "თხინვალას": {
     "name": "თხინვალას",
     "district": "Vake",
-    "seen_count": 6
+    "seen_count": 7
   },
   "სოფ  თხინვალას": {
     "name": "სოფ. თხინვალას",
     "district": "Vake",
-    "seen_count": 6
+    "seen_count": 7
   },
   "დოდო აბაშიძის ქ": {
     "name": "დოდო აბაშიძის ქ.",
     "district": "Gldani",
-    "seen_count": 10
+    "seen_count": 12
   },
   "დოდო აბაშიძის ქუჩას": {
     "name": "დოდო აბაშიძის ქუჩას",
     "district": "Gldani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "კონსტანტინე კაპანელის ქ  შესn 1": {
     "name": "კონსტანტინე კაპანელის ქ. შესN 1",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "36 კორპუსებს": {
     "name": "36 კორპუსებს",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ლევან ასათიანის ქუჩებს": {
     "name": "ლევან ასათიანის ქუჩებს",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გერგეთის ქ  შეს n 12თან": {
     "name": "გერგეთის ქ. შეს N 12თან",
@@ -11027,56 +11027,101 @@
   "დედოფლისწყაროს ქ  1 ლი შეს  n 6 თან": {
     "name": "დედოფლისწყაროს ქ. 1-ლი შეს. N 6-თან",
     "district": "Isani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "მიცკევიჩის ქ": {
     "name": "მიცკევიჩის ქ.",
     "district": "Saburtalo",
-    "seen_count": 8
+    "seen_count": 11
   },
   "18 ნომრების გარდა": {
     "name": "18 ნომრების გარდა",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მიცკევიჩის შესახვევი": {
     "name": "მიცკევიჩის შესახვევი",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "რუსთაველის გამზ": {
     "name": "რუსთაველის გამზ.",
     "district": "Mtatsminda",
-    "seen_count": 6
+    "seen_count": 8
   },
   "თაბუკაშვილის n12": {
     "name": "თაბუკაშვილის N12",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვასო აბაშიძე": {
     "name": "ვასო აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ტაშკენტის 10": {
     "name": "ტაშკენტის 10",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ყაზბეგის 10": {
     "name": "ყაზბეგის 10",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბუდაპეშტის ქ  n7 თან": {
     "name": "ბუდაპეშტის ქ. N7-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ჯავის მე 3 შესავევი n 3 თან": {
     "name": "ჯავის მე-3 შესავევი N 3-თან",
     "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ვაზისუბნის დას  თეოფანე დავითაიას ქ  n18 თან": {
+    "name": "ვაზისუბნის დას. თეოფანე დავითაიას ქ. N18-თან",
+    "district": "Isani",
+    "seen_count": 2
+  },
+  "ალექსანდრე როინიშვილის": {
+    "name": "ალექსანდრე როინიშვილის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ქევხიშვილის ქუჩები და ვაზისუბნი მე 2": {
+    "name": "ქევხიშვილის ქუჩები და ვაზისუბნი მე-2",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მე 2ა მიკროებს მთლიანად  ემზარ სულაქველიძის ქუჩა": {
+    "name": "მე-2ა მიკროებს მთლიანად. ემზარ სულაქველიძის ქუჩა",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მიცკევიჩის n23 თან": {
+    "name": "მიცკევიჩის N23-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ყაზბეგის 16": {
+    "name": "ყაზბეგის 16",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ტანძიის 3": {
+    "name": "ტანძიის 3",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ხელოვანთა": {
+    "name": "ხელოვანთა",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მშველიძის ქუჩებს და პატარიძის ქუჩას": {
+    "name": "მშველიძის ქუჩებს და პატარიძის ქუჩას",
+    "district": "Isani",
     "seen_count": 1
   }
 }
