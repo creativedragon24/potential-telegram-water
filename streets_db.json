@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 138
+    "seen_count": 140
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 78
+    "seen_count": 80
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -3382,7 +3382,7 @@
   "ავთანდილის": {
     "name": "ავთანდილის",
     "district": "Mtatsminda",
-    "seen_count": 31
+    "seen_count": 32
   },
   "შხეფის": {
     "name": "შხეფის",
@@ -3722,7 +3722,7 @@
   "ჭიჭინაძის": {
     "name": "ჭიჭინაძის",
     "district": "Nadzaladevi",
-    "seen_count": 76
+    "seen_count": 77
   },
   "კოხრეიძის": {
     "name": "კოხრეიძის",
@@ -4792,7 +4792,7 @@
   "მაყაშვილის": {
     "name": "მაყაშვილის",
     "district": "Saburtalo",
-    "seen_count": 42
+    "seen_count": 43
   },
   "მაყაშვილის აღმართს": {
     "name": "მაყაშვილის აღმართს",
@@ -4932,7 +4932,7 @@
   "რჩეულიშვილის": {
     "name": "რჩეულიშვილის",
     "district": "Saburtalo",
-    "seen_count": 42
+    "seen_count": 43
   },
   "ჯაფარიძის": {
     "name": "ჯაფარიძის",
@@ -5922,7 +5922,7 @@
   "ბარათაშვილის": {
     "name": "ბარათაშვილის",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ჩოლოყაშვილის": {
     "name": "ჩოლოყაშვილის",
@@ -8107,7 +8107,7 @@
   "გრიგოლ აბაშიძე": {
     "name": "გრიგოლ აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 38
+    "seen_count": 39
   },
   "პუშკინის n2 n10  ლუწები  თაბუკაშვილის n12": {
     "name": "პუშკინის N2-N10 (ლუწები) თაბუკაშვილის N12",
@@ -8437,7 +8437,7 @@
   "ვაჩნაძე": {
     "name": "ვაჩნაძე",
     "district": "Mtatsminda",
-    "seen_count": 35
+    "seen_count": 36
   },
   "გრ აბაშიძე": {
     "name": "გრ.აბაშიძე",
@@ -9407,12 +9407,12 @@
   "ჯორჯაძე": {
     "name": "ჯორჯაძე",
     "district": "Mtatsminda",
-    "seen_count": 19
+    "seen_count": 20
   },
   "გუდიაშვილი": {
     "name": "გუდიაშვილი",
     "district": "Mtatsminda",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ფირდოუსის ქუჩაზე ხარფუხის სატუმბო სადგურში": {
     "name": "ფირდოუსის ქუჩაზე ხარფუხის სატუმბო სადგურში",
@@ -11047,17 +11047,17 @@
   "რუსთაველის გამზ": {
     "name": "რუსთაველის გამზ.",
     "district": "Mtatsminda",
-    "seen_count": 24
+    "seen_count": 26
   },
   "თაბუკაშვილის n12": {
     "name": "თაბუკაშვილის N12",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ვასო აბაშიძე": {
     "name": "ვასო აბაშიძე",
     "district": "Mtatsminda",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ტაშკენტის 10": {
     "name": "ტაშკენტის 10",
@@ -11142,7 +11142,7 @@
   "n 9კორპუსს მხოლოდ": {
     "name": "N 9კორპუსს მხოლოდ",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ნავთლუღის ქ": {
     "name": "ნავთლუღის ქ.",
@@ -11172,41 +11172,81 @@
   "ავთანდილის ქ  1 შეს n 5 თან": {
     "name": "ავთანდილის ქ. 1 შეს N 5-თან",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "კაკაბაძის": {
     "name": "კაკაბაძის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ბატონიშვილის": {
     "name": "ბატონიშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ანდრონიკაშვილის და რენე შმერლინგის": {
     "name": "ანდრონიკაშვილის და რენე შმერლინგის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "13 ასურელი": {
     "name": "13 ასურელი",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ჯანიაშვილი": {
     "name": "ჯანიაშვილი",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "შეყლაშვილის": {
     "name": "შეყლაშვილის",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ჰუგო ჰუბერტსის ქუჩას   სრულად": {
     "name": "ჰუგო ჰუბერტსის ქუჩას. (სრულად).",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
+  },
+  "ოქროყანის რეზერვუარზე": {
+    "name": "ოქროყანის რეზერვუარზე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ოქროყანა  გ  ზონას": {
+    "name": "ოქროყანა „გ“ ზონას",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "მეფუკრეობის დასახლებას": {
+    "name": "მეფუკრეობის დასახლებას",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ოქროყანაში  ნიკო ბურის": {
+    "name": "ოქროყანაში- ნიკო ბურის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "რევაზ ლაღიძის": {
+    "name": "რევაზ ლაღიძის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ცივი წყაროს": {
+    "name": "ცივი წყაროს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ვასო აბაშიძის": {
+    "name": "ვასო აბაშიძის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "სატყეოს და გალაკტიონ ტაბიძის ქუჩებს": {
+    "name": "სატყეოს და გალაკტიონ ტაბიძის ქუჩებს.",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
