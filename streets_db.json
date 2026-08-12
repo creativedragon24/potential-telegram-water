@@ -1122,7 +1122,7 @@
   "ხეხილ სანერგე მეურნეობა": {
     "name": "ხეხილ-სანერგე მეურნეობა",
     "district": "Chugureti",
-    "seen_count": 30
+    "seen_count": 32
   },
   "ანასტასია თუმანიშვილის ქ  n66 თან": {
     "name": "ანასტასია თუმანიშვილის ქ. N66 თან",
@@ -11522,7 +11522,7 @@
   "ხიზაბავრის ქ  n 10 თან": {
     "name": "ხიზაბავრის ქ. N 10-თან",
     "district": "Gldani",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ქინძმარაულის ქ  2 შეს  n 5 თან": {
     "name": "ქინძმარაულის ქ. 2 შეს. N 5-თან",
@@ -11597,7 +11597,7 @@
   "რ ჩხიკვაძის ქ n1 თან": {
     "name": "რ.ჩხიკვაძის ქ.N1-თან",
     "district": "Vake",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ხმელნიცკის": {
     "name": "ხმელნიცკის",
@@ -11727,35 +11727,45 @@
   "გიორგი სააკაძის ქ  1 შეს  n3 თან": {
     "name": "გიორგი სააკაძის ქ. 1 შეს. N3 თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "n 58 150 ლუწები": {
     "name": "N 58-150(ლუწები)",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გიორგი სააკაძის 1 შეს  დადიანის მე 2 მიკროს და სვანეთის ქუჩას": {
     "name": "გიორგი სააკაძის 1 შეს. დადიანის მე-2 მიკროს და სვანეთის ქუჩას.",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "თამარის ქ  n2 თან": {
     "name": "თამარის ქ. N2 თან",
     "district": "Samgori",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მერი შერვაშიძის ქ  n69 თან": {
     "name": "მერი შერვაშიძის ქ. N69 თან",
     "district": "Chugureti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მერი შერვაშიძი ქუჩებს": {
     "name": "მერი შერვაშიძი ქუჩებს.",
     "district": "Chugureti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ბესარიონ ჭიჭინაძის ქ  n2ა ში": {
     "name": "ბესარიონ ჭიჭინაძის ქ. N2ა ში",
+    "district": "Samgori",
+    "seen_count": 2
+  },
+  "ლილოს დას": {
+    "name": "ლილოს დას.",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "1 მკ რ n3  ევგენი აფხაზავას n38": {
+    "name": "1 მკ-რ N3 (ევგენი აფხაზავას N38)",
     "district": "Samgori",
     "seen_count": 1
   }
