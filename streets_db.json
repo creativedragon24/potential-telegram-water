@@ -1122,7 +1122,7 @@
   "ხეხილ სანერგე მეურნეობა": {
     "name": "ხეხილ-სანერგე მეურნეობა",
     "district": "Chugureti",
-    "seen_count": 44
+    "seen_count": 46
   },
   "ანასტასია თუმანიშვილის ქ  n66 თან": {
     "name": "ანასტასია თუმანიშვილის ქ. N66 თან",
@@ -2627,7 +2627,7 @@
   "აღმაშენებლის": {
     "name": "აღმაშენებლის",
     "district": "Saburtalo",
-    "seen_count": 15
+    "seen_count": 16
   },
   "თაყაიშვილის": {
     "name": "თაყაიშვილის",
@@ -3647,7 +3647,7 @@
   "ქართლის": {
     "name": "ქართლის",
     "district": "Nadzaladevi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ვაზიანის": {
     "name": "ვაზიანის",
@@ -3677,7 +3677,7 @@
   "ბეჟანიშვილის": {
     "name": "ბეჟანიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ჭყონდიდელის": {
     "name": "ჭყონდიდელის",
@@ -3797,7 +3797,7 @@
   "ქართველიშვილის": {
     "name": "ქართველიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ასკურავას": {
     "name": "ასკურავას",
@@ -3852,7 +3852,7 @@
   "კნოლევის": {
     "name": "კნოლევის",
     "district": "Nadzaladevi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სვანეთის": {
     "name": "სვანეთის",
@@ -6302,17 +6302,17 @@
   "კონსტანტინე ილურიძის ქ  2 შეს": {
     "name": "კონსტანტინე ილურიძის ქ. 2 შეს",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "გვაზაურის მე 2 შეს": {
     "name": "გვაზაურის მე-2 შეს",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "თმოგვის": {
     "name": "თმოგვის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ღრმაღელის ქუჩას": {
     "name": "ღრმაღელის ქუჩას",
@@ -6322,22 +6322,22 @@
   "ქსოვრელის": {
     "name": "ქსოვრელის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ღოღობერიძის": {
     "name": "ღოღობერიძის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ტოროშელიძისა და ქუჩებს": {
     "name": "ტოროშელიძისა და ქუჩებს",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "შესახვევებს და ჩიხებს": {
     "name": "შესახვევებს და ჩიხებს",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ბეჩოს ქ  n 3 თან": {
     "name": "ბეჩოს ქ. N 3-თან",
@@ -11597,7 +11597,7 @@
   "რ ჩხიკვაძის ქ n1 თან": {
     "name": "რ.ჩხიკვაძის ქ.N1-თან",
     "district": "Vake",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ხმელნიცკის": {
     "name": "ხმელნიცკის",
@@ -11727,17 +11727,17 @@
   "გიორგი სააკაძის ქ  1 შეს  n3 თან": {
     "name": "გიორგი სააკაძის ქ. 1 შეს. N3 თან",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "n 58 150 ლუწები": {
     "name": "N 58-150(ლუწები)",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "გიორგი სააკაძის 1 შეს  დადიანის მე 2 მიკროს და სვანეთის ქუჩას": {
     "name": "გიორგი სააკაძის 1 შეს. დადიანის მე-2 მიკროს და სვანეთის ქუჩას.",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "თამარის ქ  n2 თან": {
     "name": "თამარის ქ. N2 თან",
@@ -11747,12 +11747,12 @@
   "მერი შერვაშიძის ქ  n69 თან": {
     "name": "მერი შერვაშიძის ქ. N69 თან",
     "district": "Chugureti",
-    "seen_count": 8
+    "seen_count": 9
   },
   "მერი შერვაშიძი ქუჩებს": {
     "name": "მერი შერვაშიძი ქუჩებს.",
     "district": "Chugureti",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ბესარიონ ჭიჭინაძის ქ  n2ა ში": {
     "name": "ბესარიონ ჭიჭინაძის ქ. N2ა ში",
@@ -11777,7 +11777,7 @@
   "ლეო კვაჭაძის n19 თან": {
     "name": "ლეო კვაჭაძის N19 თან",
     "district": "Vake",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ზემო ვაკის სატუმბო სადგურში ტექნიკური სამუშაოები გადაიდო": {
     "name": "ზემო ვაკის სატუმბო სადგურში ტექნიკური სამუშაოები გადაიდო",
@@ -11792,31 +11792,36 @@
   "სოფ  დიღომი დავით აღმაშენებლის ქ  n52 თან": {
     "name": "სოფ. დიღომი დავით აღმაშენებლის ქ. N52 თან",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გელა გოგიშვილი": {
     "name": "გელა გოგიშვილი",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ვაშლიჯვარის დას  კვანტალიანის ქ  n86 თან": {
     "name": "ვაშლიჯვარის დას. კვანტალიანის ქ. N86 თან",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დაისის ქ  1შეს n13 თან": {
     "name": "დაისის ქ. 1შეს N13 თან",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "პეტრე ქავთარაძის ქ  n22 თან": {
     "name": "პეტრე ქავთარაძის ქ. N22 თან",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ქავთარაძის 1 შეს  პეტრე ქავთარაძის n22 n30  ლუწები  n21": {
     "name": "ქავთარაძის 1 შეს. პეტრე ქავთარაძის N22-N30 (ლუწები) N21.",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
+  },
+  "დაისის ქ  1შეს n13 ში": {
+    "name": "დაისის ქ. 1შეს N13 ში",
+    "district": "Nadzaladevi",
+    "seen_count": 1
   }
 }
