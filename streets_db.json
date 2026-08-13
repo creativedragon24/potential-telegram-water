@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 90
+    "seen_count": 92
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -4902,7 +4902,7 @@
   "ბაქრაძის": {
     "name": "ბაქრაძის",
     "district": "Saburtalo",
-    "seen_count": 63
+    "seen_count": 64
   },
   "გაბუნიას": {
     "name": "გაბუნიას",
@@ -6462,12 +6462,12 @@
   "ყარყარაშვილის": {
     "name": "ყარყარაშვილის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "უზნაძის": {
     "name": "უზნაძის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ხომერიკის მიქელაძე": {
     "name": "ხომერიკის(მიქელაძე)",
@@ -6477,12 +6477,12 @@
   "მესხეთის": {
     "name": "მესხეთის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "კაკაბეთის": {
     "name": "კაკაბეთის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ტოლენჯის": {
     "name": "ტოლენჯის",
@@ -6492,27 +6492,27 @@
   "წალენჯიხის": {
     "name": "წალენჯიხის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ყვარლის": {
     "name": "ყვარლის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "რატილის": {
     "name": "რატილის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ამირეჯიბის": {
     "name": "ამირეჯიბის",
     "district": "Isani",
-    "seen_count": 56
+    "seen_count": 57
   },
   "ანდღულაძის": {
     "name": "ანდღულაძის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "13 იანვრის დურმიშიძის": {
     "name": "13 იანვრის(დურმიშიძის)",
@@ -11842,26 +11842,41 @@
   "მეტრომშენის დას": {
     "name": "მეტრომშენის დას.",
     "district": "Isani",
-    "seen_count": 12
+    "seen_count": 14
   },
   "ყვარლის ქ  n154 თან": {
     "name": "ყვარლის ქ. N154 თან",
     "district": "Isani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "მიქელაძის ხომერკის": {
     "name": "მიქელაძის(ხომერკის)",
     "district": "Isani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "17 იანვრის  დურმიშიძე  ქუჩებს": {
     "name": "17 იანვრის (დურმიშიძე) ქუჩებს.",
     "district": "Isani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "n58 ომარ ხიზანიშვილის n16 n32  ლუწები": {
     "name": "N58 ომარ ხიზანიშვილის N16-N32 (ლუწები).",
     "district": "Gldani",
+    "seen_count": 3
+  },
+  "ვაჟა ფშაველას გამზ": {
+    "name": "ვაჟა ფშაველას გამზ.",
+    "district": "Saburtalo",
     "seen_count": 2
+  },
+  "ტაშკენტის 19": {
+    "name": "ტაშკენტის 19",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კორნელი კეკელიძის ქ  n 14 ში": {
+    "name": "კორნელი კეკელიძის ქ. N 14-ში",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
