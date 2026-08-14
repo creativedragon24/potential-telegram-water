@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 122
+    "seen_count": 123
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -1487,7 +1487,7 @@
   "მუხის": {
     "name": "მუხის",
     "district": "Gldani",
-    "seen_count": 8
+    "seen_count": 9
   },
   "იაკობის": {
     "name": "იაკობის",
@@ -3947,7 +3947,7 @@
   "ტაბახმელა": {
     "name": "ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 18
   },
   "თაარ მეფის n10 თან": {
     "name": "თაარ მეფის N10-თან",
@@ -8747,7 +8747,7 @@
   "შავნაბადის ქუჩა": {
     "name": "შავნაბადის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 17
+    "seen_count": 18
   },
   "გიორგი ორბელიანის ქუჩა": {
     "name": "გიორგი ორბელიანის ქუჩა",
@@ -9172,7 +9172,7 @@
   "სოფ  დიღომი": {
     "name": "სოფ. დიღომი",
     "district": "Saburtalo",
-    "seen_count": 6
+    "seen_count": 8
   },
   "ლევან ფირცხელიანის ქ  n 9 თან": {
     "name": "ლევან ფირცხელიანის ქ. N 9-თან",
@@ -12112,181 +12112,186 @@
   "ჩკალოვის ქ  19 ში": {
     "name": "ჩკალოვის ქ. 19-ში",
     "district": "Isani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ლისი ვერანდის სატუმბო სადგურთან": {
     "name": "ლისი ვერანდის სატუმბო სადგურთან",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ლისის": {
     "name": "ლისის",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ნეკერჩხლის": {
     "name": "ნეკერჩხლის",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "იასამნების": {
     "name": "იასამნების",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ბზის": {
     "name": "ბზის",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ტირიფების და თუთის ქუჩებს": {
     "name": "ტირიფების და თუთის ქუჩებს.",
     "district": "Vake",
-    "seen_count": 5
+    "seen_count": 6
   },
   "თამარ მეფის 26 თან": {
     "name": "თამარ მეფის 26-თან",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გრიგოლ ორბელიანი": {
     "name": "გრიგოლ ორბელიანი",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "მარიჯანის ქუჩა": {
     "name": "მარიჯანის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "გიორგი ბრწინვალის ქუჩა": {
     "name": "გიორგი ბრწინვალის ქუჩა",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "თევდორე მღვდლის n16 თან": {
     "name": "თევდორე მღვდლის N16-თან",
     "district": "Tsqneti",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ზურაბ იარაჯულის ქ": {
     "name": "ზურაბ იარაჯულის ქ.",
     "district": "Samgori",
-    "seen_count": 6
+    "seen_count": 8
   },
   "ჩიხი 1": {
     "name": "ჩიხი 1",
     "district": "Samgori",
-    "seen_count": 6
+    "seen_count": 8
   },
   "თამარ მეფის n38 თან": {
     "name": "თამარ მეფის N38-თან",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ლებარდოს ქ  n9 თან": {
     "name": "ლებარდოს ქ. N9-თან",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ნორიოს აღმართს": {
     "name": "ნორიოს აღმართს",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "აბაშის": {
     "name": "აბაშის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ცაიშის": {
     "name": "ცაიშის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ლებარდეს": {
     "name": "ლებარდეს",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ქვალონის": {
     "name": "ქვალონის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სალხინოს": {
     "name": "სალხინოს",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჭალადიდის": {
     "name": "ჭალადიდის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გივიშვილის": {
     "name": "გივიშვილის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "თეკლეთის": {
     "name": "თეკლეთის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ატოცის": {
     "name": "ატოცის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სენაკის": {
     "name": "სენაკის",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ხონის და ასხინის ქუჩებს": {
     "name": "ხონის და ასხინის ქუჩებს",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ქურთების დასახლებას": {
     "name": "ქურთების დასახლებას",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მოსკოვის გამზირი": {
     "name": "მოსკოვის გამზირი",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 4
   },
   "n2 n10  ლუწები": {
     "name": "N2-N10 (ლუწები)",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ს ქუჩას შესახვევებით  იგივე ჩერქეზიშვილის ქუჩა": {
     "name": "ს ქუჩას შესახვევებით (იგივე ჩერქეზიშვილის ქუჩა)",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნადარეიშვილის ქუჩას შესახვევებით": {
     "name": "ნადარეიშვილის ქუჩას შესახვევებით",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ციხისძირისი ქუჩა გასასვლელებით": {
     "name": "ციხისძირისი ქუჩა გასასვლელებით",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ფელიქს ჰოლდაკის ქ  n7 თან": {
     "name": "ფელიქს ჰოლდაკის ქ. N7-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ფელიქს ჰოლდაკის ქუჩა": {
     "name": "ფელიქს ჰოლდაკის ქუჩა",
     "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "ჟინვალის 34 ში": {
+    "name": "ჟინვალის 34-ში",
+    "district": "Nadzaladevi",
     "seen_count": 1
   }
 }
