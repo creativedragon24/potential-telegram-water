@@ -1087,17 +1087,17 @@
   "ზაქარიაძის": {
     "name": "ზაქარიაძის",
     "district": "Vake",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ჯებაშვილის ქუჩას და შესახვევს": {
     "name": "ჯებაშვილის ქუჩას და შესახვევს",
     "district": "Vake",
-    "seen_count": 18
+    "seen_count": 19
   },
   "დელისის 1 ლ გასასვლელს": {
     "name": "დელისის 1-ლ გასასვლელს.",
     "district": "Vake",
-    "seen_count": 18
+    "seen_count": 19
   },
   "გიგო გაბაშვილის მე 2 შესახვევს": {
     "name": "გიგო გაბაშვილის მე-2 შესახვევს",
@@ -1667,7 +1667,7 @@
   "ზაჰესი": {
     "name": "ზაჰესი",
     "district": "Gldani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "კეცხოველის ქ n41 თანხხ": {
     "name": "კეცხოველის ქ N41-თანხხ",
@@ -8692,22 +8692,22 @@
   "n8 56  ლუწებს  კაციტაძის ქუჩებს": {
     "name": "N8-56 (ლუწებს) კაციტაძის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ს 1 ლი ჩიხს": {
     "name": "ს 1-ლი ჩიხს",
     "district": "Krtsanisi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "1 ლი და მე 2 გასავალს": {
     "name": "1-ლი და მე-2 გასავალს",
     "district": "Krtsanisi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "გორგასლის გასავალს": {
     "name": "გორგასლის გასავალს",
     "district": "Krtsanisi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "გიორგი გურამიშვილის შესახვევი": {
     "name": "გიორგი გურამიშვილის შესახვევი",
@@ -8717,7 +8717,7 @@
   "გორგასლის n65": {
     "name": "გორგასლის N65",
     "district": "Krtsanisi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ლამის ქ  n5გ თან": {
     "name": "ლამის ქ. N5გ თან",
@@ -12357,7 +12357,7 @@
   "შალვა ნუცუბიძის ქ": {
     "name": "შალვა ნუცუბიძის ქ.",
     "district": "Saburtalo",
-    "seen_count": 26
+    "seen_count": 28
   },
   "ცოტნე დადიანის ქ  n267 თან": {
     "name": "ცოტნე დადიანის ქ. N267-თან",
@@ -12372,86 +12372,96 @@
   "ვახტანგ გორგასლის ქ  ზე სატუმბო სადგურში": {
     "name": "ვახტანგ გორგასლის ქ.-ზე სატუმბო სადგურში",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 7
   },
   "გიორგი გურამიშვილის": {
     "name": "გიორგი გურამიშვილის",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "თვალის კლინიკა ნიუ ჰოსპიტალს": {
     "name": "თვალის კლინიკა ნიუ ჰოსპიტალს.",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დეპოს ქ  n 28 თან": {
     "name": "დეპოს ქ. N 28 თან",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "თეიმურაზ ბოჭორიშვილის ქ  n19ა თან": {
     "name": "თეიმურაზ ბოჭორიშვილის ქ. N19ა თან",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გივი ჟვანიას ქ  n 15 თან": {
     "name": "გივი ჟვანიას ქ. N 15 თან",
     "district": "Didube",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბელიაშვილის შესავევს": {
     "name": "ბელიაშვილის შესავევს",
     "district": "Didube",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბელიაშვილის მე 3 ჩიხს   ბოცვაძის ქუჩა  ბელიაშვილის ქუჩის n 40 და n 40ა": {
     "name": "ბელიაშვილის მე-3 ჩიხს ( ბოცვაძის ქუჩა) ბელიაშვილის ქუჩის N 40 და N 40ა",
     "district": "Didube",
-    "seen_count": 2
+    "seen_count": 3
   },
   "დისევის": {
     "name": "დისევის",
     "district": "Didube",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ლუბლიანას ქუჩის n 21 და n 22 ს  ჟვანიას": {
     "name": "ლუბლიანას ქუჩის N 21 და N 22-ს (ჟვანიას",
     "district": "Didube",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მიხაილოვის": {
     "name": "მიხაილოვის",
     "district": "Didube",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჯოენის და ციციშვილის კლინიკებს  გივი ჟვანია  ბობ უოლშის 4": {
     "name": "ჯოენის და ციციშვილის კლინიკებს) გივი ჟვანია. ბობ უოლშის 4",
     "district": "Didube",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მიხეილ წინამძღვრიშვილის ქ  n60 თან": {
     "name": "მიხეილ წინამძღვრიშვილის ქ. N60 თან",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ტურგენევი": {
     "name": "ტურგენევი",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კანკავა": {
     "name": "კანკავა",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჯავახიშვილის 25": {
     "name": "ჯავახიშვილის 25",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კიტა აბაშიძე": {
     "name": "კიტა აბაშიძე.",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
+  },
+  "შალვა აფხაიძის ქ  3 შეს  n9 თან": {
+    "name": "შალვა აფხაიძის ქ. 3 შეს. N9 თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "შალვა აფხაიძის ქ  3 შეს  n 7 8 9 ებს": {
+    "name": "შალვა აფხაიძის ქ. 3 შეს. N 7 8 9 ებს",
+    "district": "Gldani",
+    "seen_count": 1
   }
 }
