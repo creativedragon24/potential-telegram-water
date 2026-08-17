@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 240
+    "seen_count": 244
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -1087,17 +1087,17 @@
   "ზაქარიაძის": {
     "name": "ზაქარიაძის",
     "district": "Vake",
-    "seen_count": 60
+    "seen_count": 61
   },
   "ჯებაშვილის ქუჩას და შესახვევს": {
     "name": "ჯებაშვილის ქუჩას და შესახვევს",
     "district": "Vake",
-    "seen_count": 60
+    "seen_count": 61
   },
   "დელისის 1 ლ გასასვლელს": {
     "name": "დელისის 1-ლ გასასვლელს.",
     "district": "Vake",
-    "seen_count": 60
+    "seen_count": 61
   },
   "გიგო გაბაშვილის მე 2 შესახვევს": {
     "name": "გიგო გაბაშვილის მე-2 შესახვევს",
@@ -1557,7 +1557,7 @@
   "დმანისის": {
     "name": "დმანისის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "მარტყოფის ქუჩა ჩიხებით შესახვევებით": {
     "name": "მარტყოფის ქუჩა ჩიხებით შესახვევებით",
@@ -1567,7 +1567,7 @@
   "მთავარანგელოზის": {
     "name": "მთავარანგელოზის",
     "district": "Isani",
-    "seen_count": 20
+    "seen_count": 21
   },
   "მახათას ქუჩის შესახვევებით": {
     "name": "მახათას ქუჩის შესახვევებით",
@@ -1577,7 +1577,7 @@
   "ნასაკირალის": {
     "name": "ნასაკირალის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "იერვატორის": {
     "name": "იერვატორის",
@@ -1592,7 +1592,7 @@
   "ალადაშვილის": {
     "name": "ალადაშვილის",
     "district": "Isani",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ფაბრიციუსის ქუჩის შესახვევებით": {
     "name": "ფაბრიციუსის ქუჩის შესახვევებით",
@@ -1602,7 +1602,7 @@
   "ერისთავის": {
     "name": "ერისთავის",
     "district": "Isani",
-    "seen_count": 59
+    "seen_count": 60
   },
   "ჩუბინიძეს და გურჯაანის ქ": {
     "name": "ჩუბინიძეს და გურჯაანის ქ",
@@ -6787,7 +6787,7 @@
   "ირბახის": {
     "name": "ირბახის",
     "district": "Isani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "კროპორტკინის": {
     "name": "კროპორტკინის",
@@ -7082,7 +7082,7 @@
   "ობსერვატორიის": {
     "name": "ობსერვატორიის",
     "district": "Isani",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ფაბრიციუსის ქუჩას შესახვევებით": {
     "name": "ფაბრიციუსის ქუჩას შესახვევებით",
@@ -7652,7 +7652,7 @@
   "მახათის": {
     "name": "მახათის",
     "district": "Isani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ფაბრიციუსის ქ   იგივე კონსტანტინე ერისთავის": {
     "name": "ფაბრიციუსის ქ - იგივე კონსტანტინე ერისთავის",
@@ -8227,17 +8227,17 @@
   "ჟონეთის": {
     "name": "ჟონეთის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "კიკეთის": {
     "name": "კიკეთის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნიაბის": {
     "name": "ნიაბის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცისკრის": {
     "name": "ცისკრის",
@@ -8247,12 +8247,12 @@
   "ბზიფის": {
     "name": "ბზიფის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 3
   },
   "სომხეთის": {
     "name": "სომხეთის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "მრევლიშვილს ფშავის": {
     "name": "მრევლიშვილს ფშავის",
@@ -8262,7 +8262,7 @@
   "კვესეთის": {
     "name": "კვესეთის",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნაქერალას": {
     "name": "ნაქერალას",
@@ -8897,7 +8897,7 @@
   "განთიადის": {
     "name": "განთიადის",
     "district": "Gldani",
-    "seen_count": 11
+    "seen_count": 12
   },
   "ხანძთის": {
     "name": "ხანძთის",
@@ -12357,7 +12357,7 @@
   "შალვა ნუცუბიძის ქ": {
     "name": "შალვა ნუცუბიძის ქ.",
     "district": "Saburtalo",
-    "seen_count": 116
+    "seen_count": 118
   },
   "ცოტნე დადიანის ქ  n267 თან": {
     "name": "ცოტნე დადიანის ქ. N267-თან",
@@ -12637,27 +12637,27 @@
   "გიორგი გეხტმანის ქ  2 გას": {
     "name": "გიორგი გეხტმანის ქ. 2 გას.",
     "district": "Saburtalo",
-    "seen_count": 40
+    "seen_count": 42
   },
   "ცხაკაიას": {
     "name": "ცხაკაიას",
     "district": "Saburtalo",
-    "seen_count": 20
+    "seen_count": 21
   },
   "ალ  ჯავახიშვილის": {
     "name": "ალ. ჯავახიშვილის",
     "district": "Saburtalo",
-    "seen_count": 20
+    "seen_count": 21
   },
   "შაქარაშვილის": {
     "name": "შაქარაშვილის",
     "district": "Saburtalo",
-    "seen_count": 20
+    "seen_count": 21
   },
   "ჭანდარის ქუჩებს": {
     "name": "ჭანდარის ქუჩებს",
     "district": "Saburtalo",
-    "seen_count": 20
+    "seen_count": 21
   },
   "2 მკ რ n47ა ში მოქალაქის კუთვნილ": {
     "name": "2 მკ-რ N47ა-ში მოქალაქის კუთვნილ",
@@ -12697,11 +12697,121 @@
   "ნიაბის ქ  მე 2 შეს n 20 თან": {
     "name": "ნიაბის ქ. მე-2 შეს N 20-თან",
     "district": "Isani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "დელისის ქ": {
     "name": "დელისის ქ.",
     "district": "Vake",
     "seen_count": 10
+  },
+  "მეტეხის აღმართი n 10 თან": {
+    "name": "მეტეხის აღმართი.N 10-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ცამერი ასურელი მამის ქ  n96 თან": {
+    "name": "ცამერი ასურელი მამის ქ. N96-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "n 2 50 ლუწი": {
+    "name": "N 2-50(ლუწი)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "თინათინის n 26": {
+    "name": "თინათინის N 26",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "43 და პაატა ჯანიაშვილის n29 63 კენტი": {
+    "name": "43 და პაატა ჯანიაშვილის N29-63(კენტი)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "n28 68 ლუწი  ქუჩებს": {
+    "name": "N28-68(ლუწი) ქუჩებს.",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "საინგილოს ქ  n40ა თან": {
+    "name": "საინგილოს ქ. N40ა-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "სათემოს": {
+    "name": "სათემოს",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "თეძამის": {
+    "name": "თეძამის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ბეთანიის": {
+    "name": "ბეთანიის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მამკოდის": {
+    "name": "მამკოდის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მელაანის v შესახვეს": {
+    "name": "მელაანის V შესახვეს",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "შორაპნის ii ქუჩას": {
+    "name": "შორაპნის II ქუჩას",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "საინგილო n26 120 ლუწებს": {
+    "name": "საინგილო N26-120(ლუწებს)",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მარტყოფის": {
+    "name": "მარტყოფის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ჩუბინიძის": {
+    "name": "ჩუბინიძის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "კაიშაურის n 1  39": {
+    "name": "კაიშაურის N 1- 39",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ოძისის": {
+    "name": "ოძისის",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "n1 39 კენტებს": {
+    "name": "N1-39(კენტებს)",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "n 2 34 ლუწებს": {
+    "name": "N 2-34(ლუწებს)",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ბეღლეთისა და წურწუმიას ii შესახვევს": {
+    "name": "ბეღლეთისა და წურწუმიას II შესახვევს.",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ფიროსმანი ქ n 6 თან": {
+    "name": "ფიროსმანი ქ.N 6-თან",
+    "district": "Tsqneti",
+    "seen_count": 1
   }
 }
