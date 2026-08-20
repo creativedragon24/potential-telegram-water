@@ -1382,27 +1382,27 @@
   "ფარნავაზ მეფის გამზირი": {
     "name": "ფარნავაზ მეფის გამზირი",
     "district": "Saburtalo",
-    "seen_count": 48
+    "seen_count": 50
   },
   "ექვთიმე ხელაძე": {
     "name": "ექვთიმე ხელაძე",
     "district": "Saburtalo",
-    "seen_count": 41
+    "seen_count": 42
   },
   "ასი ათასი მოწამის": {
     "name": "ასი ათასი მოწამის",
     "district": "Saburtalo",
-    "seen_count": 41
+    "seen_count": 42
   },
   "მუხათგვერდის": {
     "name": "მუხათგვერდის",
     "district": "Saburtalo",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ჩოხელის": {
     "name": "ჩოხელის",
     "district": "Saburtalo",
-    "seen_count": 37
+    "seen_count": 38
   },
   "სამაჩაბლოს და კათალიკოს აბრაამის ქუჩებს": {
     "name": "სამაჩაბლოს და კათალიკოს აბრაამის ქუჩებს",
@@ -1412,7 +1412,7 @@
   "ჰიუნდაის ცენტრს და ძველი დუქანს": {
     "name": "ჰიუნდაის ცენტრს და ძველი დუქანს.",
     "district": "Saburtalo",
-    "seen_count": 41
+    "seen_count": 42
   },
   "ვარდისუბნის ქ n 31 თან": {
     "name": "ვარდისუბნის ქ.N 31-თან",
@@ -2432,7 +2432,7 @@
   "სამაჩაბლოს და კათალიკოს": {
     "name": "სამაჩაბლოს და კათალიკოს",
     "district": "Saburtalo",
-    "seen_count": 29
+    "seen_count": 30
   },
   "გიორგი სააკაძის ქ  n55 თან": {
     "name": "გიორგი სააკაძის ქ. N55-თან",
@@ -4972,7 +4972,7 @@
   "მიმინოშვილის": {
     "name": "მიმინოშვილის",
     "district": "Saburtalo",
-    "seen_count": 61
+    "seen_count": 62
   },
   "კობახიძის": {
     "name": "კობახიძის",
@@ -11107,7 +11107,7 @@
   "ყაზბეგის 16": {
     "name": "ყაზბეგის 16",
     "district": "Saburtalo",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ტანძიის 3": {
     "name": "ტანძიის 3",
@@ -13257,27 +13257,27 @@
   "კოსტავას ქუჩაზე": {
     "name": "კოსტავას ქუჩაზე",
     "district": "Mtatsminda",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ლეო ქიაჩელის": {
     "name": "ლეო ქიაჩელის",
     "district": "Mtatsminda",
-    "seen_count": 22
+    "seen_count": 23
   },
   "გიორგი ახვლედიანის": {
     "name": "გიორგი ახვლედიანის",
     "district": "Mtatsminda",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ია ეკალაძის": {
     "name": "ია ეკალაძის",
     "district": "Mtatsminda",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ვაშლოვანის და პიერ კობახიძის ქუჩებს": {
     "name": "ვაშლოვანის და პიერ კობახიძის ქუჩებს.",
     "district": "Mtatsminda",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ირაკლი აბაშიძის ქ  n34 თან": {
     "name": "ირაკლი აბაშიძის ქ. N34-თან",
@@ -13347,12 +13347,12 @@
   "მერაბ კოსტავას ქ": {
     "name": "მერაბ კოსტავას ქ.",
     "district": "Mtatsminda",
-    "seen_count": 36
+    "seen_count": 38
   },
   "ჭადრაკის სახლი და ვერის ბაღი   კოსტავს 37": {
     "name": "ჭადრაკის სახლი და ვერის ბაღი - კოსტავს 37",
     "district": "Mtatsminda",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ოსიპ მანდელშტამის 27": {
     "name": "ოსიპ მანდელშტამის 27",
@@ -13512,6 +13512,6 @@
   "ყაზბეგის 16ბ ში": {
     "name": "ყაზბეგის 16ბ-ში",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   }
 }
