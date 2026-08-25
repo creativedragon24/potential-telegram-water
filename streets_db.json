@@ -4902,7 +4902,7 @@
   "ბაქრაძის": {
     "name": "ბაქრაძის",
     "district": "Saburtalo",
-    "seen_count": 76
+    "seen_count": 77
   },
   "გაბუნიას": {
     "name": "გაბუნიას",
@@ -5697,7 +5697,7 @@
   "კალანდაძის": {
     "name": "კალანდაძის",
     "district": "Saburtalo",
-    "seen_count": 82
+    "seen_count": 83
   },
   "ქანთარიას": {
     "name": "ქანთარიას",
@@ -6462,122 +6462,122 @@
   "ყარყარაშვილის": {
     "name": "ყარყარაშვილის",
     "district": "Isani",
-    "seen_count": 37
+    "seen_count": 38
   },
   "უზნაძის": {
     "name": "უზნაძის",
     "district": "Isani",
-    "seen_count": 52
+    "seen_count": 53
   },
   "ხომერიკის მიქელაძე": {
     "name": "ხომერიკის(მიქელაძე)",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "მესხეთის": {
     "name": "მესხეთის",
     "district": "Isani",
-    "seen_count": 37
+    "seen_count": 38
   },
   "კაკაბეთის": {
     "name": "კაკაბეთის",
     "district": "Isani",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ტოლენჯის": {
     "name": "ტოლენჯის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "წალენჯიხის": {
     "name": "წალენჯიხის",
     "district": "Isani",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ყვარლის": {
     "name": "ყვარლის",
     "district": "Isani",
-    "seen_count": 37
+    "seen_count": 38
   },
   "რატილის": {
     "name": "რატილის",
     "district": "Isani",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ამირეჯიბის": {
     "name": "ამირეჯიბის",
     "district": "Isani",
-    "seen_count": 69
+    "seen_count": 70
   },
   "ანდღულაძის": {
     "name": "ანდღულაძის",
     "district": "Isani",
-    "seen_count": 37
+    "seen_count": 38
   },
   "13 იანვრის დურმიშიძის": {
     "name": "13 იანვრის(დურმიშიძის)",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "შერვაშიძის": {
     "name": "შერვაშიძის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "აფანასიევის": {
     "name": "აფანასიევის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ონიანისა": {
     "name": "ონიანისა",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "გეზათის": {
     "name": "გეზათის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "რომან გვენცაძის": {
     "name": "რომან გვენცაძის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ბათლომეო ხუციშვილის ქუჩებს და ბუშის 5 ჩიხს": {
     "name": "ბათლომეო ხუციშვილის ქუჩებს და ბუშის 5 ჩიხს",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "გუჯარეთის n15": {
     "name": "გუჯარეთის N15",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "თამაზ პაპიაშვილის": {
     "name": "თამაზ პაპიაშვილის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ხათუნა ჭიჭინაძის": {
     "name": "ხათუნა ჭიჭინაძის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ვიქტორ ნანეიშვილის": {
     "name": "ვიქტორ ნანეიშვილის",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "მელაანის  ჩიხებით და შესახვევებით": {
     "name": "მელაანის (ჩიხებით და შესახვევებით)",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "საბანაკოს დასახლებას": {
     "name": "საბანაკოს დასახლებას",
     "district": "Isani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "კოტე მარჯანიშვილის ქ  n31 თან": {
     "name": "კოტე მარჯანიშვილის ქ. N31-თან",
@@ -14637,6 +14637,36 @@
   "შესახვევი n 18 ში": {
     "name": "შესახვევი N 18 ში",
     "district": "Samgori",
+    "seen_count": 2
+  },
+  "თევდორე მღვდლის ქ n 8 თან": {
+    "name": "თევდორე მღვდლის ქ.N 8-თან",
+    "district": "Tsqneti",
     "seen_count": 1
+  },
+  "გამსხურდია კოსტავა": {
+    "name": "გამსხურდია კოსტავა",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ჩოლოყაშვილი 1 71 2 70  წამებული": {
+    "name": "ჩოლოყაშვილი 1-71 2-70. წამებული",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ლეონიძე": {
+    "name": "ლეონიძე",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ნუშის ბაღები1 13 2 30 ნომრებს": {
+    "name": "ნუშის ბაღები1-13 2-30 ნომრებს",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "კონსტანტინე ამირეჯიბის ქ": {
+    "name": "კონსტანტინე ამირეჯიბის ქ.",
+    "district": "Isani",
+    "seen_count": 2
   }
 }
