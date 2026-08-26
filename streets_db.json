@@ -3507,7 +3507,7 @@
   "მუხიანის დას": {
     "name": "მუხიანის დას.",
     "district": "Gldani",
-    "seen_count": 61
+    "seen_count": 64
   },
   "17 კორპუსებს": {
     "name": "17-კორპუსებს",
@@ -11892,7 +11892,7 @@
   "დაბა კოჯორი": {
     "name": "დაბა კოჯორი",
     "district": "Mtatsminda",
-    "seen_count": 46
+    "seen_count": 48
   },
   "უძოს ქ n 9 თან": {
     "name": "უძოს ქ.N 9-თან",
@@ -14777,7 +14777,7 @@
   "ალექსანდრე ჭავჭავაძის ქ": {
     "name": "ალექსანდრე ჭავჭავაძის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 18
   },
   "ვარკეთილის მას  ზემო პლატო": {
     "name": "ვარკეთილის მას. ზემო პლატო",
@@ -14842,36 +14842,46 @@
   "დავით გურამიშვილის ქ": {
     "name": "დავით გურამიშვილის ქ.",
     "district": "Tsqneti",
-    "seen_count": 10
+    "seen_count": 12
   },
   "ვეძინის ქ": {
     "name": "ვეძინის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 6
+    "seen_count": 8
   },
   "ერწოს ქ": {
     "name": "ერწოს ქ.",
     "district": "Nadzaladevi",
-    "seen_count": 6
+    "seen_count": 8
   },
   "სატყეოს ქ  n1 თან": {
     "name": "სატყეოს ქ. N1-თან",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სატყეო": {
     "name": "სატყეო",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჩხეიძე": {
     "name": "ჩხეიძე",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კვინიტაძე და ბურჭულაძე": {
     "name": "კვინიტაძე და ბურჭულაძე",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
+  },
+  "ქსნის ქ  n42 თან": {
+    "name": "ქსნის ქ. N42-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ჯუმბერ ლეჟავას n5 თან": {
+    "name": "ჯუმბერ ლეჟავას N5-თან",
+    "district": "Isani",
+    "seen_count": 1
   }
 }
