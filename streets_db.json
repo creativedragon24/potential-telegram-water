@@ -14777,25 +14777,45 @@
   "ალექსანდრე ჭავჭავაძის ქ": {
     "name": "ალექსანდრე ჭავჭავაძის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 4
   },
   "ვარკეთილის მას  ზემო პლატო": {
     "name": "ვარკეთილის მას. ზემო პლატო",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 4
   },
   "2 მკ რ კორპუსი n11": {
     "name": "2 მკ-რ კორპუსი N11",
     "district": "Samgori",
-    "seen_count": 1
+    "seen_count": 2
   },
   "საქართველოს ერთიანობისთვის მებრძოლთა ქუჩა 37ა": {
     "name": "საქართველოს ერთიანობისთვის მებრძოლთა ქუჩა 37ა",
     "district": "Samgori",
-    "seen_count": 1
+    "seen_count": 2
   },
   "n 160 საბავშვო ბაღი": {
     "name": "N 160 საბავშვო ბაღი",
+    "district": "Samgori",
+    "seen_count": 2
+  },
+  "ტარიელის n10 თან": {
+    "name": "ტარიელის N10-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "კერესელიძის n34 თან": {
+    "name": "კერესელიძის N34-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გოგებაშვილის 1 ჩიხს და კერესელიძის ქუჩებს": {
+    "name": "გოგებაშვილის 1 ჩიხს და კერესელიძის ქუჩებს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გუმათჰესის n10 თან": {
+    "name": "გუმათჰესის N10-თან",
     "district": "Samgori",
     "seen_count": 1
   }
