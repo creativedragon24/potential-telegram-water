@@ -14777,7 +14777,7 @@
   "ალექსანდრე ჭავჭავაძის ქ": {
     "name": "ალექსანდრე ჭავჭავაძის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 10
+    "seen_count": 12
   },
   "ვარკეთილის მას  ზემო პლატო": {
     "name": "ვარკეთილის მას. ზემო პლატო",
@@ -14842,6 +14842,16 @@
   "დავით გურამიშვილის ქ": {
     "name": "დავით გურამიშვილის ქ.",
     "district": "Tsqneti",
-    "seen_count": 4
+    "seen_count": 6
+  },
+  "ვეძინის ქ": {
+    "name": "ვეძინის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "ერწოს ქ": {
+    "name": "ერწოს ქ.",
+    "district": "Nadzaladevi",
+    "seen_count": 2
   }
 }
