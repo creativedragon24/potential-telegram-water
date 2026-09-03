@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 491
+    "seen_count": 493
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 129
+    "seen_count": 130
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -14337,12 +14337,12 @@
   "კოსტავას 75": {
     "name": "კოსტავას 75",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მარიამ ლორთქიფანიძე": {
     "name": "მარიამ ლორთქიფანიძე",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "რაჭის ქ  n1 ში": {
     "name": "რაჭის ქ. N1-ში",
@@ -15637,7 +15637,7 @@
   "რუსთაველის გამზ  n 2 4 თან": {
     "name": "რუსთაველის გამზ. N 2/4 თან",
     "district": "Mtatsminda",
-    "seen_count": 5
+    "seen_count": 6
   },
   "წყნ  ალექსანდრე ჭავჭავაძის ქ  1 შეს  n5 თან": {
     "name": "(წყნ) ალექსანდრე ჭავჭავაძის ქ. 1 შეს. N5 თან",
@@ -15787,7 +15787,7 @@
   "რაჭის ქ  n 1 თან": {
     "name": "რაჭის ქ. N 1-თან",
     "district": "Gldani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "კონსტანტინე კაპანელის ქ  n 6 თან": {
     "name": "კონსტანტინე კაპანელის ქ. N 6-თან",
@@ -15948,5 +15948,45 @@
     "name": "ხუდადოვის",
     "district": "Nadzaladevi",
     "seen_count": 2
+  },
+  "გიორგი გეხტმანის ქ  7 გას n 6 თან": {
+    "name": "გიორგი გეხტმანის ქ. 7 გას.N 6-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "იასე შაქარაშვილის": {
+    "name": "იასე შაქარაშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "სერგი ცხაკაიას": {
+    "name": "სერგი ცხაკაიას",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ალექსანდრე ჯჯავახიშვილის": {
+    "name": "ალექსანდრე ჯჯავახიშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბადრი ჟვანიას": {
+    "name": "ბადრი ჟვანიას",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჭანდრის": {
+    "name": "ჭანდრის.",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ვახტანგ ბოჭორიშვილის ქ": {
+    "name": "ვახტანგ ბოჭორიშვილის ქ.",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "შენ  2ჩიხი n 13 თან": {
+    "name": "შენ. 2ჩიხი N 13-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
   }
 }
