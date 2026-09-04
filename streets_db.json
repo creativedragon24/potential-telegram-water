@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 135
+    "seen_count": 136
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -12197,42 +12197,42 @@
   "აბაშის": {
     "name": "აბაშის",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ცაიშის": {
     "name": "ცაიშის",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ლებარდეს": {
     "name": "ლებარდეს",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ქვალონის": {
     "name": "ქვალონის",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "სალხინოს": {
     "name": "სალხინოს",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ჭალადიდის": {
     "name": "ჭალადიდის",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "გივიშვილის": {
     "name": "გივიშვილის",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "თეკლეთის": {
     "name": "თეკლეთის",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ატოცის": {
     "name": "ატოცის",
@@ -12242,7 +12242,7 @@
   "სენაკის": {
     "name": "სენაკის",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ხონის და ასხინის ქუჩებს": {
     "name": "ხონის და ასხინის ქუჩებს",
@@ -12252,7 +12252,7 @@
   "ქურთების დასახლებას": {
     "name": "ქურთების დასახლებას",
     "district": "Chugureti",
-    "seen_count": 13
+    "seen_count": 14
   },
   "მოსკოვის გამზირი": {
     "name": "მოსკოვის გამზირი",
@@ -15787,7 +15787,7 @@
   "რაჭის ქ  n 1 თან": {
     "name": "რაჭის ქ. N 1-თან",
     "district": "Gldani",
-    "seen_count": 13
+    "seen_count": 14
   },
   "კონსტანტინე კაპანელის ქ  n 6 თან": {
     "name": "კონსტანტინე კაპანელის ქ. N 6-თან",
@@ -16202,6 +16202,66 @@
   "რამაზ ჩხიკვაძის n 1": {
     "name": "რამაზ ჩხიკვაძის N 1",
     "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჩეჩელაშვილის n87 თან": {
+    "name": "ჩეჩელაშვილის N87 თან",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ხონის": {
+    "name": "ხონის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "გუმათის": {
+    "name": "გუმათის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "1 ლი და მე 2 ბოდავის": {
+    "name": "1-ლი და მე-2 ბოდავის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "მე  2 ასპინძის": {
+    "name": "მე- 2 ასპინძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "პაატა სააკაძის": {
+    "name": "პაატა სააკაძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ნორიოს აღმართს და ქუჩას": {
+    "name": "ნორიოს აღმართს და ქუჩას",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ასხინის": {
+    "name": "ასხინის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ლანჩხუთი": {
+    "name": "ლანჩხუთი",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ტაშირი": {
+    "name": "ტაშირი",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ლაილაში": {
+    "name": "ლაილაში",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ლარეხის ქუჩებს": {
+    "name": "ლარეხის ქუჩებს",
+    "district": "Chugureti",
     "seen_count": 1
   }
 }
