@@ -1977,27 +1977,27 @@
   "1 25 კენტებს": {
     "name": "1-25(კენტებს)",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "მაღალაშვილის": {
     "name": "მაღალაშვილის",
     "district": "Saburtalo",
-    "seen_count": 8
+    "seen_count": 9
   },
   "გეგეჭკორის": {
     "name": "გეგეჭკორის",
     "district": "Saburtalo",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ყაზბეგის ქუჩა n30 46 ლუწებს": {
     "name": "ყაზბეგის ქუჩა N30-46(ლუწებს)",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ვაჟა ფშაველას გამზირი n58 72 ლუწებს  და შანხაის დასახლებას მარიკა ბარათაშვილიშ ჩიხი": {
     "name": "ვაჟა ფშაველას გამზირი N58-72(ლუწებს) და შანხაის დასახლებას.მარიკა ბარათაშვილიშ ჩიხი",
     "district": "Saburtalo",
-    "seen_count": 7
+    "seen_count": 8
   },
   "პეტრე ქავთარაძის ქ  n53 თან": {
     "name": "პეტრე ქავთარაძის ქ. N53 თან",
@@ -2727,7 +2727,7 @@
   "სოფ  წინუბანი": {
     "name": "სოფ. წინუბანი",
     "district": "Samgori",
-    "seen_count": 47
+    "seen_count": 49
   },
   "რაჭის ქ  n41 თან": {
     "name": "რაჭის ქ. N41-თან",
@@ -16837,57 +16837,57 @@
   "გუდარეხის ქ  n 45 თან": {
     "name": "გუდარეხის ქ. N 45-თან",
     "district": "Isani",
-    "seen_count": 6
+    "seen_count": 8
   },
   "სამრეწველოს დასახლების 1 ქუჩას": {
     "name": "სამრეწველოს დასახლების 1 ქუჩას",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მეველეს": {
     "name": "მეველეს",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "სახალხოს": {
     "name": "სახალხოს",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გეთიას": {
     "name": "გეთიას",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გუდარეხს": {
     "name": "გუდარეხს",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "წულაძის ქუჩას და წულაძის 1 ლ და მე 2 შესახვევს": {
     "name": "წულაძის ქუჩას და წულაძის 1-ლ და მე-2 შესახვევს",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "3 გასავლებს": {
     "name": "3 გასავლებს",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გაბრიელ სალოსის მე 3 და მე 4 შესახვევს  ზაურ მახარაშვილის": {
     "name": "გაბრიელ სალოსის მე-3 და მე-4 შესახვევს. ზაურ მახარაშვილის",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ოთარ თაქთაქიშვილის ქ  n 12 თან": {
     "name": "ოთარ თაქთაქიშვილის ქ. N 12-თან",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "იჭავჭავაძის გამზირის n 48": {
     "name": "იჭავჭავაძის გამზირის N 48",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ილია ჭავჭავაძის გამზ  n 14 თან": {
     "name": "ილია ჭავჭავაძის გამზ. N 14-თან",
@@ -16907,16 +16907,16 @@
   "ალექსანდრე ყაზბეგის გამზ  n 34 თან": {
     "name": "ალექსანდრე ყაზბეგის გამზ. N 34-თან",
     "district": "Vake",
-    "seen_count": 4
+    "seen_count": 6
   },
   "მშვიდობის ქ  n 8 თან": {
     "name": "მშვიდობის ქ. N 8-თან",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მთისძირის ქ  n 21 ში": {
     "name": "მთისძირის ქ. N 21-ში",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   }
 }
