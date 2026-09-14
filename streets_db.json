@@ -27,7 +27,7 @@
   "დაბა წავკისი": {
     "name": "დაბა წავკისი",
     "district": "Mtatsminda",
-    "seen_count": 127
+    "seen_count": 129
   },
   "სამადლოს ქ n 1 თან": {
     "name": "სამადლოს ქ.N 1-თან",
@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 208
+    "seen_count": 211
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 160
+    "seen_count": 162
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -1482,37 +1482,37 @@
   "ვანის": {
     "name": "ვანის",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მუხის": {
     "name": "მუხის",
     "district": "Gldani",
-    "seen_count": 19
+    "seen_count": 20
   },
   "იაკობის": {
     "name": "იაკობის",
     "district": "Gldani",
-    "seen_count": 18
+    "seen_count": 19
   },
   "კალაუბნის": {
     "name": "კალაუბნის",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გრემის": {
     "name": "გრემის",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "დაისის": {
     "name": "დაისის",
     "district": "Gldani",
-    "seen_count": 26
+    "seen_count": 27
   },
   "არტანუჯის": {
     "name": "არტანუჯის",
     "district": "Gldani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "რაჭის და შორაპანის ქუჩებს": {
     "name": "რაჭის და შორაპანის ქუჩებს",
@@ -1657,12 +1657,12 @@
   "ტიციან ტაბიძე": {
     "name": "ტიციან ტაბიძე",
     "district": "Mtatsminda",
-    "seen_count": 23
+    "seen_count": 24
   },
   "თაყაიშვილი": {
     "name": "თაყაიშვილი",
     "district": "Mtatsminda",
-    "seen_count": 18
+    "seen_count": 19
   },
   "ზაჰესი": {
     "name": "ზაჰესი",
@@ -4022,7 +4022,7 @@
   "სოფ  გიორგიწმინდა": {
     "name": "სოფ. გიორგიწმინდა",
     "district": "Gldani",
-    "seen_count": 22
+    "seen_count": 24
   },
   "სანდრო კანდელაკის ქ  n61 თან": {
     "name": "სანდრო კანდელაკის ქ. N61-თან",
@@ -9462,12 +9462,12 @@
   "ყირიმის ქ": {
     "name": "ყირიმის ქ",
     "district": "Chugureti",
-    "seen_count": 6
+    "seen_count": 9
   },
   "ყირიმის ქ  შესახვევბი": {
     "name": "ყირიმის ქ. შესახვევბი",
     "district": "Chugureti",
-    "seen_count": 6
+    "seen_count": 7
   },
   "სოლომონ ქურდიანის ქ  1 შეს n 5 ში": {
     "name": "სოლომონ ქურდიანის ქ. 1 შეს N 5 ში",
@@ -11047,7 +11047,7 @@
   "რუსთაველის გამზ": {
     "name": "რუსთაველის გამზ.",
     "district": "Mtatsminda",
-    "seen_count": 31
+    "seen_count": 33
   },
   "თაბუკაშვილის n12": {
     "name": "თაბუკაშვილის N12",
@@ -14832,7 +14832,7 @@
   "მარჯანიშვილი": {
     "name": "მარჯანიშვილი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გალაქტიონ ტაბიძე": {
     "name": "გალაქტიონ ტაბიძე",
@@ -17767,6 +17767,91 @@
   "ქიზიყის ქ": {
     "name": "ქიზიყის ქ.",
     "district": "Samgori",
+    "seen_count": 4
+  },
+  "შუამთის ქ": {
+    "name": "შუამთის ქ.",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ლადო ასათიანის და მარჯანიშვილის კვეთაზე": {
+    "name": "ლადო ასათიანის და მარჯანიშვილის კვეთაზე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "თუმანიშვილი": {
+    "name": "თუმანიშვილი",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "შეშელიძის ქ": {
+    "name": "შეშელიძის ქ.",
+    "district": "Gldani",
     "seen_count": 2
+  },
+  "ქართლის ქ": {
+    "name": "ქართლის ქ.",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "კალოუბნის ქ": {
+    "name": "კალოუბნის ქ.",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "რაჭის და შორაპანის ქუჩებ": {
+    "name": "რაჭის და შორაპანის ქუჩებ",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "დ  ამილახვრის 5 ე ჩიხი n4 თან": {
+    "name": "დ. ამილახვრის 5-ე ჩიხი N4-თან",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ბაქსვუდი": {
+    "name": "ბაქსვუდი",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "რუსთაველის 9": {
+    "name": "რუსთაველის 9",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "12 ჩიხები": {
+    "name": "12 ჩიხები",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ბათუ კრავეიშვილი": {
+    "name": "ბათუ კრავეიშვილი",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "იფნის ბაღები": {
+    "name": "იფნის ბაღები",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "სუხიშვილები": {
+    "name": "სუხიშვილები",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ამილახვრის 4 ე 5 ე ჩიხები": {
+    "name": "ამილახვრის 4-ე 5-ე ჩიხები",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ალეკო გობრონიძის ქ": {
+    "name": "ალეკო გობრონიძის ქ.",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "3 ნომრებს": {
+    "name": "3 ნომრებს",
+    "district": "Gldani",
+    "seen_count": 1
   }
 }
