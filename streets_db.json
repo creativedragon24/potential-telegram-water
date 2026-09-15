@@ -1832,7 +1832,7 @@
   "რაიონში": {
     "name": "რაიონში",
     "district": "Samgori",
-    "seen_count": 78
+    "seen_count": 79
   },
   "ფანასკენტელ ციციშვილის": {
     "name": "ფანასკენტელ-ციციშვილის",
@@ -7357,27 +7357,27 @@
   "ლამბერტის": {
     "name": "ლამბერტის",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "კრისტიან სტივენსის n 1 47  კენტებს": {
     "name": "კრისტიან სტივენსის N 1-47 (კენტებს)",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "n 2 34  ლუწებს": {
     "name": "N 2-34 (ლუწებს)",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "სტრაბონის": {
     "name": "სტრაბონის",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "კლაპროტის და მირიან მეფის n4 ქუჩებს": {
     "name": "კლაპროტის და მირიან მეფის N4 ქუჩებს.",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "რუსთაველის n50 თან": {
     "name": "რუსთაველის N50-თან",
@@ -11867,7 +11867,7 @@
   "ვაჟა ფშაველას გამზ": {
     "name": "ვაჟა ფშაველას გამზ.",
     "district": "Saburtalo",
-    "seen_count": 103
+    "seen_count": 105
   },
   "ტაშკენტის 19": {
     "name": "ტაშკენტის 19",
@@ -17853,5 +17853,55 @@
     "name": "3 ნომრებს",
     "district": "Gldani",
     "seen_count": 3
+  },
+  "მარშალ გელოვანის n4 თან": {
+    "name": "მარშალ გელოვანის N4-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "8  სააკაძის მე 2 გასავალს   მარჯვენა სანაპირეზე ობიეეტებს   გალფის": {
+    "name": "8. სააკაძის მე-2 გასავალს - მარჯვენა სანაპირეზე ობიეეტებს - გალფის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ლუკოილის": {
+    "name": "ლუკოილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ვისოლი": {
+    "name": "ვისოლი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "სოკარის და რომპეტროლის ბენზინ გასამრთ სადგურებ": {
+    "name": "სოკარის და რომპეტროლის ბენზინ გასამრთ სადგურებ",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "გიორგი სააკაძის დაღმართს": {
+    "name": "გიორგი სააკაძის დაღმართს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "გიორგი სააკძის i გასასვლელს": {
+    "name": "გიორგი სააკძის I გასასვლელს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "რაინგესის ქ  n34 თან": {
+    "name": "რაინგესის ქ. N34 თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "რაინგესის n 1 29  კენტებს": {
+    "name": "რაინგესის N 1-29 (კენტებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "n 2 36  ლუწებს": {
+    "name": "N 2-36 (ლუწებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
   }
 }
