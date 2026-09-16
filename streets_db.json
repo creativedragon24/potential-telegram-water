@@ -1797,7 +1797,7 @@
   "სოხუმი": {
     "name": "სოხუმი",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მწვანე ქუჩა": {
     "name": "მწვანე ქუჩა",
@@ -2052,7 +2052,7 @@
   "სოფ  ფონიჭალა": {
     "name": "სოფ. ფონიჭალა",
     "district": "Krtsanisi",
-    "seen_count": 13
+    "seen_count": 15
   },
   "დავით აღმაშენებელის ქ  n 44 თან": {
     "name": "დავით აღმაშენებელის ქ. N 44-თან",
@@ -17227,7 +17227,7 @@
   "აფხაზეთი": {
     "name": "აფხაზეთი",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "პაიჭაძე": {
     "name": "პაიჭაძე",
@@ -17962,41 +17962,41 @@
   "აფხაზეთის ქ  n 33 თან": {
     "name": "აფხაზეთის ქ. N 33-თან",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გაგრა": {
     "name": "გაგრა",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გულბანი": {
     "name": "გულბანი",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ცხომი": {
     "name": "ცხომი",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ილორი": {
     "name": "ილორი",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ხვიტია": {
     "name": "ხვიტია",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ერეკლე": {
     "name": "ერეკლე",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "თამარ მეფე": {
     "name": "თამარ მეფე",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   }
 }
