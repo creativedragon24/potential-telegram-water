@@ -17907,6 +17907,16 @@
   "ფონიჭალა 3 მკ რ n25 ში": {
     "name": "ფონიჭალა 3 მკ/რ N25 ში",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
+  },
+  "ლიბანის ქ  n11 თან": {
+    "name": "ლიბანის ქ. N11 თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "გაგრის ქუჩ": {
+    "name": "გაგრის ქუჩ",
+    "district": "Gldani",
+    "seen_count": 1
   }
 }
