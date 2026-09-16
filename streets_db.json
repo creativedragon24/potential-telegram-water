@@ -17907,16 +17907,51 @@
   "ფონიჭალა 3 მკ რ n25 ში": {
     "name": "ფონიჭალა 3 მკ/რ N25 ში",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ლიბანის ქ  n11 თან": {
     "name": "ლიბანის ქ. N11 თან",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გაგრის ქუჩ": {
     "name": "გაგრის ქუჩ",
     "district": "Gldani",
+    "seen_count": 2
+  },
+  "დიმა ბათიაშვილის ქუჩა": {
+    "name": "დიმა ბათიაშვილის ქუჩა",
+    "district": "Tsqneti",
+    "seen_count": 2
+  },
+  "დიმა ბათიაშვილის ქუჩას": {
+    "name": "დიმა ბათიაშვილის ქუჩას",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "ლ ქიაჩელის ქ n28 თან": {
+    "name": "ლ.ქიაჩელის ქ.N28-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ნიკო ნიკოლაძის n 1 3": {
+    "name": "ნიკო ნიკოლაძის N 1-3",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "n 2 და მიხეილ ჯავახიშვილის n12 ქუჩებს": {
+    "name": "N 2 და მიხეილ ჯავახიშვილის N12 ქუჩებს.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ნატახტარის ქ": {
+    "name": "ნატახტარის ქ.",
+    "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "ნუცუბიძის ქ  n221 თან": {
+    "name": "ნუცუბიძის ქ. N221-თან",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
