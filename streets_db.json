@@ -1797,7 +1797,7 @@
   "სოხუმი": {
     "name": "სოხუმი",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მწვანე ქუჩა": {
     "name": "მწვანე ქუჩა",
@@ -2052,7 +2052,7 @@
   "სოფ  ფონიჭალა": {
     "name": "სოფ. ფონიჭალა",
     "district": "Krtsanisi",
-    "seen_count": 11
+    "seen_count": 13
   },
   "დავით აღმაშენებელის ქ  n 44 თან": {
     "name": "დავით აღმაშენებელის ქ. N 44-თან",
@@ -17227,7 +17227,7 @@
   "აფხაზეთი": {
     "name": "აფხაზეთი",
     "district": "Gldani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "პაიჭაძე": {
     "name": "პაიჭაძე",
@@ -17907,12 +17907,12 @@
   "ფონიჭალა 3 მკ რ n25 ში": {
     "name": "ფონიჭალა 3 მკ/რ N25 ში",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ლიბანის ქ  n11 თან": {
     "name": "ლიბანის ქ. N11 თან",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გაგრის ქუჩ": {
     "name": "გაგრის ქუჩ",
@@ -17952,6 +17952,51 @@
   "ნუცუბიძის ქ  n221 თან": {
     "name": "ნუცუბიძის ქ. N221-თან",
     "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "გაგრის ქუჩა": {
+    "name": "გაგრის ქუჩა",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "აფხაზეთის ქ  n 33 თან": {
+    "name": "აფხაზეთის ქ. N 33-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "გაგრა": {
+    "name": "გაგრა",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "გულბანი": {
+    "name": "გულბანი",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ცხომი": {
+    "name": "ცხომი",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ილორი": {
+    "name": "ილორი",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ხვიტია": {
+    "name": "ხვიტია",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ერეკლე": {
+    "name": "ერეკლე",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "თამარ მეფე": {
+    "name": "თამარ მეფე",
+    "district": "Krtsanisi",
     "seen_count": 1
   }
 }
