@@ -27,7 +27,7 @@
   "დაბა წავკისი": {
     "name": "დაბა წავკისი",
     "district": "Mtatsminda",
-    "seen_count": 139
+    "seen_count": 141
   },
   "სამადლოს ქ n 1 თან": {
     "name": "სამადლოს ქ.N 1-თან",
@@ -1657,7 +1657,7 @@
   "ტიციან ტაბიძე": {
     "name": "ტიციან ტაბიძე",
     "district": "Mtatsminda",
-    "seen_count": 29
+    "seen_count": 30
   },
   "თაყაიშვილი": {
     "name": "თაყაიშვილი",
@@ -2052,7 +2052,7 @@
   "სოფ  ფონიჭალა": {
     "name": "სოფ. ფონიჭალა",
     "district": "Krtsanisi",
-    "seen_count": 19
+    "seen_count": 21
   },
   "დავით აღმაშენებელის ქ  n 44 თან": {
     "name": "დავით აღმაშენებელის ქ. N 44-თან",
@@ -2807,7 +2807,7 @@
   "გაგრის": {
     "name": "გაგრის",
     "district": "Tsqneti",
-    "seen_count": 23
+    "seen_count": 24
   },
   "სოხუმის": {
     "name": "სოხუმის",
@@ -7022,7 +7022,7 @@
   "ზღვის უბანი": {
     "name": "ზღვის უბანი",
     "district": "Nadzaladevi",
-    "seen_count": 154
+    "seen_count": 155
   },
   "აბაის": {
     "name": "აბაის",
@@ -9762,7 +9762,7 @@
   "ილორის": {
     "name": "ილორის",
     "district": "Gldani",
-    "seen_count": 15
+    "seen_count": 16
   },
   "ზარზმის": {
     "name": "ზარზმის",
@@ -14932,7 +14932,7 @@
   "ვ დარასელიას ქ  n8ა თან": {
     "name": "ვ.დარასელიას ქ. N8ა-თან",
     "district": "Saburtalo",
-    "seen_count": 20
+    "seen_count": 21
   },
   "სოკრატ არშბას": {
     "name": "სოკრატ არშბას",
@@ -17782,7 +17782,7 @@
   "თუმანიშვილი": {
     "name": "თუმანიშვილი",
     "district": "Mtatsminda",
-    "seen_count": 6
+    "seen_count": 7
   },
   "შეშელიძის ქ": {
     "name": "შეშელიძის ქ.",
@@ -18092,7 +18092,7 @@
   "ვახტანგ გორგასალის ქ  n 70 თან": {
     "name": "ვახტანგ გორგასალის ქ. N 70-თან",
     "district": "Tsqneti",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ალექსანდრე წულუკიძის ქ  4 შეს  n 9 თან": {
     "name": "ალექსანდრე წულუკიძის ქ. 4 შეს. N 9-თან",
@@ -18257,86 +18257,106 @@
   "პეკინის გამზ n 23 ში": {
     "name": "პეკინის გამზ.N 23-ში",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "სესილია თაყაიშვილის ქ n 11 თან": {
     "name": "სესილია თაყაიშვილის ქ.N 11-თან",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მარგანიშვილი": {
     "name": "მარგანიშვილი",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "თაყაიშვილის ქუჩებს": {
     "name": "თაყაიშვილის ქუჩებს.",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "აბესალონ ვეკუას n 13 თან": {
     "name": "აბესალონ ვეკუას N 13-თან",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მიხეილ ზანდუკელის ქ n 27ა თან": {
     "name": "მიხეილ ზანდუკელის ქ.N 27ა-თან",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ზანდუკელის 27": {
     "name": "ზანდუკელის 27",
     "district": "Mtatsminda",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ფურცელაძის და თაბუკაშვილის კვეთაზე": {
     "name": "ფურცელაძის და თაბუკაშვილის კვეთაზე",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "n11 n15 კენტი": {
     "name": "N11-N15(კენტი)",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "აფხაზეთის ქ n 12 თან": {
     "name": "აფხაზეთის ქ.N 12-თან",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "რაფავას": {
     "name": "რაფავას",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ერეკლეს": {
     "name": "ერეკლეს",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სოხუმის და თამარ მეფის ქუჩებს": {
     "name": "სოხუმის და თამარ მეფის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ილია ჭავჭავაძის გამზ n 54 ში": {
     "name": "ილია ჭავჭავაძის გამზ.N 54-ში",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ნიკო ფიროსმანის ქ n 36 ში": {
     "name": "ნიკო ფიროსმანის ქ.N 36-ში",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ამილახვრის 25 ს": {
     "name": "ამილახვრის 25-ს",
     "district": "Tsqneti",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მიხაკო წერეთლის n 20 ში": {
     "name": "მიხაკო წერეთლის N 20-ში",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
+  },
+  "ბაქრაძის ქ n18 თან": {
+    "name": "ბაქრაძის ქ.N18-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ვაჟა ფშაველას გამზ  და თამარაშვილის ქუჩის კვეთაზე": {
+    "name": "ვაჟა ფშაველას გამზ. და თამარაშვილის ქუჩის კვეთაზე",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ვაჟა ფშაველას გამზ n11 თან": {
+    "name": "ვაჟა-ფშაველას გამზ.N11-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ი აბაშიძის ქ  n34 თან": {
+    "name": "ი.აბაშიძის ქ. N34-თან",
+    "district": "Vake",
+    "seen_count": 1
   }
 }
