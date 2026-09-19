@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 547
+    "seen_count": 549
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -11972,7 +11972,7 @@
   "ლიბანის ქ": {
     "name": "ლიბანის ქ.",
     "district": "Gldani",
-    "seen_count": 22
+    "seen_count": 24
   },
   "ლიბანის ჩიხებს": {
     "name": "ლიბანის ჩიხებს",
@@ -18377,11 +18377,11 @@
   "ვეფხისტყაოსნის ქ": {
     "name": "ვეფხისტყაოსნის ქ.",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 4
   },
   "ვეფხისტყაოსნის 034": {
     "name": "ვეფხისტყაოსნის 034",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   }
 }
