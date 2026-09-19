@@ -27,7 +27,7 @@
   "დაბა წავკისი": {
     "name": "დაბა წავკისი",
     "district": "Mtatsminda",
-    "seen_count": 144
+    "seen_count": 145
   },
   "სამადლოს ქ n 1 თან": {
     "name": "სამადლოს ქ.N 1-თან",
@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 545
+    "seen_count": 547
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -5252,7 +5252,7 @@
   "წავკისის": {
     "name": "წავკისის",
     "district": "Saburtalo",
-    "seen_count": 47
+    "seen_count": 48
   },
   "ოქროყანის": {
     "name": "ოქროყანის",
@@ -5787,17 +5787,17 @@
   "დაბა კიკეთს": {
     "name": "დაბა კიკეთს",
     "district": "Mtatsminda",
-    "seen_count": 25
+    "seen_count": 26
   },
   "სოფელ ბეთანიას": {
     "name": "სოფელ ბეთანიას",
     "district": "Mtatsminda",
-    "seen_count": 25
+    "seen_count": 26
   },
   "კვესეთს": {
     "name": "კვესეთს",
     "district": "Mtatsminda",
-    "seen_count": 25
+    "seen_count": 26
   },
   "ლუბლიანას ქ  n18 თან": {
     "name": "ლუბლიანას ქ. N18-თან",
@@ -9687,7 +9687,7 @@
   "სამადლოს": {
     "name": "სამადლოს",
     "district": "Mtatsminda",
-    "seen_count": 28
+    "seen_count": 29
   },
   "ვახტანგ 6": {
     "name": "ვახტანგ 6",
@@ -18367,6 +18367,21 @@
   "არეალი   დაბა კოჯორს": {
     "name": "არეალი - დაბა კოჯორს",
     "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "ნაძვების ქ  1 შეს": {
+    "name": "ნაძვების ქ. 1 შეს.",
+    "district": "Tsqneti",
+    "seen_count": 2
+  },
+  "ვეფხისტყაოსნის ქ": {
+    "name": "ვეფხისტყაოსნის ქ.",
+    "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "ვეფხისტყაოსნის 034": {
+    "name": "ვეფხისტყაოსნის 034",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
