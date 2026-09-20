@@ -1507,7 +1507,7 @@
   "დაისის": {
     "name": "დაისის",
     "district": "Gldani",
-    "seen_count": 32
+    "seen_count": 33
   },
   "არტანუჯის": {
     "name": "არტანუჯის",
@@ -10047,7 +10047,7 @@
   "თელავის შესახვევს": {
     "name": "თელავის შესახვევს",
     "district": "Isani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ფიროსმანის ქ n42 ში": {
     "name": "ფიროსმანის ქ N42-ში",
@@ -11972,7 +11972,7 @@
   "ლიბანის ქ": {
     "name": "ლიბანის ქ.",
     "district": "Gldani",
-    "seen_count": 30
+    "seen_count": 32
   },
   "ლიბანის ჩიხებს": {
     "name": "ლიბანის ჩიხებს",
@@ -18387,17 +18387,17 @@
   "სერგო ქსოვრელის ქ": {
     "name": "სერგო ქსოვრელის ქ.",
     "district": "Nadzaladevi",
-    "seen_count": 6
+    "seen_count": 8
   },
   "ქართლელიშვილის": {
     "name": "ქართლელიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ქსოვრელის და თმოგვის ქუჩებს": {
     "name": "ქსოვრელის და თმოგვის ქუჩებს",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "წინანდლის ქ  შეს": {
     "name": "წინანდლის ქ. შეს.",
@@ -18422,36 +18422,41 @@
   "გუთნის ქ  n8 თან": {
     "name": "გუთნის ქ. N8 თან",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გიორგი ნიორაძის": {
     "name": "გიორგი ნიორაძის",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ილიკო ქურხულის": {
     "name": "ილიკო ქურხულის",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ახმეტის": {
     "name": "ახმეტის",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "წმინდა ქეთევან დედოფლის n24": {
     "name": "წმინდა ქეთევან დედოფლის N24",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გომბორის ქ  n42 ში": {
     "name": "გომბორის ქ. N42 ში",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მარჯანიშვილის ქ  n27 ში": {
     "name": "მარჯანიშვილის ქ. N27 ში",
     "district": "Chugureti",
-    "seen_count": 2
+    "seen_count": 3
+  },
+  "გუდარეხის ქ  n43 თან": {
+    "name": "გუდარეხის ქ. N43 თან",
+    "district": "Isani",
+    "seen_count": 1
   }
 }
