@@ -4352,7 +4352,7 @@
   "კახეთის გზატკეცილი": {
     "name": "კახეთის გზატკეცილი",
     "district": "Samgori",
-    "seen_count": 7
+    "seen_count": 9
   },
   "ონაშვილის": {
     "name": "ონაშვილის",
@@ -17162,12 +17162,12 @@
   "თაბორის მთის": {
     "name": "თაბორის მთის",
     "district": "Krtsanisi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "ნადიკვრის": {
     "name": "ნადიკვრის",
     "district": "Krtsanisi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "სულიკო თორთლაძის ქ": {
     "name": "სულიკო თორთლაძის ქ.",
@@ -18727,7 +18727,7 @@
   "დმანისის ქ  შეს  n5 თან": {
     "name": "დმანისის ქ. შეს. N5 თან",
     "district": "Isani",
-    "seen_count": 4
+    "seen_count": 5
   },
   "26 მაისის ქ": {
     "name": "26 მაისის ქ.",
@@ -18742,12 +18742,12 @@
   "წინანაურის ქ  n 8 თან": {
     "name": "წინანაურის ქ. N 8-თან",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სულიკო თორთლაძის ქუჩას": {
     "name": "სულიკო თორთლაძის ქუჩას",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "გორის ქ  n 22 ში": {
     "name": "გორის ქ. N 22-ში",
@@ -18777,6 +18777,36 @@
   "გორის ქუჩებს": {
     "name": "გორის ქუჩებს",
     "district": "Didube",
+    "seen_count": 1
+  },
+  "რუსთაველის გამზ  n 28 თან": {
+    "name": "რუსთაველის გამზ. N 28-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "წყაროთუბანის ქ  n 51 თან": {
+    "name": "წყაროთუბანის ქ. N 51-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "სპირიდონ კედიას ქ  n 9 ში": {
+    "name": "სპირიდონ კედიას ქ. N 9-ში",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "სპირიდონ კედიას ქ  n 9": {
+    "name": "სპირიდონ კედიას ქ. N 9",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ორთაჭალის ქ  n 13 ში": {
+    "name": "ორთაჭალის ქ. N 13-ში",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ნეკრესის ქ  n 9 თან": {
+    "name": "ნეკრესის ქ. N 9-თან",
+    "district": "Gldani",
     "seen_count": 1
   }
 }
