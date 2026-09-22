@@ -17162,12 +17162,12 @@
   "თაბორის მთის": {
     "name": "თაბორის მთის",
     "district": "Krtsanisi",
-    "seen_count": 11
+    "seen_count": 12
   },
   "ნადიკვრის": {
     "name": "ნადიკვრის",
     "district": "Krtsanisi",
-    "seen_count": 11
+    "seen_count": 12
   },
   "სულიკო თორთლაძის ქ": {
     "name": "სულიკო თორთლაძის ქ.",
@@ -18727,11 +18727,56 @@
   "დმანისის ქ  შეს  n5 თან": {
     "name": "დმანისის ქ. შეს. N5 თან",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "26 მაისის ქ": {
     "name": "26 მაისის ქ.",
     "district": "Gldani",
     "seen_count": 3
+  },
+  "კოტე აფხაზის ქ  n 29 თან": {
+    "name": "კოტე აფხაზის ქ. N 29-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "წინანაურის ქ  n 8 თან": {
+    "name": "წინანაურის ქ. N 8-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "სულიკო თორთლაძის ქუჩას": {
+    "name": "სულიკო თორთლაძის ქუჩას",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "გორის ქ  n 22 ში": {
+    "name": "გორის ქ. N 22-ში",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ვახუშტი ბაგრატიონის ქ": {
+    "name": "ვახუშტი ბაგრატიონის ქ",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ფოთი": {
+    "name": "ფოთი",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ბათუმი": {
+    "name": "ბათუმი",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ეგნატე და ვახტანგ ფიფიების ქ": {
+    "name": "ეგნატე და ვახტანგ ფიფიების ქ.",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "გორის ქუჩებს": {
+    "name": "გორის ქუჩებს",
+    "district": "Didube",
+    "seen_count": 1
   }
 }
