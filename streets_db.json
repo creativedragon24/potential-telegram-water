@@ -2852,7 +2852,7 @@
   "მოლოკოვის": {
     "name": "მოლოკოვის",
     "district": "Nadzaladevi",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ილურიძე": {
     "name": "ილურიძე",
@@ -4352,7 +4352,7 @@
   "კახეთის გზატკეცილი": {
     "name": "კახეთის გზატკეცილი",
     "district": "Samgori",
-    "seen_count": 21
+    "seen_count": 24
   },
   "ონაშვილის": {
     "name": "ონაშვილის",
@@ -5252,7 +5252,7 @@
   "წავკისის": {
     "name": "წავკისის",
     "district": "Saburtalo",
-    "seen_count": 49
+    "seen_count": 50
   },
   "ოქროყანის": {
     "name": "ოქროყანის",
@@ -5787,17 +5787,17 @@
   "დაბა კიკეთს": {
     "name": "დაბა კიკეთს",
     "district": "Mtatsminda",
-    "seen_count": 27
+    "seen_count": 28
   },
   "სოფელ ბეთანიას": {
     "name": "სოფელ ბეთანიას",
     "district": "Mtatsminda",
-    "seen_count": 27
+    "seen_count": 28
   },
   "კვესეთს": {
     "name": "კვესეთს",
     "district": "Mtatsminda",
-    "seen_count": 27
+    "seen_count": 28
   },
   "ლუბლიანას ქ  n18 თან": {
     "name": "ლუბლიანას ქ. N18-თან",
@@ -6622,7 +6622,7 @@
   "2 ჩიხი": {
     "name": "2 ჩიხი",
     "district": "Chugureti",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ბეთანია თამარ მეფის n14 თან": {
     "name": "ბეთანია თამარ მეფის N14 თან",
@@ -9687,7 +9687,7 @@
   "სამადლოს": {
     "name": "სამადლოს",
     "district": "Mtatsminda",
-    "seen_count": 30
+    "seen_count": 31
   },
   "ვახტანგ 6": {
     "name": "ვახტანგ 6",
@@ -17937,12 +17937,12 @@
   "ნიკო ნიკოლაძის n 1 3": {
     "name": "ნიკო ნიკოლაძის N 1-3",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "n 2 და მიხეილ ჯავახიშვილის n12 ქუჩებს": {
     "name": "N 2 და მიხეილ ჯავახიშვილის N12 ქუჩებს.",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ნატახტარის ქ": {
     "name": "ნატახტარის ქ.",
@@ -18918,5 +18918,90 @@
     "name": "ფუნიკულიორის",
     "district": "Mtatsminda",
     "seen_count": 2
+  },
+  "წყნ  დავით გურამიშვილის ქ  n27 თან": {
+    "name": "(წყნ) დავით გურამიშვილის ქ. N27-თან",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "აბანოთუბანი": {
+    "name": "აბანოთუბანი",
+    "district": "Krtsanisi",
+    "seen_count": 2
+  },
+  "იოსებ გრიშაშვილის n1 n15  კენტები  n2 n20  ლუწები": {
+    "name": "იოსებ გრიშაშვილის N1-N15 (კენტები) N2-N20 (ლუწები)",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "მირზა ფათალი ახუნდოვის ქუჩას": {
+    "name": "მირზა ფათალი ახუნდოვის ქუჩას",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "სულხან ცინცაძის ქ n11 ში": {
+    "name": "სულხან ცინცაძის ქ N11-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "სულხან ცინცაძის ქუჩა n11 ში": {
+    "name": "სულხან ცინცაძის ქუჩა N11-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "საირმის n2 n24  ლუწები  n1 n15  ლუწები": {
+    "name": "საირმის N2-N24 (ლუწები) N1-N15 (ლუწები).",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "იმერეთის ქ  n49ა თან": {
+    "name": "იმერეთის ქ. N49ა-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ზედაზენი": {
+    "name": "ზედაზენი",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "კოკინაკი": {
+    "name": "კოკინაკი",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "იმერეთი და ლომთათიძის ქუჩებ": {
+    "name": "იმერეთი და ლომთათიძის ქუჩებ",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "იყალთოს ქ  n31 თან": {
+    "name": "იყალთოს ქ. N31-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "დიღმის მას 5კვ  n15 თან": {
+    "name": "დიღმის მას 5კვ. N15-თან",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "n23   n99 საჯარო სკოლას": {
+    "name": "N23. (N99 საჯარო სკოლას)",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "მიხეილ თამარაშვილის ქ  n14": {
+    "name": "მიხეილ თამარაშვილის ქ. N14",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "მიხეილ თამარაშვილის ქ n 14": {
+    "name": "მიხეილ თამარაშვილის ქ N 14",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ალ  ყაზბეგის n 43": {
+    "name": "ალ. ყაზბეგის N 43",
+    "district": "Saburtalo",
+    "seen_count": 1
   }
 }
