@@ -3647,7 +3647,7 @@
   "ქართლის": {
     "name": "ქართლის",
     "district": "Nadzaladevi",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ვაზიანის": {
     "name": "ვაზიანის",
@@ -3677,7 +3677,7 @@
   "ბეჟანიშვილის": {
     "name": "ბეჟანიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ჭყონდიდელის": {
     "name": "ჭყონდიდელის",
@@ -3797,7 +3797,7 @@
   "ქართველიშვილის": {
     "name": "ქართველიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ასკურავას": {
     "name": "ასკურავას",
@@ -3852,7 +3852,7 @@
   "კნოლევის": {
     "name": "კნოლევის",
     "district": "Nadzaladevi",
-    "seen_count": 24
+    "seen_count": 25
   },
   "სვანეთის": {
     "name": "სვანეთის",
@@ -6302,17 +6302,17 @@
   "კონსტანტინე ილურიძის ქ  2 შეს": {
     "name": "კონსტანტინე ილურიძის ქ. 2 შეს",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "გვაზაურის მე 2 შეს": {
     "name": "გვაზაურის მე-2 შეს",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "თმოგვის": {
     "name": "თმოგვის",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ღრმაღელის ქუჩას": {
     "name": "ღრმაღელის ქუჩას",
@@ -6322,22 +6322,22 @@
   "ქსოვრელის": {
     "name": "ქსოვრელის",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ღოღობერიძის": {
     "name": "ღოღობერიძის",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ტოროშელიძისა და ქუჩებს": {
     "name": "ტოროშელიძისა და ქუჩებს",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "შესახვევებს და ჩიხებს": {
     "name": "შესახვევებს და ჩიხებს",
     "district": "Nadzaladevi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ბეჩოს ქ  n 3 თან": {
     "name": "ბეჩოს ქ. N 3-თან",
@@ -20307,6 +20307,16 @@
   "სერგო ქსოვრელის ქ  n 43 თან": {
     "name": "სერგო ქსოვრელის ქ. N 43-თან",
     "district": "Nadzaladevi",
+    "seen_count": 2
+  },
+  "ვაჟა ბანეთიშვილის ქ  n 20 თან": {
+    "name": "ვაჟა ბანეთიშვილის ქ. N 20-თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "იულია ფაილოძის ქუჩაზე სატუმბო სადგურში": {
+    "name": "იულია ფაილოძის ქუჩაზე სატუმბო სადგურში",
+    "district": "Vake",
     "seen_count": 1
   }
 }
