@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 551
+    "seen_count": 553
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -1507,7 +1507,7 @@
   "დაისის": {
     "name": "დაისის",
     "district": "Gldani",
-    "seen_count": 36
+    "seen_count": 37
   },
   "არტანუჯის": {
     "name": "არტანუჯის",
@@ -4712,7 +4712,7 @@
   "ზემო ფონიჭალა": {
     "name": "ზემო ფონიჭალა",
     "district": "Samgori",
-    "seen_count": 7
+    "seen_count": 8
   },
   "ქვემო ფონიჭალა": {
     "name": "ქვემო ფონიჭალა",
@@ -6322,7 +6322,7 @@
   "ქსოვრელის": {
     "name": "ქსოვრელის",
     "district": "Nadzaladevi",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ღოღობერიძის": {
     "name": "ღოღობერიძის",
@@ -17157,17 +17157,17 @@
   "წინანაურის ქ": {
     "name": "წინანაურის ქ.",
     "district": "Krtsanisi",
-    "seen_count": 12
+    "seen_count": 13
   },
   "თაბორის მთის": {
     "name": "თაბორის მთის",
     "district": "Krtsanisi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ნადიკვრის": {
     "name": "ნადიკვრის",
     "district": "Krtsanisi",
-    "seen_count": 17
+    "seen_count": 18
   },
   "სულიკო თორთლაძის ქ": {
     "name": "სულიკო თორთლაძის ქ.",
@@ -18392,7 +18392,7 @@
   "ქართლელიშვილის": {
     "name": "ქართლელიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ქსოვრელის და თმოგვის ქუჩებს": {
     "name": "ქსოვრელის და თმოგვის ქუჩებს",
@@ -18747,7 +18747,7 @@
   "სულიკო თორთლაძის ქუჩას": {
     "name": "სულიკო თორთლაძის ქუჩას",
     "district": "Krtsanisi",
-    "seen_count": 6
+    "seen_count": 7
   },
   "გორის ქ  n 22 ში": {
     "name": "გორის ქ. N 22-ში",
@@ -19637,7 +19637,7 @@
   "სოფელი ლისი": {
     "name": "სოფელი ლისი",
     "district": "Gldani",
-    "seen_count": 11
+    "seen_count": 12
   },
   "ქვემო ლისი": {
     "name": "ქვემო ლისი",
@@ -20317,11 +20317,66 @@
   "იულია ფაილოძის ქუჩაზე სატუმბო სადგურში": {
     "name": "იულია ფაილოძის ქუჩაზე სატუმბო სადგურში",
     "district": "Vake",
-    "seen_count": 3
+    "seen_count": 4
   },
   "მირიან მეფის n26 n36  ლუწები": {
     "name": "მირიან მეფის N26-N36 (ლუწები)",
     "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "იერუსალიმის ქ n 5 თან": {
+    "name": "იერუსალიმის ქ.N 5-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "საიათნოვას ქ n 20 თან": {
+    "name": "საიათნოვას ქ.N 20-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ამბერკი ტაბიძე n 9 თან": {
+    "name": "ამბერკი ტაბიძე N 9-თან",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "15 ნომრებს": {
+    "name": "15 ნომრებს.",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "სოფ  თხინვალა": {
+    "name": "სოფ. თხინვალა",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "სატუმბო სადგურში": {
+    "name": "სატუმბო სადგურში",
+    "district": "Vake",
+    "seen_count": 2
+  },
+  "ა  ყაზბეგის გამზ  n33 ში": {
+    "name": "ა. ყაზბეგის გამზ. N33-ში",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ყაზბეგის 31": {
+    "name": "ყაზბეგის 31",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბერტა ფონ ზუტნერის ქ n 54 თან": {
+    "name": "ბერტა ფონ ზუტნერის ქ.N 54-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "სერგო ქსოვრელის ქ  n 34 თან": {
+    "name": "სერგო ქსოვრელის ქ. N 34-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "თმოგვის ქუჩებს": {
+    "name": "თმოგვის ქუჩებს",
+    "district": "Nadzaladevi",
     "seen_count": 1
   }
 }
