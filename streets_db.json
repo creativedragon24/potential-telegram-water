@@ -7997,7 +7997,7 @@
   "სოფ  პატარა ლილოს": {
     "name": "სოფ. პატარა ლილოს",
     "district": "Samgori",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ხატაეთის ქ  n 181 თან": {
     "name": "ხატაეთის ქ. N 181-თან",
@@ -15582,32 +15582,32 @@
   "გუმათის ქუჩას": {
     "name": "გუმათის ქუჩას",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "პ სააკაძეს": {
     "name": "პ.სააკაძეს",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჩეჩელაშვილი": {
     "name": "ჩეჩელაშვილი",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბოდავის i და ii ქუჩა": {
     "name": "ბოდავის I და II ქუჩა",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ასპინძა": {
     "name": "ასპინძა",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "დავითასვილი და პეტრე ბაგრატიონის ქუჩებს": {
     "name": "დავითასვილი და პეტრე ბაგრატიონის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბოლნისის ქ  n 5 თან": {
     "name": "ბოლნისის ქ. N 5 თან",
@@ -21172,12 +21172,12 @@
   "მიხეილ ჯავახიშვილის ქ  n 28 თან": {
     "name": "მიხეილ ჯავახიშვილის ქ. N 28-თან",
     "district": "Tsqneti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ლეონძის ქ  2 12  ლუწები  15 27  კენტები": {
     "name": "ლეონძის ქ. 2-12 (ლუწები) 15-27 (კენტები)",
     "district": "Tsqneti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "წინანაურის ქ  n11  თან": {
     "name": "წინანაურის ქ. N11 -თან",
@@ -21193,5 +21193,15 @@
     "name": "გერგეთის ქ. N 3-ში",
     "district": "Mtatsminda",
     "seen_count": 1
+  },
+  "პეტრე ბაგრატიონის 3 ჩიხი": {
+    "name": "პეტრე ბაგრატიონის 3 ჩიხი",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ალექსანდრე ჭავჭავაძის ქ  n 8 თან": {
+    "name": "ალექსანდრე ჭავჭავაძის ქ. N 8-თან",
+    "district": "Mtatsminda",
+    "seen_count": 2
   }
 }
