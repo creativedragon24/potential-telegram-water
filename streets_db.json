@@ -1832,7 +1832,7 @@
   "რაიონში": {
     "name": "რაიონში",
     "district": "Samgori",
-    "seen_count": 80
+    "seen_count": 81
   },
   "ფანასკენტელ ციციშვილის": {
     "name": "ფანასკენტელ-ციციშვილის",
@@ -2112,7 +2112,7 @@
   "ოჩამჩირის": {
     "name": "ოჩამჩირის",
     "district": "Krtsanisi",
-    "seen_count": 63
+    "seen_count": 64
   },
   "ანჩაბიძის": {
     "name": "ანჩაბიძის",
@@ -5092,7 +5092,7 @@
   "ბესიკის": {
     "name": "ბესიკის",
     "district": "Saburtalo",
-    "seen_count": 172
+    "seen_count": 173
   },
   "შევჩენკოს": {
     "name": "შევჩენკოს",
@@ -5122,7 +5122,7 @@
   "ლესია უკრაინკას": {
     "name": "ლესია უკრაინკას",
     "district": "Saburtalo",
-    "seen_count": 126
+    "seen_count": 127
   },
   "ვ  აბაშიძის": {
     "name": "ვ. აბაშიძის",
@@ -5707,7 +5707,7 @@
   "დარასელიას": {
     "name": "დარასელიას",
     "district": "Saburtalo",
-    "seen_count": 60
+    "seen_count": 61
   },
   "არშბას": {
     "name": "არშბას",
@@ -7997,7 +7997,7 @@
   "სოფ  პატარა ლილოს": {
     "name": "სოფ. პატარა ლილოს",
     "district": "Samgori",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ხატაეთის ქ  n 181 თან": {
     "name": "ხატაეთის ქ. N 181-თან",
@@ -21202,31 +21202,66 @@
   "ალექსანდრე ჭავჭავაძის ქ  n 8 თან": {
     "name": "ალექსანდრე ჭავჭავაძის ქ. N 8-თან",
     "district": "Mtatsminda",
-    "seen_count": 4
+    "seen_count": 6
   },
   "ჟიული შარტავას ქ  n 70 თან": {
     "name": "ჟიული შარტავას ქ. N 70-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "პეკინის გამზ 43": {
     "name": "პეკინის გამზ.43",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "კანდელაკის ქ n1": {
     "name": "კანდელაკის ქ.N1",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ისაკაძის ქ  n 1": {
     "name": "ისაკაძის ქ. N 1",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სოკრატ არშბას და აკაკი გახოკიძის ქუჩებს": {
     "name": "სოკრატ არშბას და აკაკი გახოკიძის ქუჩებს.",
     "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "ტარას შევჩენკოს": {
+    "name": "ტარას შევჩენკოს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "რუსთაველის გამზ  n16": {
+    "name": "რუსთაველის გამზ. N16",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ალ  ჭავჭავაძის n5 n13  კენტები": {
+    "name": "ალ. ჭავჭავაძის N5-N13 (კენტები).",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ჯავახეთის ქ  n6 ში": {
+    "name": "ჯავახეთის ქ. N6 ში",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ჯავახეთის 118 128 ლუწი": {
+    "name": "ჯავახეთის 118-128(ლუწი)",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ჯავახეთის 6": {
+    "name": "ჯავახეთის 6",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ნიაბის ქ  2 შეს  n3 ში": {
+    "name": "ნიაბის ქ. 2 შეს. N3 ში",
+    "district": "Isani",
     "seen_count": 1
   }
 }
