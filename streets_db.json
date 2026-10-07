@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 232
+    "seen_count": 233
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -4712,7 +4712,7 @@
   "ზემო ფონიჭალა": {
     "name": "ზემო ფონიჭალა",
     "district": "Samgori",
-    "seen_count": 12
+    "seen_count": 14
   },
   "ქვემო ფონიჭალა": {
     "name": "ქვემო ფონიჭალა",
@@ -4992,7 +4992,7 @@
   "გრიბოედოვის": {
     "name": "გრიბოედოვის",
     "district": "Saburtalo",
-    "seen_count": 151
+    "seen_count": 152
   },
   "ზუბალაშვილის": {
     "name": "ზუბალაშვილის",
@@ -5577,7 +5577,7 @@
   "ქარელის": {
     "name": "ქარელის",
     "district": "Saburtalo",
-    "seen_count": 43
+    "seen_count": 44
   },
   "იყალთოს": {
     "name": "იყალთოს",
@@ -5592,22 +5592,22 @@
   "ბაკურიანის": {
     "name": "ბაკურიანის",
     "district": "Saburtalo",
-    "seen_count": 43
+    "seen_count": 44
   },
   "ბაკურციხის": {
     "name": "ბაკურციხის",
     "district": "Saburtalo",
-    "seen_count": 43
+    "seen_count": 44
   },
   "ტუსკიას": {
     "name": "ტუსკიას",
     "district": "Saburtalo",
-    "seen_count": 43
+    "seen_count": 44
   },
   "ლიხაურის": {
     "name": "ლიხაურის",
     "district": "Saburtalo",
-    "seen_count": 43
+    "seen_count": 44
   },
   "ჩიქოვანის": {
     "name": "ჩიქოვანის",
@@ -5652,7 +5652,7 @@
   "ნატახტარის": {
     "name": "ნატახტარის",
     "district": "Saburtalo",
-    "seen_count": 43
+    "seen_count": 44
   },
   "მგალობლიშვილის": {
     "name": "მგალობლიშვილის",
@@ -7667,7 +7667,7 @@
   "ზურაბ ჟვანიას": {
     "name": "ზურაბ ჟვანიას",
     "district": "Mtatsminda",
-    "seen_count": 17
+    "seen_count": 18
   },
   "გრიბოედოვის 2  16   ლუწები   1 15  კენტები  და რუსთაველის 22": {
     "name": "გრიბოედოვის 2- 16 ( ლუწები). 1-15 (კენტები) და რუსთაველის 22",
@@ -15067,42 +15067,42 @@
   "იყალთოს ქუჩა": {
     "name": "იყალთოს ქუჩა",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ლიხაურის შესახვევი": {
     "name": "ლიხაურის შესახვევი",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ლიხაურის ჩიხი": {
     "name": "ლიხაურის ჩიხი",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "კიტა ბუჩიძის": {
     "name": "კიტა ბუჩიძის",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "წინაუბნის": {
     "name": "წინაუბნის",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ტეხურის n31 39 კენტებს": {
     "name": "ტეხურის N31-39(კენტებს)",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "n24 34 ლუწებს": {
     "name": "N24-34(ლუწებს)",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დოლიძის n47 143 კენტებს  და n60 144 ლუწებს": {
     "name": "დოლიძის N47-143(კენტებს) და N60-144(ლუწებს).",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "დ აღმაშენებლის ქ n60 თან": {
     "name": "დ.აღმაშენებლის ქ N60 თან",
@@ -22057,21 +22057,36 @@
   "ალექსანდრე ჭავჭავაძის ქ  n 4 თან": {
     "name": "ალექსანდრე ჭავჭავაძის ქ. N 4-თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ძმები ზუბალაშვილების": {
     "name": "ძმები ზუბალაშვილების",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ალექსანდრე ჭავჭავაძის შესახვევებით და ჩიხებით": {
     "name": "ალექსანდრე ჭავჭავაძის შესახვევებით და ჩიხებით",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ბესიკის ქუჩებს": {
     "name": "ბესიკის ქუჩებს",
     "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "სურგულაძის ქ  n 30 თან": {
+    "name": "სურგულაძის ქ. N 30-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "სურგულაძის ქუჩას": {
+    "name": "სურგულაძის ქუჩას",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "იყალთოს ქუჩაზე": {
+    "name": "იყალთოს ქუჩაზე",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
