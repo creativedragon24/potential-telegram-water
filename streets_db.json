@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 233
+    "seen_count": 234
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -4712,7 +4712,7 @@
   "ზემო ფონიჭალა": {
     "name": "ზემო ფონიჭალა",
     "district": "Samgori",
-    "seen_count": 14
+    "seen_count": 16
   },
   "ქვემო ფონიჭალა": {
     "name": "ქვემო ფონიჭალა",
@@ -5577,7 +5577,7 @@
   "ქარელის": {
     "name": "ქარელის",
     "district": "Saburtalo",
-    "seen_count": 44
+    "seen_count": 45
   },
   "იყალთოს": {
     "name": "იყალთოს",
@@ -5592,22 +5592,22 @@
   "ბაკურიანის": {
     "name": "ბაკურიანის",
     "district": "Saburtalo",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ბაკურციხის": {
     "name": "ბაკურციხის",
     "district": "Saburtalo",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ტუსკიას": {
     "name": "ტუსკიას",
     "district": "Saburtalo",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ლიხაურის": {
     "name": "ლიხაურის",
     "district": "Saburtalo",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ჩიქოვანის": {
     "name": "ჩიქოვანის",
@@ -5652,7 +5652,7 @@
   "ნატახტარის": {
     "name": "ნატახტარის",
     "district": "Saburtalo",
-    "seen_count": 44
+    "seen_count": 45
   },
   "მგალობლიშვილის": {
     "name": "მგალობლიშვილის",
@@ -15067,42 +15067,42 @@
   "იყალთოს ქუჩა": {
     "name": "იყალთოს ქუჩა",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ლიხაურის შესახვევი": {
     "name": "ლიხაურის შესახვევი",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ლიხაურის ჩიხი": {
     "name": "ლიხაურის ჩიხი",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "კიტა ბუჩიძის": {
     "name": "კიტა ბუჩიძის",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "წინაუბნის": {
     "name": "წინაუბნის",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ტეხურის n31 39 კენტებს": {
     "name": "ტეხურის N31-39(კენტებს)",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "n24 34 ლუწებს": {
     "name": "N24-34(ლუწებს)",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დოლიძის n47 143 კენტებს  და n60 144 ლუწებს": {
     "name": "დოლიძის N47-143(კენტებს) და N60-144(ლუწებს).",
     "district": "Saburtalo",
-    "seen_count": 5
+    "seen_count": 6
   },
   "დ აღმაშენებლის ქ n60 თან": {
     "name": "დ.აღმაშენებლის ქ N60 თან",
@@ -22077,16 +22077,16 @@
   "სურგულაძის ქ  n 30 თან": {
     "name": "სურგულაძის ქ. N 30-თან",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სურგულაძის ქუჩას": {
     "name": "სურგულაძის ქუჩას",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "იყალთოს ქუჩაზე": {
     "name": "იყალთოს ქუჩაზე",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   }
 }
