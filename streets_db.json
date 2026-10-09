@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 142
+    "seen_count": 144
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -1797,7 +1797,7 @@
   "სოხუმი": {
     "name": "სოხუმი",
     "district": "Vake",
-    "seen_count": 4
+    "seen_count": 5
   },
   "მწვანე ქუჩა": {
     "name": "მწვანე ქუჩა",
@@ -2052,7 +2052,7 @@
   "სოფ  ფონიჭალა": {
     "name": "სოფ. ფონიჭალა",
     "district": "Krtsanisi",
-    "seen_count": 25
+    "seen_count": 27
   },
   "დავით აღმაშენებელის ქ  n 44 თან": {
     "name": "დავით აღმაშენებელის ქ. N 44-თან",
@@ -17167,7 +17167,7 @@
   "ნადიკვრის": {
     "name": "ნადიკვრის",
     "district": "Krtsanisi",
-    "seen_count": 22
+    "seen_count": 23
   },
   "სულიკო თორთლაძის ქ": {
     "name": "სულიკო თორთლაძის ქ.",
@@ -17227,7 +17227,7 @@
   "აფხაზეთი": {
     "name": "აფხაზეთი",
     "district": "Gldani",
-    "seen_count": 7
+    "seen_count": 8
   },
   "პაიჭაძე": {
     "name": "პაიჭაძე",
@@ -17967,37 +17967,37 @@
   "გაგრა": {
     "name": "გაგრა",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "გულბანი": {
     "name": "გულბანი",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ცხომი": {
     "name": "ცხომი",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ილორი": {
     "name": "ილორი",
     "district": "Krtsanisi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ხვიტია": {
     "name": "ხვიტია",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ერეკლე": {
     "name": "ერეკლე",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "თამარ მეფე": {
     "name": "თამარ მეფე",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ევგენია მაისურაძის n 9 თან": {
     "name": "ევგენია მაისურაძის N 9-თან",
@@ -18747,7 +18747,7 @@
   "სულიკო თორთლაძის ქუჩას": {
     "name": "სულიკო თორთლაძის ქუჩას",
     "district": "Krtsanisi",
-    "seen_count": 11
+    "seen_count": 12
   },
   "გორის ქ  n 22 ში": {
     "name": "გორის ქ. N 22-ში",
@@ -22172,6 +22172,36 @@
   "კ  კასტელის ქ  n26ა თან": {
     "name": "კ. კასტელის ქ. N26ა-თან",
     "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ხვიტიას ქ  n2 თან": {
+    "name": "ხვიტიას ქ. N2-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ზურაბ ბაგიაშვილის მე 2 ჩიხი n19 თან": {
+    "name": "ზურაბ ბაგიაშვილის მე-2 ჩიხი N19-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "თრიალეთის ქ  n33 თან": {
+    "name": "თრიალეთის ქ. N33-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "რობაქიძის მე 4 შე": {
+    "name": "რობაქიძის მე-4 შე",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "წინანაურის n29 თან": {
+    "name": "წინანაურის N29-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "რუსთაველის გამიზ  n32 თან": {
+    "name": "რუსთაველის გამიზ. N32-თან",
+    "district": "Mtatsminda",
     "seen_count": 1
   }
 }
