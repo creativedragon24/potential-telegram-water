@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 236
+    "seen_count": 238
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 190
+    "seen_count": 191
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -1197,7 +1197,7 @@
   "იაკობი": {
     "name": "იაკობი",
     "district": "Gldani",
-    "seen_count": 17
+    "seen_count": 18
   },
   "ალავერდის გრემი": {
     "name": "ალავერდის გრემი",
@@ -1502,7 +1502,7 @@
   "გრემის": {
     "name": "გრემის",
     "district": "Gldani",
-    "seen_count": 11
+    "seen_count": 12
   },
   "დაისის": {
     "name": "დაისის",
@@ -3507,7 +3507,7 @@
   "მუხიანის დას": {
     "name": "მუხიანის დას.",
     "district": "Gldani",
-    "seen_count": 70
+    "seen_count": 72
   },
   "17 კორპუსებს": {
     "name": "17-კორპუსებს",
@@ -11047,7 +11047,7 @@
   "რუსთაველის გამზ": {
     "name": "რუსთაველის გამზ.",
     "district": "Mtatsminda",
-    "seen_count": 49
+    "seen_count": 50
   },
   "თაბუკაშვილის n12": {
     "name": "თაბუკაშვილის N12",
@@ -13962,7 +13962,7 @@
   "რაჭის ქუჩებს": {
     "name": "რაჭის ქუჩებს",
     "district": "Gldani",
-    "seen_count": 21
+    "seen_count": 22
   },
   "ჭირნახულის n 2 თან": {
     "name": "ჭირნახულის N 2-თან",
@@ -17167,7 +17167,7 @@
   "ნადიკვრის": {
     "name": "ნადიკვრის",
     "district": "Krtsanisi",
-    "seen_count": 25
+    "seen_count": 26
   },
   "სულიკო თორთლაძის ქ": {
     "name": "სულიკო თორთლაძის ქ.",
@@ -18747,7 +18747,7 @@
   "სულიკო თორთლაძის ქუჩას": {
     "name": "სულიკო თორთლაძის ქუჩას",
     "district": "Krtsanisi",
-    "seen_count": 14
+    "seen_count": 15
   },
   "გორის ქ  n 22 ში": {
     "name": "გორის ქ. N 22-ში",
@@ -22227,21 +22227,41 @@
   "წინანაურის ქუჩაზე": {
     "name": "წინანაურის ქუჩაზე",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "დაისის ქ n 109 თან": {
     "name": "დაისის ქ.N 109-თან",
     "district": "Nadzaladevi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "44 კორპ": {
     "name": "44 კორპ.",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ალექსანდრე ჭავჭავაძის ქ n 8 თან": {
     "name": "ალექსანდრე ჭავჭავაძის ქ.N 8-თან",
     "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "გამარჯვების ქუჩას": {
+    "name": "გამარჯვების ქუჩას",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "დაისის ქ  2 შეს n 18 თან": {
+    "name": "დაისის ქ. 2 შეს N 18-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "მუხის ქ n 59 თან": {
+    "name": "მუხის ქ.N 59-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "მუხიანი 2   კალოუბანი მუხის": {
+    "name": "მუხიანი 2 : კალოუბანი მუხის",
+    "district": "Gldani",
     "seen_count": 1
   }
 }
