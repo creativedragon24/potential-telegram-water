@@ -332,7 +332,7 @@
   "ს მასივი": {
     "name": "ს მასივი",
     "district": "Gldani",
-    "seen_count": 234
+    "seen_count": 236
   },
   "ოქროყანა": {
     "name": "ოქროყანა",
@@ -17167,7 +17167,7 @@
   "ნადიკვრის": {
     "name": "ნადიკვრის",
     "district": "Krtsanisi",
-    "seen_count": 24
+    "seen_count": 25
   },
   "სულიკო თორთლაძის ქ": {
     "name": "სულიკო თორთლაძის ქ.",
@@ -18747,7 +18747,7 @@
   "სულიკო თორთლაძის ქუჩას": {
     "name": "სულიკო თორთლაძის ქუჩას",
     "district": "Krtsanisi",
-    "seen_count": 13
+    "seen_count": 14
   },
   "გორის ქ  n 22 ში": {
     "name": "გორის ქ. N 22-ში",
@@ -22227,6 +22227,21 @@
   "წინანაურის ქუჩაზე": {
     "name": "წინანაურის ქუჩაზე",
     "district": "Krtsanisi",
+    "seen_count": 2
+  },
+  "დაისის ქ n 109 თან": {
+    "name": "დაისის ქ.N 109-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "44 კორპ": {
+    "name": "44 კორპ.",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ალექსანდრე ჭავჭავაძის ქ n 8 თან": {
+    "name": "ალექსანდრე ჭავჭავაძის ქ.N 8-თან",
+    "district": "Mtatsminda",
     "seen_count": 1
   }
 }
