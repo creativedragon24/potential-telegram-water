@@ -9157,7 +9157,7 @@
   "დიღმის მასივი": {
     "name": "დიღმის მასივი",
     "district": "Didube",
-    "seen_count": 6
+    "seen_count": 8
   },
   "3 კვ  n7 n20  ყველა კორპუს": {
     "name": "3 კვ. N7-N20 (ყველა კორპუს)",
@@ -22317,36 +22317,46 @@
   "ბიძინა ჩოლოყაშვილის ქ  n2 თან": {
     "name": "ბიძინა ჩოლოყაშვილის ქ. N2 თან",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "4მკ რ 1კვარტალს": {
     "name": "4მკ-რ 1კვარტალს",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "სალუქვაძის ქ": {
     "name": "სალუქვაძის ქ",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ალუბლების": {
     "name": "ალუბლების",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ზურაბ პატარიძის ქ": {
     "name": "ზურაბ პატარიძის ქ",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ბიძინა ჩოლოყაშვილის ქ": {
     "name": "ბიძინა ჩოლოყაშვილის ქ",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვაზის ქ": {
     "name": "ვაზის ქ.",
     "district": "Isani",
+    "seen_count": 2
+  },
+  "ალექსანდრე ჭავჭავაძის ქ  n14 თან": {
+    "name": "ალექსანდრე ჭავჭავაძის ქ. N14 თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "11 კორპუსებს": {
+    "name": "11 კორპუსებს",
+    "district": "Didube",
     "seen_count": 1
   }
 }
