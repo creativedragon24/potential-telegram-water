@@ -22403,5 +22403,25 @@
     "name": "დავით კვაჭანტირაძის ქ",
     "district": "Isani",
     "seen_count": 1
+  },
+  "აკაკი ხორავას ქ  n 22 თან": {
+    "name": "აკაკი ხორავას ქ. N 22-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "აკაკი შანიძის": {
+    "name": "აკაკი შანიძის",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "აკაკი ხორავას ქუჩებს": {
+    "name": "აკაკი ხორავას ქუჩებს",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ილია შეყლაშვილის ქ  n 4  თან": {
+    "name": "ილია შეყლაშვილის ქ. N 4 -თან",
+    "district": "Saburtalo",
+    "seen_count": 1
   }
 }
