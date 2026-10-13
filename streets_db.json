@@ -27,7 +27,7 @@
   "დაბა წავკისი": {
     "name": "დაბა წავკისი",
     "district": "Mtatsminda",
-    "seen_count": 150
+    "seen_count": 152
   },
   "სამადლოს ქ n 1 თან": {
     "name": "სამადლოს ქ.N 1-თან",
@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 587
+    "seen_count": 588
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -4267,7 +4267,7 @@
   "ოდიშელიძის": {
     "name": "ოდიშელიძის",
     "district": "Samgori",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ფრისის": {
     "name": "ფრისის",
@@ -5192,7 +5192,7 @@
   "მაჩაბელის": {
     "name": "მაჩაბელის",
     "district": "Saburtalo",
-    "seen_count": 39
+    "seen_count": 40
   },
   "გ ტაბიძის": {
     "name": "გ.ტაბიძის",
@@ -7242,32 +7242,32 @@
   "ნიკო ბურის": {
     "name": "ნიკო ბურის",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "შერმადინის": {
     "name": "შერმადინის",
     "district": "Saburtalo",
-    "seen_count": 40
+    "seen_count": 41
   },
   "ხატაეთის": {
     "name": "ხატაეთის",
     "district": "Saburtalo",
-    "seen_count": 33
+    "seen_count": 34
   },
   "ჰუგო ჰუბერტის": {
     "name": "ჰუგო ჰუბერტის",
     "district": "Saburtalo",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ბარონ დებაის ქუჩებს და რაინეგსის ქ  n1 29 კენტებს": {
     "name": "ბარონ დებაის ქუჩებს და რაინეგსის ქ. N1-29(კენტებს)",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "2 40 ლუწებს": {
     "name": "2-40(ლუწებს)",
     "district": "Saburtalo",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ეფრემ ზაქარაიას ქ  n95 თან": {
     "name": "ეფრემ ზაქარაიას ქ. N95-თან",
@@ -7612,7 +7612,7 @@
   "დაბა კიკეთი": {
     "name": "დაბა კიკეთი",
     "district": "Mtatsminda",
-    "seen_count": 40
+    "seen_count": 41
   },
   "დიდგორის ქ  1 შეს  n6 თან": {
     "name": "დიდგორის ქ. 1 შეს. N6-თან",
@@ -22427,26 +22427,136 @@
   "ირაკლი უჩანეიშვილის ქ n 7 თან": {
     "name": "ირაკლი უჩანეიშვილის ქ.N 7-თან",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "არჩილ ქურდიანის n1 თან": {
     "name": "არჩილ ქურდიანის N1-თან",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "წერეთლის n8": {
     "name": "წერეთლის N8",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ბათუმის n25": {
     "name": "ბათუმის N25",
     "district": "Didube",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ფოთის n38": {
     "name": "ფოთის N38.",
     "district": "Didube",
+    "seen_count": 2
+  },
+  "შოთა რუსთაველის ქ n 73 n  თან": {
+    "name": "შოთა რუსთაველის ქ.N 73 N -თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "წერეთლის ქუჩას": {
+    "name": "წერეთლის ქუჩას",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ოსკარ შმერლინგის ქ n 3ვ თან": {
+    "name": "ოსკარ შმერლინგის ქ.N 3ვ-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "დავით ბატონიშვილის": {
+    "name": "დავით ბატონიშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კრისტოფერ კასტელის": {
+    "name": "კრისტოფერ კასტელის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ოსკარ შმერლინგის n1 n13  კენტები  n2 n14  ლუწები": {
+    "name": "ოსკარ შმერლინგის N1-N13 (კენტები) N2-N14 (ლუწები)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ალექსანდრე მაჭავარიანი": {
+    "name": "ალექსანდრე მაჭავარიანი",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "გიორგი ოდიშელიძის n13 თან": {
+    "name": "გიორგი ოდიშელიძის N13 თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "თურმანაულის": {
+    "name": "თურმანაულის",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ბახტაძის": {
+    "name": "ბახტაძის",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "აფხაზის": {
+    "name": "აფხაზის",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "ლოჭინის ხევის და ცაცა ამერიჯების მე 2 შეს": {
+    "name": "ლოჭინის ხევის და ცაცა ამერიჯების მე-2 შეს.",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "იყალთოს ქ n 31 თან": {
+    "name": "იყალთოს ქ N 31-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "შერმადინის ქ  n74  თან": {
+    "name": "შერმადინის ქ. N74 -თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ხუდადოვის ქ  n168  თან": {
+    "name": "ხუდადოვის ქ. N168 -თან",
+    "district": "Nadzaladevi",
+    "seen_count": 2
+  },
+  "ნატალია აზიანის": {
+    "name": "ნატალია აზიანის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ახალმოწამეთა": {
+    "name": "ახალმოწამეთა",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ხუდადოვის n124 n200  ლუწები": {
+    "name": "ხუდადოვის N124-N200 (ლუწები)",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "გიგლა ირემაძის": {
+    "name": "გიგლა ირემაძის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "მარიამ დადიანი ანჩაბაძის": {
+    "name": "მარიამ დადიანი ანჩაბაძის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ნინო წერეთლის": {
+    "name": "ნინო წერეთლის",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "რევაზ ურიდიას n203": {
+    "name": "რევაზ ურიდიას N203",
+    "district": "Nadzaladevi",
     "seen_count": 1
   }
 }
