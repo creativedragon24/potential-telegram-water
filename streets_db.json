@@ -22402,7 +22402,7 @@
   "დავით კვაჭანტირაძის ქ": {
     "name": "დავით კვაჭანტირაძის ქ",
     "district": "Isani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "აკაკი ხორავას ქ  n 22 თან": {
     "name": "აკაკი ხორავას ქ. N 22-თან",
@@ -22422,6 +22422,31 @@
   "ილია შეყლაშვილის ქ  n 4  თან": {
     "name": "ილია შეყლაშვილის ქ. N 4 -თან",
     "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ირაკლი უჩანეიშვილის ქ n 7 თან": {
+    "name": "ირაკლი უჩანეიშვილის ქ.N 7-თან",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "არჩილ ქურდიანის n1 თან": {
+    "name": "არჩილ ქურდიანის N1-თან",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "წერეთლის n8": {
+    "name": "წერეთლის N8",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ბათუმის n25": {
+    "name": "ბათუმის N25",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ფოთის n38": {
+    "name": "ფოთის N38.",
+    "district": "Didube",
     "seen_count": 1
   }
 }
