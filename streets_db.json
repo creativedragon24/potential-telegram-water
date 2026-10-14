@@ -9202,7 +9202,7 @@
   "იყალთოს ქ  n33 თან": {
     "name": "იყალთოს ქ. N33-თან",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 5
   },
   "იმერეთის ქ  n 6 თან": {
     "name": "იმერეთის ქ. N 6-თან",
@@ -14762,7 +14762,7 @@
   "ბჟოლეთის და გოგაშენის ქუჩებს": {
     "name": "ბჟოლეთის და გოგაშენის ქუჩებს",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ეველინა თავაძის": {
     "name": "ეველინა თავაძის",
@@ -22567,31 +22567,36 @@
   "ეფრემ ზაქარაიას ქ n 37 თან": {
     "name": "ეფრემ ზაქარაიას ქ.N 37-თან",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბოთერაშვილის ქუჩაზე": {
     "name": "ბოთერაშვილის ქუჩაზე",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ანზორ გელდიაშვილის": {
     "name": "ანზორ გელდიაშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ს რაიონი  გმირ კურსანტთა ქუჩა  სრულად": {
     "name": "ს რაიონი: გმირ კურსანტთა ქუჩა (სრულად)",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვეკუას n10": {
     "name": "ვეკუას N10",
     "district": "Nadzaladevi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ამილახვრის ქ  n23 თან": {
     "name": "ამილახვრის ქ. N23-თან",
     "district": "Tsqneti",
     "seen_count": 2
+  },
+  "ბჟოლეთის ქ  n33 თან": {
+    "name": "ბჟოლეთის ქ. N33-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
   }
 }
