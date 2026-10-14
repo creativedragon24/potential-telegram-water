@@ -22572,22 +22572,22 @@
   "ბოთერაშვილის ქუჩაზე": {
     "name": "ბოთერაშვილის ქუჩაზე",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ანზორ გელდიაშვილის": {
     "name": "ანზორ გელდიაშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ს რაიონი  გმირ კურსანტთა ქუჩა  სრულად": {
     "name": "ს რაიონი: გმირ კურსანტთა ქუჩა (სრულად)",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ვეკუას n10": {
     "name": "ვეკუას N10",
     "district": "Nadzaladevi",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ამილახვრის ქ  n23 თან": {
     "name": "ამილახვრის ქ. N23-თან",
@@ -22602,26 +22602,31 @@
   "ილია ჭავჭავაძის გამზ  n54ა თან": {
     "name": "ილია ჭავჭავაძის გამზ. N54ა-თან",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ჭავჭავაძის n48": {
     "name": "ჭავჭავაძის N48",
     "district": "Vake",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ალექსანდრე ჭავჭავაძის ქ  n3 თან": {
     "name": "ალექსანდრე ჭავჭავაძის ქ. N3-თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "თინა ენუქიძის ქ  მესამეშესახვევი n10 თან": {
     "name": "თინა ენუქიძის ქ. მესამეშესახვევი N10-თან",
     "district": "Chugureti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "3 შესახვევებს": {
     "name": "3 შესახვევებს",
     "district": "Chugureti",
+    "seen_count": 2
+  },
+  "ალექსანდრე  საშა  იოსელიანის ქ  n74 თან": {
+    "name": "ალექსანდრე (საშა) იოსელიანის ქ. N74-თან",
+    "district": "Vake",
     "seen_count": 1
   }
 }
