@@ -2782,7 +2782,7 @@
   "ავჭალა 2": {
     "name": "ავჭალა 2",
     "district": "Gldani",
-    "seen_count": 195
+    "seen_count": 197
   },
   "გუდიაშვილის ჩიხი 1": {
     "name": "გუდიაშვილის ჩიხი 1",
@@ -6337,7 +6337,7 @@
   "შესახვევებს და ჩიხებს": {
     "name": "შესახვევებს და ჩიხებს",
     "district": "Nadzaladevi",
-    "seen_count": 19
+    "seen_count": 20
   },
   "ბეჩოს ქ  n 3 თან": {
     "name": "ბეჩოს ქ. N 3-თან",
@@ -12927,7 +12927,7 @@
   "ქართლი": {
     "name": "ქართლი",
     "district": "Gldani",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ხორავა და შავგულიძის ქუჩებს": {
     "name": "ხორავა და შავგულიძის ქუჩებს",
@@ -17232,7 +17232,7 @@
   "პაიჭაძე": {
     "name": "პაიჭაძე",
     "district": "Gldani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ჰერეთი": {
     "name": "ჰერეთი",
@@ -22572,22 +22572,22 @@
   "ბოთერაშვილის ქუჩაზე": {
     "name": "ბოთერაშვილის ქუჩაზე",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ანზორ გელდიაშვილის": {
     "name": "ანზორ გელდიაშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ს რაიონი  გმირ კურსანტთა ქუჩა  სრულად": {
     "name": "ს რაიონი: გმირ კურსანტთა ქუჩა (სრულად)",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ვეკუას n10": {
     "name": "ვეკუას N10",
     "district": "Nadzaladevi",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ამილახვრის ქ  n23 თან": {
     "name": "ამილახვრის ქ. N23-თან",
@@ -22673,5 +22673,35 @@
     "name": "ფუნიკულიორის და ყაზბეგის ქუჩებს.",
     "district": "Mtatsminda",
     "seen_count": 2
+  },
+  "კვირახოვლის n3 თან": {
+    "name": "კვირახოვლის N3-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ფარნავაზ მეფის ქუჩა": {
+    "name": "ფარნავაზ მეფის ქუჩა",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "მე 2 ჩიხი n 3 თან": {
+    "name": "მე-2 ჩიხი N 3-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ფარნავაზ მეფის ქუჩას": {
+    "name": "ფარნავაზ მეფის ქუჩას",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "მუხიანის დაჩები": {
+    "name": "მუხიანის დაჩები",
+    "district": "Gldani",
+    "seen_count": 2
+  },
+  "გამარჯვების მე 3 ჩიხი n 9 თან": {
+    "name": "გამარჯვების მე-3 ჩიხი N 9-თან",
+    "district": "Gldani",
+    "seen_count": 1
   }
 }
