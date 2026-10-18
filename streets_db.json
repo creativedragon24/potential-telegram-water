@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 596
+    "seen_count": 598
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -2632,7 +2632,7 @@
   "თაყაიშვილის": {
     "name": "თაყაიშვილის",
     "district": "Saburtalo",
-    "seen_count": 79
+    "seen_count": 80
   },
   "ხანძთელის": {
     "name": "ხანძთელის",
@@ -3872,7 +3872,7 @@
   "ცინცაძის": {
     "name": "ცინცაძის",
     "district": "Nadzaladevi",
-    "seen_count": 182
+    "seen_count": 183
   },
   "ქსოვრელი": {
     "name": "ქსოვრელი",
@@ -4932,7 +4932,7 @@
   "რჩეულიშვილის": {
     "name": "რჩეულიშვილის",
     "district": "Saburtalo",
-    "seen_count": 50
+    "seen_count": 51
   },
   "ჯაფარიძის": {
     "name": "ჯაფარიძის",
@@ -5092,7 +5092,7 @@
   "ბესიკის": {
     "name": "ბესიკის",
     "district": "Saburtalo",
-    "seen_count": 181
+    "seen_count": 182
   },
   "შევჩენკოს": {
     "name": "შევჩენკოს",
@@ -5897,7 +5897,7 @@
   "წერეთლის": {
     "name": "წერეთლის",
     "district": "Saburtalo",
-    "seen_count": 36
+    "seen_count": 37
   },
   "13 ასურელის": {
     "name": "13 ასურელის",
@@ -5922,7 +5922,7 @@
   "ბარათაშვილის": {
     "name": "ბარათაშვილის",
     "district": "Saburtalo",
-    "seen_count": 40
+    "seen_count": 41
   },
   "ჩოლოყაშვილის": {
     "name": "ჩოლოყაშვილის",
@@ -13952,7 +13952,7 @@
   "გურამიშვილის": {
     "name": "გურამიშვილის",
     "district": "Gldani",
-    "seen_count": 29
+    "seen_count": 30
   },
   "ახალციხელის": {
     "name": "ახალციხელის",
@@ -18687,17 +18687,17 @@
   "ანდრონიკაშვილლის": {
     "name": "ანდრონიკაშვილლის",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სარქის კაკაბაძის": {
     "name": "სარქის კაკაბაძის",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბატონიშვილის და გაბაშვილის ქუჩებს": {
     "name": "ბატონიშვილის და გაბაშვილის ქუჩებს.",
     "district": "Saburtalo",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მარო მაყაშვილის 1 ჩიხი": {
     "name": "მარო მაყაშვილის 1 ჩიხი",
@@ -22652,27 +22652,27 @@
   "გაბრიაძის": {
     "name": "გაბრიაძის",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ინოვაციების": {
     "name": "ინოვაციების",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ი  ჭავჭავაძის": {
     "name": "ი. ჭავჭავაძის",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ციურიხის": {
     "name": "ციურიხის",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ფუნიკულიორის და ყაზბეგის ქუჩებს": {
     "name": "ფუნიკულიორის და ყაზბეგის ქუჩებს.",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კვირახოვლის n3 თან": {
     "name": "კვირახოვლის N3-თან",
@@ -23322,6 +23322,146 @@
   "გრ  აფშინაშვილის": {
     "name": "გრ. აფშინაშვილის",
     "district": "Isani",
+    "seen_count": 1
+  },
+  "ინოვაციების ქ n 10 თან": {
+    "name": "ინოვაციების ქ.N 10-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ზურაბ ქვლივიძის ქ n 39 ში": {
+    "name": "ზურაბ ქვლივიძის ქ.N 39-ში",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ქვლივიძის": {
+    "name": "ქვლივიძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "გოცირიძის": {
+    "name": "გოცირიძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ტერ  გრანელის": {
+    "name": "ტერ. გრანელის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ბენაშვილის": {
+    "name": "ბენაშვილის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "მამარდაშვილის": {
+    "name": "მამარდაშვილის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "არაგვისპირელის": {
+    "name": "არაგვისპირელის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ვერჰანის": {
+    "name": "ვერჰანის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ბუხაიძის": {
+    "name": "ბუხაიძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "გორკის": {
+    "name": "გორკის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ჩაისუბნის": {
+    "name": "ჩაისუბნის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "კუმისის": {
+    "name": "კუმისის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "თოიძის": {
+    "name": "თოიძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "წმინდა ნიკოლოზის": {
+    "name": "წმინდა ნიკოლოზის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ნ  ჩხეიძის": {
+    "name": "ნ. ჩხეიძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "მარჯანიშვილის n53 67  ლუწებს": {
+    "name": "მარჯანიშვილის N53-67-(ლუწებს)",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "n46 56 ლუწებს   ჩიტაიას n46 56 ლუწებს  n 1  7 კენტებს   მარჯანიშვილის შეს  ადიგენის": {
+    "name": "N46-56(ლუწებს). ჩიტაიას N46-56(ლუწებს) N 1- 7(კენტებს). მარჯანიშვილის შეს. ადიგენის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ახალციხის": {
+    "name": "ახალციხის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ნათიშვილს": {
+    "name": "ნათიშვილს",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ოსიაურის": {
+    "name": "ოსიაურის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ლენტეხის": {
+    "name": "ლენტეხის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "კალანდარიშვილის": {
+    "name": "კალანდარიშვილის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ციმაკურიძის": {
+    "name": "ციმაკურიძის",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "შურდულის და ანთელავას": {
+    "name": "შურდულის და ანთელავას",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ლარეხის მე 2 შესახვევს": {
+    "name": "ლარეხის მე-2 შესახვევს",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "ვახუშტი ბატონიშვილის ქ  2 ჩიხი": {
+    "name": "ვახუშტი ბატონიშვილის ქ. 2 ჩიხი",
+    "district": "Saburtalo",
+    "seen_count": 2
+  },
+  "ბეჟან კალანდაძის ქ n 12 თან": {
+    "name": "ბეჟან კალანდაძის ქ.N 12-თან",
+    "district": "Krtsanisi",
     "seen_count": 1
   }
 }
