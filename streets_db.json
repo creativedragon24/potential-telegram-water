@@ -23522,17 +23522,17 @@
   "ვერეს 2 შეს  n7 თან": {
     "name": "ვერეს 2 შეს. N7-თან",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ვერეს 2 შეს  n 7  ყოფილი სატივეს n 8": {
     "name": "ვერეს 2 შეს. N 7 (ყოფილი სატივეს N 8)",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შალვა ნუცუბიძის ქ  n28 ში": {
     "name": "შალვა ნუცუბიძის ქ. N28-ში",
     "district": "Vake",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ტარიელის 53 თან": {
     "name": "ტარიელის 53-თან",
@@ -23552,11 +23552,11 @@
   "იყალთოს 35ა თან": {
     "name": "იყალთოს 35ა-თან",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   },
   "იყალთოს ჩიხი და შესახვევი": {
     "name": "იყალთოს ჩიხი და შესახვევი",
     "district": "Saburtalo",
-    "seen_count": 1
+    "seen_count": 2
   }
 }
