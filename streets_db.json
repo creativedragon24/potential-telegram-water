@@ -102,42 +102,42 @@
   "რეხის i": {
     "name": "რეხის I",
     "district": "Chugureti",
-    "seen_count": 32
+    "seen_count": 33
   },
   "iii ქუჩები": {
     "name": "III ქუჩები",
     "district": "Chugureti",
-    "seen_count": 31
+    "seen_count": 32
   },
   "მახათას აღმართის ქუჩა": {
     "name": "მახათას აღმართის ქუჩა",
     "district": "Chugureti",
-    "seen_count": 31
+    "seen_count": 32
   },
   "ელისო ჭიპაშვილი": {
     "name": "ელისო ჭიპაშვილი",
     "district": "Chugureti",
-    "seen_count": 35
+    "seen_count": 36
   },
   "მარინე უთმელიძე": {
     "name": "მარინე უთმელიძე",
     "district": "Chugureti",
-    "seen_count": 32
+    "seen_count": 33
   },
   "თამარ მამუმაშვილი": {
     "name": "თამარ მამუმაშვილი",
     "district": "Chugureti",
-    "seen_count": 32
+    "seen_count": 33
   },
   "გია ქარსელაძე": {
     "name": "გია ქარსელაძე",
     "district": "Chugureti",
-    "seen_count": 32
+    "seen_count": 33
   },
   "მანანა ლოლაძე": {
     "name": "მანანა ლოლაძე",
     "district": "Chugureti",
-    "seen_count": 31
+    "seen_count": 32
   },
   "სოფ  დიდი ლილო": {
     "name": "სოფ. დიდი ლილო",
@@ -927,12 +927,12 @@
   "ახალი ხეივნის": {
     "name": "ახალი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 155
+    "seen_count": 156
   },
   "დიდი ხეივნის": {
     "name": "დიდი ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 155
+    "seen_count": 156
   },
   "უსახელაურის": {
     "name": "უსახელაურის",
@@ -2052,7 +2052,7 @@
   "სოფ  ფონიჭალა": {
     "name": "სოფ. ფონიჭალა",
     "district": "Krtsanisi",
-    "seen_count": 35
+    "seen_count": 37
   },
   "დავით აღმაშენებელის ქ  n 44 თან": {
     "name": "დავით აღმაშენებელის ქ. N 44-თან",
@@ -2077,7 +2077,7 @@
   "რუსთაველის": {
     "name": "რუსთაველის",
     "district": "Krtsanisi",
-    "seen_count": 86
+    "seen_count": 87
   },
   "გუმისმთის": {
     "name": "გუმისმთის",
@@ -2087,7 +2087,7 @@
   "გოგებაშვილის": {
     "name": "გოგებაშვილის",
     "district": "Krtsanisi",
-    "seen_count": 59
+    "seen_count": 60
   },
   "ქუთაისის": {
     "name": "ქუთაისის",
@@ -2102,7 +2102,7 @@
   "კოდორის": {
     "name": "კოდორის",
     "district": "Krtsanisi",
-    "seen_count": 9
+    "seen_count": 10
   },
   "რიწის": {
     "name": "რიწის",
@@ -3872,7 +3872,7 @@
   "ცინცაძის": {
     "name": "ცინცაძის",
     "district": "Nadzaladevi",
-    "seen_count": 200
+    "seen_count": 201
   },
   "ქსოვრელი": {
     "name": "ქსოვრელი",
@@ -3912,7 +3912,7 @@
   "სიონის": {
     "name": "სიონის",
     "district": "Krtsanisi",
-    "seen_count": 148
+    "seen_count": 149
   },
   "ერეკლე მეორეს": {
     "name": "ერეკლე მეორეს",
@@ -3922,7 +3922,7 @@
   "შარდენის": {
     "name": "შარდენის",
     "district": "Krtsanisi",
-    "seen_count": 148
+    "seen_count": 149
   },
   "ბამბის რიგის": {
     "name": "ბამბის რიგის",
@@ -4197,7 +4197,7 @@
   "ნაკაშიძის": {
     "name": "ნაკაშიძის",
     "district": "Samgori",
-    "seen_count": 165
+    "seen_count": 166
   },
   "ფაღავას": {
     "name": "ფაღავას",
@@ -7702,122 +7702,122 @@
   "ზვიად გამსახურდიას სანაპირო n12 თან": {
     "name": "ზვიად გამსახურდიას სანაპირო N12-თან",
     "district": "Krtsanisi",
-    "seen_count": 25
+    "seen_count": 26
   },
   "აბჟანდაძეს": {
     "name": "აბჟანდაძეს",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "მე 3 ხეივნის": {
     "name": "მე-3 ხეივნის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "საბატონოს": {
     "name": "საბატონოს",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ცოლიკაურის": {
     "name": "ცოლიკაურის",
     "district": "Krtsanisi",
-    "seen_count": 145
+    "seen_count": 146
   },
   "წითლანაძის": {
     "name": "წითლანაძის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "გორგასლის ქ  20": {
     "name": "გორგასლის ქ. 20",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "გულუას": {
     "name": "გულუას",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "გულიას": {
     "name": "გულიას",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "გორგასლის n87 n115  კენტები": {
     "name": "გორგასლის N87-N115 (კენტები)",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "n30 n50  ლუწები": {
     "name": "N30-N50 (ლუწები)",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ს ქუჩას თავისი შესახვევებით და ჩიხებით": {
     "name": "ს ქუჩას თავისი შესახვევებით და ჩიხებით",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ლესელიძე კოტე აფხაზი n16 n44  ლუწები": {
     "name": "ლესელიძე-კოტე აფხაზი N16-N44 (ლუწები)",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "n27 n53  კენტები": {
     "name": "N27-N53 (კენტები)",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ვერცხლის": {
     "name": "ვერცხლის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ბამბის და რკინის რიგის": {
     "name": "ბამბის და რკინის რიგის",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ოქრომჭედლები": {
     "name": "ოქრომჭედლები",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "იეთიმ გურჯის": {
     "name": "იეთიმ გურჯის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ანტონ კატალიკოსის": {
     "name": "ანტონ კატალიკოსის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ყავლაშვილი": {
     "name": "ყავლაშვილი",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ილია და ნინო ნაკაშიძეები": {
     "name": "ილია და ნინო ნაკაშიძეები",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ნიშნიანიძე": {
     "name": "ნიშნიანიძე",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ჩახრუხაძე": {
     "name": "ჩახრუხაძე",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "დიუმას ქუჩებს": {
     "name": "დიუმას ქუჩებს.",
     "district": "Krtsanisi",
-    "seen_count": 49
+    "seen_count": 50
   },
   "მთაწმინდის რაიონი": {
     "name": "მთაწმინდის რაიონი",
@@ -7827,52 +7827,52 @@
   "რეზო ჩხეიძის": {
     "name": "რეზო ჩხეიძის",
     "district": "Krtsanisi",
-    "seen_count": 146
+    "seen_count": 147
   },
   "თაბუკაშვილის": {
     "name": "თაბუკაშვილის",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ფხოვის": {
     "name": "ფხოვის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ჯამბულის": {
     "name": "ჯამბულის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "სობჩაკის": {
     "name": "სობჩაკის",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ჭანტურიას": {
     "name": "ჭანტურიას",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "სტამბის ჩიხის": {
     "name": "სტამბის ჩიხის",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ბროსეს": {
     "name": "ბროსეს",
     "district": "Krtsanisi",
-    "seen_count": 144
+    "seen_count": 145
   },
   "ზოოპარკის ტერიტორიას": {
     "name": "ზოოპარკის ტერიტორიას",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "რევაზ ლაღიძის და ვირსალაძის ქუჩებს": {
     "name": "რევაზ ლაღიძის და ვირსალაძის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 53
+    "seen_count": 54
   },
   "ვასო გოძიაშვილის ქ  n30 თან": {
     "name": "ვასო გოძიაშვილის ქ. N30-თან",
@@ -24052,12 +24052,12 @@
   "იუსტიციის სახლს": {
     "name": "იუსტიციის სახლს",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "მთაწმინდის რაიონი სანაპიროს": {
     "name": "მთაწმინდის რაიონი სანაპიროს",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "იუმაშევის ქ  n14 თან": {
     "name": "იუმაშევის ქ. N14-თან",
@@ -24328,5 +24328,20 @@
     "name": "რუისპირის და ახალუბნის ქუჩებს.",
     "district": "Isani",
     "seen_count": 2
+  },
+  "ზ ჯორჯაძის ქ  n20 თან": {
+    "name": "ზ.ჯორჯაძის ქ. N20-თან",
+    "district": "Chugureti",
+    "seen_count": 1
+  },
+  "გრიგოლ გულბანის ქ  მე 2 შეს  n7 ში": {
+    "name": "გრიგოლ გულბანის ქ. მე-2 შეს. N7-ში",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ეგრისის გულბანის და ბათუმის ქუჩებს": {
+    "name": "ეგრისის გულბანის და ბათუმის ქუჩებს",
+    "district": "Krtsanisi",
+    "seen_count": 1
   }
 }
