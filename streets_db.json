@@ -16842,7 +16842,7 @@
   "სამრეწველოს დასახლების 1 ქუჩას": {
     "name": "სამრეწველოს დასახლების 1 ქუჩას",
     "district": "Isani",
-    "seen_count": 8
+    "seen_count": 9
   },
   "მეველეს": {
     "name": "მეველეს",
@@ -16857,7 +16857,7 @@
   "გეთიას": {
     "name": "გეთიას",
     "district": "Isani",
-    "seen_count": 10
+    "seen_count": 11
   },
   "გუდარეხს": {
     "name": "გუდარეხს",
@@ -24027,7 +24027,7 @@
   "მუხიანის დას  4ა მკ რ": {
     "name": "მუხიანის დას. 4ა მკ-რ",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 9
   },
   "ანტონ ჩეხოვის": {
     "name": "ანტონ ჩეხოვის",
@@ -24708,5 +24708,55 @@
     "name": "გურჯიევი",
     "district": "Samgori",
     "seen_count": 2
+  },
+  "სამრეწველო დას  i ქ  n13 თან": {
+    "name": "სამრეწველო დას. I ქ. N13-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ციხისძირის 1": {
+    "name": "ციხისძირის 1",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "3 ჩიხებს": {
+    "name": "3 ჩიხებს",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "წულაძის მე 3 გასავალს": {
+    "name": "წულაძის მე-3 გასავალს",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "გაბრიელ სალოსის მე 3 და მე 4 შესახვევს": {
+    "name": "გაბრიელ სალოსის მე-3 და მე-4 შესახვევს",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "ნოდარ დუმბაძის   4": {
+    "name": "ნოდარ დუმბაძის - 4",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "9 კორპუსებს": {
+    "name": "9 კორპუსებს",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "დუმბაძის 1": {
+    "name": "დუმბაძის 1",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ბააზოვის n 4 თან": {
+    "name": "ბააზოვის N 4-თან",
+    "district": "Krtsanisi",
+    "seen_count": 2
+  },
+  "გრიშაშვილის 23 ს": {
+    "name": "გრიშაშვილის 23-ს",
+    "district": "Krtsanisi",
+    "seen_count": 1
   }
 }
