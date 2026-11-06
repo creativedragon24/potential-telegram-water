@@ -1507,7 +1507,7 @@
   "დაისის": {
     "name": "დაისის",
     "district": "Gldani",
-    "seen_count": 42
+    "seen_count": 43
   },
   "არტანუჯის": {
     "name": "არტანუჯის",
@@ -3647,7 +3647,7 @@
   "ქართლის": {
     "name": "ქართლის",
     "district": "Nadzaladevi",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ვაზიანის": {
     "name": "ვაზიანის",
@@ -3677,7 +3677,7 @@
   "ბეჟანიშვილის": {
     "name": "ბეჟანიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 34
+    "seen_count": 35
   },
   "ჭყონდიდელის": {
     "name": "ჭყონდიდელის",
@@ -3797,7 +3797,7 @@
   "ქართველიშვილის": {
     "name": "ქართველიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 32
+    "seen_count": 33
   },
   "ასკურავას": {
     "name": "ასკურავას",
@@ -3852,7 +3852,7 @@
   "კნოლევის": {
     "name": "კნოლევის",
     "district": "Nadzaladevi",
-    "seen_count": 34
+    "seen_count": 35
   },
   "სვანეთის": {
     "name": "სვანეთის",
@@ -6302,42 +6302,42 @@
   "კონსტანტინე ილურიძის ქ  2 შეს": {
     "name": "კონსტანტინე ილურიძის ქ. 2 შეს",
     "district": "Nadzaladevi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "გვაზაურის მე 2 შეს": {
     "name": "გვაზაურის მე-2 შეს",
     "district": "Nadzaladevi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "თმოგვის": {
     "name": "თმოგვის",
     "district": "Nadzaladevi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "ღრმაღელის ქუჩას": {
     "name": "ღრმაღელის ქუჩას",
     "district": "Nadzaladevi",
-    "seen_count": 13
+    "seen_count": 14
   },
   "ქსოვრელის": {
     "name": "ქსოვრელის",
     "district": "Nadzaladevi",
-    "seen_count": 26
+    "seen_count": 27
   },
   "ღოღობერიძის": {
     "name": "ღოღობერიძის",
     "district": "Nadzaladevi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "ტოროშელიძისა და ქუჩებს": {
     "name": "ტოროშელიძისა და ქუჩებს",
     "district": "Nadzaladevi",
-    "seen_count": 21
+    "seen_count": 22
   },
   "შესახვევებს და ჩიხებს": {
     "name": "შესახვევებს და ჩიხებს",
     "district": "Nadzaladevi",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ბეჩოს ქ  n 3 თან": {
     "name": "ბეჩოს ქ. N 3-თან",
@@ -25262,22 +25262,22 @@
   "ხარფუხის ქუჩაზე": {
     "name": "ხარფუხის ქუჩაზე",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ხარფუხის ქუჩას და შესახვევ": {
     "name": "ხარფუხის ქუჩას და შესახვევ",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "გერცელ ბააზოვის და გრიშაშვილის n 23": {
     "name": "გერცელ ბააზოვის და გრიშაშვილის N 23",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "25ა ქუჩებს": {
     "name": "25ა ქუჩებს.",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ტაბიძის ქ  n1 თან": {
     "name": "ტაბიძის ქ. N1-თან",
@@ -25357,22 +25357,22 @@
   "ღრმაღელის ქუჩაზე": {
     "name": "ღრმაღელის ქუჩაზე",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "დადიანის n 303 329  კენტები": {
     "name": "დადიანის N 303-329 (კენტები)",
     "district": "Nadzaladevi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ალექსანდრე ხახანაშვილის ქ  n24 თან": {
     "name": "ალექსანდრე ხახანაშვილის ქ. N24-თან",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ხახანაშვილის ქ": {
     "name": "ხახანაშვილის ქ.",
     "district": "Isani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ბერი გაბრიელ სალოსის გამზ  n12 თან": {
     "name": "ბერი გაბრიელ სალოსის გამზ. N12-თან",
@@ -25387,6 +25387,41 @@
   "ვაჟა ფშაველას გამზ  7 კვ  n15 თან": {
     "name": "ვაჟა-ფშაველას გამზ. 7 კვ. N15-თან",
     "district": "Vake",
+    "seen_count": 1
+  },
+  "ჭიჭინაძის ქ  n 29 ში": {
+    "name": "ჭიჭინაძის ქ. N 29 ში",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "კასკადი": {
+    "name": "კასკადი",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "უგრეხელიძეები": {
+    "name": "უგრეხელიძეები",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ყაზბეგის გამზ  n14 ბ თან": {
+    "name": "ყაზბეგის გამზ. N14 ბ თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "n1 19ბ  კენტებს": {
+    "name": "N1-19ბ (კენტებს)",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჯანო ბაგრატიონის და ტაშკენტის n 10": {
+    "name": "ჯანო ბაგრატიონის და ტაშკენტის N 10",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "10ა ქუჩებს": {
+    "name": "10ა ქუჩებს.",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
