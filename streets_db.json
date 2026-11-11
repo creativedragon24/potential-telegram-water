@@ -337,7 +337,7 @@
   "ოქროყანა": {
     "name": "ოქროყანა",
     "district": "Mtatsminda",
-    "seen_count": 98
+    "seen_count": 100
   },
   "აკაკი ხორავას ქ  n19 თან": {
     "name": "აკაკი ხორავას ქ. N19-თან",
@@ -2632,7 +2632,7 @@
   "თაყაიშვილის": {
     "name": "თაყაიშვილის",
     "district": "Saburtalo",
-    "seen_count": 100
+    "seen_count": 101
   },
   "ხანძთელის": {
     "name": "ხანძთელის",
@@ -5092,7 +5092,7 @@
   "ბესიკის": {
     "name": "ბესიკის",
     "district": "Saburtalo",
-    "seen_count": 204
+    "seen_count": 205
   },
   "შევჩენკოს": {
     "name": "შევჩენკოს",
@@ -5897,7 +5897,7 @@
   "წერეთლის": {
     "name": "წერეთლის",
     "district": "Saburtalo",
-    "seen_count": 70
+    "seen_count": 71
   },
   "13 ასურელის": {
     "name": "13 ასურელის",
@@ -13952,7 +13952,7 @@
   "გურამიშვილის": {
     "name": "გურამიშვილის",
     "district": "Gldani",
-    "seen_count": 50
+    "seen_count": 51
   },
   "ახალციხელის": {
     "name": "ახალციხელის",
@@ -22652,27 +22652,27 @@
   "გაბრიაძის": {
     "name": "გაბრიაძის",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ინოვაციების": {
     "name": "ინოვაციების",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ი  ჭავჭავაძის": {
     "name": "ი. ჭავჭავაძის",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ციურიხის": {
     "name": "ციურიხის",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "ფუნიკულიორის და ყაზბეგის ქუჩებს": {
     "name": "ფუნიკულიორის და ყაზბეგის ქუჩებს.",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "კვირახოვლის n3 თან": {
     "name": "კვირახოვლის N3-თან",
@@ -26038,5 +26038,40 @@
     "name": "რუსთაველის 16",
     "district": "Mtatsminda",
     "seen_count": 2
+  },
+  "სანზონის n 25 თან": {
+    "name": "სანზონის N 25-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ილია ჭავჭავაძის ქ  n 26 თან": {
+    "name": "ილია ჭავჭავაძის ქ. N 26-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ზედაზენის ქ  ჩიხი n 1 ში": {
+    "name": "ზედაზენის ქ. ჩიხი N 1-ში",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ზედაზენის ქუჩები  სრულად": {
+    "name": "ზედაზენის ქუჩები (სრულად).",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ავშნის ქ  n 6 თან": {
+    "name": "ავშნის ქ. N 6-თან",
+    "district": "Nadzaladevi",
+    "seen_count": 1
+  },
+  "ლადო გუდიაშვილის ქ  n 7 თან": {
+    "name": "ლადო გუდიაშვილის ქ. N 7-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გრიგოლ აბაშიძის ქუჩებს და პუშკინის 6 n10 ლუწები გუდიაშვილი 1 7 კენტები  4 10 ლუწები": {
+    "name": "გრიგოლ აბაშიძის ქუჩებს და პუშკინის 6-N10 ლუწები გუდიაშვილი 1-7(კენტები) 4-10(ლუწები )",
+    "district": "Mtatsminda",
+    "seen_count": 1
   }
 }
