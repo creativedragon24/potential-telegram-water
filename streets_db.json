@@ -67,7 +67,7 @@
   "სოფ დიღომი": {
     "name": "სოფ.დიღომი",
     "district": "Saburtalo",
-    "seen_count": 653
+    "seen_count": 655
   },
   "ვეფხისტყაოსნის ქ n 48 თან": {
     "name": "ვეფხისტყაოსნის ქ.N 48-თან",
@@ -217,7 +217,7 @@
   "დაბა შინდისი": {
     "name": "დაბა შინდისი",
     "district": "Mtatsminda",
-    "seen_count": 28
+    "seen_count": 30
   },
   "გელაზის ქ  n2 თან": {
     "name": "გელაზის ქ. N2-თან",
@@ -8212,32 +8212,32 @@
   "შილდის": {
     "name": "შილდის",
     "district": "Isani",
-    "seen_count": 23
+    "seen_count": 24
   },
   "ბეღლეთის": {
     "name": "ბეღლეთის",
     "district": "Isani",
-    "seen_count": 23
+    "seen_count": 24
   },
   "კაიშაურის": {
     "name": "კაიშაურის",
     "district": "Isani",
-    "seen_count": 23
+    "seen_count": 25
   },
   "ჟონეთის": {
     "name": "ჟონეთის",
     "district": "Isani",
-    "seen_count": 44
+    "seen_count": 45
   },
   "კიკეთის": {
     "name": "კიკეთის",
     "district": "Isani",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ნიაბის": {
     "name": "ნიაბის",
     "district": "Isani",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ცისკრის": {
     "name": "ცისკრის",
@@ -8247,42 +8247,42 @@
   "ბზიფის": {
     "name": "ბზიფის",
     "district": "Isani",
-    "seen_count": 65
+    "seen_count": 66
   },
   "სომხეთის": {
     "name": "სომხეთის",
     "district": "Isani",
-    "seen_count": 44
+    "seen_count": 45
   },
   "მრევლიშვილს ფშავის": {
     "name": "მრევლიშვილს ფშავის",
     "district": "Isani",
-    "seen_count": 23
+    "seen_count": 24
   },
   "კვესეთის": {
     "name": "კვესეთის",
     "district": "Isani",
-    "seen_count": 44
+    "seen_count": 45
   },
   "ნაქერალას": {
     "name": "ნაქერალას",
     "district": "Isani",
-    "seen_count": 28
+    "seen_count": 29
   },
   "სათემო": {
     "name": "სათემო",
     "district": "Isani",
-    "seen_count": 23
+    "seen_count": 24
   },
   "აბულის": {
     "name": "აბულის",
     "district": "Isani",
-    "seen_count": 23
+    "seen_count": 24
   },
   "კვალეთის": {
     "name": "კვალეთის",
     "district": "Isani",
-    "seen_count": 30
+    "seen_count": 31
   },
   "განთიადის ახალუბნის და შაქრიანის გიორგი გედევანიშვილის ქუჩებს": {
     "name": "განთიადის ახალუბნის და შაქრიანის გიორგი გედევანიშვილის ქუჩებს.",
@@ -9157,7 +9157,7 @@
   "დიღმის მასივი": {
     "name": "დიღმის მასივი",
     "district": "Didube",
-    "seen_count": 12
+    "seen_count": 14
   },
   "3 კვ  n7 n20  ყველა კორპუს": {
     "name": "3 კვ. N7-N20 (ყველა კორპუს)",
@@ -25862,17 +25862,17 @@
   "ნიაბის ქ 2": {
     "name": "ნიაბის ქ.2",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "5 შესახ  ცისკრის": {
     "name": "5 შესახ. ცისკრის",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ახალუბნის": {
     "name": "ახალუბნის",
     "district": "Isani",
-    "seen_count": 3
+    "seen_count": 4
   },
   "შაქრიანის ქუჩებს": {
     "name": "შაქრიანის ქუჩებს.",
@@ -26267,6 +26267,51 @@
   "დავით აღმაშენებელის 86 96  ლუწები  91 95 ჩათვლით კენტები": {
     "name": "დავით აღმაშენებელის 86-96 (ლუწები)-91-95(ჩათვლით კენტები)",
     "district": "Gldani",
+    "seen_count": 1
+  },
+  "ჯავახეთის ქ  1 ლი შეს  n3 თან": {
+    "name": "ჯავახეთის ქ. 1-ლი შეს. N3-თან",
+    "district": "Samgori",
+    "seen_count": 1
+  },
+  "თეიმურაზ ბოჭორიშვილის ქ n 8 თან": {
+    "name": "თეიმურაზ ბოჭორიშვილის ქ.N 8-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "კვირაცხოვლის ქ  n76 თან": {
+    "name": "კვირაცხოვლის ქ. N76-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "მამუჩაშვილის და რჩეულიშვილის ქუჩებს": {
+    "name": "მამუჩაშვილის და რჩეულიშვილის ქუჩებს",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "23ბ   კორპუსებს": {
+    "name": "23ბ - კორპუსებს",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "გრიგოლ რობაქიძის გამზირის n 23": {
+    "name": "გრიგოლ რობაქიძის გამზირის N 23",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ევგენი მიქელაძის n 3": {
+    "name": "ევგენი მიქელაძის N 3",
+    "district": "Didube",
+    "seen_count": 1
+  },
+  "ქეთევან ლოსაბერიძის ქ  n24 თან": {
+    "name": "ქეთევან ლოსაბერიძის ქ. N24-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "მირიან მეფის ქუჩებს შესახვევიბით": {
+    "name": "მირიან მეფის ქუჩებს შესახვევიბით",
+    "district": "Mtatsminda",
     "seen_count": 1
   }
 }
