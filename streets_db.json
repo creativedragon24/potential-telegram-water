@@ -217,7 +217,7 @@
   "დაბა შინდისი": {
     "name": "დაბა შინდისი",
     "district": "Mtatsminda",
-    "seen_count": 32
+    "seen_count": 34
   },
   "გელაზის ქ  n2 თან": {
     "name": "გელაზის ქ. N2-თან",
@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 171
+    "seen_count": 173
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -742,7 +742,7 @@
   "ზოოვეტის დასახლებას": {
     "name": "ზოოვეტის დასახლებას",
     "district": "Krtsanisi",
-    "seen_count": 47
+    "seen_count": 48
   },
   "სვანების დასახლებას": {
     "name": "სვანების დასახლებას",
@@ -2112,7 +2112,7 @@
   "ოჩამჩირის": {
     "name": "ოჩამჩირის",
     "district": "Krtsanisi",
-    "seen_count": 70
+    "seen_count": 71
   },
   "ანჩაბიძის": {
     "name": "ანჩაბიძის",
@@ -3107,12 +3107,12 @@
   "სოფ  ფონიჭალას": {
     "name": "სოფ. ფონიჭალას",
     "district": "Krtsanisi",
-    "seen_count": 32
+    "seen_count": 33
   },
   "გიგანტის დასახლებას": {
     "name": "გიგანტის დასახლებას",
     "district": "Krtsanisi",
-    "seen_count": 32
+    "seen_count": 33
   },
   "სოფ ჭალას": {
     "name": "სოფ.ჭალას",
@@ -4722,7 +4722,7 @@
   "რუსთავის გზატკეცილი": {
     "name": "რუსთავის გზატკეცილი",
     "district": "Samgori",
-    "seen_count": 31
+    "seen_count": 32
   },
   "გიგანტისა და ზოოვეტის დასახლებები": {
     "name": "გიგანტისა და ზოოვეტის დასახლებები",
@@ -5707,7 +5707,7 @@
   "დარასელიას": {
     "name": "დარასელიას",
     "district": "Saburtalo",
-    "seen_count": 73
+    "seen_count": 74
   },
   "არშბას": {
     "name": "არშბას",
@@ -8212,32 +8212,32 @@
   "შილდის": {
     "name": "შილდის",
     "district": "Isani",
-    "seen_count": 25
+    "seen_count": 26
   },
   "ბეღლეთის": {
     "name": "ბეღლეთის",
     "district": "Isani",
-    "seen_count": 25
+    "seen_count": 26
   },
   "კაიშაურის": {
     "name": "კაიშაურის",
     "district": "Isani",
-    "seen_count": 27
+    "seen_count": 29
   },
   "ჟონეთის": {
     "name": "ჟონეთის",
     "district": "Isani",
-    "seen_count": 46
+    "seen_count": 47
   },
   "კიკეთის": {
     "name": "კიკეთის",
     "district": "Isani",
-    "seen_count": 46
+    "seen_count": 47
   },
   "ნიაბის": {
     "name": "ნიაბის",
     "district": "Isani",
-    "seen_count": 46
+    "seen_count": 47
   },
   "ცისკრის": {
     "name": "ცისკრის",
@@ -8247,42 +8247,42 @@
   "ბზიფის": {
     "name": "ბზიფის",
     "district": "Isani",
-    "seen_count": 67
+    "seen_count": 68
   },
   "სომხეთის": {
     "name": "სომხეთის",
     "district": "Isani",
-    "seen_count": 46
+    "seen_count": 47
   },
   "მრევლიშვილს ფშავის": {
     "name": "მრევლიშვილს ფშავის",
     "district": "Isani",
-    "seen_count": 25
+    "seen_count": 26
   },
   "კვესეთის": {
     "name": "კვესეთის",
     "district": "Isani",
-    "seen_count": 46
+    "seen_count": 47
   },
   "ნაქერალას": {
     "name": "ნაქერალას",
     "district": "Isani",
-    "seen_count": 30
+    "seen_count": 31
   },
   "სათემო": {
     "name": "სათემო",
     "district": "Isani",
-    "seen_count": 25
+    "seen_count": 26
   },
   "აბულის": {
     "name": "აბულის",
     "district": "Isani",
-    "seen_count": 25
+    "seen_count": 26
   },
   "კვალეთის": {
     "name": "კვალეთის",
     "district": "Isani",
-    "seen_count": 32
+    "seen_count": 33
   },
   "განთიადის ახალუბნის და შაქრიანის გიორგი გედევანიშვილის ქუჩებს": {
     "name": "განთიადის ახალუბნის და შაქრიანის გიორგი გედევანიშვილის ქუჩებს.",
@@ -10232,12 +10232,12 @@
   "სოფ ჭალას  სოფელ თელეთს": {
     "name": "სოფ.ჭალას. სოფელ თელეთს",
     "district": "Samgori",
-    "seen_count": 24
+    "seen_count": 25
   },
   "ვაგზლის ქუჩას": {
     "name": "ვაგზლის ქუჩას.",
     "district": "Samgori",
-    "seen_count": 17
+    "seen_count": 18
   },
   "დაისის ქ  n 49 თან": {
     "name": "დაისის ქ. N 49-თან",
@@ -21212,22 +21212,22 @@
   "პეკინის გამზ 43": {
     "name": "პეკინის გამზ.43",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "კანდელაკის ქ n1": {
     "name": "კანდელაკის ქ.N1",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ისაკაძის ქ  n 1": {
     "name": "ისაკაძის ქ. N 1",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "სოკრატ არშბას და აკაკი გახოკიძის ქუჩებს": {
     "name": "სოკრატ არშბას და აკაკი გახოკიძის ქუჩებს.",
     "district": "Saburtalo",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ტარას შევჩენკოს": {
     "name": "ტარას შევჩენკოს",
@@ -22137,7 +22137,7 @@
   "ზემო ფონიჭალა n16 თან": {
     "name": "ზემო ფონიჭალა N16-თან",
     "district": "Krtsanisi",
-    "seen_count": 4
+    "seen_count": 5
   },
   "ზემო ფონიჭალას  ზემო ფინიჭალა მე 3 მ რ": {
     "name": "ზემო ფონიჭალას (ზემო ფინიჭალა მე-3 მ/რ)",
@@ -25862,17 +25862,17 @@
   "ნიაბის ქ 2": {
     "name": "ნიაბის ქ.2",
     "district": "Isani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "5 შესახ  ცისკრის": {
     "name": "5 შესახ. ცისკრის",
     "district": "Isani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "ახალუბნის": {
     "name": "ახალუბნის",
     "district": "Isani",
-    "seen_count": 5
+    "seen_count": 6
   },
   "შაქრიანის ქუჩებს": {
     "name": "შაქრიანის ქუჩებს.",
@@ -26007,7 +26007,7 @@
   "ზაალ ქიქოძე": {
     "name": "ზაალ ქიქოძე",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ჭავჭვაძის 9": {
     "name": "ჭავჭვაძის 9",
@@ -26272,12 +26272,12 @@
   "ჯავახეთის ქ  1 ლი შეს  n3 თან": {
     "name": "ჯავახეთის ქ. 1-ლი შეს. N3-თან",
     "district": "Samgori",
-    "seen_count": 2
+    "seen_count": 3
   },
   "თეიმურაზ ბოჭორიშვილის ქ n 8 თან": {
     "name": "თეიმურაზ ბოჭორიშვილის ქ.N 8-თან",
     "district": "Gldani",
-    "seen_count": 2
+    "seen_count": 3
   },
   "კვირაცხოვლის ქ  n76 თან": {
     "name": "კვირაცხოვლის ქ. N76-თან",
@@ -26312,7 +26312,7 @@
   "მირიან მეფის ქუჩებს შესახვევიბით": {
     "name": "მირიან მეფის ქუჩებს შესახვევიბით",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "მეუფე ილია კარტოზიას ქ  n26 თან": {
     "name": "მეუფე ილია კარტოზიას ქ. N26-თან",
@@ -26322,22 +26322,22 @@
   "პატარა კახის ქ  n8 თან": {
     "name": "პატარა კახის ქ. N8-თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "პატარა კახის ქ": {
     "name": "პატარა კახის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ზემო და ქვემო ფონიჭალა": {
     "name": "ზემო და ქვემო ფონიჭალა",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ალექსანდრე ჭავჭავაზის n18 თან": {
     "name": "ალექსანდრე ჭავჭავაზის N18-თან",
     "district": "Mtatsminda",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ვეძინის ქუჩა": {
     "name": "ვეძინის ქუჩა",
@@ -26367,6 +26367,21 @@
   "ii ჩიხი და შესახვევი": {
     "name": "II ჩიხი და შესახვევი",
     "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "გაგარინის n5  თან": {
+    "name": "გაგარინის N5- თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "სულიკო ჟღენტი": {
+    "name": "სულიკო ჟღენტი",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ჯავახეთის ქ  1 ლი შეს  n 3   თან": {
+    "name": "ჯავახეთის ქ. 1-ლი შეს. N 3 - თან",
+    "district": "Samgori",
     "seen_count": 1
   }
 }
