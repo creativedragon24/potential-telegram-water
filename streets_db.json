@@ -977,7 +977,7 @@
   "მუხიანი 2": {
     "name": "მუხიანი 2",
     "district": "Gldani",
-    "seen_count": 230
+    "seen_count": 231
   },
   "განთიადის ქ  2 შეს  n18 თან": {
     "name": "განთიადის ქ. 2 შეს. N18 თან",
@@ -1042,7 +1042,7 @@
   "საირმე": {
     "name": "საირმე",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "ზნაკვის": {
     "name": "ზნაკვის",
@@ -1062,7 +1062,7 @@
   "სამთავრო": {
     "name": "სამთავრო",
     "district": "Gldani",
-    "seen_count": 6
+    "seen_count": 7
   },
   "რაჭისუბანი": {
     "name": "რაჭისუბანი",
@@ -1197,7 +1197,7 @@
   "იაკობი": {
     "name": "იაკობი",
     "district": "Gldani",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ალავერდის გრემი": {
     "name": "ალავერდის გრემი",
@@ -2052,7 +2052,7 @@
   "სოფ  ფონიჭალა": {
     "name": "სოფ. ფონიჭალა",
     "district": "Krtsanisi",
-    "seen_count": 51
+    "seen_count": 53
   },
   "დავით აღმაშენებელის ქ  n 44 თან": {
     "name": "დავით აღმაშენებელის ქ. N 44-თან",
@@ -2807,7 +2807,7 @@
   "გაგრის": {
     "name": "გაგრის",
     "district": "Tsqneti",
-    "seen_count": 30
+    "seen_count": 31
   },
   "სოხუმის": {
     "name": "სოხუმის",
@@ -3957,7 +3957,7 @@
   "დიდგორი": {
     "name": "დიდგორი",
     "district": "Mtatsminda",
-    "seen_count": 26
+    "seen_count": 27
   },
   "პატარა კახი": {
     "name": "პატარა კახი",
@@ -9762,7 +9762,7 @@
   "ილორის": {
     "name": "ილორის",
     "district": "Gldani",
-    "seen_count": 25
+    "seen_count": 26
   },
   "ზარზმის": {
     "name": "ზარზმის",
@@ -18307,17 +18307,17 @@
   "რაფავას": {
     "name": "რაფავას",
     "district": "Krtsanisi",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ერეკლეს": {
     "name": "ერეკლეს",
     "district": "Krtsanisi",
-    "seen_count": 9
+    "seen_count": 10
   },
   "სოხუმის და თამარ მეფის ქუჩებს": {
     "name": "სოხუმის და თამარ მეფის ქუჩებს",
     "district": "Krtsanisi",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ილია ჭავჭავაძის გამზ n 54 ში": {
     "name": "ილია ჭავჭავაძის გამზ.N 54-ში",
@@ -26537,7 +26537,7 @@
   "ბესიკის ქ  n4 თან": {
     "name": "ბესიკის ქ. N4-თან",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შილდის ქ  n 6 თან": {
     "name": "შილდის ქ. N 6-თან",
@@ -26682,7 +26682,7 @@
   "ჯავახეთის ქ  1 შეს  n 2 თან": {
     "name": "ჯავახეთის ქ. 1 შეს. N 2-თან",
     "district": "Samgori",
-    "seen_count": 1
+    "seen_count": 2
   },
   "არქანჯელო ლამბერტის ქ n 62 თან": {
     "name": "არქანჯელო ლამბერტის ქ N 62-თან",
@@ -26737,6 +26737,86 @@
   "სულთნიშნის ქ   ჩიკვაიძის": {
     "name": "სულთნიშნის ქ. (ჩიკვაიძის)",
     "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ტაძრის ქ  n 6 თან": {
+    "name": "ტაძრის ქ. N 6-თან",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "მონასტრის ქუჩა": {
+    "name": "მონასტრის ქუჩა",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "შამპანიურის ქარხანა": {
+    "name": "შამპანიურის ქარხანა",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ფატი ხუნდაძის ქუჩა": {
+    "name": "ფატი ხუნდაძის ქუჩა",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "გაგარინი ისაკაძის კვეთაზე": {
+    "name": "გაგარინი ისაკაძის კვეთაზე",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ილორის ქ  n 4 თან": {
+    "name": "ილორის ქ. N 4-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "26 მაისის ქუჩაზე სატუმბოში": {
+    "name": "26 მაისის ქუჩაზე სატუმბოში",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ყვარლის ქუჩა": {
+    "name": "ყვარლის ქუჩა",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "კალოუბანი": {
+    "name": "კალოუბანი",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ბორჯომი": {
+    "name": "ბორჯომი",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "გაზაფხული": {
+    "name": "გაზაფხული",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ჯვარისი": {
+    "name": "ჯვარისი",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ვარდისუბანი": {
+    "name": "ვარდისუბანი",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "მუხური": {
+    "name": "მუხური",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ალავერდი": {
+    "name": "ალავერდი",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ამბროლაური": {
+    "name": "ამბროლაური",
+    "district": "Gldani",
     "seen_count": 1
   }
 }
