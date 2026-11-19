@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 173
+    "seen_count": 175
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -1832,7 +1832,7 @@
   "რაიონში": {
     "name": "რაიონში",
     "district": "Samgori",
-    "seen_count": 105
+    "seen_count": 106
   },
   "ფანასკენტელ ციციშვილის": {
     "name": "ფანასკენტელ-ციციშვილის",
@@ -14022,17 +14022,17 @@
   "ხოჭის ტბის": {
     "name": "ხოჭის ტბის",
     "district": "Gldani",
-    "seen_count": 8
+    "seen_count": 9
   },
   "ბორჩალოელის": {
     "name": "ბორჩალოელის",
     "district": "Gldani",
-    "seen_count": 8
+    "seen_count": 9
   },
   "თეიმურაზ ბატონიშვილის ქუჩებს": {
     "name": "თეიმურაზ ბატონიშვილის ქუჩებს",
     "district": "Gldani",
-    "seen_count": 8
+    "seen_count": 9
   },
   "აქვსენტ ისაკიანის ქ n 55 თან": {
     "name": "აქვსენტ ისაკიანის ქ.N 55-თან",
@@ -14527,7 +14527,7 @@
   "მიტროფანე ლაღიძე": {
     "name": "მიტროფანე ლაღიძე",
     "district": "Mtatsminda",
-    "seen_count": 22
+    "seen_count": 23
   },
   "ბესიკის ქ": {
     "name": "ბესიკის ქ",
@@ -26032,12 +26032,12 @@
   "გრიბოედოვი": {
     "name": "გრიბოედოვი",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "რუსთაველის 16": {
     "name": "რუსთაველის 16",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "სანზონის n 25 თან": {
     "name": "სანზონის N 25-თან",
@@ -27142,27 +27142,27 @@
   "გრ ხანძთელის ქ  n 1 13  კენტებს": {
     "name": "გრ.ხანძთელის ქ. N 1-13 (კენტებს)",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "n 2 20  ლუწებს": {
     "name": "N 2-20 (ლუწებს)",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ვახტანგ ბერიძის": {
     "name": "ვახტანგ ბერიძის",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ივერიის n 9": {
     "name": "ივერიის N 9",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "ანტ  კათალიკოსის n13 და კოტე აფხაზის  ლესელიძის  n 27 ქუჩებს": {
     "name": "ანტ. კათალიკოსის N13 და კოტე აფხაზის (ლესელიძის) N 27 ქუჩებს.",
     "district": "Krtsanisi",
-    "seen_count": 2
+    "seen_count": 3
   },
   "შ დადიანის n 11  n 24 კენტი ლუწი": {
     "name": "შ.დადიანის N 11- N 24(კენტი ლუწი)",
@@ -27257,6 +27257,71 @@
   "უჩანეიშვილის n2 თან": {
     "name": "უჩანეიშვილის N2-თან",
     "district": "Vake",
+    "seen_count": 1
+  },
+  "ლანჩხუთის ქ": {
+    "name": "ლანჩხუთის ქ.",
+    "district": "Chugureti",
+    "seen_count": 3
+  },
+  "კარლო ჩხეიძის n11 თან": {
+    "name": "კარლო ჩხეიძის N11-თან",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "ანაგია ბოჭორიშვილის n3 ში": {
+    "name": "ანაგია ბოჭორიშვილის N3-ში",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ქვემო ფონიჭალა n16 ა ბ  ში": {
+    "name": "ქვემო ფონიჭალა N16 ა-ბ -ში",
+    "district": "Krtsanisi",
+    "seen_count": 1
+  },
+  "რუსთაველის გამზ  ლაღიძის კვეთა": {
+    "name": "რუსთაველის გამზ. ლაღიძის კვეთა",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ბესიკის   2 7": {
+    "name": "ბესიკის - 2/7",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ზუბალაშვილები 11 8": {
+    "name": "ზუბალაშვილები 11/8",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ჭავჭავაძე 8": {
+    "name": "ჭავჭავაძე 8",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ს გზატკეცილი n2 15 თან": {
+    "name": "ს გზატკეცილი N2-15-თან",
+    "district": "Vake",
+    "seen_count": 1
+  },
+  "შარაშიძის ქ": {
+    "name": "შარაშიძის ქ.",
+    "district": "Saburtalo",
+    "seen_count": 4
+  },
+  "გრიგოლ რობაქიძის ქ  n3 თან": {
+    "name": "გრიგოლ რობაქიძის ქ. N3-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ნაძვების 1 ლი შეს n13 თან": {
+    "name": "ნაძვების 1-ლი შეს N13-თან",
+    "district": "Tsqneti",
+    "seen_count": 1
+  },
+  "თეიმურას ბატონიშვილის n 3 თან": {
+    "name": "თეიმურას ბატონიშვილის N 3-თან",
+    "district": "Gldani",
     "seen_count": 1
   }
 }
