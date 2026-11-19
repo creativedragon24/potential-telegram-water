@@ -1832,7 +1832,7 @@
   "რაიონში": {
     "name": "რაიონში",
     "district": "Samgori",
-    "seen_count": 106
+    "seen_count": 107
   },
   "ფანასკენტელ ციციშვილის": {
     "name": "ფანასკენტელ-ციციშვილის",
@@ -3797,7 +3797,7 @@
   "ქართველიშვილის": {
     "name": "ქართველიშვილის",
     "district": "Nadzaladevi",
-    "seen_count": 37
+    "seen_count": 38
   },
   "ასკურავას": {
     "name": "ასკურავას",
@@ -10277,7 +10277,7 @@
   "მიცკევიჩის": {
     "name": "მიცკევიჩის",
     "district": "Mtatsminda",
-    "seen_count": 32
+    "seen_count": 33
   },
   "საირმის გორას": {
     "name": "საირმის გორას",
@@ -14022,17 +14022,17 @@
   "ხოჭის ტბის": {
     "name": "ხოჭის ტბის",
     "district": "Gldani",
-    "seen_count": 9
+    "seen_count": 10
   },
   "ბორჩალოელის": {
     "name": "ბორჩალოელის",
     "district": "Gldani",
-    "seen_count": 9
+    "seen_count": 10
   },
   "თეიმურაზ ბატონიშვილის ქუჩებს": {
     "name": "თეიმურაზ ბატონიშვილის ქუჩებს",
     "district": "Gldani",
-    "seen_count": 9
+    "seen_count": 10
   },
   "აქვსენტ ისაკიანის ქ n 55 თან": {
     "name": "აქვსენტ ისაკიანის ქ.N 55-თან",
@@ -27142,27 +27142,27 @@
   "გრ ხანძთელის ქ  n 1 13  კენტებს": {
     "name": "გრ.ხანძთელის ქ. N 1-13 (კენტებს)",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "n 2 20  ლუწებს": {
     "name": "N 2-20 (ლუწებს)",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ვახტანგ ბერიძის": {
     "name": "ვახტანგ ბერიძის",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ივერიის n 9": {
     "name": "ივერიის N 9",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "ანტ  კათალიკოსის n13 და კოტე აფხაზის  ლესელიძის  n 27 ქუჩებს": {
     "name": "ანტ. კათალიკოსის N13 და კოტე აფხაზის (ლესელიძის) N 27 ქუჩებს.",
     "district": "Krtsanisi",
-    "seen_count": 3
+    "seen_count": 4
   },
   "შ დადიანის n 11  n 24 კენტი ლუწი": {
     "name": "შ.დადიანის N 11- N 24(კენტი ლუწი)",
@@ -27267,12 +27267,12 @@
   "კარლო ჩხეიძის n11 თან": {
     "name": "კარლო ჩხეიძის N11-თან",
     "district": "Krtsanisi",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ანაგია ბოჭორიშვილის n3 ში": {
     "name": "ანაგია ბოჭორიშვილის N3-ში",
     "district": "Gldani",
-    "seen_count": 1
+    "seen_count": 2
   },
   "ქვემო ფონიჭალა n16 ა ბ  ში": {
     "name": "ქვემო ფონიჭალა N16 ა-ბ -ში",
@@ -27317,11 +27317,61 @@
   "ნაძვების 1 ლი შეს n13 თან": {
     "name": "ნაძვების 1-ლი შეს N13-თან",
     "district": "Tsqneti",
-    "seen_count": 1
+    "seen_count": 2
   },
   "თეიმურას ბატონიშვილის n 3 თან": {
     "name": "თეიმურას ბატონიშვილის N 3-თან",
     "district": "Gldani",
+    "seen_count": 2
+  },
+  "ალექსანდრე ყაზბეგის გამზ  n24 თან": {
+    "name": "ალექსანდრე ყაზბეგის გამზ. N24-თან",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ალ ყაზბეგის გამზ  n 1  55": {
+    "name": "ალ.ყაზბეგის გამზ. N 1- 55",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კალისტრატე ქუთათელის": {
+    "name": "კალისტრატე ქუთათელის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "თამარაშვილის n10": {
+    "name": "თამარაშვილის N10",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ანტონოვსკაიას": {
+    "name": "ანტონოვსკაიას",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ასათიანის": {
+    "name": "ასათიანის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ჯ ბაგრატიონის": {
+    "name": "ჯ.ბაგრატიონის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "კანდელაკის n12": {
+    "name": "კანდელაკის N12",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "გიგოშვილის": {
+    "name": "გიგოშვილის",
+    "district": "Saburtalo",
+    "seen_count": 1
+  },
+  "ბუდაპეშტის  ფანჯიკიძე  n 5  11  კენტი ლუწი  და რესპუბლიკურ საავადმყოფოს": {
+    "name": "ბუდაპეშტის (ფანჯიკიძე) N 5- 11 (კენტი-ლუწი) და რესპუბლიკურ საავადმყოფოს.",
+    "district": "Saburtalo",
     "seen_count": 1
   }
 }
