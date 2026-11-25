@@ -27,7 +27,7 @@
   "დაბა წავკისი": {
     "name": "დაბა წავკისი",
     "district": "Mtatsminda",
-    "seen_count": 169
+    "seen_count": 176
   },
   "სამადლოს ქ n 1 თან": {
     "name": "სამადლოს ქ.N 1-თან",
@@ -217,7 +217,7 @@
   "დაბა შინდისი": {
     "name": "დაბა შინდისი",
     "district": "Mtatsminda",
-    "seen_count": 34
+    "seen_count": 37
   },
   "გელაზის ქ  n2 თან": {
     "name": "გელაზის ქ. N2-თან",
@@ -412,7 +412,7 @@
   "სოფ  ტაბახმელა": {
     "name": "სოფ. ტაბახმელა",
     "district": "Mtatsminda",
-    "seen_count": 175
+    "seen_count": 182
   },
   "გრიგოლ რობაქიძის ქ  n1 თან": {
     "name": "გრიგოლ რობაქიძის ქ. N1-თან",
@@ -3972,7 +3972,7 @@
   "თბილისი კოჯრის გზატკეცილი": {
     "name": "თბილისი კოჯრის გზატკეცილი",
     "district": "Mtatsminda",
-    "seen_count": 41
+    "seen_count": 42
   },
   "შინდისი   ფარნავაზ მეფე": {
     "name": "შინდისი - ფარნავაზ მეფე",
@@ -11892,7 +11892,7 @@
   "დაბა კოჯორი": {
     "name": "დაბა კოჯორი",
     "district": "Mtatsminda",
-    "seen_count": 85
+    "seen_count": 86
   },
   "უძოს ქ n 9 თან": {
     "name": "უძოს ქ.N 9-თან",
@@ -14197,7 +14197,7 @@
   "თამარ მეფის ქ": {
     "name": "თამარ მეფის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 16
+    "seen_count": 17
   },
   "სულხან საბა ორბელიანი  თედიაშვილი": {
     "name": "სულხან საბა ორბელიანი. თედიაშვილი",
@@ -16397,7 +16397,7 @@
   "დიდგორის ქ": {
     "name": "დიდგორის ქ",
     "district": "Isani",
-    "seen_count": 10
+    "seen_count": 11
   },
   "ჯავახიშვილის n15 თან": {
     "name": "ჯავახიშვილის N15-თან",
@@ -17222,7 +17222,7 @@
   "ფარნავაზ მეფის ქ": {
     "name": "ფარნავაზ მეფის ქ.",
     "district": "Gldani",
-    "seen_count": 10
+    "seen_count": 11
   },
   "აფხაზეთი": {
     "name": "აფხაზეთი",
@@ -26917,7 +26917,7 @@
   "ნიკო კეცხოველის ქ": {
     "name": "ნიკო კეცხოველის ქ.",
     "district": "Mtatsminda",
-    "seen_count": 2
+    "seen_count": 3
   },
   "წყაროს ქ": {
     "name": "წყაროს ქ.",
@@ -28257,6 +28257,86 @@
   "ვაჟა ფშაველას გამზ  6 კვ  n 24": {
     "name": "ვაჟა-ფშაველას გამზ. 6 კვ. N 24",
     "district": "Vake",
+    "seen_count": 1
+  },
+  "ყვარელის ქ  n36 თან": {
+    "name": "ყვარელის ქ. N36-თან",
+    "district": "Isani",
+    "seen_count": 1
+  },
+  "დიდგორის ქ  n1 თან": {
+    "name": "დიდგორის ქ. N1-თან",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ვახტანგ გორგასალის ქ": {
+    "name": "ვახტანგ გორგასალის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 2
+  },
+  "გალაკტიონ ტაბიძის ქ": {
+    "name": "გალაკტიონ ტაბიძის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ჯაფარიძის ქ": {
+    "name": "ჯაფარიძის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "მარიჯანის ქ": {
+    "name": "მარიჯანის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "სულხან საბა ორბელიანის ქ": {
+    "name": "სულხან-საბა ორბელიანის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "9 ძმა ხერხეულიძის ქ": {
+    "name": "9 ძმა ხერხეულიძის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "სამადლოს ქ": {
+    "name": "სამადლოს ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ვახტანგ მეექვსეს ქ": {
+    "name": "ვახტანგ მეექვსეს ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ჭონქაძის ქ": {
+    "name": "ჭონქაძის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "მირიან მეფის ქ": {
+    "name": "მირიან მეფის ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "ამაღლების ქ": {
+    "name": "ამაღლების ქ.",
+    "district": "Mtatsminda",
+    "seen_count": 1
+  },
+  "უწერის ქ  2 შეს  n7 ში": {
+    "name": "უწერის ქ. 2 შეს. N7-ში",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ვარდევანის ქ": {
+    "name": "ვარდევანის ქ.",
+    "district": "Gldani",
+    "seen_count": 1
+  },
+  "ხეჩუაშვილის ქ": {
+    "name": "ხეჩუაშვილის ქ.",
+    "district": "Gldani",
     "seen_count": 1
   }
 }
